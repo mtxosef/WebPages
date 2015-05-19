@@ -1,8 +1,4 @@
-/**
- * Theme : Argo 
- * Author: WPStrong
- * Version: 1.0
- */
+
 var trigged=[],scrollTimeout;
 jQuery(function($){
 	
@@ -183,3 +179,7 @@ function goToSectionID(des){
 		onanimate=false
 	});
 }
+
+$(document).ready(function () {
+    $('.bxslider').bxSlider();
+});

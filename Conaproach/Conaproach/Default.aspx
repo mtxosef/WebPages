@@ -1,13 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Conaproach.Default" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--[if lt IE 7 ]><html style="margin-top: 0 !important" class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html style="margin-top: 0 !important" class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html style="margin-top: 0 !important" class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<!--<![endif]-->
+
 <html style="margin-top: 0 !important" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-<!--<![endif]-->
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
@@ -17,14 +13,9 @@
         rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
     <script src="assets/js/jquery.js"></script>
-    <!--[if lt IE 9]>
-      <script src="assets/js/html5shiv.js"></script>
-       <link href="assets/css/ie.css" rel='stylesheet' type='text/css'>
-    <![endif]-->
-    <!--[if IE 7]>
-		<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
-	<![endif]-->
+    <script src="assets/js/jquery.bxslider.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
@@ -50,13 +41,16 @@
 					</div>
 					
 				</div>
-				<div class="brick1 odd">
+
+
+				<div class="brick1 orange">
 					<a href="#services" class="nav-item">
 						<div class="nav-hover"></div>
 						<i class="li_bulb"></i>
 						<span>Inicio</span>
 					</a>
 				</div>
+
 				<div class="brick1 thumb">
 					<div class="nav-item flipX">
                     <img class="img1" src="assets/img/comite/clogo-convencionmundial.png" alt=""/>
@@ -66,6 +60,7 @@
 				</div>
 			</div>
 			<div class="brow">
+
 				<div class="brick1 thumb">
 					<div class="nav-item flipX">
                         <img class="img1" src="assets/img/comite/logo-seder.png" alt=""/>
@@ -108,6 +103,8 @@
 				</div>
 			</div>
 			<div class="brow">
+
+
 				<div class="brick1 boffset2 thumb">
 					<div class="nav-item">
                         <img class="img1" src="assets/img/comite/logo-sagarpa.png"  alt=""/>
@@ -127,6 +124,13 @@
 						<span>Contacto</span>
 					</a>
 				</div>
+                <div class="brick1 orange">
+					<a href="#p_cientifco" class="nav-item">
+						<div class="nav-hover"></div>
+						<i class="li_note"></i>
+						<span>Otro</span>
+					</a>
+				</div>
 			</div>
 
 		</div>
@@ -135,7 +139,7 @@
 			<div class="brick1 logo_container">
 					<a href="#" class="nav-item clearfix">
 						<div class="nav-hover"></div>
-						<h1 class="logo">HOME</h1>
+						<h1 class="logo">INICIO</h1>
 					</a>
 				</div>
 				<div class="brick1 odd">
@@ -177,6 +181,42 @@
 	</div>
 </header>
     <!-- End header -->
+
+
+    <div id="slider" class="">
+	<div class="container">
+		<div id="sequence_Slider">
+	    <br><br><br>
+            <ul class="bxslider">
+  <li><img src="assets/img/demo2.png" /></li>
+  <li><img src="assets/img/demo3.png" /></li>
+  <li><img src="assets/img/demo3.png" /></li>
+
+</ul>
+                <div id="countdown" align="center">
+                  <script language="JavaScript">
+                      TargetDate = "05/30/2015 12:00 PM";
+                      BackColor = "";
+                      ForeColor = "white";
+                      CountActive = true;
+                      CountStepper = -1;
+                      LeadingZero = true;
+                      DisplayFormat = "Faltan %%D%% Días, %%H%% Horas, %%M%% Minutos, %%S%% Segundos.";
+                      FinishMessage = "Se esta llevando a cabo en este momento";
+                    </script>
+                   <script language="JavaScript" src="assets/js/countdown.js"></script>
+
+                </div>
+          
+
+
+		</div>
+	</div>
+</div>
+
+
+
+
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
@@ -188,7 +228,7 @@
                 <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i class="li_search"></i>Home</a> </li>
+                        <li class=""><a href=""><i class="li_search"></i>INICIO</a> </li>
                         <li class=""><a href="#services"><i class="li_bulb"></i>Inicio</a> </li>
                         <li class=""><a href="#portfolio"><i class="li_photo"></i>Exposición</a> </li>
                         <li class=""><a href="#about-us"><i class="li_bubble"></i>Demostraciones</a> </li>
@@ -200,6 +240,10 @@
         </div>
     </div>
     <!-- end navbar -->
+
+
+
+
     <div id="services" class="section">
         <div class="container">
             <div class="hero">
@@ -277,8 +321,7 @@ El evento se integra por una serie de actividades como:</p>
             <!-- Modal -->
             <div id="modalbox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                    ×</button>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                 <div class="modal-body">
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
@@ -682,38 +725,49 @@ El evento se integra por una serie de actividades como:</p>
                 <div class="span6">
                     <div class="team">
                         <div class="ava">
-                            <img src="assets/img/team1.png" alt="team 1">
+                            <img src="assets/img/p_cientifico/cv/Gil Virgen Calleros.jpg" alt="team 1">
                         </div>
                         <div class="info">
                             <h4 class="name">
                                 Gil Virgen Calleros<small> - Ingeniero</small></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dui ante. In malesuada
-                                arcu metus, at pulvinar erat.</p>
+                               <p>Ing Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</p>
+                            <p>- Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro...</p>
+                                  
+                                    <a class="btn btn-large" href="assets/descargas/cv/Gil Virgen Calleros.pdf"target="_blank">
+                                    <div class="nav-hover"></div>VER MAS</a>
+                                   <br /><br />
+
                         </div>
                         <div class="social">
-                            <a href="#" class="facebook"><i class="icon-facebook"></i></a>
-                            <a href="#" class="twitter"><i class="icon-twitter"></i></a>
-                            <a href="#" class="gplus"><i class="icon-google-plus"></i></a>
+                            <a href="" class="facebook"><i class="icon-facebook"></i></a>
+                            <a href="" class="twitter"><i class="icon-twitter"></i></a>
+                            <a href="" class="gplus"><i class="icon-google-plus"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="span6">
                     <div class="team">
                         <div class="ava">
-                            <img src="assets/img/team2.png" alt="team 1">
+                            <img src="assets/img/p_cientifico/cv/Jose L. Martinez R. Ponencia.png" alt="team 1">
                         </div>
                         <div class="info">
                             <h4 class="name">
                                 José Luis Martínez Ramírez<small> - Doctor</small></h4>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut dui ante. In malesuada
-                                arcu metus, at pulvinar erat.</p>
+                                 <p>El titulo de la ponencia para la convención mundial de chile:</p>
+                                    <b>“Problemática virológica del cultivo de chile en el occidente de México”...
+                                    
+                                    </b>
+                                    <br /><br />
+                                    <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">
+                                    <div class="nav-hover"></div>VER MAS</a>
+                                   <br /><br />
+                                  
+                                    
                         </div>
                           <div class="social">
-                            <a href="#" class="facebook"><i class="icon-facebook"></i></a>
-                            <a href="#" class="twitter"><i class="icon-twitter"></i></a>
-                            <a href="#" class="gplus"><i class="icon-google-plus"></i></a>
+                            <a href="" class="facebook"><i class="icon-facebook"></i></a>
+                            <a href="" class="twitter"><i class="icon-twitter"></i></a>
+                            <a href="" class="gplus"><i class="icon-google-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -732,12 +786,8 @@ El evento se integra por una serie de actividades como:</p>
                     <p>
                         <div class="nav-hover">
                         </div>
-                        <a class="btn btn-large btn-primary" href="#modalboxConv" data-toggle="modal">VER</a>
-                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"
-                            target="_blank">
-                            <div class="nav-hover">
-                            </div>
-                            DESCARGAR</a>
+                        <a class="btn btn-large" href="#modalboxConv" data-toggle="modal"><div class="nav-hover"></div>VER</a>
+                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank"><div class="nav-hover"></div>DESCARGAR</a>
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
@@ -809,7 +859,7 @@ El evento se integra por una serie de actividades como:</p>
                     <p>
                         <div class="nav-hover">
                         </div>
-                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">AQUÍ</a>
+                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal"><div class="nav-hover"></div>AQUÍ</a>
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
@@ -884,7 +934,7 @@ El evento se integra por una serie de actividades como:</p>
                         <li>Email: contacto@conaproch.com</li>
                     </ul>
                     <div class="social">
-                        <a href="https://www.facebook.com/nancy.rmz.16?fref=ts" class="facebook"><i class="icon-facebook"></i></a>
+                        <a href="https://www.facebook.com/nancy.rmz.16?fref=ts" target="_blank" class="facebook"><i class="icon-facebook"></i></a>
                         <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
                     </div>
                 </div>
@@ -913,10 +963,6 @@ El evento se integra por una serie de actividades como:</p>
                 </div>
             </div>
             <div class="map">
-               <%-- <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0" src="http://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Times+Square,+New+York,+NY,+United+States&amp;aq=0&amp;oq=time+s&amp;sll=37.0625,-95.677068&amp;sspn=38.41771,93.076172&amp;ie=UTF8&amp;hq=&amp;hnear=Theater+District+-+Times+Square,+New+York&amp;ll=40.759011,-73.984472&amp;spn=0.010562,0.01282&amp;t=m&amp;iwloc=A&amp;output=embed">
-                </iframe>--%>
-
                 <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d925.2846920903543!2d-102.30519776686633!3d21.92921608117968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef08bc752fff%3A0xa2c3b9add6bb0b52!2sProl+Ignacio+Zaragoza+721%2C+20115+Aguascalientes%2C+Ags.!5e0!3m2!1ses!2smx!4v1431966199079" 
                 width="425" height="350" frameborder="0" style="border:0" scrolling="no" marginheight="0"></iframe>

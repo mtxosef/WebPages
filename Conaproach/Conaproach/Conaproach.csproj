@@ -66,8 +66,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\images\bx_loader.gif" />
+    <Content Include="assets\images\controls.png" />
     <Content Include="assets\img\ava1.jpg" />
     <Content Include="assets\img\ava2.jpg" />
     <Content Include="assets\img\ava3.jpg" />
@@ -141,6 +144,8 @@
     <Content Include="assets\img\p_cientifico\convocatoria\7.PNG" />
     <Content Include="assets\img\p_cientifico\convocatoria\8.PNG" />
     <Content Include="assets\img\p_cientifico\convocatoria\9.PNG" />
+    <Content Include="assets\img\p_cientifico\cv\Gil Virgen Calleros.jpg" />
+    <Content Include="assets\img\p_cientifico\cv\Jose L. Martinez R. Ponencia.png" />
     <Content Include="assets\img\p_cientifico\logo-conaproch.png" />
     <Content Include="assets\img\p_cientifico\organigram2.jpg" />
     <Content Include="assets\img\team1.png" />
@@ -153,6 +158,8 @@
     <Content Include="assets\js\bootstrap-modal.js" />
     <Content Include="assets\js\bootstrap-scrollspy.js" />
     <Content Include="assets\js\bootstrap-transition.js" />
+    <Content Include="assets\js\countdown.js" />
+    <Content Include="assets\js\jquery.bxslider.js" />
     <Content Include="assets\js\jquery.hoverdir.js" />
     <Content Include="assets\js\jquery.isotope.min.js" />
     <Content Include="assets\js\jquery.js" />
@@ -189,6 +196,8 @@
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />
+    <None Include="assets\descargas\cv\Gil Virgen Calleros.pdf" />
+    <None Include="assets\descargas\cv\Jose L. Martinez R. Ponencia.pdf" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="reportes\rFormatoRegistro.rpt">

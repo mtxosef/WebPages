@@ -1101,7 +1101,7 @@ input[type="checkbox"], input[type="radio"] {
     font-size: 14px;
 }
 h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin: 2px;
 }
 #header .logo_container .logo {
     margin-top: 60px;
