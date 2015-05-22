@@ -4,6 +4,5 @@ C:\Users\Christian\documents\visual studio 2010\Projects\Conaproach\Conaproach\o
 C:\Users\Christian\documents\visual studio 2010\Projects\Conaproach\Conaproach\obj\Debug\Conaproach.pdb
 C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\Conaproach\bin\Conaproach.dll
 C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\Conaproach\bin\Conaproach.pdb
-C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\Conaproach\obj\Debug\Conaproach.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\Conaproach\obj\Debug\Conaproach.dll
 C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\Conaproach\obj\Debug\Conaproach.pdb

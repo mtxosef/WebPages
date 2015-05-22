@@ -74,6 +74,13 @@
     <Content Include="assets\img\ava1.jpg" />
     <Content Include="assets\img\ava2.jpg" />
     <Content Include="assets\img\ava3.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_3406.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_3532.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_3608.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_4171.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_4225.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_4272.jpg" />
+    <Content Include="assets\img\banner_inicio\IMG_4592.jpg" />
     <Content Include="assets\img\blog1.png" />
     <Content Include="assets\img\blog2.png" />
     <Content Include="assets\img\blog3.png" />
@@ -86,6 +93,7 @@
     <Content Include="assets\img\comite\logo-conaproch.png" />
     <Content Include="assets\img\comite\logo-cucba2.png" />
     <Content Include="assets\img\comite\logo_cucba.png" />
+    <Content Include="assets\img\general\bt-contadordias.png" />
     <Content Include="assets\img\general\clogo-convencionmundial.png" />
     <Content Include="assets\img\comite\logo-aserca.png" />
     <Content Include="assets\img\comite\logo-bienestar.png" />
@@ -100,6 +108,7 @@
     <Content Include="assets\img\general\f_v.jpg" />
     <Content Include="assets\img\general\ico.ico" />
     <Content Include="assets\img\general\logo-conaproch.png" />
+    <Content Include="assets\img\general\principal.png" />
     <Content Include="assets\img\header-bg.jpg" />
     <Content Include="assets\img\header-bg.png" />
     <Content Include="assets\img\ico_search.png" />
@@ -165,7 +174,17 @@
     <Content Include="assets\js\jquery.js" />
     <Content Include="assets\js\jquery.mCustomScrollbar.concat.min.js" />
     <Content Include="assets\js\main.js" />
+    <Content Include="assets\css\component.css" />
+    <Content Include="assets\css\default.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ExpoComercial.aspx" />
+    <Content Include="assets\font\codropsicons\codropsicons.svg" />
+    <Content Include="assets\font\codropsicons\license.txt" />
+    <Content Include="assets\font\icomoon.dev.svg" />
+    <Content Include="assets\font\icomoon.svg" />
+    <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="ProgramaCientifico.aspx" />
+    <Content Include="Prueba.aspx" />
     <Content Include="reportes\img_registro\1.jpg" />
     <Content Include="reportes\img_registro\2.jpg" />
     <Content Include="Web.config" />
@@ -184,7 +203,28 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ExpoComercial.aspx.cs">
+      <DependentUpon>ExpoComercial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpoComercial.aspx.designer.cs">
+      <DependentUpon>ExpoComercial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramaCientifico.aspx.cs">
+      <DependentUpon>ProgramaCientifico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProgramaCientifico.aspx.designer.cs">
+      <DependentUpon>ProgramaCientifico.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prueba.aspx.cs">
+      <DependentUpon>Prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prueba.aspx.designer.cs">
+      <DependentUpon>Prueba.aspx</DependentUpon>
+    </Compile>
     <Compile Include="reportes\rFormatoRegistro.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -198,6 +238,13 @@
     <None Include="assets\font\fontawesome-webfont.ttf" />
     <None Include="assets\descargas\cv\Gil Virgen Calleros.pdf" />
     <None Include="assets\descargas\cv\Jose L. Martinez R. Ponencia.pdf" />
+    <None Include="assets\font\codropsicons\.DS_Store" />
+    <None Include="assets\font\codropsicons\codropsicons.eot" />
+    <None Include="assets\font\codropsicons\codropsicons.ttf" />
+    <None Include="assets\font\codropsicons\codropsicons.woff" />
+    <None Include="assets\font\icomoon.eot" />
+    <None Include="assets\font\icomoon.ttf" />
+    <None Include="assets\font\icomoon.woff" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="reportes\rFormatoRegistro.rpt">

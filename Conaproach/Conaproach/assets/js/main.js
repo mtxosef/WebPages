@@ -34,25 +34,25 @@ jQuery(function($){
 			$('#header').css('margin-bottom',0);
 		}
 
-		clearTimeout(scrollTimeout);
-			scrollTimeout=setTimeout(function(){
-				
-				triggerEvent($('#portfolio'),function(){
-					if(trigged['portfolio']) return;
-					$('.isotope .item').addClass('active');
-					trigged['portfolio'] = true;
-				},100);
+//		clearTimeout(scrollTimeout);
+//			scrollTimeout=setTimeout(function(){
+//				
+//				triggerEvent($('#portfolio'),function(){
+//					if(trigged['portfolio']) return;
+//					$('.isotope .item').addClass('active');
+//					trigged['portfolio'] = true;
+//				},100);
 
-				triggerEvent($('#about-us'),function(){
-					if(trigged['about-us']) return;
-					$('.progress .bar').each(function(){
-						var $this=$(this);	
-						$this.css('width',$this.data('width')+'%');			
-					});
-					trigged['about-us'] = true;
-				},200);
+//				triggerEvent($('#about-us'),function(){
+//					if(trigged['about-us']) return;
+//					$('.progress .bar').each(function(){
+//						var $this=$(this);	
+//						$this.css('width',$this.data('width')+'%');			
+//					});
+//					trigged['about-us'] = true;
+//				},200);
 
-			},50);
+//			},50);
 				
 			triggerEvent($('#navbar'),function(elem){
 				if(elem.hasClass('navbar-fixed-top')) return;
@@ -88,7 +88,7 @@ jQuery(function($){
 	// Nav button click 
 	// -------------------------------------------------------
 	
-	$('#navbar .nav a , #header a.nav-item , #navbar .brand,#btn_up').click(function(e){
+	$('#navbar .nav a  , #navbar .brand,#btn_up').click(function(e){
 		e.preventDefault();
 		var des = $(this).attr('href');
 		if($('.navbar .nav-collapse').hasClass('in')){

@@ -1484,6 +1484,7 @@ table td[class*="span"], table th[class*="span"], .row-fluid table td[class*="sp
     display: inline;
     width: auto;
     height: auto;
+    color: white;
     line-height: normal;
     vertical-align: baseline;
     background-image: none;
@@ -4939,12 +4940,13 @@ a:active {
     width: 585px;
     height: 195px;
 }
+
 .brick2 {
     width: 390px;
-    height: 195px;
+    height: 95px;
 }
 .brick1 {
-    width: 195px;
+    width: 197px;
     height: 195px;
     
 }
@@ -4979,6 +4981,7 @@ a:active {
 #header [class*="brick"] {
     background: #9f2527;
     color: #fff;
+      padding-left: 5px;
 }
 #header [class*="brick"] .inner {
     padding: 20px 30px;
@@ -6400,6 +6403,22 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 
 #countdown
 {
-    font-size:25px;
+    font-size:30px;
     margin-bottom:1em; 
            }
+           
+  /*         
+.contador
+{
+    background-image: url(../img/general/bt-contadordias.png) ;
+   background-repeat: no-repeat;
+    width:200px;
+   height:175px;
+    }*/
+    
+    
+.centrar
+{
+  
+   margin-top:3.5em;
+}
