@@ -3153,11 +3153,11 @@ button.close {
 }
 .navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
     background-color: transparent;
-    color: #92c962;
+    color: #772126;
     text-decoration: none;
 }
 .navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
-    color: #92c962;
+    color: #772126;
     text-decoration: none;
     background-color: #e5e5e5;
     -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -4969,7 +4969,7 @@ a:active {
     margin-left: 195px;
 }
 #header {
-    background: url(../img/general/f_r.jpg) repeat fixed center center transparent;
+/*    background: url(../img/general/f_r.jpg) repeat fixed center center transparent;*/
   
 }
 #header .header-holder {
@@ -5134,7 +5134,7 @@ a:active {
     background: url(../img/fur.jpg) no-repeat fixed center center transparent;
     background-size: cover;
     color: #fff;
-    border-bottom: 10px solid #92c962;
+  
 }
 #slider .container {
     position: relative;
@@ -5333,7 +5333,8 @@ a:active {
     -webkit-box-shadow: 0 1px 4px #000;
     -moz-box-shadow: 0 1px 4px #000;
     box-shadow: 0 1px 4px #000;
-    background: url(../img/general/f_v.jpg) repeat center bottom transparent;
+    background: #92c962;
+    
    
     filter: none;
 }
@@ -6420,5 +6421,5 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 .centrar
 {
   
-   margin-top:3.5em;
+
 }

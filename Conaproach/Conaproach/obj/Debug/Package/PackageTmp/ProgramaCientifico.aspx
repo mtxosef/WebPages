@@ -32,38 +32,32 @@
 					<ul>
 						<li>
 							<a href="Default.aspx">
-								<span>Inicio</span>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Exposición</span>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Demostraciones</span>
 							</a>
 						</li>
 						<li>
 							<a href="ProgramaCientifico.aspx">
-								<span>Programa</span>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Registro</span>
 							</a>
 						</li>
 						<li>
 							<a href="Default.aspx#contact">
-								<span>Contacto</span>
 							</a>
 						</li>
 					</ul>
 				</nav>
 			
-            <div>
+           
 	
 	
                        <%-- <div id="countdown" class="contador"> 
@@ -85,8 +79,7 @@
 				<img src="assets/img/general/principal.png" />
 				</div> 
       
-            </div>
-
+           
 
 		</div><!-- /container -->
 </header>
@@ -165,11 +158,11 @@
                 <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i class="li_search"></i>INICIO</a> </li>
-                        <li class=""><a href="#p_cientifco"><i class="li_bulb"></i>Comité</a> </li>
-                        <li class=""><a href="#purchase"><i class="li_photo"></i>Convocatoria</a> </li>
-                        <li class=""><a href="#registro"><i class="li_bubble"></i>Registro</a> </li>
-                        <li class=""><a href="#magistrales"><i class="li_note"></i>Conferencias</a> </li>
+                        <li class=""><a href=""><i></i>INICIO</a> </li>
+                        <li class=""><a href="#p_cientifco"><i></i>Comité</a> </li>
+                        <li class=""><a href="#purchase"><i></i>Convocatoria</a> </li>
+                        <li class=""><a href="#registro"><i></i>Registro</a> </li>
+                        <li class=""><a href="#magistrales"><i></i>Conferencias</a> </li>
                     </ul>
                 </div>
             </div>
