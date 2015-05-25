@@ -72,6 +72,9 @@
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
     <Content Include="assets\img\banner_inicio\Bannerfin.PNG" />
+    <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />
@@ -198,6 +201,7 @@
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="ExposicionComercial.aspx" />
     <Content Include="InsCostos.aspx" />
     <Content Include="fonts\codropsicons\codropsicons.svg" />
     <Content Include="fonts\vicons\vicons.svg" />
@@ -220,6 +224,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExposicionComercial.aspx.cs">
+      <DependentUpon>ExposicionComercial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExposicionComercial.aspx.designer.cs">
+      <DependentUpon>ExposicionComercial.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsCostos.aspx.cs">
       <DependentUpon>InsCostos.aspx</DependentUpon>
@@ -252,6 +263,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
+    <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />
     <None Include="assets\descargas\cv\Gil Virgen Calleros.pdf" />
