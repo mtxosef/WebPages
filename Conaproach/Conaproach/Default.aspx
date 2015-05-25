@@ -17,86 +17,25 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-<<<<<<< HEAD
+
 	<script src="assets/js/modernizr.custom.js"></script>
 
 
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 
-=======
+
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <link rel="Stylesheet" type="text/css" href="css/base.css" />
     <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
->>>>>>> origin/master
+
 </head>
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
 
-<<<<<<< HEAD
-	 <div class="container">	
-			<!-- Codrops top bar -->
-		
-				<nav id="menu" class="navMetro">					
-					<ul>
-						<li>
-							<a href="Default.aspx">
-								<%--<span>Inicio</span>--%>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<%--<span>Exposición</span>--%>
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								<%--<span>Demostraciones</span>--%>
-							</a>
-						</li>
-						<li>
-							<a href="ProgramaCientifico.aspx">
-								<%--<span>Programa</span>--%>
-							</a>
-						</li>
-						<li>
-							<a href="InsCostos.aspx">
-							<%--	<span>Registro</span>--%>
-							</a>
-						</li>
-						<li>
-							<a href="#contact">
-								<%--<span>Contacto</span>--%>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			
-            <div>
-	
-	
-                       <%-- <div id="countdown" class="contador"> 
-                          <script language="JavaScript">
-                              TargetDate = "10/22/2015 12:00 PM";
-                              BackColor = "";
-                              ForeColor = "white";
-                              CountActive = true;
-                              CountStepper = -1;
-                              LeadingZero = true;
-                              DisplayFormat = "%%D%% , %%H%%";
-                              FinishMessage = "Se esta llevando a cabo en este momento";
-                            </script>
-                           <script language="JavaScript" src="assets/js/countdown.js"></script>
-                        </div> --%>
 
-                <div align="center" class="centrar">
-                <img src="assets/img/general/bt-contadordias.png"  />
-				<img src="assets/img/general/principal.png" />
-				</div> 
-      
-            </div>
-=======
+
 		<button class="button button--winona button--border-thin button--round-s" data-text="Inicio"><span>Inicio</span></button>
 		<button class="button button--winona button--border-thin button--round-s" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
 		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
@@ -105,7 +44,7 @@
         <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Contacto"><span>Contacto</span></button>
->>>>>>> origin/master
+
 
         <div align="center" class="centrar">
             <img src="assets/img/general/bt-contadordias.png"  />

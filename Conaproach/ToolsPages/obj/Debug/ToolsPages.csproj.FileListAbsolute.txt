@@ -2,3 +2,7 @@ C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\WebPages\WebPages\Conaproach\Too
 C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\WebPages\WebPages\Conaproach\ToolsPages\bin\ToolsPages.pdb
 C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\WebPages\WebPages\Conaproach\ToolsPages\obj\Debug\ToolsPages.dll
 C:\Users\osef\Dropbox\02 - OSEF\02 - DESARROLLO\WebPages\WebPages\Conaproach\ToolsPages\obj\Debug\ToolsPages.pdb
+C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\ToolsPages\bin\ToolsPages.dll
+C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\ToolsPages\bin\ToolsPages.pdb
+C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\ToolsPages\obj\Debug\ToolsPages.dll
+C:\Users\Christian\Documents\GitHub\WebPages\Conaproach\ToolsPages\obj\Debug\ToolsPages.pdb

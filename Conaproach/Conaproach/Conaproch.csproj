@@ -198,12 +198,9 @@
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
-<<<<<<< HEAD:Conaproach/Conaproach/Conaproach.csproj
     <Content Include="InsCostos.aspx" />
-=======
     <Content Include="fonts\codropsicons\codropsicons.svg" />
     <Content Include="fonts\vicons\vicons.svg" />
->>>>>>> origin/master:Conaproach/Conaproach/Conaproch.csproj
     <Content Include="ProgramaCientifico.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="reportes\img_registro\1.jpg" />
@@ -296,7 +293,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60130</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/Conaproach</IISUrl>
+          <IISUrl>http://localhost/Conaproch</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
