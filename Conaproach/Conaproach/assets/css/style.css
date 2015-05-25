@@ -5862,7 +5862,7 @@ a:active {
     box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.3) inset;
 }
 .modal .modal-body {
-    max-height: none;
+ /*   max-height: none;*/
     overflow-y: auto;
 }
 .modal .modal-body>p {
@@ -6475,3 +6475,55 @@ display:none;
     right: 5px;
     background: url(../img/images_carrusel/button-next.png) no-repeat;
 }
+
+
+
+/*Contador*/
+
+ @font-face {
+         font-family: 'BebasNeueRegular';
+         src: url('../font/BebasNeue-webfont.ttf') format('truetype');
+
+        }
+        .contenedor
+        {
+            margin: 0 auto;
+            width: 200px;
+            height: 330px;
+            position:relative;
+        }
+        .contenedor .semanas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:15px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }
+        
+        .contenedor .dias
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:65px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }
+        
+        .contenedor .horas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:120px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }

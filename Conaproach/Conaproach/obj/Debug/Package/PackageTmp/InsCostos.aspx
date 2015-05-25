@@ -34,57 +34,34 @@
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
 
+     <div class="contenedor">
+        <img alt="logotipo" src="img/logotipo.png" />
+        <img alt="contador" src="img/bt-contadordias.png"  />
+        <div class="semanas">
+            <span id="sSemanas"></span>
+        </div>
+        <div class="dias">
+            <span id="sDias"></span>
+        </div>
+        <div class="horas">
+            <span id="sHoras"></span>
+        </div>
+    </div>
+
     <div class="container">	
-        <div align="center" class="centrar">
-            <img src="assets/img/general/bt-contadordias.png"  />
-		    <img src="assets/img/general/principal.png" />
-		</div>
 
-        
-		<button class="button button--winona button--border-thin button--round-s"  data-text="Inicio"><span>Inicio</span></button>
+		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx';" data-text="Inicio"><span>Inicio</span></button>
 		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
-		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Programa Científico"><span>Programa Científico</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Programa del Evento"><span>Programa del Evento</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
+		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ProgramaCientifico.aspx';" data-text="Programa Científico"><span>Programa Científico</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Programa del Evento"><span>Programa del Evento</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='InsCostos.aspx';" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
         <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-
-		</div><!-- /container -->
+</div>
 </header>
     <!-- End header -->
-    	<script>
-    	    //  The function to change the class
-    	    var changeClass = function (r, className1, className2) {
-    	        var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
-    	        if (regex.test(r.className)) {
-    	            r.className = r.className.replace(regex, ' ' + className2 + ' ');
-    	        }
-    	        else {
-    	            r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"), ' ' + className1 + ' ');
-    	        }
-    	        return r.className;
-    	    };
 
-    	    //  Creating our button in JS for smaller screens
-    	    var menuElements = document.getElementById('menu');
-    	    menuElements.insertAdjacentHTML('afterBegin', '<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
-
-    	    //  Toggle the class on click to show / hide the menu
-    	    document.getElementById('menutoggle').onclick = function () {
-    	        changeClass(this, 'navtoogle active', 'navtoogle');
-    	    }
-
-
-    	    document.onclick = function (e) {
-    	        var mobileButton = document.getElementById('menutoggle'),
-					buttonStyle = mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
-
-    	        if (buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
-    	            changeClass(mobileButton, 'navtoogle active', 'navtoogle');
-    	        }
-    	    }
-		</script>
 
     <div id="slider" class="">
 	<div class="container">

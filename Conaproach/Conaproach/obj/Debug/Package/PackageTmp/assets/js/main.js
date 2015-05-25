@@ -183,3 +183,17 @@ function goToSectionID(des){
 $(document).ready(function () {
     $('.bxslider').bxSlider();
 });
+
+
+
+/*Contador*/
+
+function contadorEvento() {
+    //1. Tomar fecha actual, fecha destino y fecha primer día del año
+    var hoy = new Date();
+    var evento = new Date(2015, 9, 22, 8, 0, 0);
+
+    document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
+    document.getElementById('sDias').innerHTML = evento.getDayOfYear() - hoy.getDayOfYear();
+    document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
+}

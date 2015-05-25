@@ -73,6 +73,10 @@
     <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
     <Content Include="assets\img\banner_inicio\Bannerfin.PNG" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
+    <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
+    <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
+    <Content Include="assets\img\expo_comercial\esquema 04.jpg" />
     <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
@@ -200,6 +204,7 @@
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="EnConstruccion.aspx" />
     <Content Include="ExposicionComercial.aspx" />
     <Content Include="InsCostos.aspx" />
     <Content Include="fonts\codropsicons\codropsicons.svg" />
@@ -224,6 +229,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnConstruccion.aspx.cs">
+      <DependentUpon>EnConstruccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnConstruccion.aspx.designer.cs">
+      <DependentUpon>EnConstruccion.aspx</DependentUpon>
     </Compile>
     <Compile Include="ExposicionComercial.aspx.cs">
       <DependentUpon>ExposicionComercial.aspx</DependentUpon>

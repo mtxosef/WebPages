@@ -30,66 +30,8 @@
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
     <script type="text/javascript" src="js/date.js"></script>
-    <script type="text/javascript">
-        function contadorEvento() {
-            //1. Tomar fecha actual, fecha destino y fecha primer día del año
-            var hoy = new Date();
-            var evento = new Date(2015, 9, 22, 8, 0, 0);
-
-            document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
-            document.getElementById('sDias').innerHTML = evento.getDayOfYear() - hoy.getDayOfYear();
-            document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
-        }
-    </script>
-    <style type="text/css">
-        @font-face {
-         font-family: 'BebasNeueRegular';
-         src: url('font/BebasNeue-webfont.ttf') format('truetype');
-
-        }
-        .contenedor
-        {
-            margin: 0 auto;
-            width: 200px;
-            height: 330px;
-            position:relative;
-        }
-        .contenedor .semanas
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:260px;
-            left:15px;
-            font-family: 'BebasNeueRegular';
-            font-size:25pt;
-            color: White;
-        }
-        
-        .contenedor .dias
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:260px;
-            left:65px;
-            font-family: 'BebasNeueRegular';
-            font-size:25pt;
-            color: White;
-        }
-        
-        .contenedor .horas
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:260px;
-            left:120px;
-            font-family: 'BebasNeueRegular';
-            font-size:25pt;
-            color: White;
-        }
-    </style>
+  
+ 
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
@@ -109,15 +51,19 @@
     </div>
 
     <div class="container">
-		<button class="button button--winona button--border-thin button--round-s"  data-text="Inicio"><span>Inicio</span></button>
+		
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx';" data-text="Inicio"><span>Inicio</span></button>
 		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
-		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Programa Científico"><span>Programa Científico</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Programa del Evento"><span>Programa del Evento</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
+		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ProgramaCientifico.aspx';" data-text="Programa Científico"><span>Programa Científico</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Programa del Evento"><span>Programa del Evento</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='InsCostos.aspx';" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
         <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-    </div>
+
+        
+        
+        </div>
 
 
 <%--        <div class="container">	
@@ -158,54 +104,9 @@
 			</nav>
         <div>--%>
 	
-        <%-- <div id="countdown" class="contador"> 
-            <script language="JavaScript">
-                TargetDate = "10/22/2015 12:00 PM";
-                BackColor = "";
-                ForeColor = "white";
-                CountActive = true;
-                CountStepper = -1;
-                LeadingZero = true;
-                DisplayFormat = "%%D%% , %%H%%";
-                FinishMessage = "Se esta llevando a cabo en este momento";
-            </script>
-            <script language="JavaScript" src="assets/js/countdown.js"></script>
-        </div> --%>
     </header>
     <!-- End header -->
 
-    	<script>
-    	    //  The function to change the class
-    	    var changeClass = function (r, className1, className2) {
-    	        var regex = new RegExp("(?:^|\\s+)" + className1 + "(?:\\s+|$)");
-    	        if (regex.test(r.className)) {
-    	            r.className = r.className.replace(regex, ' ' + className2 + ' ');
-    	        }
-    	        else {
-    	            r.className = r.className.replace(new RegExp("(?:^|\\s+)" + className2 + "(?:\\s+|$)"), ' ' + className1 + ' ');
-    	        }
-    	        return r.className;
-    	    };
-
-    	    //  Creating our button in JS for smaller screens
-    	    var menuElements = document.getElementById('menu');
-    	    menuElements.insertAdjacentHTML('afterBegin', '<button type="button" id="menutoggle" class="navtoogle" aria-hidden="true"><i aria-hidden="true" class="icon-menu"> </i> Menu</button>');
-
-    	    //  Toggle the class on click to show / hide the menu
-    	    document.getElementById('menutoggle').onclick = function () {
-    	        changeClass(this, 'navtoogle active', 'navtoogle');
-    	    }
-
-
-    	    document.onclick = function (e) {
-    	        var mobileButton = document.getElementById('menutoggle'),
-					buttonStyle = mobileButton.currentStyle ? mobileButton.currentStyle.display : getComputedStyle(mobileButton, null).display;
-
-    	        if (buttonStyle === 'block' && e.target !== mobileButton && new RegExp(' ' + 'active' + ' ').test(' ' + mobileButton.className + ' ')) {
-    	            changeClass(mobileButton, 'navtoogle active', 'navtoogle');
-    	        }
-    	    }
-		</script>
 
     <div id="slider" class="">
 	<div class="container">
@@ -345,17 +246,31 @@
                         <div id="myCarouselPatrocinador" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="assets/img/expo_comercial/patrocinador-beneficios.PNG" />
-                                   
+                                 <img src="assets/img/expo_comercial/patrocinador-beneficios.PNG" alt="" />
+                                </div>
+                                <div class="item">
+                                <center>
+                                <img src="assets/img/expo_comercial/esquema%2001.jpg" alt=""/>
+                                </center>
+                                </div>
+                                 <div class="item">
+                                 <center>
+                                 <img src="assets/img/expo_comercial/esquema%2002.jpg" alt=""/>
+                                 </center>
+                                </div>
+                                 <div class="item">
+                                 <center>
+                                 <img src="assets/img/expo_comercial/esquema%2003.jpg" alt=""/>
+                                  </center>
+                                </div>
+                                 <div class="item">
+                                 <img src="assets/img/expo_comercial/esquema%2004.jpg" alt=""/>
                                 </div>
                                
                             </div>
-                            <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
-                            <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
+                            <a class="left carousel-control" href="#myCarouselPatrocinador" data-slide="prev">&lsaquo;</a>
+                            <a class="right carousel-control" href="#myCarouselPatrocinador" data-slide="next">&rsaquo;</a>
                         </div>
-                        <h3>
-                            Beneficios Asistente</h3>
-                    
                     </div>
                     <div class="modal-footer">
                     </div>
