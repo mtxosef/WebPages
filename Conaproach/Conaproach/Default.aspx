@@ -24,6 +24,18 @@
     <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+    <script type="text/javascript" src="js/date.js"></script>
+    <script type="text/javascript">
+        function contadorEvento() {
+            //1. Tomar fecha actual, fecha destino y fecha primer día del año
+            var hoy = new Date();
+            var evento = new Date(2015, 9, 22, 8, 0, 0);
+
+            document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
+            document.getElementById('sDias').innerHTML = evento.getDayOfYear() - hoy.getDayOfYear();
+            document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
+        }
+    </script>
     <style type="text/css">
         @font-face {
          font-family: 'BebasNeueRegular';
@@ -34,7 +46,7 @@
         {
             margin: 0 auto;
             width: 200px;
-            height: 350px;
+            height: 330px;
             position:relative;
         }
         .contenedor .semanas
@@ -43,9 +55,9 @@
             width: 20px;
             height: 20px;
             top:260px;
-            left:14px;
+            left:15px;
             font-family: 'BebasNeueRegular';
-            font-size:50pt;
+            font-size:25pt;
             color: White;
         }
         
@@ -55,9 +67,9 @@
             width: 20px;
             height: 20px;
             top:260px;
-            left:74px;
+            left:65px;
             font-family: 'BebasNeueRegular';
-            font-size:50pt;
+            font-size:25pt;
             color: White;
         }
         
@@ -67,27 +79,27 @@
             width: 20px;
             height: 20px;
             top:260px;
-            left:135px;
+            left:120px;
             font-family: 'BebasNeueRegular';
-            font-size:50pt;
+            font-size:25pt;
             color: White;
         }
     </style>
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
 
     <div class="contenedor">
         <img alt="logotipo" src="img/logotipo.png" />
         <img alt="contador" src="img/bt-contadordias.png"  />
         <div class="semanas">
-            <span>0</span>
+            <span id="sSemanas"></span>
         </div>
         <div class="dias">
-            <span>0</span>
+            <span id="sDias"></span>
         </div>
         <div class="horas">
-            <span>0</span>
+            <span id="sHoras"></span>
         </div>
     </div>
 
