@@ -17,32 +17,86 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-
-	<script src="assets/js/modernizr.custom.js"></script>
-
-
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-
-
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <link rel="Stylesheet" type="text/css" href="css/base.css" />
     <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+    <style type="text/css">
+        @font-face {
+         font-family: 'BebasNeueRegular';
+         src: url('font/BebasNeue-webfont.ttf') format('truetype');
 
+        }
+        .contenedor
+        {
+            margin: 0 auto;
+            width: 200px;
+            height: 350px;
+            position:relative;
+        }
+        .contenedor .semanas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:14px;
+            font-family: 'BebasNeueRegular';
+            font-size:50pt;
+            color: White;
+        }
+        
+        .contenedor .dias
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:74px;
+            font-family: 'BebasNeueRegular';
+            font-size:50pt;
+            color: White;
+        }
+        
+        .contenedor .horas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:135px;
+            font-family: 'BebasNeueRegular';
+            font-size:50pt;
+            color: White;
+        }
+    </style>
 </head>
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
 
+    <div class="contenedor">
+        <img alt="logotipo" src="img/logotipo.png" />
+        <img alt="contador" src="img/bt-contadordias.png"  />
+        <div class="semanas">
+            <span>0</span>
+        </div>
+        <div class="dias">
+            <span>0</span>
+        </div>
+        <div class="horas">
+            <span>0</span>
+        </div>
+    </div>
+
     <div class="container">	
-        <div align="center" class="centrar">
+<%--        <div align="center" class="centrar">
             <img src="assets/img/general/bt-contadordias.png"  />
 		    <img src="assets/img/general/principal.png" />
-		</div>
+		</div>--%>
         
-
-
-
 <%--  
    <a class="button button--winona button--border-thin button--round-s" href="#contact" data-text="Inicio"><span>Inicio</span></a>
  --%>
