@@ -47,7 +47,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="In">
 							</a>
 						</li>
 						<li>
@@ -140,6 +140,8 @@
                     <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
                 <li>
                     <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
+                    <li>
+                     <img src="assets/img/banner_inicio/Bannerfin.PNG" /></li>
                 </ul>
 		</div>
 	</div>

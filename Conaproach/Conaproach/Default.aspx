@@ -24,6 +24,8 @@
 	<script src="assets/js/modernizr.custom.js"></script>
 
 
+    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+
 </head>
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
@@ -54,7 +56,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="InsCostos.aspx">
 							<%--	<span>Registro</span>--%>
 							</a>
 						</li>
@@ -147,6 +149,8 @@
                     <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
                 <li>
                     <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
+                 <li>
+                     <img src="assets/img/banner_inicio/Bannerfin.PNG" /></li>
                    
                 </ul>
 		</div>
@@ -337,7 +341,7 @@
                         <li>Tels:+52 (449) 996 7593</li>
                         <li>+52 (449) 251 42 00</li>
                         <li>Fax: 322323</li>
-                        <li>Email: contacto@conaproch.com</li>
+                        <li>Email: nataly.cordova@conaproch.com</li>
                     </ul>
                     <div class="social">
                         <a href="https://www.facebook.com/nancy.rmz.16?fref=ts" target="_blank" class="facebook"><i class="icon-facebook"></i></a>
@@ -362,7 +366,7 @@
                         </div>
                         <div class="span4">
                             <button class="btn " type="button">
-                                <i class="li_paperplane"></i>Enviar Mensaje</button>
+                                <i class="li_paperplane"></i>Enviar Comentarios/Sugerencias</button>
                         </div>
                     </div>
                     </form>
@@ -376,7 +380,53 @@
                 <small><a href="https://www.google.com.mx/maps/place/Prol+Ignacio+Zaragoza+721,+20115+Aguascalientes,+Ags./@21.9292161,-102.3051978,19z/data=!4m7!1m4!3m3!1s0x8429ef08bc752fff:0xa2c3b9add6bb0b52!2sProl+Ignacio+Zaragoza+721,+20115+Aguascalientes,+Ags.!3b1!3m1!1s0x8429ef08bc752fff:0xa2c3b9add6bb0b52"
                  target="_blank" style="color: #0000FF; text-align: left">Ver mapa</a></small></iframe>
             </div>
+
+    
+        <ul id="flexiselDemo3">
+            <li><img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+            <li><img src="assets/img/comite/logo-aserca.png" /></li>
+             <li><img src="assets/img/comite/logo-bienestar.png" /></li>
+             <li><img src="assets/img/comite/logo-conaproch.png" /></li>
+             <li><img src="assets/img/comite/logo-cucba2.png" /></li>
+             <li><img src="assets/img/comite/logo-gobjalisco.png" /></li>          
+            <li><img src="assets/img/comite/logo-sagarpa.png" /></li>
+            <li><img src="assets/img/comite/logo-seder.png" /></li>
+            <li><img src="assets/img/comite/logo_cucba.png" /></li>
+                                    
+        </ul>  
+
         </div>
+<script type="text/javascript">
+    $(window).load(function () {
+
+        $("#flexiselDemo3").flexisel({
+            visibleItems: 5,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+</script>
+
+
+
     </div>
     <footer id="footer">
 	<div class="container">

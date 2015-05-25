@@ -70,6 +70,9 @@
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
+    <Content Include="assets\img\banner_inicio\Bannerfin.PNG" />
+    <Content Include="assets\img\images_carrusel\button-next.png" />
+    <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />
     <Content Include="assets\img\images_slider\controls.png" />
     <Content Include="assets\img\ava1.jpg" />
@@ -117,6 +120,8 @@
     <Content Include="assets\img\img-slide4.png" />
     <Content Include="assets\img\img-slide5.png" />
     <Content Include="assets\img\img-slide6.png" />
+    <Content Include="assets\img\ins_costos\desc_costo.PNG" />
+    <Content Include="assets\img\ins_costos\desc_costos.PNG" />
     <Content Include="assets\img\menu\BT-CONTACTO.png" />
     <Content Include="assets\img\menu\BT-DEMOSTRACIONDECAMPO.png" />
     <Content Include="assets\img\menu\BT-EXPOCISIONCOMERCIAL.png" />
@@ -174,6 +179,7 @@
     <Content Include="assets\js\bootstrap-transition.js" />
     <Content Include="assets\js\countdown.js" />
     <Content Include="assets\js\jquery.bxslider.js" />
+    <Content Include="assets\js\jquery.flexisel.js" />
     <Content Include="assets\js\jquery.hoverdir.js" />
     <Content Include="assets\js\jquery.isotope.min.js" />
     <Content Include="assets\js\jquery.js" />
@@ -187,6 +193,7 @@
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="InsCostos.aspx" />
     <Content Include="ProgramaCientifico.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="reportes\img_registro\1.jpg" />
@@ -206,6 +213,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsCostos.aspx.cs">
+      <DependentUpon>InsCostos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsCostos.aspx.designer.cs">
+      <DependentUpon>InsCostos.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProgramaCientifico.aspx.cs">
       <DependentUpon>ProgramaCientifico.aspx</DependentUpon>

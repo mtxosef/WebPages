@@ -47,7 +47,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="In">
 							</a>
 						</li>
 						<li>
@@ -125,6 +125,7 @@
 		<div id="sequence_Slider">
 	    <br><br><br>
             <ul class="bxslider">
+                  <li><img src="assets/img/banner_inicio/BANNER%20PRINCIPAL.jpg" /></li>
                   <li> <img src="assets/img/banner_inicio/IMG_3406.jpg" /></li>
                   <li><img src="assets/img/banner_inicio/IMG_3357.jpg" /></li>
                   <li>
@@ -139,6 +140,8 @@
                     <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
                 <li>
                     <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
+                    <li>
+                     <img src="assets/img/banner_inicio/Bannerfin.PNG" /></li>
                 </ul>
 		</div>
 	</div>
