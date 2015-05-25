@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conaproach", "Conaproach\Conaproach.csproj", "{384A7E92-6281-4250-8144-9F4ABD30DD86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conaproch", "Conaproach\Conaproch.csproj", "{384A7E92-6281-4250-8144-9F4ABD30DD86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsPages", "ToolsPages\ToolsPages.csproj", "{5CC94B94-DE45-4465-A9D9-81197C5DFD13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{384A7E92-6281-4250-8144-9F4ABD30DD86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{384A7E92-6281-4250-8144-9F4ABD30DD86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{384A7E92-6281-4250-8144-9F4ABD30DD86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC94B94-DE45-4465-A9D9-81197C5DFD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC94B94-DE45-4465-A9D9-81197C5DFD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC94B94-DE45-4465-A9D9-81197C5DFD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC94B94-DE45-4465-A9D9-81197C5DFD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
