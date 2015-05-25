@@ -198,6 +198,9 @@
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="img\bt-contadordias.png" />
+    <Content Include="img\logotipo.png" />
+    <Content Include="index.html" />
     <Content Include="InsCostos.aspx" />
     <Content Include="fonts\codropsicons\codropsicons.svg" />
     <Content Include="fonts\vicons\vicons.svg" />
@@ -266,6 +269,7 @@
     <None Include="fonts\codropsicons\codropsicons.eot" />
     <None Include="fonts\codropsicons\codropsicons.ttf" />
     <None Include="fonts\codropsicons\codropsicons.woff" />
+    <None Include="fonts\conaproch\BebasNeue-webfont.ttf" />
     <None Include="fonts\vicons\vicons.eot" />
     <None Include="fonts\vicons\vicons.ttf" />
     <None Include="fonts\vicons\vicons.woff" />
@@ -280,7 +284,6 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="img\" />
     <Folder Include="js\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
