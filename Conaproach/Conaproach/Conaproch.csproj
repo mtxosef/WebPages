@@ -101,7 +101,6 @@
     <Content Include="assets\img\comite\logo-conaproch.png" />
     <Content Include="assets\img\comite\logo-cucba2.png" />
     <Content Include="assets\img\comite\logo_cucba.png" />
-    <Content Include="assets\img\general\bt-contadordias.png" />
     <Content Include="assets\img\general\clogo-convencionmundial.png" />
     <Content Include="assets\img\comite\logo-aserca.png" />
     <Content Include="assets\img\comite\logo-bienestar.png" />
@@ -292,14 +291,9 @@
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
-<<<<<<< HEAD
-  <ItemGroup />
-=======
   <ItemGroup>
     <Folder Include="img\" />
-    <Folder Include="js\" />
   </ItemGroup>
->>>>>>> 4491ea8f963d0f7718e6ffba5b279c5713630e47
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>

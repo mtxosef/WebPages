@@ -29,18 +29,86 @@
     <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
     <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+    <script type="text/javascript" src="js/date.js"></script>
+    <script type="text/javascript">
+        function contadorEvento() {
+            //1. Tomar fecha actual, fecha destino y fecha primer día del año
+            var hoy = new Date();
+            var evento = new Date(2015, 9, 22, 8, 0, 0);
 
+            document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
+            document.getElementById('sDias').innerHTML = evento.getDayOfYear() - hoy.getDayOfYear();
+            document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
+        }
+    </script>
+    <style type="text/css">
+        @font-face {
+         font-family: 'BebasNeueRegular';
+         src: url('font/BebasNeue-webfont.ttf') format('truetype');
+
+        }
+        .contenedor
+        {
+            margin: 0 auto;
+            width: 200px;
+            height: 330px;
+            position:relative;
+        }
+        .contenedor .semanas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:15px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }
+        
+        .contenedor .dias
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:65px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }
+        
+        .contenedor .horas
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:260px;
+            left:120px;
+            font-family: 'BebasNeueRegular';
+            font-size:25pt;
+            color: White;
+        }
+    </style>
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
 
-    <div class="container">	
-        <div align="center" class="centrar">
-            <img src="assets/img/general/bt-contadordias.png"  />
-		    <img src="assets/img/general/principal.png" />
-		</div>
+    <div class="contenedor">
+        <img alt="logotipo" src="img/logotipo.png" />
+        <img alt="contador" src="img/bt-contadordias.png"  />
+        <div class="semanas">
+            <span id="sSemanas"></span>
+        </div>
+        <div class="dias">
+            <span id="sDias"></span>
+        </div>
+        <div class="horas">
+            <span id="sHoras"></span>
+        </div>
+    </div>
 
-        
+    <div class="container">
 		<button class="button button--winona button--border-thin button--round-s"  data-text="Inicio"><span>Inicio</span></button>
 		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
 		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
@@ -49,7 +117,7 @@
         <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
         <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-</div>
+    </div>
 
 
 <%--        <div class="container">	

@@ -1,87 +1,54 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProgramaCientifico.aspx.cs" Inherits="Conaproach.ProgramaCientifico" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html style="margin-top: 0 !important" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic'
-        rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/jquery.bxslider.js"></script>
-
-      <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+
 	<script src="assets/js/modernizr.custom.js"></script>
 
 
+    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+
+
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <link rel="Stylesheet" type="text/css" href="css/base.css" />
+    <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
+    <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+
 </head>
 <body data-spy="scroll" data-target=".navbar">
-      <header id="header">
+    <header id="header">
 
-	 <div class="container">	
-			<!-- Codrops top bar -->
-		
-				<nav id="menu" class="navMetro">					
-					<ul>
-						<li>
-							<a href="Default.aspx">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-							</a>
-						</li>
-						<li>
-							<a href="#">
-							</a>
-						</li>
-						<li>
-							<a href="ProgramaCientifico.aspx">
-							</a>
-						</li>
-						<li>
-							<a href="In">
-							</a>
-						</li>
-						<li>
-							<a href="Default.aspx#contact">
-							</a>
-						</li>
-					</ul>
-				</nav>
-			
-           
-	
-	
-                       <%-- <div id="countdown" class="contador"> 
-                          <script language="JavaScript">
-                              TargetDate = "10/22/2015 12:00 PM";
-                              BackColor = "";
-                              ForeColor = "white";
-                              CountActive = true;
-                              CountStepper = -1;
-                              LeadingZero = true;
-                              DisplayFormat = "%%D%% , %%H%%";
-                              FinishMessage = "Se esta llevando a cabo en este momento";
-                            </script>
-                           <script language="JavaScript" src="assets/js/countdown.js"></script>
-                        </div> --%>
+    <div class="container">	
+        <div align="center" class="centrar">
+            <img src="assets/img/general/bt-contadordias.png"  />
+		    <img src="assets/img/general/principal.png" />
+		</div>
 
-                <div align="center" class="centrar">
-                <img src="assets/img/general/bt-contadordias.png"  />
-				<img src="assets/img/general/principal.png" />
-				</div> 
-      
-           
-
-		</div><!-- /container -->
+        
+		<button class="button button--winona button--border-thin button--round-s"  data-text="Inicio"><span>Inicio</span></button>
+		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
+		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
+        <button class="button button--winona button--border-thin button--round-s" data-text="Programa Científico"><span>Programa Científico</span></button>
+        <button class="button button--winona button--border-thin button--round-s" data-text="Programa del Evento"><span>Programa del Evento</span></button>
+        <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
+        <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
+</div>
 </header>
     <!-- End header -->
 
@@ -235,7 +202,7 @@
                             <p>- Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro...</p>
                                   
                                     <a class="btn btn-large" href="assets/descargas/cv/Gil Virgen Calleros.pdf"target="_blank">
-                                    <div class="nav-hover"></div>VER MAS</a>
+                                    VER MAS</a>
                                    <br /><br />
 
                         </div>
@@ -260,7 +227,7 @@
                                     </b>
                                     <br /><br />
                                     <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">
-                                    <div class="nav-hover"></div>VER MAS</a>
+                                   VER MAS</a>
                                    <br /><br />
                                   
                                     
@@ -287,8 +254,8 @@
                     <p>
                         <div class="nav-hover">
                         </div>
-                        <a class="btn btn-large" href="#modalboxConv" data-toggle="modal"><div class="nav-hover"></div>VER</a>
-                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank"><div class="nav-hover"></div>DESCARGAR</a>
+                        <a class="btn btn-large" href="#modalboxConv" data-toggle="modal">VER</a>
+                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank">DESCARGAR</a>
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
@@ -358,9 +325,8 @@
                     <h1>
                         REGISTRO</h1>
                     <p>
-                        <div class="nav-hover">
-                        </div>
-                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal"><div class="nav-hover"></div>AQUÍ</a>
+                   
+                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">AQUÍ</a>
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
