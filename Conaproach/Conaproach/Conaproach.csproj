@@ -69,8 +69,9 @@
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
-    <Content Include="assets\images\bx_loader.gif" />
-    <Content Include="assets\images\controls.png" />
+    <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
+    <Content Include="assets\img\images_slider\bx_loader.gif" />
+    <Content Include="assets\img\images_slider\controls.png" />
     <Content Include="assets\img\ava1.jpg" />
     <Content Include="assets\img\ava2.jpg" />
     <Content Include="assets\img\ava3.jpg" />
@@ -104,8 +105,6 @@
     <Content Include="assets\img\demo3.png" />
     <Content Include="assets\img\demo4.png" />
     <Content Include="assets\img\fur.jpg" />
-    <Content Include="assets\img\general\f_r.jpg" />
-    <Content Include="assets\img\general\f_v.jpg" />
     <Content Include="assets\img\general\ico.ico" />
     <Content Include="assets\img\general\logo-conaproch.png" />
     <Content Include="assets\img\general\principal.png" />
@@ -118,6 +117,12 @@
     <Content Include="assets\img\img-slide4.png" />
     <Content Include="assets\img\img-slide5.png" />
     <Content Include="assets\img\img-slide6.png" />
+    <Content Include="assets\img\menu\BT-CONTACTO.png" />
+    <Content Include="assets\img\menu\BT-DEMOSTRACIONDECAMPO.png" />
+    <Content Include="assets\img\menu\BT-EXPOCISIONCOMERCIAL.png" />
+    <Content Include="assets\img\menu\BT-INICIO.png" />
+    <Content Include="assets\img\menu\BT-INSCRIPCIONESYCOSTOS.png" />
+    <Content Include="assets\img\menu\BT-PROGRAMACIENTIFICO.png" />
     <Content Include="assets\img\minimalist.jpg" />
     <Content Include="assets\img\pf1.png" />
     <Content Include="assets\img\pf10.png" />
@@ -177,7 +182,6 @@
     <Content Include="assets\css\component.css" />
     <Content Include="assets\css\default.css" />
     <Content Include="Default.aspx" />
-    <Content Include="ExpoComercial.aspx" />
     <Content Include="assets\font\codropsicons\codropsicons.svg" />
     <Content Include="assets\font\codropsicons\license.txt" />
     <Content Include="assets\font\icomoon.dev.svg" />
@@ -202,13 +206,6 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ExpoComercial.aspx.cs">
-      <DependentUpon>ExpoComercial.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ExpoComercial.aspx.designer.cs">
-      <DependentUpon>ExpoComercial.aspx</DependentUpon>
     </Compile>
     <Compile Include="ProgramaCientifico.aspx.cs">
       <DependentUpon>ProgramaCientifico.aspx</DependentUpon>

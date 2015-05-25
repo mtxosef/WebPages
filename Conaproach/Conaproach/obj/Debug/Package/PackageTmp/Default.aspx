@@ -35,32 +35,32 @@
 					<ul>
 						<li>
 							<a href="Default.aspx">
-								<span>Inicio</span>
+								<%--<span>Inicio</span>--%>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Exposición</span>
+								<%--<span>Exposición</span>--%>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Demostraciones</span>
+								<%--<span>Demostraciones</span>--%>
 							</a>
 						</li>
 						<li>
 							<a href="ProgramaCientifico.aspx">
-								<span>Programa</span>
+								<%--<span>Programa</span>--%>
 							</a>
 						</li>
 						<li>
 							<a href="#">
-								<span>Registro</span>
+							<%--	<span>Registro</span>--%>
 							</a>
 						</li>
 						<li>
 							<a href="#contact">
-								<span>Contacto</span>
+								<%--<span>Contacto</span>--%>
 							</a>
 						</li>
 					</ul>
@@ -165,10 +165,10 @@
                 <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i class="li_search"></i>INICIO</a> </li>
-                        <li class=""><a href="#services"><i class="li_bulb"></i>Generalidades del evento</a> </li>
-                        <li class=""><a href="#testimonial"><i class="li_photo"></i>Mensaje del presidente</a> </li>
-                        <li class=""><a href="#contact"><i class="li_paperplane"></i>Contacto</a> </li>
+                        <li class=""><a href=""><i ></i>INICIO</a> </li>
+                        <li class=""><a href="#services"><i ></i>Generalidades del evento</a> </li>
+                        <li class=""><a href="#testimonial"><i ></i>Mensaje del presidente</a> </li>
+                        <li class=""><a href="#contact"><i ></i>Contacto</a> </li>
                     </ul>
                 </div>
             </div>

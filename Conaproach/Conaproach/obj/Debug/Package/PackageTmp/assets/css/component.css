@@ -106,6 +106,8 @@ a, button {
 
 .no-touch .navMetro ul:hover a {
 	color: rgba(249, 249, 249, .5);
+	
+	
 }
 
 .no-touch .navMetro ul:hover a:hover {
@@ -115,27 +117,34 @@ a, button {
 /* Adding some background color to the different menu items */
 
 .navMetro li:nth-child(6n+1) {
-	background: rgb(208, 101, 3);
+	/*background: rgb(208, 101, 3);*/
+	 background-image: url(../img/menu/BT-INICIO.png) ;
+   background-repeat: no-repeat;
 }
 
 .navMetro li:nth-child(6n+2) {
-	background: rgb(233, 147, 26);
+	 background-image: url(../img/menu/BT-EXPOCISIONCOMERCIAL.png) ;
+   background-repeat: no-repeat;
 }
 
 .navMetro li:nth-child(6n+3) {
-	background: #92c962;
+	background-image: url(../img/menu/BT-DEMOSTRACIONDECAMPO.png) ;
+   background-repeat: no-repeat;
 }
 
 .navMetro li:nth-child(6n+4) {
-	background: #772126;
+	background-image: url(../img/menu/BT-PROGRAMACIENTIFICO.png) ;
+   background-repeat: no-repeat;
 }
 
 .navMetro li:nth-child(6n+5) {
-	background: #4a6c3b;
+	background-image: url(../img/menu/BT-INSCRIPCIONESYCOSTOS.png) ;
+   background-repeat: no-repeat;
 }
 
 .navMetro li:nth-child(6n+6) {
-	background: #d27d33;
+	background-image: url(../img/menu/BT-CONTACTO.png) ;
+   background-repeat: no-repeat;
 }
 
 /* For screen bigger than 800px */
@@ -152,6 +161,16 @@ a, button {
 		-ms-transition: border .5s;
 		transition: border .5s;
 	}
+	
+	
+	.navMetro li:hover {
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
+	}
+	
+	
+	
 
 	.navMetro a {
 		display: block;
@@ -162,37 +181,38 @@ a, button {
 	.no-touch .navMetro li:nth-child(6n+1) a:hover,
 	.no-touch .navMetro li:nth-child(6n+1) a:active,
 	.no-touch .navMetro li:nth-child(6n+1) a:focus {
-		border-bottom: 4px solid rgb(174, 78, 1);
+		border-bottom: 2px solid #642f0f;
+		
 	}
 
 	.no-touch .navMetro li:nth-child(6n+2) a:hover,
 	.no-touch .navMetro li:nth-child(6n+2) a:active,
 	.no-touch .navMetro li:nth-child(6n+2) a:focus {
-		border-bottom: 4px solid rgb(191, 117, 20);
+		border-bottom: 2px solid #642f0f;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+3) a:hover,
 	.no-touch .navMetro li:nth-child(6n+3) a:active,
 	.no-touch .navMetro li:nth-child(6n+3) a:focus {
-		border-bottom: 4px solid #709d48;
+		border-bottom: 2px solid #642f0f;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+4) a:hover,
 	.no-touch .navMetro li:nth-child(6n+4) a:active,
 	.no-touch .navMetro li:nth-child(6n+4) a:focus {
-		border-bottom: 4px solid #521417;
+		border-bottom: 2px solid #642f0f;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+5) a:hover,
 	.no-touch .navMetro li:nth-child(6n+5) a:active,
 	.no-touch .navMetro li:nth-child(6n+5) a:focus {
-		border-bottom: 4px solid #3c582f;
+		border-bottom: 2px solid #642f0f;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+6) a:hover,
 	.no-touch .navMetro li:nth-child(6n+6) a:active,
 	.no-touch .navMetro li:nth-child(6n+6) a:focus {
-		border-bottom: 4px solid #aa6428;
+		border-bottom: 2px solid #642f0f;
 	}
 
 	/* Placing the icon */
@@ -212,13 +232,13 @@ a, button {
 
 	/* Animating the height of the element*/
 	.navMetro a {
-		height: 2.5em;
+		height: 2.7em;
 	}
 
 	.no-touch .navMetro a:hover ,
 	.navMetro a:active ,
 	.navMetro a:focus {
-		height: 2.3em;
+		height: 2.7em;
 	}	
 
 	/* Making the text follow the height animation */
@@ -284,37 +304,49 @@ a, button {
 	.no-touch .navMetro ul li:nth-child(6n+1) a:hover,
 	.no-touch .navMetro ul li:nth-child(6n+1) a:active,
 	.no-touch .navMetro ul li:nth-child(6n+1) a:focus {
-		background: rgb(227, 119, 20);
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+2) a:hover,
 	.no-touch .navMetro li:nth-child(6n+2) a:active,
 	.no-touch .navMetro li:nth-child(6n+2) a:focus {
-		background: rgb(245, 160, 41);
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+3) a:hover,
 	.no-touch .navMetro li:nth-child(6n+3) a:active,
 	.no-touch .navMetro li:nth-child(6n+3) a:focus {
-		background: #91ca60;
+	 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+4) a:hover,
 	.no-touch .navMetro li:nth-child(6n+4) a:active,
 	.no-touch .navMetro li:nth-child(6n+4) a:focus {
-		background: #7d2a2c;
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+5) a:hover,
 	.no-touch .navMetro li:nth-child(6n+5) a:active,
 	.no-touch .navMetro li:nth-child(6n+5) a:focus {
-		background: #527244;
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.no-touch .navMetro li:nth-child(6n+6) a:hover,
 	.no-touch .navMetro li:nth-child(6n+6) a:active,
 	.no-touch .navMetro li:nth-child(6n+6) a:focus {
-		background: #d88135;
+		 filter: alpha(opacity=50);
+    moz-opacity: .50;
+    opacity: .50;
 	}
 
 	.navMetro ul li {
@@ -339,7 +371,7 @@ a, button {
 	
 	/* Adding some padding to make the elements look nicer*/
 	.navMetro a {
-		padding: 0.8em;		
+		padding: 1.55em;	
 	}
 
 	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
@@ -464,7 +496,7 @@ a, button {
 	}
 
 	.navMetro a {
-	    padding: 0.8em;	
+	    padding: 1.6em;
 	}
 	
 	.icon + span {
@@ -474,27 +506,28 @@ a, button {
 	
 	/* Adding a left border of 8 px with a different color for each menu item*/
 	.navMetro li:nth-child(6n+1) {
-		border-left: 8px solid rgb(174, 78, 1);
+		border-left: 4px solid;
+
 	}
 
 	.navMetro li:nth-child(6n+2) {
-		border-left: 8px solid rgb(191, 117, 20);
+		border-left: 4px solid ;
 	}
 
 	.navMetro li:nth-child(6n+3) {
-		border-left: 8px solid #a1dc6e;
+		border-left: 4px solid ;
 	}
 
 	.navMetro li:nth-child(6n+4) {
-		border-left: 8px solid #7d2a2c;
+		border-left: 4px solid ;
 	}
 
 	.navMetro li:nth-child(6n+5) {
-		border-left: 8px solid #5b7550;
+		border-left: 4px solid ;
 	}
 
 	.navMetro li:nth-child(6n+6) {
-		border-left: 8px solid #e09553;
+		border-left: 4px solid ;
 	}
 
 	/* make the nav bigger on touch screens */
