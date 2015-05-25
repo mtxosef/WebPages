@@ -238,13 +238,3 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
-
-OSEF.APP.BL/obj/Debug/OSEF.APP.BL.csproj.FileListAbsolute.txt
-OSEF.APP.DL/obj/Debug/OSEF.APP.DL.csproj.FileListAbsolute.txt
-OSEF.APP.EL/obj/Debug/OSEF.APP.EL.csproj.FileListAbsolute.txt
-OSEF.ERP.APP/obj/Debug/OSEF.ERP.APP.csproj.FileListAbsolute.txt
-OSEF.INTELISIS.BL/obj/Debug/OSEF.INTELISIS.BL.csproj.FileListAbsolute.txt
-OSEF.INTELISIS.DL/obj/Debug/OSEF.INTELISIS.DL.csproj.FileListAbsolute.txt
-OSEF.INTELISIS.EL/obj/Debug/OSEF.INTELISIS.EL.csproj.FileListAbsolute.txt
-OSEF.LIBRARY.COMMON/obj/Debug/OSEF.LIBRARY.COMMON.csproj.FileListAbsolute.txt
-PruebaGantt/obj/Debug/PruebaGantt.csproj.FileListAbsolute.txt
