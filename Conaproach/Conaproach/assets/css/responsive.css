@@ -1277,7 +1277,7 @@ label, input, button, select, textarea {
 }
 }@media(max-width:767px) {
     #header {
-    margin: 0 -20px 0 -20px;
+   margin: 0 -20px 0 0px;
 }
 #header .container.visible-phone {
     margin: 0 20px 0 20px;

@@ -34,22 +34,30 @@
 <body data-spy="scroll" data-target=".navbar">
     <header id="header">
 
+    <div class="container">	
+        <div align="center" class="centrar">
+            <img src="assets/img/general/bt-contadordias.png"  />
+		    <img src="assets/img/general/principal.png" />
+		</div>
+        
 
 
-		<button class="button button--winona button--border-thin button--round-s" data-text="Inicio"><span>Inicio</span></button>
-		<button class="button button--winona button--border-thin button--round-s" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
+
+<%--  
+   <a class="button button--winona button--border-thin button--round-s" href="#contact" data-text="Inicio"><span>Inicio</span></a>
+ --%>
+
+        
+		<button class="button button--winona button--border-thin button--round-s"  data-text="Inicio"><span>Inicio</span></button>
+		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
 		<button class="button button--winona button--border-thin button--round-s" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Programa Científico"><span>Programa Científico</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Programa del Evento"><span>Programa del Evento</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
         <button class="button button--winona button--border-thin button--round-s" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" data-text="Contacto"><span>Contacto</span></button>
+        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
+</div>
 
-
-        <div align="center" class="centrar">
-            <img src="assets/img/general/bt-contadordias.png"  />
-		    <img src="assets/img/general/principal.png" />
-		</div>
 
 <%--        <div class="container">	
 		    <!-- Codrops top bar -->
