@@ -187,7 +187,6 @@ $(document).ready(function () {
 
 
 /*Contador*/
-
 function contadorEvento() {
     //1. Tomar fecha actual, fecha destino y fecha primer día del año
     var hoy = new Date();

@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Conaproach</RootNamespace>
-    <AssemblyName>Conaproach</AssemblyName>
+    <RootNamespace>Conaproch</RootNamespace>
+    <AssemblyName>Conaproch</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
@@ -196,6 +196,7 @@
     <Content Include="assets\css\default.css" />
     <Content Include="css\base.css" />
     <Content Include="css\buttons.css" />
+    <Content Include="css\fonts.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\vicons-font.css" />
     <Content Include="Default.aspx" />
@@ -206,10 +207,23 @@
     <Content Include="assets\js\modernizr.custom.js" />
     <Content Include="EnConstruccion.aspx" />
     <Content Include="ExposicionComercial.aspx" />
+    <Content Include="img\menu\BT-CONTACTO.png" />
+    <Content Include="img\bt-contadordias.png" />
+    <Content Include="img\menu\BT-DEMOSTRACIONDECAMPO.png" />
+    <Content Include="img\menu\BT-EXPOCISIONCOMERCIAL.png" />
+    <Content Include="img\menu\BT-HOSPEDAJEYTURISMO.png" />
+    <Content Include="img\menu\BT-INICIO.png" />
+    <Content Include="img\menu\BT-INSCRIPCIONESYCOSTOS.png" />
+    <Content Include="img\menu\BT-PROGRAMACIENTIFICO.png" />
+    <Content Include="img\menu\BT-PROGRAMADELEVENTO.png" />
+    <Content Include="img\logotipo.png" />
+    <Content Include="index.html" />
     <Content Include="InsCostos.aspx" />
     <Content Include="fonts\codropsicons\codropsicons.svg" />
     <Content Include="fonts\vicons\vicons.svg" />
     <Content Include="js\date.js" />
+    <Content Include="js\html5.js" />
+    <Content Include="js\prefixfree.min.js" />
     <Content Include="ProgramaCientifico.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="reportes\img_registro\1.jpg" />
@@ -290,6 +304,9 @@
     <None Include="fonts\codropsicons\codropsicons.eot" />
     <None Include="fonts\codropsicons\codropsicons.ttf" />
     <None Include="fonts\codropsicons\codropsicons.woff" />
+    <None Include="fonts\conaproch\BebasNeue-webfont.ttf" />
+    <None Include="fonts\BHU-qucEWl3Sj8ChiFuLDA.woff2" />
+    <None Include="fonts\Nj8R4qMnrWsOMqooPUgtb_esZW2xOQ-xsNqO47m55DA.woff2" />
     <None Include="fonts\vicons\vicons.eot" />
     <None Include="fonts\vicons\vicons.ttf" />
     <None Include="fonts\vicons\vicons.woff" />
@@ -304,7 +321,7 @@
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="img\" />
+    <Folder Include="fonts\menu\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -60,6 +60,10 @@
     <Content Include="Menus\ButtonStylesInspiration\img\related\CreativeButtons.png" />
     <Content Include="Menus\ButtonStylesInspiration\img\related\ProgressButtonStyles.png" />
     <Content Include="Menus\ButtonStylesInspiration\index.html" />
+    <Content Include="Menus\dabblet\css\fonts.css" />
+    <Content Include="Menus\dabblet\index.html" />
+    <Content Include="Menus\dabblet\js\html5.js" />
+    <Content Include="Menus\dabblet\js\prefixfree.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,6 +85,8 @@
     <None Include="Menus\ButtonStylesInspiration\fonts\vicons\vicons.eot" />
     <None Include="Menus\ButtonStylesInspiration\fonts\vicons\vicons.ttf" />
     <None Include="Menus\ButtonStylesInspiration\fonts\vicons\vicons.woff" />
+    <None Include="Menus\dabblet\fonts\BHU-qucEWl3Sj8ChiFuLDA.woff2" />
+    <None Include="Menus\dabblet\fonts\Nj8R4qMnrWsOMqooPUgtb_esZW2xOQ-xsNqO47m55DA.woff2" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
