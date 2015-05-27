@@ -31,7 +31,7 @@
 
     <div class="contenedor">
         <img alt="logotipo" src="img/logotipo.png" />
-        <img alt="contador" src="img/bt-contadordias.png"  />
+        <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
         <div class="semanas">
             <span id="sSemanas"></span>
         </div>

@@ -58,57 +58,7 @@
     </nav>
    
 
-<%--        <div class="container">	
-		    <!-- Codrops top bar -->
-		    <nav id="menu" class="navMetro">					
-				<ul>
-					<li>
-						<a href="Default.aspx">
-							<span>Inicio</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Exposición</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Demostraciones</span>
-						</a>
-					</li>
-					<li>
-						<a href="ProgramaCientifico.aspx">
-							<span>Programa</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Registro</span>
-						</a>
-					</li>
-					<li>
-						<a href="#contact">
-							<span>Contacto</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-        <div>--%>
-	
-        <%-- <div id="countdown" class="contador"> 
-            <script language="JavaScript">
-                TargetDate = "10/22/2015 12:00 PM";
-                BackColor = "";
-                ForeColor = "white";
-                CountActive = true;
-                CountStepper = -1;
-                LeadingZero = true;
-                DisplayFormat = "%%D%% , %%H%%";
-                FinishMessage = "Se esta llevando a cabo en este momento";
-            </script>
-            <script language="JavaScript" src="assets/js/countdown.js"></script>
-        </div> --%>
+
     </header>
     <!-- End header -->
 
@@ -346,11 +296,11 @@
                     </div>
                     <div class="row-fluid">
                         <div class="span8">
-                            <textarea name="txt_message" id="txt_message" placeholder="Mensaje" cols="30" rows="10"></textarea>
+                            <textarea name="txt_message" id="txt_message" placeholder="Comentarios/Sugerencias" cols="30" rows="10"></textarea>
                         </div>
                         <div class="span4">
                             <button class="btn " type="button">
-                                <i class="li_paperplane"></i>Enviar Comentarios/Sugerencias</button>
+                                <i class="li_paperplane"></i>Enviar</button>
                         </div>
                     </div>
                     </form>

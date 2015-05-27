@@ -17,25 +17,21 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-
-	<script src="assets/js/modernizr.custom.js"></script>
-
-
-    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-
-
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-
+    <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+   
     <script type="text/javascript" src="js/date.js"></script>
   
- 
+  
+  
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
 
     <div class="contenedor">
         <img alt="logotipo" src="img/logotipo.png" />
-        <img alt="contador" src="img/bt-contadordias.png"  />
+        <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
         <div class="semanas">
             <span id="sSemanas"></span>
         </div>
@@ -61,45 +57,6 @@
 	    </ul>
     </nav>
 
-
-<%--        <div class="container">	
-		    <!-- Codrops top bar -->
-		    <nav id="menu" class="navMetro">					
-				<ul>
-					<li>
-						<a href="Default.aspx">
-							<span>Inicio</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Exposición</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Demostraciones</span>
-						</a>
-					</li>
-					<li>
-						<a href="ProgramaCientifico.aspx">
-							<span>Programa</span>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<span>Registro</span>
-						</a>
-					</li>
-					<li>
-						<a href="#contact">
-							<span>Contacto</span>
-						</a>
-					</li>
-				</ul>
-			</nav>
-        <div>--%>
-	
     </header>
     <!-- End header -->
 
@@ -279,17 +236,17 @@
      <div id="plano_gral" class="section">
     
         <div class="container">
-              <h1>PLANO GENERAL CUCBA</h1><hr />
+             <center> <h1>PLANO GENERAL CUCBA</h1><hr />
                 <img src="assets/img/expo_comercial/instalacionesCUCBA.png" />
-    
+            </center>
            
               
         </div>
          <div class="container">
-              <h1>PLANO STANDS</h1><hr />
+              <center><h1>PLANO STANDS</h1><hr />
                 <img src="assets/img/expo_comercial/Planostand.png" />
     
-           
+           </center>
               
         </div>
     </div>

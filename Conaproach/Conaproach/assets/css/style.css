@@ -6553,7 +6553,7 @@ display:none;
         nav ul {
 	        list-style: none;
 	        overflow: hidden;
-	        margin-left:75px !important;
+	        margin-left:6% !important;
         }
 
         nav li a {
@@ -6598,12 +6598,7 @@ display:none;
 	       opacity: 0.9;
         }
         
-        /*
-        nav li a:hover {
-	         background: #642f0f;
-	        
-	        
-        }*/
+
         /*SMALL*/
         nav small {
 	         text-transform: none;
@@ -6618,6 +6613,11 @@ display:none;
 		         padding-top: 2px;
 		        padding-bottom: 12px;
 	        }
+	        
+	        nav ul
+	        {
+	             margin-left:9% !important;
+	            }
 
         }
 
