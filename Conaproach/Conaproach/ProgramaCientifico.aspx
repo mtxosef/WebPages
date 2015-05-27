@@ -16,18 +16,13 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-
 	<script src="assets/js/modernizr.custom.js"></script>
-
-
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-
-
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
- 
+  <script type="text/javascript" src="js/date.js"></script>
 
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
 
     <div class="contenedor">
@@ -124,14 +119,17 @@
         <div class="container">
             <div class="hero">
                 <h1>
-                    Programa científico</h1>
-                <p>
-                    Organigrama</p>
+                    Comité Científico</h1>
+               
             </div>
+
+
+            <img src="assets/img/p_cientifico/organigrama-actual.png" />
+
+            <br><br><br>
+
             <div class="blog_container">
-                <div class="row-full clearfix">
-                    <img src="assets/img/p_cientifico/organigram2.jpg" />
-                </div>
+               
                 <div class="row-full clearfix">
                     <div class="brick1">
                         <a href="http://errors.stablehost.com/406.php" class="article">
@@ -359,12 +357,12 @@
             </div>
         </div>
     </div>
-    <footer id="footer">
+   <%-- <footer id="footer">
 	<div class="container">
 		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
 	</div>
 	<a href="#" id="btn_up">↑</a>
-</footer>
+</footer>--%>
    <!-- Bootstrap js -->
     <script  type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
     <script  type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
