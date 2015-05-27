@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace Conaproach {
+namespace Conaproch {
     
     
     public partial class EnConstruccion {

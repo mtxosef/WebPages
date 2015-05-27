@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Conaproach
+namespace Conaproch
 {
     public partial class ExposicionComercial : System.Web.UI.Page
     {

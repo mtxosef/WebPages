@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using CrystalDecisions.CrystalReports.Engine;
 
-namespace Conaproach
+namespace Conaproch
 {
     public partial class ProgramaCientifico : System.Web.UI.Page
     {
