@@ -192,7 +192,19 @@ function contadorEvento() {
     var hoy = new Date();
     var evento = new Date(2015, 9, 22, 8, 0, 0);
 
+    //2. Asignar número de semanas
     document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
-    document.getElementById('sDias').innerHTML = evento.getDayOfYear() - hoy.getDayOfYear();
+
+    //3. Asignar número de días
+    if (hoy.getWeekday() < 3) {
+        document.getElementById('sDias').innerHTML = evento.getWeekday() - hoy.getWeekday();
+    }
+    else if (hoy.getWeekday() == 3) {
+        document.getElementById('sDias').innerHTML = 0;
+    }
+    else {
+        document.getElementById('sDias').innerHTML = hoy.getWeekday() - evento.getWeekday();
+    }
+
     document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
 }
