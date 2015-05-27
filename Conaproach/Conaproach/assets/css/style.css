@@ -198,6 +198,10 @@ a:hover, a:focus {
 .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
     width: 940px;
 }
+
+.container2{
+    width:auto;
+}
 .span12 {
     width: 940px;
 }
@@ -6527,3 +6531,91 @@ display:none;
             font-size:25pt;
             color: White;
         }
+        
+        
+        /*Menu*/
+
+        * {
+	        padding: 0;
+	        margin: 0;
+	        -webkit-box-sizing: border-box;
+	           -moz-box-sizing: border-box;
+	                box-sizing: border-box;
+        }
+
+        nav {
+	        width: 100%;
+	        
+	        overflow: hidden;	
+	        
+        }
+
+        nav ul {
+	        list-style: none;
+	        overflow: hidden;
+	        margin-left:75px !important;
+        }
+
+        nav li a {
+	        background-image: url(../../img/menu/BT-INICIO.png);
+	        background-repeat:no-repeat;
+	        height:45px;
+	        border-right: 1px solid #fff;
+	        color: #642f0f;
+	        display: block;
+	        float: left;
+	        font-weight:bold;
+	        padding: 0px;
+	        text-align: center;
+	        text-decoration: none !important;
+	        text-transform: uppercase;
+	        width: 150px;
+	        font-size:12px;
+	        /*TRANSISTIONS*/
+	        -webkit-transition: background 0.5s ease;
+	           -moz-transition: background 0.5s ease;
+	             -o-transition: background 0.5s ease;
+	            -ms-transition: background 0.5s ease;
+	                transition: background 0.5s ease;
+        }
+
+        /*HOVER*/
+        nav li a:hover {
+	       color:#6c942e !important;
+	        border-bottom: 2px solid #642f0f;
+	     
+        }
+        
+        .nav-li-active {
+	        background: #642f0f;
+	        color:#87b63e !important;
+        }
+        
+         .nav-li-active:hover {
+	       opacity: 0.9;
+        }
+        
+        /*
+        nav li a:hover {
+	         background: #642f0f;
+	        
+	        
+        }*/
+        /*SMALL*/
+        nav small {
+	         text-transform: none;
+	     
+        }
+
+
+        @media only screen and (max-width : 580px),
+        only screen and (max-device-width : 580px){
+	        nav li a {
+		        
+		         padding-top: 2px;
+		        padding-bottom: 12px;
+	        }
+
+        }
+
+    
