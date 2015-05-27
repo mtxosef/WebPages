@@ -24,10 +24,7 @@
 
 
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <link rel="Stylesheet" type="text/css" href="css/base.css" />
-    <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
-    <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+ 
 
 </head>
 <body data-spy="scroll" data-target=".navbar">
@@ -47,17 +44,21 @@
         </div>
     </div>
 
-    <div class="container">	
+    <nav >
+	    <ul>
+        <li ><a  href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+        <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
+        <li><a href="ProgramaCientifico.aspx"  class="nav-li-active"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+        <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+        <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
+   
+	    </ul>
+    </nav>
 
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx';" data-text="Inicio"><span>Inicio</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ProgramaCientifico.aspx';" data-text="Programa Científico"><span>Programa Científico</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Programa del Evento"><span>Programa del Evento</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='InsCostos.aspx';" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-</div>
+
 </header>
     <!-- End header -->
 
