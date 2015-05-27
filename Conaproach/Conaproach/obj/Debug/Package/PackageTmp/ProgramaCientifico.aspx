@@ -16,21 +16,13 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-
 	<script src="assets/js/modernizr.custom.js"></script>
-
-
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-
-
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <link rel="Stylesheet" type="text/css" href="css/base.css" />
-    <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
-    <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+  <script type="text/javascript" src="js/date.js"></script>
 
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
     <header id="header">
 
     <div class="contenedor">
@@ -47,17 +39,21 @@
         </div>
     </div>
 
-    <div class="container">	
+    <nav >
+	    <ul>
+        <li ><a  href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+        <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
+        <li><a href="ProgramaCientifico.aspx"  class="nav-li-active"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+        <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+        <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
+   
+	    </ul>
+    </nav>
 
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx';" data-text="Inicio"><span>Inicio</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ProgramaCientifico.aspx';" data-text="Programa Científico"><span>Programa Científico</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Programa del Evento"><span>Programa del Evento</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='InsCostos.aspx';" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-</div>
+
 </header>
     <!-- End header -->
 
@@ -123,14 +119,17 @@
         <div class="container">
             <div class="hero">
                 <h1>
-                    Programa científico</h1>
-                <p>
-                    Organigrama</p>
+                    Comité Científico</h1>
+               
             </div>
+
+
+            <img src="assets/img/p_cientifico/organigrama-actual.png" />
+
+            <br><br><br>
+
             <div class="blog_container">
-                <div class="row-full clearfix">
-                    <img src="assets/img/p_cientifico/organigram2.jpg" />
-                </div>
+               
                 <div class="row-full clearfix">
                     <div class="brick1">
                         <a href="http://errors.stablehost.com/406.php" class="article">
@@ -358,12 +357,12 @@
             </div>
         </div>
     </div>
-    <footer id="footer">
+   <%-- <footer id="footer">
 	<div class="container">
 		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
 	</div>
 	<a href="#" id="btn_up">↑</a>
-</footer>
+</footer>--%>
    <!-- Bootstrap js -->
     <script  type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
     <script  type="text/javascript" src="assets/js/bootstrap-modal.js"></script>

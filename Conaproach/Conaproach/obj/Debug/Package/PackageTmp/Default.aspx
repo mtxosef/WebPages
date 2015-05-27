@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Conaproach.Default" %>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Conaproch.Default" %>
 
 <html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -20,11 +18,9 @@
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <link rel="Stylesheet" type="text/css" href="css/base.css" />
-    <link rel="Stylesheet" type="text/css" href="css/buttons.css" />
-    <link rel="Stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="Stylesheet" type="text/css" href="css/vicons-font.css" />
+   
     <script type="text/javascript" src="js/date.js"></script>
+  
   
   
 </head>
@@ -45,18 +41,22 @@
         </div>
     </div>
 
-    <div class="container">	
 
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx';" data-text="Inicio"><span>Inicio</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ExposicionComercial.aspx';" data-text="Exposición Comercial"><span>Exposición Comercial</span></button>
-		<button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Demostración de Campo"><span>Demostración de Campo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='ProgramaCientifico.aspx';" data-text="Programa Científico"><span>Programa Científico</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Programa del Evento"><span>Programa del Evento</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='InsCostos.aspx';" data-text="Inscripciones y Costos"><span>Inscripciones y Costos</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='EnConstruccion.aspx';" data-text="Hospedaje y Turismo"><span>Hospedaje y Turismo</span></button>
-        <button class="button button--winona button--border-thin button--round-s" onclick="location.href ='Default.aspx#contact';"  data-text="Contacto"><span>Contacto</span></button>
-</div>
-
+  	
+  <nav >
+	    <ul>
+        <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+        <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
+        <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+        <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+        <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
+   
+	    </ul>
+    </nav>
+   
 
 <%--        <div class="container">	
 		    <!-- Codrops top bar -->
@@ -180,7 +180,7 @@
                 <p>La 12ª Convención Mundial del Chile® a celebrarse del 22 al 24 de Octubre de 2015 en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara, se conformará de diversas actividades: Exhibición Comercial, Exhibición de Campo, Programa Científico, Muestra Gastronómica, Actividades Socioculturales, etc. </p>
             
             </div>
-            <div class="brow sev_list">
+           <%-- <div class="brow sev_list">
                 <div class="brick2">
                    
                     <h2>
@@ -219,7 +219,7 @@
                         ACTIVIDADES SOCIOCULTURALES</h2>
              
                 </div>
-            </div>
+            </div>--%>
         </div>
     </div>
  
@@ -233,7 +233,7 @@
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item">
-                            <img class="thumbnail" src="assets/img/ava2.jpg" alt="">
+                            <img class="thumbnail" src="assets/img/ava1.jpg" alt="">
                             <div class="msg">
                                 <strong>(2015)</strong>
                                 <p>
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img class="thumbnail" src="assets/img/ava3.jpg" alt="">
+                            <img class="thumbnail" src="assets/img/ava1.jpg" alt="">
                             <div class="msg">
                                 <p>
                                     "Actualmente México se mantiene avante como  uno de los principales 

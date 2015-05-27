@@ -60,7 +60,6 @@ a, li {
 
 
 /* Global CSS that are applied for all screen sizes */
-
 .navMetro ul {
 	max-width: 1240px;
 	margin: 0;
@@ -97,17 +96,13 @@ a, li {
 }
 
 /* Remove the blue Webkit background when element is tapped */
-
 a, button {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 /* Hover effect for the whole navigation to make the hovered item stand out */
-
 .no-touch .navMetro ul:hover a {
-	color: rgba(249, 249, 249, .5);
-	
-	
+	color: rgba(249, 249, 249, .5);	
 }
 
 .no-touch .navMetro ul:hover a:hover {
@@ -115,74 +110,84 @@ a, button {
 }
 
 /* Adding some background color to the different menu items */
-
-.navMetro li:nth-child(6n+1) {
+.navMetro li:nth-child(8n+1) {
 	/*background: rgb(208, 101, 3);*/
-	 background-image: url(../img/menu/BT-INICIO.png) ;
-   background-repeat: no-repeat;
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
-.navMetro li:nth-child(6n+2) {
-	 background-image: url(../img/menu/BT-EXPOCISIONCOMERCIAL.png) ;
-   background-repeat: no-repeat;
+.navMetro li:nth-child(8n+2) {
+    /*background-image: url(../../img/menu/BT-EXPOCISIONCOMERCIAL.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
-.navMetro li:nth-child(6n+3) {
-	background-image: url(../img/menu/BT-DEMOSTRACIONDECAMPO.png) ;
-   background-repeat: no-repeat;
+.navMetro li:nth-child(8n+3) {
+    /*background-image: url(../../img/menu/BT-DEMOSTRACIONDECAMPO.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
-.navMetro li:nth-child(6n+4) {
-	background-image: url(../img/menu/BT-PROGRAMACIENTIFICO.png) ;
-   background-repeat: no-repeat;
+.navMetro li:nth-child(8n+4) {
+    /*background-image: url(../../img/menu/BT-PROGRAMACIENTIFICO.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
-.navMetro li:nth-child(6n+5) {
-	background-image: url(../img/menu/BT-INSCRIPCIONESYCOSTOS.png) ;
-   background-repeat: no-repeat;
+.navMetro li:nth-child(8n+5) {
+    /*background-image: url(../../img/menu/BT-PROGRAMADELEVENTO.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
-.navMetro li:nth-child(6n+6) {
-	background-image: url(../img/menu/BT-CONTACTO.png) ;
-   background-repeat: no-repeat;
+.navMetro li:nth-child(8n+6) {
+    /*background-image: url(../../img/menu/BT-INSCRIPCIONESYCOSTOS.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
+}
+
+.navMetro li:nth-child(8n+7) {
+    /*background-image: url(../../img/menu/BT-HOSPEDAJEYTURISMO.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
+}
+
+.navMetro li:nth-child(8n+8) {
+    /*background-image: url(../../img/menu/BT-CONTACTO.png);*/
+    background-image: url(../../img/menu/BT-INICIO.png);
+    background-repeat: no-repeat;
 }
 
 /* For screen bigger than 800px */
 @media (min-width: 50em) {
-
 	/* Transforms the list into a horizontal navMetroigation */
 	.navMetro li {
 		float: left;
-		width: 16.66666666666667%;
+		width: 12.5%;
 		text-align: center;
 		-webkit-transition: border .5s;
 		-moz-transition: border .5s;
 		-o-transition: border .5s;
 		-ms-transition: border .5s;
 		transition: border .5s;
-	}
-	
+	}	
 	
 	.navMetro li:hover {
-		 filter: alpha(opacity=50);
-    moz-opacity: .50;
-    opacity: .50;
+        filter: alpha(opacity=50);
+        moz-opacity: .50;
+        opacity: .50;
 	}
-	
-	
-	
 
 	.navMetro a {
 		display: block;
-		width: auto;
+		width: 140px;
 	}
 
 	/* hover, focused and active effects that add a little colored border to the different items */
 	.no-touch .navMetro li:nth-child(6n+1) a:hover,
 	.no-touch .navMetro li:nth-child(6n+1) a:active,
 	.no-touch .navMetro li:nth-child(6n+1) a:focus {
-		border-bottom: 2px solid #642f0f;
-		
+		border-bottom: 2px solid #642f0f;		
 	}
 
 	.no-touch .navMetro li:nth-child(6n+2) a:hover,

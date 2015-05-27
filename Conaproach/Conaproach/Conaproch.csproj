@@ -201,15 +201,8 @@
     <Content Include="assets\js\modernizr.custom.js" />
     <Content Include="EnConstruccion.aspx" />
     <Content Include="ExposicionComercial.aspx" />
-    <Content Include="img\menu\BT-CONTACTO.png" />
     <Content Include="img\bt-contadordias.png" />
-    <Content Include="img\menu\BT-DEMOSTRACIONDECAMPO.png" />
-    <Content Include="img\menu\BT-EXPOCISIONCOMERCIAL.png" />
-    <Content Include="img\menu\BT-HOSPEDAJEYTURISMO.png" />
     <Content Include="img\menu\BT-INICIO.png" />
-    <Content Include="img\menu\BT-INSCRIPCIONESYCOSTOS.png" />
-    <Content Include="img\menu\BT-PROGRAMACIENTIFICO.png" />
-    <Content Include="img\menu\BT-PROGRAMADELEVENTO.png" />
     <Content Include="img\logotipo.png" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
