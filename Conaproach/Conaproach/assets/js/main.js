@@ -191,20 +191,51 @@ function contadorEvento() {
     //1. Tomar fecha actual, fecha destino y fecha primer día del año
     var hoy = new Date();
     var evento = new Date(2015, 9, 22, 8, 0, 0);
+    var numero = 0;
 
     //2. Asignar número de semanas
-    document.getElementById('sSemanas').innerHTML = evento.getWeekOfYear() - hoy.getWeekOfYear();
+    numero = evento.getWeekOfYear() - hoy.getWeekOfYear();
+    if (numero > 9) {
+        document.getElementById('sSemanas').innerHTML = numero;
+    }
+    else {
+        document.getElementById('sSemanas').innerHTML = '0' + numero;
+    }
+    
 
     //3. Asignar número de días
     if (hoy.getWeekday() < 3) {
-        document.getElementById('sDias').innerHTML = evento.getWeekday() - hoy.getWeekday();
+        numero = evento.getWeekday() - hoy.getWeekday();
     }
     else if (hoy.getWeekday() == 3) {
-        document.getElementById('sDias').innerHTML = 0;
+        numero = 0;
     }
     else {
-        document.getElementById('sDias').innerHTML = 7 - (hoy.getWeekday() - evento.getWeekday());
+        numero = 7 - (hoy.getWeekday() - evento.getWeekday());
     }
 
-    document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
+    if (numero > 9){
+        document.getElementById('sDias').innerHTML = numero;
+    }
+    else{
+        document.getElementById('sDias').innerHTML = '0' + numero;
+    }
+
+    //4. Asignar número de horas
+    if (hoy.getHours() < 8) {
+        numero = evento.getHours() - hoy.getHours();
+    }
+    else if (hoy.getHours() == 8) {
+        numero = 0;
+    }
+    else {
+        numero = 24 - (hoy.getHours() - evento.getHours());
+    }
+
+    if (numero > 9) {
+        document.getElementById('sHoras').innerHTML = numero;
+    }
+    else {
+        document.getElementById('sHoras').innerHTML = '0' + numero;
+    }
 }
