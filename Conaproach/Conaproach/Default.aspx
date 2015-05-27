@@ -180,7 +180,7 @@
                 <p>La 12ª Convención Mundial del Chile® a celebrarse del 22 al 24 de Octubre de 2015 en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara, se conformará de diversas actividades: Exhibición Comercial, Exhibición de Campo, Programa Científico, Muestra Gastronómica, Actividades Socioculturales, etc. </p>
             
             </div>
-            <div class="brow sev_list">
+           <%-- <div class="brow sev_list">
                 <div class="brick2">
                    
                     <h2>
@@ -219,7 +219,7 @@
                         ACTIVIDADES SOCIOCULTURALES</h2>
              
                 </div>
-            </div>
+            </div>--%>
         </div>
     </div>
  
@@ -233,7 +233,7 @@
                     <!-- Carousel items -->
                     <div class="carousel-inner">
                         <div class="active item">
-                            <img class="thumbnail" src="assets/img/ava2.jpg" alt="">
+                            <img class="thumbnail" src="assets/img/ava1.jpg" alt="">
                             <div class="msg">
                                 <strong>(2015)</strong>
                                 <p>
@@ -254,7 +254,7 @@
                             </div>
                         </div>
                         <div class="item">
-                            <img class="thumbnail" src="assets/img/ava3.jpg" alt="">
+                            <img class="thumbnail" src="assets/img/ava1.jpg" alt="">
                             <div class="msg">
                                 <p>
                                     "Actualmente México se mantiene avante como  uno de los principales 

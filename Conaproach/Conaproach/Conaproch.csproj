@@ -84,8 +84,6 @@
     <Content Include="assets\img\images_slider\bx_loader.gif" />
     <Content Include="assets\img\images_slider\controls.png" />
     <Content Include="assets\img\ava1.jpg" />
-    <Content Include="assets\img\ava2.jpg" />
-    <Content Include="assets\img\ava3.jpg" />
     <Content Include="assets\img\banner_inicio\IMG_3406.jpg" />
     <Content Include="assets\img\banner_inicio\IMG_3532.jpg" />
     <Content Include="assets\img\banner_inicio\IMG_3608.jpg" />
@@ -174,6 +172,7 @@
     <Content Include="assets\img\p_cientifico\cv\Jose L. Martinez R. Ponencia.png" />
     <Content Include="assets\img\p_cientifico\logo-conaproch.png" />
     <Content Include="assets\img\p_cientifico\organigram2.jpg" />
+    <Content Include="assets\img\p_cientifico\organigrama-actual.png" />
     <Content Include="assets\img\team1.png" />
     <Content Include="assets\img\team2.png" />
     <Content Include="assets\img\team3.png" />
@@ -212,7 +211,6 @@
     <Content Include="img\menu\BT-PROGRAMACIENTIFICO.png" />
     <Content Include="img\menu\BT-PROGRAMADELEVENTO.png" />
     <Content Include="img\logotipo.png" />
-    <Content Include="index.html" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
     <Content Include="ProgramaCientifico.aspx" />
