@@ -29,7 +29,7 @@
 
     <div class="contenedor">
         <img alt="logotipo" src="img/logotipo.png" />
-        <img alt="contador" src="img/bt-contadordias.png"  />
+        <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
         <div class="semanas">
             <span id="sSemanas"></span>
         </div>
@@ -47,7 +47,7 @@
 	    <ul>
         <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
         <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
-        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
         <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
         <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
         <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>

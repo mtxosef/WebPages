@@ -6492,8 +6492,8 @@ display:none;
         .contenedor
         {
             margin: 0 auto;
-            width: 200px;
-            height: 330px;
+            width: 350px;
+            height: 300px;
             position:relative;
         }
         .contenedor .semanas
@@ -6501,8 +6501,8 @@ display:none;
             position:absolute;
             width: 20px;
             height: 20px;
-            top:258px;
-            left:2px;
+            top:225px;
+            left:73px;
             font-family: 'BebasNeueRegular';
             font-size:50pt;
             color: White;
@@ -6513,8 +6513,8 @@ display:none;
             position:absolute;
             width: 20px;
             height: 20px;
-            top:258px;
-            left:63px;
+            top:225px;
+            left:133px;
             font-family: 'BebasNeueRegular';
             font-size:50pt;
             color: White;
@@ -6525,8 +6525,8 @@ display:none;
             position:absolute;
             width: 20px;
             height: 20px;
-            top:258px;
-            left:120px;
+            top:225px;
+            left:188px;
             font-family: 'BebasNeueRegular';
             font-size:50pt;
             color: White;
@@ -6561,7 +6561,7 @@ display:none;
 	        background-repeat:no-repeat;
 	        height:45px;
 	        border-right: 1px solid #fff;
-	        color: #642f0f;
+	        color: #C9C3AC;
 	        display: block;
 	        float: left;
 	        font-weight:bold;
@@ -6581,14 +6581,17 @@ display:none;
 
         /*HOVER*/
         nav li a:hover {
-	       color:#6c942e !important;
+	        color:#791716 !important;
 	        border-bottom: 2px solid #642f0f;
-	     
+            background-image: url(../../img/menu/BT-INICIO-HOVER.png);
+	        background-repeat:no-repeat;
         }
         
         .nav-li-active {
-	        background: #642f0f;
-	        color:#87b63e !important;
+	        color:#791716 !important;
+            background-image: url(../../img/menu/BT-INICIO-HOVER.png);
+	        background-repeat:no-repeat;
+	        border-bottom: 2px solid #642f0f;
         }
         
          .nav-li-active:hover {

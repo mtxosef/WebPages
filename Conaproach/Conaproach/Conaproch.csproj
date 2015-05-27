@@ -204,6 +204,7 @@
     <Content Include="img\bt-contadordias.png" />
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
+    <Content Include="img\menu\BT-INICIO-HOVER.png" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
     <Content Include="ProgramaCientifico.aspx" />
