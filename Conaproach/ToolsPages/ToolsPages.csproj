@@ -51,6 +51,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contadores\JavaScript\index.html" />
     <Content Include="Menus\ButtonStylesInspiration\css\base.css" />
     <Content Include="Menus\ButtonStylesInspiration\css\buttons.css" />
     <Content Include="Menus\ButtonStylesInspiration\css\normalize.css" />
