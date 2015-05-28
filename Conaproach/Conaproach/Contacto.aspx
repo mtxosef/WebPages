@@ -1,4 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Conaproch.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Contacto.aspx.cs" Inherits="Conaproch.Contacto" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 
@@ -21,7 +23,8 @@
    
     <script type="text/javascript" src="js/date.js"></script>
   
-    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
@@ -45,14 +48,14 @@
   	
   <nav >
 	    <ul>
-        <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+        <li ><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
         <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
         <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
         <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
         <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
         <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
         <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
-        <li><a href="Contacto.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
+        <li><a href="Contacto.aspx#contact" class="nav-li-active"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
    
 	    </ul>
     </nav>
@@ -63,7 +66,7 @@
     <!-- End header -->
 
 
-     <div id="slider" >
+      <div id="slider" >
 	<div class="container">
 		<div id="sequence_Slider">
 	            
@@ -98,38 +101,6 @@
 		</div>
 	</div>
 </div>
-
-
-
-<%--
-    <div id="slider" class="">
-	<div class="container">
-		<div id="sequence_Slider">
-	    <br><br><br>
-            <ul class="bxslider">
-                    <li><img src="assets/img/banner_inicio/BANNER%20PRINCIPAL.jpg" /></li>
-                  <li> <img src="assets/img/banner_inicio/IMG_3406.jpg" /></li>
-                  <li><img src="assets/img/banner_inicio/IMG_3357.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3532.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3608.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4171.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4225.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
-                
-                   
-                </ul>
-		</div>
-	</div>
-</div>--%>
-
-
 
 
     <div id="navbar" class="navbar">
@@ -168,46 +139,7 @@
                 <p>La 12ª Convención Mundial del Chile® a celebrarse del 22 al 24 de Octubre de 2015 en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara, se conformará de diversas actividades: Exhibición Comercial, Exhibición de Campo, Programa Científico, Muestra Gastronómica, Actividades Socioculturales, etc. </p>
             
             </div>
-           <%-- <div class="brow sev_list">
-                <div class="brick2">
-                   
-                    <h2>
-                        INNAGURACIÓN</h2>
-                  
-                </div>
-                <div class="brick2">
-                    
-                    <h2>
-                        PROGRAMA ACADÉMICO</h2>
-                 
-                </div>
-                <div class="brick2">
-                  
-                    <h2>
-                        EXHIBICIÓN COMERCIAL</h2>
-                 
-                </div>
-            </div>
-              <div class="brow sev_list">
-                <div class="brick2">
-                  
-                    <h2>
-                        PARCELAS DEMOSTRATIVAS</h2>
-             
-                </div>
-                <div class="brick2">
-                 
-                    <h2>
-                        MUESTRA GASTRONÓMICA</h2>
-                  
-                </div>
-                <div class="brick2">
-                    
-                    <h2>
-                        ACTIVIDADES SOCIOCULTURALES</h2>
-             
-                </div>
-            </div>--%>
+      
         </div>
     </div>
  
@@ -324,7 +256,7 @@
                 <div class="span6">
                     <h3>
                         Escríbenos</h3>
-                    <form action="#" id="comment_form" class="comment_form"/>
+                    <form action="#" id="comment_form" class="comment_form" runat="server">
                     <div class="row-fluid">
                         <div class="span6">
                             <input type="text" id="email" email="email" placeholder="Email*"/>
@@ -333,16 +265,21 @@
                             <input type="text" id="name" name="name" placeholder="Nombre*"/>
                         </div>
                     </div>
+                     
                     <div class="row-fluid">
                         <div class="span8">
                             <textarea name="txt_message" id="txt_message" placeholder="Comentarios/Sugerencias" cols="30" rows="10"></textarea>
                         </div>
                         <div class="span4">
-                            <button class="btn " type="button">
-                                <i class="li_paperplane"></i>Enviar</button>
+
+                         <asp:Button ID="btnContacto" class="btn" OnClick="EnviarCorreo" runat="server" Text="Enviar" BackColor="#2fc561" Height="97px"/>
+                         
+
+                            <%--<button class="btn " type="button" onclick="EnviarCorreo">
+                                <i class="li_paperplane"></i>Enviar</button>--%>
                         </div>
                     </div>
-                    </form>
+                   </form>
                 </div>
             </div>
             <div class="map">

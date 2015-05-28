@@ -71,7 +71,6 @@
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
-    <Content Include="assets\img\banner_inicio\Bannerfin.PNG" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
@@ -193,13 +192,44 @@
     <Content Include="assets\js\main.js" />
     <Content Include="assets\css\component.css" />
     <Content Include="assets\css\default.css" />
+    <Content Include="Contacto.aspx" />
+    <Content Include="data1\images\banner_principal.jpg" />
+    <Content Include="data1\images\img_3357.jpg" />
+    <Content Include="data1\images\img_3406.jpg" />
+    <Content Include="data1\images\img_3532.jpg" />
+    <Content Include="data1\images\img_3608.jpg" />
+    <Content Include="data1\images\img_4171.jpg" />
+    <Content Include="data1\images\img_4225.jpg" />
+    <Content Include="data1\images\img_4272.jpg" />
+    <Content Include="data1\images\img_4592.jpg" />
+    <Content Include="data1\tooltips\banner_principal.jpg" />
+    <Content Include="data1\tooltips\img_3357.jpg" />
+    <Content Include="data1\tooltips\img_3406.jpg" />
+    <Content Include="data1\tooltips\img_3532.jpg" />
+    <Content Include="data1\tooltips\img_3608.jpg" />
+    <Content Include="data1\tooltips\img_4171.jpg" />
+    <Content Include="data1\tooltips\img_4225.jpg" />
+    <Content Include="data1\tooltips\img_4272.jpg" />
+    <Content Include="data1\tooltips\img_4592.jpg" />
     <Content Include="Default.aspx" />
     <Content Include="assets\font\codropsicons\codropsicons.svg" />
     <Content Include="assets\font\codropsicons\license.txt" />
     <Content Include="assets\font\icomoon.dev.svg" />
     <Content Include="assets\font\icomoon.svg" />
     <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="Demostracion.aspx" />
     <Content Include="EnConstruccion.aspx" />
+    <Content Include="engine1\arrows.png" />
+    <Content Include="engine1\bullet.png" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\pause.png" />
+    <Content Include="engine1\play.png" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\triangle.png" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
     <Content Include="ExposicionComercial.aspx" />
     <Content Include="img\bt-contadordias.png" />
     <Content Include="img\menu\BT-INICIO.png" />
@@ -220,12 +250,26 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contacto.aspx.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contacto.aspx.designer.cs">
+      <DependentUpon>Contacto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demostracion.aspx.cs">
+      <DependentUpon>Demostracion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demostracion.aspx.designer.cs">
+      <DependentUpon>Demostracion.aspx</DependentUpon>
     </Compile>
     <Compile Include="EnConstruccion.aspx.cs">
       <DependentUpon>EnConstruccion.aspx</DependentUpon>
