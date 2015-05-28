@@ -5743,8 +5743,8 @@ a:active {
     margin: 20px 200px 0;
 }
 #testimonial .thumbnail {
-      width: 120px;
-  height: 120px;
+ width: 150px;
+  height: 150px;
     float: left;
 }
 #testimonial .msg {
@@ -5754,7 +5754,7 @@ a:active {
     font-size: 18px;
 }
 #testimonial .msg p {
-     margin: 10px 0 0 50px;
+     margin: 10px 0 0 80px;
     line-height: 20px;
     font-style: italic;
 }
