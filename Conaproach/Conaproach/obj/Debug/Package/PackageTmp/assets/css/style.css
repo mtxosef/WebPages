@@ -3885,7 +3885,7 @@ button.close {
 }
 .thumbnail {
     display: block;
-    padding: 4px;
+    padding: 0px;
     line-height: 20px;
     border: 1px solid #ddd;
     -webkit-border-radius: 0;
@@ -5559,6 +5559,13 @@ a:active {
     background: url(../img/fur.jpg) no-repeat fixed center center transparent;
     background-size: cover;
 }
+
+.divider .bg-holder2 {
+  height: auto;
+  background: url(../img/fur.jpg) no-repeat fixed center center transparent;
+  background-size: cover;
+}
+
 .divider .hero {
     color: #fff;
     padding-top: 95px;
@@ -5736,8 +5743,8 @@ a:active {
     margin: 20px 200px 0;
 }
 #testimonial .thumbnail {
-    width: 50px;
-    height: 50px;
+ width: 150px;
+  height: 150px;
     float: left;
 }
 #testimonial .msg {
@@ -5747,7 +5754,7 @@ a:active {
     font-size: 18px;
 }
 #testimonial .msg p {
-    margin: 10px 0;
+     margin: 10px 0 0 80px;
     line-height: 20px;
     font-style: italic;
 }
@@ -6553,7 +6560,7 @@ display:none;
         nav ul {
 	        list-style: none;
 	        overflow: hidden;
-	        margin-left:75px !important;
+	        margin-left:6% !important;
         }
 
         nav li a {
@@ -6561,7 +6568,7 @@ display:none;
 	        background-repeat:no-repeat;
 	        height:45px;
 	        border-right: 1px solid #fff;
-	        color: #C9C3AC;
+	        color: #69665C;
 	        display: block;
 	        float: left;
 	        font-weight:bold;
@@ -6598,12 +6605,7 @@ display:none;
 	       opacity: 0.9;
         }
         
-        /*
-        nav li a:hover {
-	         background: #642f0f;
-	        
-	        
-        }*/
+
         /*SMALL*/
         nav small {
 	         text-transform: none;
@@ -6618,6 +6620,11 @@ display:none;
 		         padding-top: 2px;
 		        padding-bottom: 12px;
 	        }
+	        
+	        nav ul
+	        {
+	             margin-left:9% !important;
+	            }
 
         }
 
