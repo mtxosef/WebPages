@@ -239,3 +239,61 @@ function contadorEvento() {
         document.getElementById('sHoras').innerHTML = '0' + numero;
     }
 }
+
+function contadorDias() {
+    //1. Inicializar las variables
+    setTimeout('contadorDias()', 1000);
+    var hoy = new Date();
+    var evento = new Date(2015, 9, 22, 8, 0, 0);
+    var numeroDias = 0;
+    var numeroHoras = 0;
+    var numeroMinutos = 0;
+
+    //2. Asignar número de días
+    numeroDias = evento.getDayOfYear() - hoy.getDayOfYear();
+
+    //3. Validar si ya es el día, ahora solo contar 8 horas
+    if (numeroDias != 0) {
+
+        //4. Calcular las horas que faltan para otro día
+        numeroHoras = 24 - hoy.getHours();
+
+        //6. Calcular los minutos que faltan para otra hora
+        numeroMinutos = 60 - hoy.getMinutes();
+    }
+    else {
+        //10. Calcular las horas faltantes para las 8am
+        numeroHoras = 8 - hoy.getHours();
+        if (numeroHoras <= 0) {
+            numeroHoras = 0;
+            numeroMinutos = 0;
+        }
+        else {
+            numeroMinutos = 60 - hoy.getMinutes();
+        }
+    }
+
+    //2. Formato para días de 2 posiciones
+    if (numeroDias > 9) {
+        document.getElementById('sDias').innerHTML = numeroDias;
+    }
+    else {
+        document.getElementById('sDias').innerHTML = '0' + numeroDias;
+    }
+
+    //5. Formato para horas de 2 posiciones
+    if (numeroHoras > 9) {
+        document.getElementById('sHoras').innerHTML = numeroHoras;
+    }
+    else {
+        document.getElementById('sHoras').innerHTML = '0' + numeroHoras;
+    }
+
+    //7. Formato para minutos de 2 posiciones
+    if (numeroMinutos > 9) {
+        document.getElementById('sMinutos').innerHTML = numeroMinutos;
+    }
+    else {
+        document.getElementById('sMinutos').innerHTML = '0' + numeroMinutos;
+    }
+}
