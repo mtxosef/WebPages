@@ -20,45 +20,38 @@
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-   
     <script type="text/javascript" src="js/date.js"></script>
-  
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-  
 </head>
-<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
+<body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
-
-    <div class="contenedor">
-        <img alt="logotipo" src="img/logotipo.png" />
-        <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
-        <div class="semanas">
-            <span id="sSemanas"></span>
+        <div class="contenedor">
+            <img alt="logotipo" src="img/logotipo.png" />
+            <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
+            <div class="dias">
+                <span id="sDias"></span>
+            </div>
+            <div class="horas">
+                <span id="sHoras"></span>
+            </div>
+            <div class="minutos">
+                <span id="sMinutos"></span>
+            </div>
         </div>
-        <div class="dias">
-            <span id="sDias"></span>
-        </div>
-        <div class="horas">
-            <span id="sHoras"></span>
-        </div>
-    </div>
-
-
-   <nav >
-	    <ul>
-        <li><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
-        <li><a href="ExposicionComercial.aspx" ><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
-        <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
-        <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
-        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-        <li><a href="InsCostos.aspx" class="nav-li-active"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
-        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
-        <li><a href="Contacto.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
-   
-	    </ul>
-    </nav>
-</header>
-    <!-- End header -->
+  	
+        <nav >
+	        <ul>
+            <li><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+            <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+            <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
+            <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+            <li><a class="nav-li-active" href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+            <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
+	        </ul>
+        </nav>
+    </header>
 
 
   <div id="slider" >
