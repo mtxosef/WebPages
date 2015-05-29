@@ -45,14 +45,14 @@
   	
   <nav >
 	    <ul>
-        <li ><a class="nav-li-active" href="#"><div id="ajuste" style="padding-top:9px;"><small>INICIO</small></div></a></li>
-        <li><a href="#"><div id="Div1" style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
-        <li><a href="#"><div id="Div2" style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
-        <li><a href="#"><div id="Div3" style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
-        <li><a href="#"><div id="Div4" style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-        <li><a href="#"><div id="Div5" style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
-        <li><a href="#"><div id="Div6" style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
-        <li><a href="#"><div id="Div7" style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
+        <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+        <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>DEMSTRACIÓN DE CAMPO</small></div></a></li>
+        <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+        <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+        <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+        <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
    
 	    </ul>
     </nav>
