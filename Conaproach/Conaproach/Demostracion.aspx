@@ -113,8 +113,8 @@
                         <li class=""><a href=""><i></i>INICIO</a> </li>
                         <li class=""><a href="#services"><i></i>Introducción</a> </li>
                         <li class=""><a href="#comite_seg"><i></i>Comité Seg. Técnico</a> </li>
-                        <li class=""><a href="#registro"><i></i>Empresas participantes</a> </li>
-                        <li class=""><a href="#magistrales"><i></i>Registro</a> </li>
+                        <li class=""><a href="#empresas"><i></i>Empresas participantes</a> </li>
+                        <li class=""><a href="#registro"><i></i>Registro</a> </li>
                     </ul>
                 </div>
             </div>
@@ -190,6 +190,20 @@
             
        </div>
 
+        <div id="empresas" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>
+                    Empresas participantes</h1>
+               <p>En construcción</p>
+            </div>
+
+
+
+          </div>
+            
+       </div>
+
 
 
 
@@ -206,6 +220,51 @@
                                 </p>
                                 
                 </div>
+
+
+
+                 <ul id="flexiselDemo3">
+            <li><img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+            <li><img src="assets/img/comite/logo-aserca.png" /></li>
+             <li><img src="assets/img/comite/logo-bienestar.png" /></li>
+             <li><img src="assets/img/comite/logo-conaproch.png" /></li>
+             <li><img src="assets/img/comite/logo-cucba2.png" /></li>
+             <li><img src="assets/img/comite/logo-gobjalisco.png" /></li>          
+            <li><img src="assets/img/comite/logo-sagarpa.png" /></li>
+            <li><img src="assets/img/comite/logo-seder.png" /></li>
+            <li><img src="assets/img/comite/logo_cucba.png" /></li>
+                                    
+        </ul>  
+
+        </div>
+<script type="text/javascript">
+    $(window).load(function () {
+
+        $("#flexiselDemo3").flexisel({
+            visibleItems: 5,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+</script>
 
             </div>
         </div>
