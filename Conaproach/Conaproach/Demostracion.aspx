@@ -111,10 +111,10 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class=""><a href=""><i></i>INICIO</a> </li>
-                        <li class=""><a href="#services"><i></i>Breve Texto</a> </li>
-                        <li class=""><a href="#purchase"><i></i>Comité Seg. Técnico</a> </li>
-                        <li class=""><a href="#registro"><i></i>Empresas participantes</a> </li>
-                        <li class=""><a href="#magistrales"><i></i>Regitro Variedades</a> </li>
+                        <li class=""><a href="#services"><i></i>Introducción</a> </li>
+                        <li class=""><a href="#comite_seg"><i></i>Comité Seg. Técnico</a> </li>
+                        <li class=""><a href="#empresas"><i></i>Empresas participantes</a> </li>
+                        <li class=""><a href="#registro"><i></i>Registro</a> </li>
                     </ul>
                 </div>
             </div>
@@ -140,7 +140,133 @@
                 
                
             </div>
+
+            
         
+       
+        <div class="container">
+        <center>
+	        <div id="sequence_Slider">
+	       
+                <ul class="bxslider">
+                        <li><img src="assets/img/demostraciones/banner_demostracion/banner1.jpg" /></li>
+                        <li> <img src="assets/img/demostraciones/banner_demostracion/banner2.jpg" /></li>
+                        <li><img src="assets/img/demostraciones/banner_demostracion/banner4.jpg" /></li>
+                        <li>
+                            <img src="assets/img/demostraciones/banner_demostracion/banner5.jpg" /></li>
+                        <li>
+                            <img src="assets/img/demostraciones/banner_demostracion/banner6.jpg" /></li>
+                        <li
+                            <img src="assets/img/demostraciones/banner_demostracion/banner7.jpg" /></li>
+                      
+                
+                   
+                    </ul>
+	        </div>
+            </center>
+        </div>
+   
+
+        
+        </div>
+    </div>
+
+
+
+        <div id="comite_seg" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>
+                    Comité Seguimiento Técnico</h1>
+               
+            </div>
+
+
+            <center>
+                <img src="assets/img/demostraciones/diseño%20organigrama%20cucba.jpg" />
+            </center>
+
+          </div>
+            
+       </div>
+
+        <div id="empresas" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>
+                    Empresas participantes</h1>
+               <p>En construcción</p>
+            </div>
+
+
+
+          </div>
+            
+       </div>
+
+
+
+
+         <div id="registro" class="divider section">
+        <div class="bg-holder">
+            <div class="container">
+                <div class="hero">
+                       <h1>
+                                    Forma de registro</h1>
+                               
+                                    Descargar formato de registro de variedades*
+                                    <p> <a class="btn btn-large" href="assets/descargas/demostraciones/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"target="_blank">DESCARGAR</a>
+                  
+                                </p>
+                                
+                </div>
+
+
+
+                 <ul id="flexiselDemo3">
+            <li><img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+            <li><img src="assets/img/comite/logo-aserca.png" /></li>
+             <li><img src="assets/img/comite/logo-bienestar.png" /></li>
+             <li><img src="assets/img/comite/logo-conaproch.png" /></li>
+             <li><img src="assets/img/comite/logo-cucba2.png" /></li>
+             <li><img src="assets/img/comite/logo-gobjalisco.png" /></li>          
+            <li><img src="assets/img/comite/logo-sagarpa.png" /></li>
+            <li><img src="assets/img/comite/logo-seder.png" /></li>
+            <li><img src="assets/img/comite/logo_cucba.png" /></li>
+                                    
+        </ul>  
+
+        </div>
+<script type="text/javascript">
+    $(window).load(function () {
+
+        $("#flexiselDemo3").flexisel({
+            visibleItems: 5,
+            animationSpeed: 1000,
+            autoPlay: true,
+            autoPlaySpeed: 3000,
+            pauseOnHover: true,
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+</script>
+
+            </div>
         </div>
     </div>
  

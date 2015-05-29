@@ -70,7 +70,13 @@
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
-    <Content Include="assets\img\banner_inicio\BANNER PRINCIPAL.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner1.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner2.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner4.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner5.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner6.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner7.jpg" />
+    <Content Include="assets\img\demostraciones\diseño organigrama cucba.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
@@ -83,13 +89,6 @@
     <Content Include="assets\img\images_slider\bx_loader.gif" />
     <Content Include="assets\img\images_slider\controls.png" />
     <Content Include="assets\img\ava1.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_3406.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_3532.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_3608.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_4171.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_4225.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_4272.jpg" />
-    <Content Include="assets\img\banner_inicio\IMG_4592.jpg" />
     <Content Include="assets\img\blog1.png" />
     <Content Include="assets\img\blog2.png" />
     <Content Include="assets\img\blog3.png" />
@@ -316,6 +315,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
+    <None Include="assets\descargas\demostraciones\FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf" />
     <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />
