@@ -203,7 +203,7 @@ function contadorEvento() {
         document.getElementById('sDias').innerHTML = 0;
     }
     else {
-        document.getElementById('sDias').innerHTML = hoy.getWeekday() - evento.getWeekday();
+        document.getElementById('sDias').innerHTML = 7 - (hoy.getWeekday() - evento.getWeekday());
     }
 
     document.getElementById('sHoras').innerHTML = (((evento.getDayOfYear() - hoy.getDayOfYear()) * 24) + 8) - hoy.getHours();
