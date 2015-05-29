@@ -6503,27 +6503,15 @@ display:none;
             height: 300px;
             position:relative;
         }
-        .contenedor .semanas
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:225px;
-            left:73px;
-            font-family: 'BebasNeueRegular';
-            font-size:50pt;
-            color: White;
-        }
-        
         .contenedor .dias
         {
             position:absolute;
             width: 20px;
             height: 20px;
             top:225px;
-            left:133px;
+            left:68px;
             font-family: 'BebasNeueRegular';
-            font-size:50pt;
+            font-size:35pt;
             color: White;
         }
         
@@ -6533,9 +6521,21 @@ display:none;
             width: 20px;
             height: 20px;
             top:225px;
-            left:188px;
+            left:140px;
             font-family: 'BebasNeueRegular';
-            font-size:50pt;
+            font-size:35pt;
+            color: White;
+        }
+        
+        .contenedor .minutos
+        {
+            position:absolute;
+            width: 20px;
+            height: 20px;
+            top:225px;
+            left:197px;
+            font-family: 'BebasNeueRegular';
+            font-size:35pt;
             color: White;
         }
         

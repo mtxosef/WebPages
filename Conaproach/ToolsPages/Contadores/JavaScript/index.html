@@ -2,13 +2,73 @@
 <html>
 <head>
     <title></title>
+    <script type="text/javascript" src="date.js"></script>
     <script type="text/javascript">
-        var time; var on = false; var seconds = 0; var minutes = 0;
+        var time;
+        var tiempo;
+        var on = false;
+        var seconds = 0;
+        var minutes = 0;
+
+        function contadorDias() {
+            setTimeout('contadorDias()', 1000);
+            var hoy = new Date();
+            var evento = new Date(2015, 9, 22, 8, 0, 0);
+            var numero = 0;
+
+            //1. Asignar número de días
+            numero = evento.getDayOfYear() - hoy.getDayOfYear();
+
+            //2. Formato para días de 2 posiciones
+            if (numero > 9) {
+                document.getElementById('sDias').innerHTML = numero;
+            }
+            else {
+                document.getElementById('sDias').innerHTML = '0' + numero;
+            }
+
+            //3. Calcular las horas que faltan para otro día
+            numero = 24 - hoy.getHours();
+
+            //4. Formato para horas de 2 posiciones
+            if (numero > 9) {
+                document.getElementById('sHoras').innerHTML = numero;
+            }
+            else {
+                document.getElementById('sHoras').innerHTML = '0' + numero;
+            }
+
+            //5. Calcular los minutos que faltan para otra hora
+            numero = 60 - hoy.getMinutes();
+
+            //6. Formato para minutos de 2 posiciones
+            if (numero > 9) {
+                document.getElementById('sMinutos').innerHTML = numero;
+            }
+            else {
+                document.getElementById('sMinutos').innerHTML = '0' + numero;
+            }
+
+            //7. Calcular los segundos que faltan para otro minuto
+            numero = 60 - hoy.getSeconds();
+
+            //8. Formato para segundos de 2 posiciones
+            if (numero > 9) {
+                document.getElementById('sSegundos').innerHTML = numero;
+            }
+            else {
+                document.getElementById('sSegundos').innerHTML = '0' + numero;
+            }
+        }
 
         var startTime = function () {
             seconds++;
             time = setTimeout("startTime()", 1000);
-            if (seconds > 59) { seconds = 0; minutes++; }
+
+            if (seconds > 59) {
+                seconds = 0; minutes++;
+            }
+
             document.getElementById("minutes").value = minutes;
             // Mostar segundos
             document.getElementById("seconds").value = seconds;
@@ -18,18 +78,25 @@
         var stopStart = function () {
             document.getElementById("time").innerHTML = !on ? "Stop" : "Start";
             if (!on) {
-                on = true; startTime();
+                on = true;
+                startTime();
             } else {
-                on = false; clearTimeout(time);
+                on = false;
+                clearTimeout(time);
             }
         }
     </script>
 </head>
-<body>
+<body onload="contadorDias()" onbeforeprint="">
     <button onClick="stopStart()" id="time">Start</button>
     <input type="text" id="minutes" value="0" />
     <!-- // Mostar segundos -->
     <input type="text" id="seconds" value="0" />
-    <!-- // Mostar segundos --> 
+    <!-- // Mostar segundos -->
+    <br />
+    <span id="sDias"></span>
+    <span id="sHoras"></span>
+    <span id="sMinutos"></span>
+    <span id="sSegundos"></span>
 </body>
 </html>

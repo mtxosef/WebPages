@@ -24,20 +24,20 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
   
 </head>
-<body data-spy="scroll" data-target=".navbar" onload="contadorEvento()">
+<body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
 
     <div class="contenedor">
         <img alt="logotipo" src="img/logotipo.png" />
         <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
-        <div class="semanas">
-            <span id="sSemanas"></span>
-        </div>
         <div class="dias">
             <span id="sDias"></span>
         </div>
         <div class="horas">
             <span id="sHoras"></span>
+        </div>
+        <div class="minutos">
+            <span id="sMinutos"></span>
         </div>
     </div>
 
