@@ -70,6 +70,13 @@
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner1.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner2.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner4.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner5.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner6.jpg" />
+    <Content Include="assets\img\demostraciones\banner_demostracion\banner7.jpg" />
+    <Content Include="assets\img\demostraciones\diseño organigrama cucba.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
@@ -308,6 +315,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
+    <None Include="assets\descargas\demostraciones\FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf" />
     <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />

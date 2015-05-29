@@ -111,10 +111,10 @@
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class=""><a href=""><i></i>INICIO</a> </li>
-                        <li class=""><a href="#services"><i></i>Breve Texto</a> </li>
-                        <li class=""><a href="#purchase"><i></i>Comité Seg. Técnico</a> </li>
+                        <li class=""><a href="#services"><i></i>Introducción</a> </li>
+                        <li class=""><a href="#comite_seg"><i></i>Comité Seg. Técnico</a> </li>
                         <li class=""><a href="#registro"><i></i>Empresas participantes</a> </li>
-                        <li class=""><a href="#magistrales"><i></i>Regitro Variedades</a> </li>
+                        <li class=""><a href="#magistrales"><i></i>Registro</a> </li>
                     </ul>
                 </div>
             </div>
@@ -140,7 +140,74 @@
                 
                
             </div>
+
+            
         
+       
+        <div class="container">
+        <center>
+	        <div id="sequence_Slider">
+	       
+                <ul class="bxslider">
+                        <li><img src="assets/img/demostraciones/banner_demostracion/banner1.jpg" /></li>
+                        <li> <img src="assets/img/demostraciones/banner_demostracion/banner2.jpg" /></li>
+                        <li><img src="assets/img/demostraciones/banner_demostracion/banner4.jpg" /></li>
+                        <li>
+                            <img src="assets/img/demostraciones/banner_demostracion/banner5.jpg" /></li>
+                        <li>
+                            <img src="assets/img/demostraciones/banner_demostracion/banner6.jpg" /></li>
+                        <li
+                            <img src="assets/img/demostraciones/banner_demostracion/banner7.jpg" /></li>
+                      
+                
+                   
+                    </ul>
+	        </div>
+            </center>
+        </div>
+   
+
+        
+        </div>
+    </div>
+
+
+
+        <div id="comite_seg" class="section">
+        <div class="container">
+            <div class="hero">
+                <h1>
+                    Comité Seguimiento Técnico</h1>
+               
+            </div>
+
+
+            <center>
+                <img src="assets/img/demostraciones/diseño%20organigrama%20cucba.jpg" />
+            </center>
+
+          </div>
+            
+       </div>
+
+
+
+
+         <div id="registro" class="divider section">
+        <div class="bg-holder">
+            <div class="container">
+                <div class="hero">
+                       <h1>
+                                    Forma de registro</h1>
+                               
+                                    Descargar formato de registro de variedades*
+                                    <p> <a class="btn btn-large" href="assets/descargas/demostraciones/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"target="_blank">DESCARGAR</a>
+                  
+                                </p>
+                                
+                </div>
+
+            </div>
         </div>
     </div>
  
