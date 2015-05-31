@@ -67,6 +67,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acordeon\css\smartTabs.css" />
+    <Content Include="acordeon\js\jquery.js" />
+    <Content Include="acordeon\js\smartTabs.js" />
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
