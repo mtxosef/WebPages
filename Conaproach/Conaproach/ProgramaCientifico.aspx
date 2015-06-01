@@ -391,6 +391,67 @@
             </div>
         </div>
     </div>
+
+
+     <div id="pie" class="divider section">
+        
+            <div class="container">
+            
+                 <ul id="flexiselDemo3">
+                    <li>
+                        <img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-aserca.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-bienestar.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-conaproch.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-cucba2.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-gobjalisco.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-sagarpa.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-seder.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo_cucba.png" /></li>
+                </ul>
+            </div>
+            </div>
+
+            <script type="text/javascript">
+                $(window).load(function () {
+
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 5,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+
+
+     
+
+            </script>
    <%-- <footer id="footer">
 	<div class="container">
 		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
