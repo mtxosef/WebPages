@@ -2,7 +2,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<html style="margin-top: 0 !important"  lang="es-mx" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -17,6 +17,7 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    <link rel="stylesheet" type="text/css" href="css/principal.css" />
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
@@ -53,126 +54,90 @@
         </nav>
     </header>
 
-
-  <div id="slider" >
-	<div class="container">
-		<div id="sequence_Slider">
-	            
+    <div id="slider" >
+	    <div class="container">
+		    <div id="sequence_Slider">	            
+                <br />
+                    <div id="wowslider-container1">
+	                    <div class="ws_images"><ul>
+		                    <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
+		                    <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
+		                    <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
+		                    <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
+		                    <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
+		                    <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
+		                    <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
+		                    <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
+		                    <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
+	                    </ul></div>
+	                    <div class="ws_bullets"><div>
+		                    <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
+		                    <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
+		                    <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
+		                    <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
+		                    <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
+		                    <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
+		                    <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
+		                    <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
+		                    <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
+	                    </div></div>
+	                    <div class="ws_shadow"></div>
+                    </div>	
                 <br>
-                <div id="wowslider-container1">
-	                <div class="ws_images"><ul>
-		                <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
-		                <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
-		                <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
-		                <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
-		                <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
-		                <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
-		                <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
-		                <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
-		                <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
-	                </ul></div>
-	                <div class="ws_bullets"><div>
-		                <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
-		                <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
-		                <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
-		                <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
-		                <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
-		                <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
-		                <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
-		                <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
-		                <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
-	                </div></div>
-	                <div class="ws_shadow"></div>
-	                </div>	
-                    <br>
-        
-		</div>
-	</div>
-</div>
-
-
-
-<%--
-    <div id="slider" class="">
-	<div class="container">
-		<div id="sequence_Slider">
-	    <br><br><br>
-            <ul class="bxslider">
-                    <li><img src="assets/img/banner_inicio/BANNER%20PRINCIPAL.jpg" /></li>
-                  <li> <img src="assets/img/banner_inicio/IMG_3406.jpg" /></li>
-                  <li><img src="assets/img/banner_inicio/IMG_3357.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3532.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3608.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4171.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4225.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
-                
-                   
-                </ul>
-		</div>
-	</div>
-</div>--%>
+		    </div>
+	    </div>
+    </div>
 
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar"
-                    type="button">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </span>
+                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
                 <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i ></i>INICIO</a> </li>
+                        <li class=""><a href=""><i ></i>Inicio</a> </li>
                         <li class=""><a href="#services"><i ></i>Beneficios</a> </li>
                         <li class=""><a href="#comoPuedo"><i ></i>¿Cómo puedo participar?</a> </li>
-                        <li class=""><a href="#plano_gral"><i ></i>Instalaciones</a> </li>
-                      <li class=""><a href="#guia"><i ></i>Guía Expositor</a> </li>
+                        <li class=""><a href="#plano_gral"><i ></i>Plano general CUCBA</a> </li>
+                        <li class=""><a href="#plano_stands"><i ></i>Plano STANDS</a> </li>
+                        <li class=""><a href="#comoPuedo"><i ></i>Expositores</a> </li>
+                        <li class=""><a href="#guia"><i ></i>Guía Expositor</a> </li>
+                        <li class=""><a href="#guia"><i ></i>Costos STANDS</a> </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- end navbar -->
+
     <div id="services" class="section">
         <div class="container">
-         
-                <h1>BENEFICIOS</h1>
-                
-                <p>* Acceso a un mercado meta de más de 1000 productores asistentes al evento de toda la Republica Mexicana.</p>
-                <p>* Espacio ideal para promocionar su negocio en relación a las necesidad de productos y servicios para los involucrados en la cadena productiva del chile.</p>
-                <p>* Aumento de la credibilidad, de la imagen y prestigio de su marca al ser parte de un evento exitoso y loable que nos identifica a través del tiempo.</p>
-                <p>* Impulso de las ventas mediante la publicidad de su imagen ante un mercado objetivo y al alcance.</p>
-                <p>* Creación de publicidad positiva y realce de la imagen de su empresa durante 3 días de actividades programadas y permanentemente a través del contacto en directorio de expositor así como en página Web ahora vinculada directamente a tu empresa.</p>
-                <p>* Posicionamiento de su marca y diferenciación de los competidores a través de la amplia campaña de difusión enfatizando las ventajas competitivas de la empresa.</p>
-                <p>* Actualización del Currículo de la empresa tanto en lo individual (convencionista) como en lo colectivo (expositor) a través de la experiencia y conocimientos compartidos a lo largo de las actividades innovadoras y aplicables a tu público objetivo.</p>
-                <p>* Desarrollo personal y mejoramiento de técnicas de negociación.</p>
-       
-
+            <h1>BENEFICIOS</h1>
+            <p>* Acceso a un mercado meta de más de 1000 productores asistentes al evento de toda la Republica Mexicana.</p>
+            <p>* Espacio ideal para promocionar su negocio en relación a las necesidad de productos y servicios para los involucrados en la cadena productiva del chile.</p>
+            <p>* Aumento de la credibilidad, de la imagen y prestigio de su marca al ser parte de un evento exitoso y loable que nos identifica a través del tiempo.</p>
+            <p>* Impulso de las ventas mediante la publicidad de su imagen ante un mercado objetivo y al alcance.</p>
+            <p>* Creación de publicidad positiva y realce de la imagen de su empresa durante 3 días de actividades programadas y permanentemente a través del contacto en directorio de expositor así como en página Web ahora vinculada directamente a tu empresa.</p>
+            <p>* Posicionamiento de su marca y diferenciación de los competidores a través de la amplia campaña de difusión enfatizando las ventajas competitivas de la empresa.</p>
+            <p>* Actualización del Currículo de la empresa tanto en lo individual (convencionista) como en lo colectivo (expositor) a través de la experiencia y conocimientos compartidos a lo largo de las actividades innovadoras y aplicables a tu público objetivo.</p>
+            <p>* Desarrollo personal y mejoramiento de técnicas de negociación.</p>
         </div>
     </div>
 
-      <div id="comoPuedo" class="divider section">
+    <div id="comoPuedo" class="divider section">
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                     <h1>¿CÓMO PUEDO PARTICIPAR?</h1>
+                    <h1>¿CÓMO PUEDO PARTICIPAR?</h1>
                     <p>
-                     
                         <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">ASISTENTE</a>
-                         <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">EXPOSITOR</a>
-                          <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">PATROCINADOR</a>
+                        <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">EXPOSITOR</a>
+                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">PATROCINADOR</a>
                     </p>
-               
                 </div>
+
                 <!-- Modal Asistente modalbox -->
                 <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
@@ -197,7 +162,7 @@
                     </div>
                 </div>
 
-                 <!-- Modal Expositor modalbox -->
+                <!-- Modal Expositor modalbox -->
                 <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -221,7 +186,7 @@
                     </div>
                 </div>
 
-                 <!-- Modal Patrocinador modalbox -->
+                <!-- Modal Patrocinador modalbox -->
                 <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
@@ -259,26 +224,81 @@
                     <div class="modal-footer">
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 
-     <div id="plano_gral" class="section">
-    
+    <div id="plano_gral" class="section">
         <div class="container">
-             <center> <h1>PLANO GENERAL CUCBA</h1><hr />
-                <img src="assets/img/expo_comercial/instalacionesCUCBA.png" />
+            <center><h1>PLANO GENERAL CUCBA</h1><hr />
+                <img alt="plano_cucba" src="assets/img/expo_comercial/instalacionesCUCBA.png" />
             </center>
-           
-              
         </div>
-         <div class="container">
-              <center><h1>PLANO STANDS</h1><hr />
-                <img src="assets/img/expo_comercial/Planostand.png" />
-    
-           </center>
-              
+    </div>
+
+    <div id="plano_stands" class="section">
+        <div class="container">
+            <center>
+                <h1>PLANO STANDS</h1>
+                <hr />
+                <div class="contenedor_stands">
+                    <a href="#"><img alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
+                    <a href="#"><img alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
+                    <a href="#"><img alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
+                    <a href="#"><img alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
+                    <a href="#"><img alt="s08" src="img/planoStand/CuadroStand.png" /><span style="right:323px; top:10px;">8</span></a>
+                    <a href="#"><img alt="s07" src="img/planoStand/CuadroStand.png" /><span style="right:300px; top:10px;">7</span></a>
+                    <a href="#"><img alt="s06" src="img/planoStand/CuadroStand.png" /><span style="right:280px; top:10px;">6</span></a>
+                    <a href="#"><img alt="s05" src="img/planoStand/CuadroStand.png" /><span style="right:260px; top:10px;">5</span></a>
+                    <a href="#"><img alt="s04" src="img/planoStand/CuadroStand.png" /><span style="right:235px; top:10px;">4</span></a>
+                    <a href="#"><img alt="s03" src="img/planoStand/CuadroStand.png" /><span style="right:215px; top:10px;">3</span></a>
+                    <a href="#"><img alt="s02" src="img/planoStand/CuadroStand.png" /><span style="right:195px; top:10px;">2</span></a>
+                    <a href="#"><img alt="s01" src="img/planoStand/CuadroStand.png" /><span style="right:173px; top:10px;">1</span></a>
+                    <img alt="entrada" style="margin-left:179px;" src="img/planoStand/Entrada.png" />
+                    <a href="#"><img alt="s13" style="margin-top:-58px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:80px;">13</span></a>
+                    <img alt="maquinaria" style="margin-left:128px; margin-top:-50px; margin-right:100px;" src="img/planoStand/Maquinaria.png" />
+                    <a href="#"><img alt="s14" style="margin-top:-50px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:125px;">14</span></a>
+                    <a href="#"><img alt="s15" style="margin-top:-7px; margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:166px;">15</span></a>
+                    <a href="#"><img alt="s16" style="margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:208px;">16</span></a>
+                    <a href="#"><img alt="s17" style="margin-left:42px;" src="img/planoStand/CuadroStand.png" /><span style="right:780px; top:254px;">17</span></a>
+                    <a href="#"><img alt="s18" style="margin-right:112px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:254px;">18</span></a>
+                    <a href="#"><img alt="s19" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:254px;">19</span></a>
+                    <a href="#"><img alt="s20" src="img/planoStand/CuadroStand.png" /><span style="right:535px; top:254px;">20</span></a>
+                    <a href="#"><img alt="s21" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:254px;">21</span></a>
+                    <img alt="aserca" style="margin-left:88px; margin-right:65px;" src="img/planoStand/Aserca.png" />
+                    <a href="#"><img alt="s24" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:254px;">24</span></a>
+                    <img alt="gobierno" style="margin-top:-173px;" src="img/planoStand/SecretariaDesarrolloRural.png" />
+                    <a href="#"><img alt="s22" style="margin-top:-170px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:295px;">22</span></a>
+                    <a href="#"><img alt="s25" style="margin-top:-170px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:295px;">25</span></a>
+                    <a href="#"><img alt="s23" style="margin-top:-127px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:337px;">23</span></a>
+                    <a href="#"><img alt="s26" style="margin-top:-127px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:337px;">26</span></a>
+                    <a href="#"><img alt="s50" style="margin-top:-84px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:380px;">50</span></a>
+                    <a href="#"><img alt="s49" style="margin-top:-84px; margin-left:43px;" src="img/planoStand/CuadroStand.png" /><span style="right:778px; top:380px;">49</span></a>
+                    <a href="#"><img alt="s48" style="margin-top:-84px; margin-left:86px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:380px;">48</span></a>
+                    <a href="#"><img alt="s47" style="margin-top:-84px; margin-left:240px;" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:380px;">47</span></a>
+                    <a href="#"><img alt="s46" style="margin-top:-84px; margin-left:283px;" src="img/planoStand/CuadroStand.png" /><span style="right:538px; top:380px;">46</span></a>
+                    <a href="#"><img alt="s45" style="margin-top:-84px; margin-left:326px;" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:380px;">45</span></a>
+                    <a href="#"><img alt="s27" style="margin-top:-84px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:380px;">27</span></a>
+                    <a href="#"><img alt="s28" style="margin-top:-41px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:425px;">28</span></a>
+                    <a href="#"><img alt="s29" style="margin-top:0px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:465px;">29</span></a>
+                    <img alt="salida" style="margin-top:-57px;" src="img/planoStand/Salida.png" />
+                    <a href="#"><img alt="s44" style="margin-top:27px; margin-left:50px;" src="img/planoStand/CuadroStand.png" /><span style="right:643px; top:535px;">44</span></a>
+                    <a href="#"><img alt="s43" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:600px; top:535px;">43</span></a>
+                    <a href="#"><img alt="s42" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:557px; top:535px;">42</span></a>
+                    <a href="#"><img alt="s41" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:514px; top:535px;">41</span></a>
+                    <a href="#"><img alt="s40" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:471px; top:535px;">40</span></a>
+                    <a href="#"><img alt="s39" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:428px; top:535px;">39</span></a>
+                    <a href="#"><img alt="s38" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:385px; top:535px;">38</span></a>
+                    <a href="#"><img alt="s37" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:342px; top:535px;">37</span></a>
+                    <a href="#"><img alt="s36" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:299px; top:535px;">36</span></a>
+                    <a href="#"><img alt="s35" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:256px; top:535px;">35</span></a>
+                    <a href="#"><img alt="s34" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:213px; top:535px;">34</span></a>
+                    <a href="#"><img alt="s33" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:170px; top:535px;">33</span></a>
+                    <a href="#"><img alt="s32" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:127px; top:535px;">32</span></a>
+                    <a href="#"><img alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
+                    <a href="#"><img alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
+                </div>
+            </center>
         </div>
     </div>
 
