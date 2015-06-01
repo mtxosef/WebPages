@@ -94,7 +94,6 @@
                 <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
-                <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class=""><a href=""><i ></i>Inicio</a> </li>
@@ -139,24 +138,19 @@
                 </div>
 
                 <!-- Modal Asistente modalbox -->
-                <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselConv" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="assets/img/expo_comercial/asistente-beneficios.PNG" alt=""/>
                                 </div>
-                               
                             </div>
                             <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
                             <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
                         </div>
-                        <h3>
-                            Beneficios Asistente</h3>
-                    
+                        <h3>Beneficios Asistente</h3>
                     </div>
                     <div class="modal-footer">
                     </div>
@@ -242,63 +236,82 @@
                 <h1>PLANO STANDS</h1>
                 <hr />
                 <div class="contenedor_stands">
-                    <a href="#"><img alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
-                    <a href="#"><img alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
-                    <a href="#"><img alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
-                    <a href="#"><img alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
-                    <a href="#"><img alt="s08" src="img/planoStand/CuadroStand.png" /><span style="right:323px; top:10px;">8</span></a>
-                    <a href="#"><img alt="s07" src="img/planoStand/CuadroStand.png" /><span style="right:300px; top:10px;">7</span></a>
-                    <a href="#"><img alt="s06" src="img/planoStand/CuadroStand.png" /><span style="right:280px; top:10px;">6</span></a>
-                    <a href="#"><img alt="s05" src="img/planoStand/CuadroStand.png" /><span style="right:260px; top:10px;">5</span></a>
-                    <a href="#"><img alt="s04" src="img/planoStand/CuadroStand.png" /><span style="right:235px; top:10px;">4</span></a>
-                    <a href="#"><img alt="s03" src="img/planoStand/CuadroStand.png" /><span style="right:215px; top:10px;">3</span></a>
-                    <a href="#"><img alt="s02" src="img/planoStand/CuadroStand.png" /><span style="right:195px; top:10px;">2</span></a>
-                    <a href="#"><img alt="s01" src="img/planoStand/CuadroStand.png" /><span style="right:173px; top:10px;">1</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s08" src="img/planoStand/CuadroStand.png" /><span style="right:323px; top:10px;">8</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s07" src="img/planoStand/CuadroStand.png" /><span style="right:300px; top:10px;">7</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s06" src="img/planoStand/CuadroStand.png" /><span style="right:280px; top:10px;">6</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s05" src="img/planoStand/CuadroStand.png" /><span style="right:260px; top:10px;">5</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s04" src="img/planoStand/CuadroStand.png" /><span style="right:235px; top:10px;">4</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s03" src="img/planoStand/CuadroStand.png" /><span style="right:215px; top:10px;">3</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s02" src="img/planoStand/CuadroStand.png" /><span style="right:195px; top:10px;">2</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s01" src="img/planoStand/CuadroStand.png" /><span style="right:173px; top:10px;">1</span></a>
                     <img alt="entrada" style="margin-left:179px;" src="img/planoStand/Entrada.png" />
-                    <a href="#"><img alt="s13" style="margin-top:-58px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:80px;">13</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s13" style="margin-top:-58px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:80px;">13</span></a>
                     <img alt="maquinaria" style="margin-left:128px; margin-top:-50px; margin-right:100px;" src="img/planoStand/Maquinaria.png" />
-                    <a href="#"><img alt="s14" style="margin-top:-50px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:125px;">14</span></a>
-                    <a href="#"><img alt="s15" style="margin-top:-7px; margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:166px;">15</span></a>
-                    <a href="#"><img alt="s16" style="margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:208px;">16</span></a>
-                    <a href="#"><img alt="s17" style="margin-left:42px;" src="img/planoStand/CuadroStand.png" /><span style="right:780px; top:254px;">17</span></a>
-                    <a href="#"><img alt="s18" style="margin-right:112px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:254px;">18</span></a>
-                    <a href="#"><img alt="s19" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:254px;">19</span></a>
-                    <a href="#"><img alt="s20" src="img/planoStand/CuadroStand.png" /><span style="right:535px; top:254px;">20</span></a>
-                    <a href="#"><img alt="s21" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:254px;">21</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s14" style="margin-top:-50px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:125px;">14</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s15" style="margin-top:-7px; margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:166px;">15</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s16" style="margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:208px;">16</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s17" style="margin-left:42px;" src="img/planoStand/CuadroStand.png" /><span style="right:780px; top:254px;">17</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s18" style="margin-right:112px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:254px;">18</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s19" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:254px;">19</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s20" src="img/planoStand/CuadroStand.png" /><span style="right:535px; top:254px;">20</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s21" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:254px;">21</span></a>
                     <img alt="aserca" style="margin-left:88px; margin-right:65px;" src="img/planoStand/Aserca.png" />
-                    <a href="#"><img alt="s24" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:254px;">24</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s24" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:254px;">24</span></a>
                     <img alt="gobierno" style="margin-top:-173px;" src="img/planoStand/SecretariaDesarrolloRural.png" />
-                    <a href="#"><img alt="s22" style="margin-top:-170px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:295px;">22</span></a>
-                    <a href="#"><img alt="s25" style="margin-top:-170px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:295px;">25</span></a>
-                    <a href="#"><img alt="s23" style="margin-top:-127px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:337px;">23</span></a>
-                    <a href="#"><img alt="s26" style="margin-top:-127px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:337px;">26</span></a>
-                    <a href="#"><img alt="s50" style="margin-top:-84px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:380px;">50</span></a>
-                    <a href="#"><img alt="s49" style="margin-top:-84px; margin-left:43px;" src="img/planoStand/CuadroStand.png" /><span style="right:778px; top:380px;">49</span></a>
-                    <a href="#"><img alt="s48" style="margin-top:-84px; margin-left:86px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:380px;">48</span></a>
-                    <a href="#"><img alt="s47" style="margin-top:-84px; margin-left:240px;" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:380px;">47</span></a>
-                    <a href="#"><img alt="s46" style="margin-top:-84px; margin-left:283px;" src="img/planoStand/CuadroStand.png" /><span style="right:538px; top:380px;">46</span></a>
-                    <a href="#"><img alt="s45" style="margin-top:-84px; margin-left:326px;" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:380px;">45</span></a>
-                    <a href="#"><img alt="s27" style="margin-top:-84px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:380px;">27</span></a>
-                    <a href="#"><img alt="s28" style="margin-top:-41px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:425px;">28</span></a>
-                    <a href="#"><img alt="s29" style="margin-top:0px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:465px;">29</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s22" style="margin-top:-170px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:295px;">22</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s25" style="margin-top:-170px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:295px;">25</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s23" style="margin-top:-127px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:337px;">23</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s26" style="margin-top:-127px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:337px;">26</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s50" style="margin-top:-84px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:380px;">50</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s49" style="margin-top:-84px; margin-left:43px;" src="img/planoStand/CuadroStand.png" /><span style="right:778px; top:380px;">49</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s48" style="margin-top:-84px; margin-left:86px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:380px;">48</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s47" style="margin-top:-84px; margin-left:240px;" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:380px;">47</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s46" style="margin-top:-84px; margin-left:283px;" src="img/planoStand/CuadroStand.png" /><span style="right:538px; top:380px;">46</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s45" style="margin-top:-84px; margin-left:326px;" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:380px;">45</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s27" style="margin-top:-84px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:380px;">27</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s28" style="margin-top:-41px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:425px;">28</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s29" style="margin-top:0px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:465px;">29</span></a>
                     <img alt="salida" style="margin-top:-57px;" src="img/planoStand/Salida.png" />
-                    <a href="#"><img alt="s44" style="margin-top:27px; margin-left:50px;" src="img/planoStand/CuadroStand.png" /><span style="right:643px; top:535px;">44</span></a>
-                    <a href="#"><img alt="s43" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:600px; top:535px;">43</span></a>
-                    <a href="#"><img alt="s42" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:557px; top:535px;">42</span></a>
-                    <a href="#"><img alt="s41" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:514px; top:535px;">41</span></a>
-                    <a href="#"><img alt="s40" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:471px; top:535px;">40</span></a>
-                    <a href="#"><img alt="s39" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:428px; top:535px;">39</span></a>
-                    <a href="#"><img alt="s38" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:385px; top:535px;">38</span></a>
-                    <a href="#"><img alt="s37" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:342px; top:535px;">37</span></a>
-                    <a href="#"><img alt="s36" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:299px; top:535px;">36</span></a>
-                    <a href="#"><img alt="s35" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:256px; top:535px;">35</span></a>
-                    <a href="#"><img alt="s34" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:213px; top:535px;">34</span></a>
-                    <a href="#"><img alt="s33" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:170px; top:535px;">33</span></a>
-                    <a href="#"><img alt="s32" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:127px; top:535px;">32</span></a>
-                    <a href="#"><img alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
-                    <a href="#"><img alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s44" style="margin-top:27px; margin-left:50px;" src="img/planoStand/CuadroStand.png" /><span style="right:643px; top:535px;">44</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s43" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:600px; top:535px;">43</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s42" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:557px; top:535px;">42</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s41" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:514px; top:535px;">41</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s40" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:471px; top:535px;">40</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s39" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:428px; top:535px;">39</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s38" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:385px; top:535px;">38</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s37" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:342px; top:535px;">37</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s36" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:299px; top:535px;">36</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s35" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:256px; top:535px;">35</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s34" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:213px; top:535px;">34</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s33" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:170px; top:535px;">33</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s32" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:127px; top:535px;">32</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
+                    <a href="#apartarStand" data-toggle="modal"><img alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
             </center>
+        </div>
+    </div>
+
+    <!-- Modal mandar datos de apartado -->
+    <div id="apartarStand" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-body">
+            <div id="Div2" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="assets/img/expo_comercial/asistente-beneficios.PNG" alt=""/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
+            </div>
+            <h3>Beneficios Asistente</h3>
+        </div>
+        <div class="modal-footer">
         </div>
     </div>
 
