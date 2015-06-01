@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="css/principal.css" />
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="js/stands.js"></script>
+    <link rel="Stylesheet" type="text/css" href="css/principal.css" />
     <script type="text/javascript">
         $(window).load(function () {
             $("#flexiselDemo3").flexisel({
@@ -54,7 +55,7 @@
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
         <div class="contenedor">
-            <img alt="logotipo" src="img/logotipo.png" />
+            <img alt="logotipo" style="margin-top:10px;" src="img/logotipo.png" />
             <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
             <div class="dias">
                 <span id="sDias"></span>

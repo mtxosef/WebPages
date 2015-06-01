@@ -22,11 +22,12 @@
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/date.js"></script>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <link rel="Stylesheet" type="text/css" href="css/principal.css" />
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
         <div class="contenedor">
-            <img alt="logotipo" src="img/logotipo.png" />
+            <img alt="logotipo" style="margin-top:10px;" src="img/logotipo.png" />
             <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
             <div class="dias">
                 <span id="sDias"></span>

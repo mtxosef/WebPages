@@ -1,4 +1,53 @@
-﻿.contenedor_stands
+﻿/*Contador*/
+@font-face {
+        font-family: 'BebasNeueRegular';
+        src: url('../fonts/BebasNeue-webfont.ttf') format('truetype');
+}
+        
+.contenedor
+{
+    margin: 0 auto;
+    width: 350px;
+    height: 310px;
+    position:relative;
+}
+.contenedor .dias
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top:235px;
+    left:68px;
+    font-family: 'BebasNeueRegular';
+    font-size:35pt;
+    color: White;
+}
+        
+.contenedor .horas
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top:235px;
+    left:138px;
+    font-family: 'BebasNeueRegular';
+    font-size:35pt;
+    color: White;
+}
+        
+.contenedor .minutos
+{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    top:235px;
+    left:197px;
+    font-family: 'BebasNeueRegular';
+    font-size:35pt;
+    color: White;
+}
+
+.contenedor_stands
 {
     width: 850px;
     height: 850px;

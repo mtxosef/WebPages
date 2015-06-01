@@ -6489,60 +6489,7 @@ display:none;
 .nbs-flexisel-nav-right {
     right: 5px;
     background: url(../img/images_carrusel/button-next.png) no-repeat;
-}
-
-
-
-/*Contador*/
-
- @font-face {
-         font-family: 'BebasNeueRegular';
-         src: url('../font/BebasNeue-webfont.ttf') format('truetype');
-
-        }
-        .contenedor
-        {
-            margin: 0 auto;
-            width: 350px;
-            height: 300px;
-            position:relative;
-        }
-        .contenedor .dias
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:225px;
-            left:68px;
-            font-family: 'BebasNeueRegular';
-            font-size:35pt;
-            color: White;
-        }
-        
-        .contenedor .horas
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:225px;
-            left:140px;
-            font-family: 'BebasNeueRegular';
-            font-size:35pt;
-            color: White;
-        }
-        
-        .contenedor .minutos
-        {
-            position:absolute;
-            width: 20px;
-            height: 20px;
-            top:225px;
-            left:197px;
-            font-family: 'BebasNeueRegular';
-            font-size:35pt;
-            color: White;
-        }
-        
+}       
         
         /*Menu*/
 
