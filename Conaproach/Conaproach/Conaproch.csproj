@@ -79,6 +79,7 @@
     <Content Include="assets\img\demostraciones\banner_demostracion\banner5.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner6.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner7.jpg" />
+    <Content Include="assets\img\demostraciones\disenoorganigramacucba.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
@@ -145,6 +146,7 @@
     <Content Include="assets\css\component.css" />
     <Content Include="assets\css\default.css" />
     <Content Include="Contacto.aspx" />
+    <Content Include="css\principal.css" />
     <Content Include="data1\images\banner_principal.jpg" />
     <Content Include="data1\images\img_3357.jpg" />
     <Content Include="data1\images\img_3406.jpg" />
@@ -189,6 +191,7 @@
     <Content Include="img\menu\BT-INICIO-HOVER.png" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
+    <Content Include="js\stands.js" />
     <Content Include="ProgramaCientifico.aspx" />
     <Content Include="Prueba.aspx" />
     <Content Include="reportes\img_registro\1_p.jpg" />

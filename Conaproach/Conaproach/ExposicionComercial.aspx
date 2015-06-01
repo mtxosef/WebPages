@@ -5,8 +5,8 @@
 <html style="margin-top: 0 !important"  lang="es-mx" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
@@ -17,12 +17,39 @@
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-    <link rel="stylesheet" type="text/css" href="css/principal.css" />
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-    <script type="text/javascript" src="js/date.js"></script>  
+    <script type="text/javascript" src="js/date.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/principal.css" />
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="js/stands.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
@@ -103,7 +130,7 @@
                         <li class=""><a href="#plano_stands"><i ></i>Plano STANDS</a> </li>
                         <li class=""><a href="#comoPuedo"><i ></i>Expositores</a> </li>
                         <li class=""><a href="#guia"><i ></i>Guía Expositor</a> </li>
-                        <li class=""><a href="#guia"><i ></i>Costos STANDS</a> </li>
+                        <li class=""><a href="#costo_stands"><i ></i>Costos STANDS</a> </li>
                     </ul>
                 </div>
             </div>
@@ -157,59 +184,51 @@
                 </div>
 
                 <!-- Modal Expositor modalbox -->
-                <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselExpositor" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="assets/img/expo_comercial/expositor-beneficios.PNG" />
                                 </div>
-                               
                             </div>
                             <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
                             <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
                         </div>
-                        <h3>
-                            Beneficios Asistente</h3>
-                    
+                        <h3>Beneficios Expositor</h3>
                     </div>
                     <div class="modal-footer">
                     </div>
                 </div>
 
                 <!-- Modal Patrocinador modalbox -->
-                <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselPatrocinador" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                 <img src="assets/img/expo_comercial/patrocinador-beneficios.PNG" alt="" />
+                                    <img src="assets/img/expo_comercial/patrocinador-beneficios.PNG" alt="" />
                                 </div>
                                 <div class="item">
-                                <center>
-                                <img src="assets/img/expo_comercial/esquema%2001.jpg" alt=""/>
-                                </center>
+                                    <center>
+                                        <img src="assets/img/expo_comercial/esquema%2001.jpg" alt=""/>
+                                    </center>
                                 </div>
-                                 <div class="item">
-                                 <center>
-                                 <img src="assets/img/expo_comercial/esquema%2002.jpg" alt=""/>
-                                 </center>
+                                <div class="item">
+                                    <center>
+                                        <img src="assets/img/expo_comercial/esquema%2002.jpg" alt=""/>
+                                    </center>
                                 </div>
-                                 <div class="item">
-                                 <center>
-                                 <img src="assets/img/expo_comercial/esquema%2003.jpg" alt=""/>
-                                  </center>
+                                <div class="item">
+                                    <center>
+                                        <img src="assets/img/expo_comercial/esquema%2003.jpg" alt=""/>
+                                    </center>
                                 </div>
-                                 <div class="item">
-                                 <img src="assets/img/expo_comercial/esquema%2004.jpg" alt=""/>
+                                <div class="item">
+                                    <img src="assets/img/expo_comercial/esquema%2004.jpg" alt=""/>
                                 </div>
-                               
                             </div>
                             <a class="left carousel-control" href="#myCarouselPatrocinador" data-slide="prev">&lsaquo;</a>
                             <a class="right carousel-control" href="#myCarouselPatrocinador" data-slide="next">&rsaquo;</a>
@@ -236,61 +255,61 @@
                 <h1>PLANO STANDS</h1>
                 <hr />
                 <div class="contenedor_stands">
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s08" src="img/planoStand/CuadroStand.png" /><span style="right:323px; top:10px;">8</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s07" src="img/planoStand/CuadroStand.png" /><span style="right:300px; top:10px;">7</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s06" src="img/planoStand/CuadroStand.png" /><span style="right:280px; top:10px;">6</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s05" src="img/planoStand/CuadroStand.png" /><span style="right:260px; top:10px;">5</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s04" src="img/planoStand/CuadroStand.png" /><span style="right:235px; top:10px;">4</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s03" src="img/planoStand/CuadroStand.png" /><span style="right:215px; top:10px;">3</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s02" src="img/planoStand/CuadroStand.png" /><span style="right:195px; top:10px;">2</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s01" src="img/planoStand/CuadroStand.png" /><span style="right:173px; top:10px;">1</span></a>
+                    <a id="a12" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
+                    <a id="a11" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
+                    <a id="a10" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
+                    <a id="a09" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
+                    <a id="a08" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s08" src="img/planoStand/CuadroStand.png" /><span style="right:323px; top:10px;">8</span></a>
+                    <a id="a07" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s07" src="img/planoStand/CuadroStand.png" /><span style="right:300px; top:10px;">7</span></a>
+                    <a id="a06" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s06" src="img/planoStand/CuadroStand.png" /><span style="right:280px; top:10px;">6</span></a>
+                    <a id="a05" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s05" src="img/planoStand/CuadroStand.png" /><span style="right:260px; top:10px;">5</span></a>
+                    <a id="a04" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s04" src="img/planoStand/CuadroStand.png" /><span style="right:235px; top:10px;">4</span></a>
+                    <a id="a03" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s03" src="img/planoStand/CuadroStand.png" /><span style="right:215px; top:10px;">3</span></a>
+                    <a id="a02" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s02" src="img/planoStand/CuadroStand.png" /><span style="right:195px; top:10px;">2</span></a>
+                    <a id="a01" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s01" src="img/planoStand/CuadroStand.png" /><span style="right:173px; top:10px;">1</span></a>
                     <img alt="entrada" style="margin-left:179px;" src="img/planoStand/Entrada.png" />
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s13" style="margin-top:-58px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:80px;">13</span></a>
+                    <a id="a13" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s13" style="margin-top:-58px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:80px;">13</span></a>
                     <img alt="maquinaria" style="margin-left:128px; margin-top:-50px; margin-right:100px;" src="img/planoStand/Maquinaria.png" />
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s14" style="margin-top:-50px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:125px;">14</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s15" style="margin-top:-7px; margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:166px;">15</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s16" style="margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:208px;">16</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s17" style="margin-left:42px;" src="img/planoStand/CuadroStand.png" /><span style="right:780px; top:254px;">17</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s18" style="margin-right:112px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:254px;">18</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s19" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:254px;">19</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s20" src="img/planoStand/CuadroStand.png" /><span style="right:535px; top:254px;">20</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s21" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:254px;">21</span></a>
+                    <a id="a14" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s14" style="margin-top:-50px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:125px;">14</span></a>
+                    <a id="a15" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s15" style="margin-top:-7px; margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:166px;">15</span></a>
+                    <a id="a16" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s16" style="margin-right:800px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:208px;">16</span></a>
+                    <a id="a17" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s17" style="margin-left:42px;" src="img/planoStand/CuadroStand.png" /><span style="right:780px; top:254px;">17</span></a>
+                    <a id="a18" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s18" style="margin-right:112px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:254px;">18</span></a>
+                    <a id="a19" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s19" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:254px;">19</span></a>
+                    <a id="a20" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s20" src="img/planoStand/CuadroStand.png" /><span style="right:535px; top:254px;">20</span></a>
+                    <a id="a21" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s21" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:254px;">21</span></a>
                     <img alt="aserca" style="margin-left:88px; margin-right:65px;" src="img/planoStand/Aserca.png" />
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s24" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:254px;">24</span></a>
+                    <a id="a24" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s24" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:254px;">24</span></a>
                     <img alt="gobierno" style="margin-top:-173px;" src="img/planoStand/SecretariaDesarrolloRural.png" />
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s22" style="margin-top:-170px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:295px;">22</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s25" style="margin-top:-170px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:295px;">25</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s23" style="margin-top:-127px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:337px;">23</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s26" style="margin-top:-127px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:337px;">26</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s50" style="margin-top:-84px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:380px;">50</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s49" style="margin-top:-84px; margin-left:43px;" src="img/planoStand/CuadroStand.png" /><span style="right:778px; top:380px;">49</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s48" style="margin-top:-84px; margin-left:86px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:380px;">48</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s47" style="margin-top:-84px; margin-left:240px;" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:380px;">47</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s46" style="margin-top:-84px; margin-left:283px;" src="img/planoStand/CuadroStand.png" /><span style="right:538px; top:380px;">46</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s45" style="margin-top:-84px; margin-left:326px;" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:380px;">45</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s27" style="margin-top:-84px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:380px;">27</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s28" style="margin-top:-41px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:425px;">28</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s29" style="margin-top:0px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:465px;">29</span></a>
+                    <a id="a22" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s22" style="margin-top:-170px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:295px;">22</span></a>
+                    <a id="a25" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s25" style="margin-top:-170px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:295px;">25</span></a>
+                    <a id="a23" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s23" style="margin-top:-127px; margin-left:369px;" src="img/planoStand/CuadroStand.png" /><span style="right:450px; top:337px;">23</span></a>
+                    <a id="a26" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s26" style="margin-top:-127px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:14px; top:337px;">26</span></a>
+                    <a id="a50" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s50" style="margin-top:-84px;" src="img/planoStand/CuadroStand.png" /><span style="right:820px; top:380px;">50</span></a>
+                    <a id="a49" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s49" style="margin-top:-84px; margin-left:43px;" src="img/planoStand/CuadroStand.png" /><span style="right:778px; top:380px;">49</span></a>
+                    <a id="a48" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s48" style="margin-top:-84px; margin-left:86px;" src="img/planoStand/CuadroStand.png" /><span style="right:735px; top:380px;">48</span></a>
+                    <a id="a47" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s47" style="margin-top:-84px; margin-left:240px;" src="img/planoStand/CuadroStand.png" /><span style="right:580px; top:380px;">47</span></a>
+                    <a id="a46" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s46" style="margin-top:-84px; margin-left:283px;" src="img/planoStand/CuadroStand.png" /><span style="right:538px; top:380px;">46</span></a>
+                    <a id="a45" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s45" style="margin-top:-84px; margin-left:326px;" src="img/planoStand/CuadroStand.png" /><span style="right:495px; top:380px;">45</span></a>
+                    <a id="a27" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s27" style="margin-top:-84px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:380px;">27</span></a>
+                    <a id="a28" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s28" style="margin-top:-41px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:425px;">28</span></a>
+                    <a id="a29" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s29" style="margin-top:0px; margin-left:806px;" src="img/planoStand/CuadroStand.png" /><span style="right:15px; top:465px;">29</span></a>
                     <img alt="salida" style="margin-top:-57px;" src="img/planoStand/Salida.png" />
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s44" style="margin-top:27px; margin-left:50px;" src="img/planoStand/CuadroStand.png" /><span style="right:643px; top:535px;">44</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s43" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:600px; top:535px;">43</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s42" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:557px; top:535px;">42</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s41" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:514px; top:535px;">41</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s40" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:471px; top:535px;">40</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s39" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:428px; top:535px;">39</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s38" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:385px; top:535px;">38</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s37" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:342px; top:535px;">37</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s36" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:299px; top:535px;">36</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s35" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:256px; top:535px;">35</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s34" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:213px; top:535px;">34</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s33" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:170px; top:535px;">33</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s32" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:127px; top:535px;">32</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
-                    <a href="#apartarStand" data-toggle="modal"><img alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
+                    <a id="a44" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s44" style="margin-top:27px; margin-left:50px;" src="img/planoStand/CuadroStand.png" /><span style="right:643px; top:535px;">44</span></a>
+                    <a id="a43" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s43" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:600px; top:535px;">43</span></a>
+                    <a id="a42" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s42" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:557px; top:535px;">42</span></a>
+                    <a id="a41" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s41" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:514px; top:535px;">41</span></a>
+                    <a id="a40" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s40" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:471px; top:535px;">40</span></a>
+                    <a id="a39" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s39" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:428px; top:535px;">39</span></a>
+                    <a id="a38" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s38" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:385px; top:535px;">38</span></a>
+                    <a id="a37" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s37" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:342px; top:535px;">37</span></a>
+                    <a id="a36" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s36" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:299px; top:535px;">36</span></a>
+                    <a id="a35" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s35" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:256px; top:535px;">35</span></a>
+                    <a id="a34" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s34" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:213px; top:535px;">34</span></a>
+                    <a id="a33" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s33" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:170px; top:535px;">33</span></a>
+                    <a id="a32" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s32" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:127px; top:535px;">32</span></a>
+                    <a id="a31" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
+                    <a id="a30" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
             </center>
         </div>
@@ -300,18 +319,24 @@
     <div id="apartarStand" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
-            <div id="Div2" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="assets/img/expo_comercial/asistente-beneficios.PNG" alt=""/>
+            <h3 id="numero_stand" runat="server"></h3>
+            <p>Llenar y enviar la información que se pide en la parte de abajo para hacer el apartado del stand.</p>
+            <form action="#" id="registro" class="comment_form" runat="server">
+                <div class="row-fluid">
+                    <div class="span5">
+                        <span id="nstand" runat="server" hidden></span>
+                        <input id="hStand" runat="server" type="hidden" />
+                        <input id="txtRazonSocial" runat="server" type="text" name="razonsocial" placeholder="RAZÓN SOCIAL:" required autofocus />
+                        <input id="txtNombreComercial" runat="server" type="text" name="nombrecomercial" placeholder="NOMBRE COMERCIAL:" required />
+                        <button id="btnApartado" runat="server" class="btn" type="button" onserverclick="btnApartado_Click">Enviar</button>
                     </div>
                 </div>
-                <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
-            </div>
-            <h3>Beneficios Asistente</h3>
+            </form>
         </div>
         <div class="modal-footer">
+            <center>
+                <p>La información será enviada y validada.</p>
+            </center>
         </div>
     </div>
 
@@ -321,96 +346,54 @@
                 <div class="hero">
                      <h1>GUÍA DEL EXPOSITOR</h1>
                     <p>
-                     
                         <a class="btn btn-large" href="assets/descargas/expo_comercial/GUIA DE EXPOSITOR.pdf"target="_blank"" data-toggle="modal">DESCARGAR</a>
-                
                     </p>
-               
                 </div>
-         
-
             </div>
         </div>
     </div>
       
-     <div id="costo_stands" class="section">
-     <center>
-                    <div class="container">
-                         <h1>cronograma de pago
-                        stand</h1>
-                            <img src="assets/img/ins_costos/desc_costo.PNG" />
-                    
+    <div id="costo_stands" class="section">
+        <center>
+            <div class="container">
+                <h1>cronograma de pago stand</h1>
+                <img alt="pagos" src="assets/img/ins_costos/desc_costo.PNG" />
+                <ul id="flexiselDemo3">
+                    <li><img alt="01" src="assets/img/comite/clogo-convencionmundial.png" /></li>
+                    <li><img alt="02" src="assets/img/comite/logo-aserca.png" /></li>
+                    <li><img alt="03" src="assets/img/comite/logo-bienestar.png" /></li>
+                    <li><img alt="04" src="assets/img/comite/logo-conaproch.png" /></li>
+                    <li><img alt="05" src="assets/img/comite/logo-cucba2.png" /></li>
+                    <li><img alt="06" src="assets/img/comite/logo-gobjalisco.png" /></li>          
+                    <li><img alt="07" src="assets/img/comite/logo-sagarpa.png" /></li>
+                    <li><img alt="08" src="assets/img/comite/logo-seder.png" /></li>
+                    <li><img alt="09" src="assets/img/comite/logo_cucba.png" /></li>
+                </ul>
+            </div>        
+        </center>
+    </div>
 
-
-
-         <ul id="flexiselDemo3">
-            <li><img src="assets/img/comite/clogo-convencionmundial.png" /></li>
-            <li><img src="assets/img/comite/logo-aserca.png" /></li>
-             <li><img src="assets/img/comite/logo-bienestar.png" /></li>
-             <li><img src="assets/img/comite/logo-conaproch.png" /></li>
-             <li><img src="assets/img/comite/logo-cucba2.png" /></li>
-             <li><img src="assets/img/comite/logo-gobjalisco.png" /></li>          
-            <li><img src="assets/img/comite/logo-sagarpa.png" /></li>
-            <li><img src="assets/img/comite/logo-seder.png" /></li>
-            <li><img src="assets/img/comite/logo_cucba.png" /></li>
-                                    
-        </ul>  
-        </div>
-        
-</center>
-        
-<script type="text/javascript">
-    $(window).load(function () {
-
-        $("#flexiselDemo3").flexisel({
-            visibleItems: 5,
-            animationSpeed: 1000,
-            autoPlay: true,
-            autoPlaySpeed: 3000,
-            pauseOnHover: true,
-            enableResponsiveBreakpoints: true,
-            responsiveBreakpoints: {
-                portrait: {
-                    changePoint: 480,
-                    visibleItems: 1
-                },
-                landscape: {
-                    changePoint: 640,
-                    visibleItems: 2
-                },
-                tablet: {
-                    changePoint: 768,
-                    visibleItems: 3
-                }
-            }
-        });
-
-    });
-</script>
-
-
-
-
- 
-
-<%--    <footer id="footer">
-	<div class="container">
-		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
-	</div>
-	<a href="#" id="btn_up">↑</a>
-    </footer>--%>
+    <footer id="footer">
+	    <div class="container">
+            <center>
+                &copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados.
+                <%--Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>--%>
+            </center>
+	    </div>
+	    <a href="#" id="btn_up">↑</a>
+    </footer>
     <!-- Bootstrap js -->
-    <script  type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
-    <script  type="text/javascript" src="assets/js/main.js"></script>
-    	<script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>

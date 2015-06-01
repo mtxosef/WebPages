@@ -2664,10 +2664,12 @@ button.close {
 .alert-block p+p {
     margin-top: 5px;
 }
+
 .nav {
     margin-left: 0;
     margin-bottom: 20px;
     list-style: none;
+    margin: 0 auto;
 }
 .nav>li>a {
     display: block;

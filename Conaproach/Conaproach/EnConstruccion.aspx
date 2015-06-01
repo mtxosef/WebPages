@@ -122,20 +122,27 @@
 		</div>
 	</div>
 </div>--%>
-
-
+    <footer id="footer">
+	    <div class="container">
+            <center>
+                &copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados.
+                <%--Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>--%>
+            </center>
+	    </div>
+	    <a href="#" id="btn_up">↑</a>
+    </footer>
     <!-- Bootstrap js -->
-    <script  type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
-    <script  type="text/javascript" src="assets/js/main.js"></script>
-    	<script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>

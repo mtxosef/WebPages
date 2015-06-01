@@ -1,30 +1,55 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Demostracion.aspx.cs" Inherits="Conaproch.Demostracion" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html style="margin-top: 0 !important" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
+<html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic'
-        rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/date.js"></script>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-    <script src="acordeon/js/smartTabs.js"></script>
-    <link href="acordeon/css/smartTabs.css" rel="stylesheet" type="text/css">
-
-
+    <script type="text/javascript" src="acordeon/js/smartTabs.js"></script>
+    <link href="acordeon/css/smartTabs.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
@@ -797,12 +822,15 @@
         </div>
     </div>
     </div>
-    <%-- <footer id="footer">
-	<div class="container">
-		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
-	</div>
-	<a href="#" id="btn_up">↑</a>
-</footer>--%>
+    <footer id="footer">
+	    <div class="container">
+            <center>
+                &copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados.
+                <%--Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>--%>
+            </center>
+	    </div>
+	    <a href="#" id="btn_up">↑</a>
+    </footer>
     <!-- Bootstrap js -->
     <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
@@ -815,6 +843,6 @@
     <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="engine1/wowslider.js"></script>
-    <script type="text/javascript" src="engine1/script.js"></script>
+	<script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>
