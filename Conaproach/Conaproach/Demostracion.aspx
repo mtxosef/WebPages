@@ -174,7 +174,7 @@
                     Comité Seguimiento Técnico</h1>
             </div>
             <center>
-                <img src="assets/img/demostraciones/diseño%20organigrama%20cucba.jpg" />
+                <img src="assets/img/demostraciones/disenoorganigramacucba.jpg" />
             </center>
         </div>
     </div>
