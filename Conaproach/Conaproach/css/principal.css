@@ -1,0 +1,23 @@
+﻿.contenedor_stands
+{
+    width: 850px;
+    height: 850px;
+}
+
+.contenedor_stands img
+{
+    float:left;
+}
+
+.contenedor_stands a
+{
+    position: relative;
+}
+
+.contenedor_stands a span
+{
+    position:absolute;
+    color:#000;
+    font-weight:bold;
+    font-size:11pt;
+}
