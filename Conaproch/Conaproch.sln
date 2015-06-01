@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conaproch", "Conaproach\Conaproch.csproj", "{384A7E92-6281-4250-8144-9F4ABD30DD86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conaproch", "Conaproch\Conaproch.csproj", "{384A7E92-6281-4250-8144-9F4ABD30DD86}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToolsPages", "ToolsPages\ToolsPages.csproj", "{5CC94B94-DE45-4465-A9D9-81197C5DFD13}"
 EndProject

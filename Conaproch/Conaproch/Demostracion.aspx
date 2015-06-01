@@ -24,32 +24,6 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="acordeon/js/smartTabs.js"></script>
     <link href="acordeon/css/smartTabs.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-        $(window).load(function () {
-            $("#flexiselDemo3").flexisel({
-                visibleItems: 5,
-                animationSpeed: 1000,
-                autoPlay: true,
-                autoPlaySpeed: 3000,
-                pauseOnHover: true,
-                enableResponsiveBreakpoints: true,
-                responsiveBreakpoints: {
-                    portrait: {
-                        changePoint: 480,
-                        visibleItems: 1
-                    },
-                    landscape: {
-                        changePoint: 640,
-                        visibleItems: 2
-                    },
-                    tablet: {
-                        changePoint: 768,
-                        visibleItems: 3
-                    }
-                }
-            });
-        });
-    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
@@ -69,7 +43,7 @@
   	
         <nav >
 	        <ul>
-            <li><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+            <li ><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
             <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
             <li><a class="nav-li-active" href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
             <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
@@ -80,74 +54,56 @@
 	        </ul>
         </nav>
     </header>
-    <div id="slider">
-        <div class="container">
-            <div id="sequence_Slider">
-                <br>
-                <div id="wowslider-container1">
-                    <div class="ws_images">
-                        <ul>
-                            <li>
-                                <img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0" /></li>
-                            <li>
-                                <img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1" /></li>
-                            <li>
-                                <img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2" /></li>
-                            <li>
-                                <img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3" /></li>
-                            <li>
-                                <img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4" /></li>
-                            <li>
-                                <img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5" /></li>
-                            <li>
-                                <img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6" /></li>
-                            <li>
-                                <img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7" /></li>
-                            <li>
-                                <img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8" /></li>
-                        </ul>
-                    </div>
-                    <div class="ws_bullets">
-                        <div>
-                            <a href="#" title="BANNER PRINCIPAL"><span>
-                                <img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL" />1</span></a>
-                            <a href="#" title="IMG_3357"><span>
-                                <img src="data1/tooltips/img_3357.jpg" alt="IMG_3357" />2</span></a> <a href="#"
-                                    title="IMG_3406"><span>
-                                        <img src="data1/tooltips/img_3406.jpg" alt="IMG_3406" />3</span></a>
-                            <a href="#" title="IMG_3532"><span>
-                                <img src="data1/tooltips/img_3532.jpg" alt="IMG_3532" />4</span></a> <a href="#"
-                                    title="IMG_3608"><span>
-                                        <img src="data1/tooltips/img_3608.jpg" alt="IMG_3608" />5</span></a>
-                            <a href="#" title="IMG_4171"><span>
-                                <img src="data1/tooltips/img_4171.jpg" alt="IMG_4171" />6</span></a> <a href="#"
-                                    title="IMG_4225"><span>
-                                        <img src="data1/tooltips/img_4225.jpg" alt="IMG_4225" />7</span></a>
-                            <a href="#" title="IMG_4272"><span>
-                                <img src="data1/tooltips/img_4272.jpg" alt="IMG_4272" />8</span></a> <a href="#"
-                                    title="IMG_4592"><span>
-                                        <img src="data1/tooltips/img_4592.jpg" alt="IMG_4592" />9</span></a>
+
+    <div id="slider" >
+	    <div class="container">
+		    <div id="Div1">	            
+                <br />
+                    <div id="wowslider-container1">
+	                    <div class="ws_images">
+                            <ul>
+		                        <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
+		                        <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
+		                        <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
+		                        <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
+		                        <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
+		                        <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
+		                        <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
+		                        <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
+		                        <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
+	                        </ul>
                         </div>
-                    </div>
-                    <div class="ws_shadow">
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
+	                    <div class="ws_bullets">
+                            <div>
+		                        <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
+		                        <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
+		                        <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
+		                        <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
+		                        <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
+		                        <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
+		                        <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
+		                        <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
+		                        <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
+	                        </div>
+                        </div>
+	                    <div class="ws_shadow"></div>
+                    </div>	
+                <br />
+		    </div>
+	    </div>
     </div>
+
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar"
-                    type="button">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </span>
+                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i></i>INICIO</a> </li>
+                        <li class=""><a href=""><i></i>Inicio</a> </li>
                         <li class=""><a href="#services"><i></i>Introducción</a> </li>
                         <li class=""><a href="#comite_seg"><i></i>Comité Seg. Técnico</a> </li>
                         <li class=""><a href="#empresas"><i></i>Empresas participantes</a> </li>
@@ -158,11 +114,10 @@
         </div>
     </div>
     <!-- end navbar -->
-    <!-- end About us  -->
+
     <div id="services" class="section">
         <div class="container">
-            <h1>
-                ¿EN QUÉ CONSISTE?</h1>
+            <h1>¿EN QUÉ CONSISTE?</h1>
             <p>
                 Las Parcelas demostrativas se ubicarán a un costado del Área Comercial; lo que permitirá
                 a los asistentes visitarlas en todo momento durante los 3 días del evento, las casas
@@ -174,62 +129,53 @@
                 <center>
                     <div id="sequence_Slider">
                         <ul class="bxslider">
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner1.jpg" /></li>
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner2.jpg" /></li>
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner4.jpg" /></li>
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner5.jpg" /></li>
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner6.jpg" /></li>
-                            <li>
-                                <img src="assets/img/demostraciones/banner_demostracion/banner7.jpg" /></li>
+                            <li><img alt="banner1" src="assets/img/demostraciones/banner_demostracion/banner1.jpg" /></li>
+                            <li><img alt="banner2" src="assets/img/demostraciones/banner_demostracion/banner2.jpg" /></li>
+                            <li><img alt="banner3" src="assets/img/demostraciones/banner_demostracion/banner4.jpg" /></li>
+                            <li><img alt="banner4" src="assets/img/demostraciones/banner_demostracion/banner5.jpg" /></li>
+                            <li><img alt="banner5" src="assets/img/demostraciones/banner_demostracion/banner6.jpg" /></li>
+                            <li><img alt="banner6" src="assets/img/demostraciones/banner_demostracion/banner7.jpg" /></li>
                         </ul>
                     </div>
                 </center>
             </div>
         </div>
     </div>
+
     <div id="comite_seg" class="section">
         <div class="container">
             <div class="hero">
-                <h1>
-                    Comité Seguimiento Técnico</h1>
+                <h1>Comité Seguimiento Técnico</h1>
             </div>
             <center>
-                <img src="assets/img/demostraciones/disenoorganigramacucba.jpg" />
+                <img alt="organigrama" src="assets/img/demostraciones/disenoorganigramacucba.jpg" />
             </center>
         </div>
     </div>
+
     <div id="empresas" class="divider section">
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>
-                        Empresas participantes</h1>
-                    <p>
-                        Modalidad</p>
+                    <h1>Empresas participantes</h1>
+                    <p>Modalidad</p>
                     <p>
                         <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">CAMPO ABIERTO</a>
                         <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">MACRO TUNEL</a>
                         <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">INVERNADERO</a>
                     </p>
                 </div>
+
                 <!-- Modal Asistente modalbox -->
-                <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselConv" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <dl id="js-smart-tabs--accordion" class="smart-tabs">
-                                        <hr>
-                                        <h4>
-                                            EMPRESAS MODALIDAD: CAMPO ABIERTO</h4>
+                                        <hr />
+                                        <h4>EMPRESAS MODALIDAD: CAMPO ABIERTO</h4>
                                         <dt><a href="#">UNITED GENETICS SEEDS CO</a></dt>
                                         <dd>
                                             <table class="rwd_auto fontsize">
@@ -578,20 +524,17 @@
                     <div class="modal-footer">
                     </div>
                 </div>
+
                 <!-- Modal Expositor modalbox -->
-                <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselExpositor" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <dl id="js-smart-tabs--accordion2" class="smart-tabs">
-                                        <hr>
-                                        <h4>
-                                            EMPRESAS MODALIDAD: MACRO TUNEL</h4>
-                                     
+                                        <hr />
+                                        <h4>EMPRESAS MODALIDAD: MACRO TUNEL</h4>                                     
                                         <dt><a href="#">MARSEED</a></dt>
                                         <dd>
                                            <table class="rwd_auto fontsize">
@@ -691,24 +634,21 @@
                                 </div>
                             </div>
                         </div>
-                       
                     </div>
                     <div class="modal-footer">
                     </div>
                 </div>
+
                 <!-- Modal Patrocinador modalbox -->
-                <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselPatrocinador" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <dl id="js-smart-tabs--accordion3" class="smart-tabs">
-                                        <hr>
-                                        <h4>
-                                            EMPRESAS MODALIDAD: INVERNADERO</h4>
+                                        <hr />
+                                        <h4>EMPRESAS MODALIDAD: INVERNADERO</h4>
                                         <dt><a href="#">GOWAN SEED</a></dt>
                                         <dd>
                                             <table class="rwd_auto fontsize">
@@ -739,89 +679,78 @@
             </div>
         </div>
     </div>
+
     <div id="registro" class="divider section">
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>
-                        Forma de registro</h1>
+                    <h1>Forma de registro</h1>
                     Descargar formato de registro de variedades*
                     <p>
                         <a class="btn btn-large" href="assets/descargas/demostraciones/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"
                             target="_blank">DESCARGAR</a>
                     </p>
                 </div>
-                <ul id="flexiselDemo3">
-                    <li>
-                        <img src="assets/img/comite/clogo-convencionmundial.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-aserca.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-bienestar.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-conaproch.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-cucba2.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-gobjalisco.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-sagarpa.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-seder.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo_cucba.png" /></li>
-                </ul>
             </div>
-            <script type="text/javascript">
-                $(window).load(function () {
-
-                    $("#flexiselDemo3").flexisel({
-                        visibleItems: 5,
-                        animationSpeed: 1000,
-                        autoPlay: true,
-                        autoPlaySpeed: 3000,
-                        pauseOnHover: true,
-                        enableResponsiveBreakpoints: true,
-                        responsiveBreakpoints: {
-                            portrait: {
-                                changePoint: 480,
-                                visibleItems: 1
-                            },
-                            landscape: {
-                                changePoint: 640,
-                                visibleItems: 2
-                            },
-                            tablet: {
-                                changePoint: 768,
-                                visibleItems: 3
-                            }
-                        }
-                    });
-
-                });
-
-
-                //--1
-              
-                $('#js-smart-tabs--accordion').smartTabs({
-                    layout: 'accordion'
-                });
-                //----2
-            
-                $('#js-smart-tabs--accordion2').smartTabs({
-                    layout: 'accordion'
-                });
-                //--3
-           
-                $('#js-smart-tabs--accordion3').smartTabs({
-                    layout: 'accordion'
-                });
-       
-
-            </script>
         </div>
     </div>
+
+    <div class="container">
+        <ul id="flexiselDemo3">
+            <li><img alt="img01" src="assets/img/comite/clogo-convencionmundial.png" /></li>
+            <li><img alt="img02" src="assets/img/comite/logo-aserca.png" /></li>
+            <li><img alt="img03" src="assets/img/comite/logo-bienestar.png" /></li>
+            <li><img alt="img04" src="assets/img/comite/logo-conaproch.png" /></li>
+            <li><img alt="img05" src="assets/img/comite/logo-cucba2.png" /></li>
+            <li><img alt="img06" src="assets/img/comite/logo-gobjalisco.png" /></li>
+            <li><img alt="img07" src="assets/img/comite/logo-sagarpa.png" /></li>
+            <li><img alt="img08" src="assets/img/comite/logo-seder.png" /></li>
+            <li><img alt="img09" src="assets/img/comite/logo_cucba.png" /></li>
+        </ul>
     </div>
+
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+
+        //--1
+        $('#js-smart-tabs--accordion').smartTabs({
+            layout: 'accordion'
+        });
+
+        //----2
+        $('#js-smart-tabs--accordion2').smartTabs({
+            layout: 'accordion'
+        });
+
+        //--3
+        $('#js-smart-tabs--accordion3').smartTabs({
+            layout: 'accordion'
+        });
+    </script>
+
     <footer id="footer">
 	    <div class="container">
             <center>

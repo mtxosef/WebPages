@@ -287,6 +287,7 @@
             </ul>
         </div>
     </div>
+
     <footer id="footer">
 	    <div class="container">
             <center>
@@ -296,6 +297,7 @@
 	    </div>
 	    <a href="#" id="btn_up">↑</a>
     </footer>
+
     <!-- Bootstrap js -->
     <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
