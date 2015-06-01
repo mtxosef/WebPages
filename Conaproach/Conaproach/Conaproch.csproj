@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -127,7 +128,6 @@
     <Content Include="assets\img\p_cientifico\cv\Gil Virgen Calleros.jpg" />
     <Content Include="assets\img\p_cientifico\cv\Jose L. Martinez R. Ponencia.png" />
     <Content Include="assets\img\p_cientifico\logo-conaproch.png" />
-    <Content Include="assets\img\p_cientifico\organigram2.jpg" />
     <Content Include="assets\img\p_cientifico\organigrama-actual.png" />
     <Content Include="assets\js\bootstrap-carousel.js" />
     <Content Include="assets\js\bootstrap-collapse.js" />

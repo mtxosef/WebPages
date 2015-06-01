@@ -5,8 +5,8 @@
 <html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
@@ -22,6 +22,32 @@
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/date.js"></script>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo3").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
@@ -90,39 +116,6 @@
 	</div>
 </div>
 
-
-
-<%--
-    <div id="slider" class="">
-	<div class="container">
-		<div id="sequence_Slider">
-	    <br><br><br>
-            <ul class="bxslider">
-                    <li><img src="assets/img/banner_inicio/BANNER%20PRINCIPAL.jpg" /></li>
-                  <li> <img src="assets/img/banner_inicio/IMG_3406.jpg" /></li>
-                  <li><img src="assets/img/banner_inicio/IMG_3357.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3532.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_3608.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4171.jpg" /></li>
-                  <li>
-                      <img src="assets/img/banner_inicio/IMG_4225.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4272.jpg" /></li>
-                <li>
-                    <img src="assets/img/banner_inicio/IMG_4592.jpg" /></li>
-                
-                   
-                </ul>
-		</div>
-	</div>
-</div>--%>
-
-
-
-
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
@@ -131,7 +124,6 @@
                     <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
                     </span>
                 </button>
-                <%--<a href="#" class="brand ">HOME</a>--%>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
                         <li class=""><a href=""><i></i>INICIO</a> </li>
@@ -152,12 +144,8 @@
     <div id="p_cientifco" class="section">
         <div class="container">
             <div class="hero">
-                <h1>
-                    Comité Científico</h1>
-               
+                <h1>Comité Científico</h1>
             </div>
-
-
             <center><img src="assets/img/p_cientifico/organigrama-actual.png" /></center>
 
             <br><br><br>
@@ -391,24 +379,55 @@
             </div>
         </div>
     </div>
-   <%-- <footer id="footer">
-	<div class="container">
-		&copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados. Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>
-	</div>
-	<a href="#" id="btn_up">↑</a>
-</footer>--%>
-   <!-- Bootstrap js -->
-    <script  type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
-    <script  type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
-    <script  type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
-    <script  type="text/javascript" src="assets/js/main.js"></script>
-    	<script type="text/javascript" src="engine1/wowslider.js"></script>
+
+
+     <div id="pie" class="divider section">
+        
+            <div class="container">
+            
+                 <ul id="flexiselDemo3">
+                    <li>
+                        <img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-aserca.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-bienestar.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-conaproch.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-cucba2.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-gobjalisco.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-sagarpa.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo-seder.png" /></li>
+                    <li>
+                        <img src="assets/img/comite/logo_cucba.png" /></li>
+                </ul>
+            </div>
+            </div>
+    <footer id="footer">
+	    <div class="container">
+            <center>
+                &copy; 2015 <a href="http://www.conaproch.com/" target="_blank">Conaproch</a>. Todos los derechos reservados.
+                <%--Diseñado por <a href="https://www.facebook.com/OsefTechnology">OSEF TECHNOLOGY</a> - Desarrollado por <a href="https://www.facebook.com/ChristianMedinaJuarez">Christian Medina</a>--%>
+            </center>
+	    </div>
+	    <a href="#" id="btn_up">↑</a>
+    </footer>
+    <!-- Bootstrap js -->
+    <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-dropdown.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-carousel.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-collapse.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-scrollspy.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
 	<script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>
