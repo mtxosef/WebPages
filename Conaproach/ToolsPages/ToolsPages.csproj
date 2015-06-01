@@ -51,6 +51,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="acordeon\css\bootstrap.min.css" />
+    <Content Include="acordeon\css\smartTabs.css" />
+    <Content Include="acordeon\js\jquery.js" />
+    <Content Include="acordeon\js\smartTabs.js" />
+    <Content Include="acordeon\prueba.htm" />
     <Content Include="Contadores\JavaScript\date.js" />
     <Content Include="Contadores\JavaScript\index.html" />
     <Content Include="Menus\ButtonStylesInspiration\css\base.css" />
@@ -66,6 +71,7 @@
     <Content Include="Menus\dabblet\index.html" />
     <Content Include="Menus\dabblet\js\html5.js" />
     <Content Include="Menus\dabblet\js\prefixfree.min.js" />
+    <Content Include="tabla\tabla.htm" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
