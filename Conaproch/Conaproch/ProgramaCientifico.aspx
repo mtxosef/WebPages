@@ -53,39 +53,27 @@
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
         <div class="contenedor">
-            <img alt="logotipo" style="margin-top:10px;" src="img/logotipo.png" />
-            <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
-            <div class="dias">
-                <span id="sDias"></span>
-            </div>
-            <div class="horas">
-                <span id="sHoras"></span>
-            </div>
-            <div class="minutos">
-                <span id="sMinutos"></span>
-            </div>
+            <img alt="logotipo" style="margin-top:30px;" src="img/logotipo.png" />
         </div>
   	
-        <nav >
+        <nav>
 	        <ul>
-            <li><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
-            <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
-            <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
-            <li><a class="nav-li-active" href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
-            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-            <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
-            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
-            <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
+                <li><a href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+                <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+                <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
+                <li><a class="nav-li-active" href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+                <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+                <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+                <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>
 	        </ul>
         </nav>
     </header>
-
   
-  <div id="slider" >
-	<div class="container">
-		<div id="sequence_Slider">
-	            
-                <br>
+    <div id="slider" >
+        <div class="container">
+	        <div id="sequence_Slider">
+                <br />
                 <div id="wowslider-container1">
 	                <div class="ws_images"><ul>
 		                <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
@@ -110,12 +98,23 @@
 		                <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
 	                </div></div>
 	                <div class="ws_shadow"></div>
-	                </div>	
-                    <br>
-        
-		</div>
-	</div>
-</div>
+	            </div>	
+                <br />        
+	        </div>
+            <div class="contador">
+                <img alt="contador" src="img/bt-contadordias.png"  />
+                <div class="dias">
+                    <span id="sDias"></span>
+                </div>
+                <div class="horas">
+                    <span id="sHoras"></span>
+                </div>
+                <div class="minutos">
+                    <span id="sMinutos"></span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
@@ -138,8 +137,6 @@
         </div>
     </div>
     <!-- end navbar -->
-
-
 
     <!-- end About us  -->
     <div id="p_cientifco" class="section">

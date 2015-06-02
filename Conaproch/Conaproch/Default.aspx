@@ -53,29 +53,19 @@
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
         <div class="contenedor">
-            <img alt="logotipo" style="margin-top:10px;" src="img/logotipo.png" />
-            <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
-            <div class="dias">
-                <span id="sDias"></span>
-            </div>
-            <div class="horas">
-                <span id="sHoras"></span>
-            </div>
-            <div class="minutos">
-                <span id="sMinutos"></span>
-            </div>
+            <img alt="logotipo" style="margin-top:30px;" src="img/logotipo.png" />
         </div>
   	
-        <nav >
+        <nav>
 	        <ul>
-            <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
-            <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
-            <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
-            <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
-            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-            <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
-            <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
-            <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
+                <li ><a class="nav-li-active" href="Default.aspx"><div style="padding-top:9px;"><small>INICIO</small></div></a></li>
+                <li><a href="ExposicionComercial.aspx"><div style="padding-top:9px;"><small>EXPOSICIÓN COMERCIAL</small></div></a></li>
+                <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
+                <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
+                <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
+                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+                <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+                <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
 	        </ul>
         </nav>
     </header>
@@ -84,37 +74,49 @@
 	    <div class="container">
 		    <div id="sequence_Slider">	            
                 <br />
-                    <div id="wowslider-container1">
-	                    <div class="ws_images">
-                            <ul>
-		                        <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
-		                        <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
-		                        <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
-		                        <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
-		                        <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
-		                        <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
-		                        <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
-		                        <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
-		                        <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
-	                        </ul>
-                        </div>
-	                    <div class="ws_bullets">
-                            <div>
-		                        <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
-		                        <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
-		                        <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
-		                        <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
-		                        <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
-		                        <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
-		                        <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
-		                        <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
-		                        <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
-	                        </div>
-                        </div>
-	                    <div class="ws_shadow"></div>
-                    </div>	
+                <div id="wowslider-container1">
+	                <div class="ws_images">
+                        <ul>
+		                    <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
+		                    <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
+		                    <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
+		                    <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
+		                    <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
+		                    <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
+		                    <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
+		                    <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
+		                    <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
+	                    </ul>
+                    </div>
+	                <div class="ws_bullets">
+                        <div>
+		                    <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
+		                    <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
+		                    <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
+		                    <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
+		                    <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
+		                    <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
+		                    <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
+		                    <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
+		                    <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
+	                    </div>
+                    </div>
+	                <div class="ws_shadow"></div>
+                </div>	
                 <br />
 		    </div>
+            <div class="contador">
+                <img alt="contador" src="img/bt-contadordias.png"  />
+                <div class="dias">
+                    <span id="sDias"></span>
+                </div>
+                <div class="horas">
+                    <span id="sHoras"></span>
+                </div>
+                <div class="minutos">
+                    <span id="sMinutos"></span>
+                </div>
+            </div>
 	    </div>
     </div>
 
@@ -234,7 +236,8 @@
                 <div class="span6">
                     <h3>Información de contacto</h3>
                     <ul>
-                        <li>Av. Prolongación General Ignacio Zaragoza #721 Trojes de Oriente 1a sección</li>
+                        <li>Av. Prolongación General Ignacio Zaragoza #721.</li>
+                        <li>Trojes de Oriente 1a sección.</li>
                         <li>Aguascalientes, Ags. C.P. 20115</li>
                         <li>Tels:+52 (449) 996 7593</li>
                         <li>+52 (449) 251 42 00</li>

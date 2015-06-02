@@ -8,43 +8,56 @@
 {
     margin: 0 auto;
     width: 350px;
-    height: 310px;
+    height: 220px;
     position:relative;
 }
-.contenedor .dias
+
+.contador
+{
+    margin: 0 auto;
+    position:relative;
+    margin-bottom:30px;
+    width: 652px;
+    height: 178px;
+}
+
+.contador .dias
 {
     position:absolute;
     width: 20px;
     height: 20px;
-    top:235px;
-    left:68px;
+    top:95px;
+    left:28px;
     font-family: 'BebasNeueRegular';
-    font-size:35pt;
-    color: White;
+    font-size:50pt;
+    color: #C35627;
+    letter-spacing: 65px;
 }
         
-.contenedor .horas
+.contador .horas
 {
     position:absolute;
     width: 20px;
     height: 20px;
-    top:235px;
-    left:138px;
+    top:95px;
+    left:310px;
     font-family: 'BebasNeueRegular';
-    font-size:35pt;
-    color: White;
+    font-size:50pt;
+    color: #C35627;
+    letter-spacing: 65px;
 }
         
-.contenedor .minutos
+.contador .minutos
 {
     position:absolute;
     width: 20px;
     height: 20px;
-    top:235px;
-    left:197px;
+    top:95px;
+    left:500px;
     font-family: 'BebasNeueRegular';
-    font-size:35pt;
-    color: White;
+    font-size:50pt;
+    color: #C35627;
+    letter-spacing: 65px;
 }
 
 .contenedor_stands
