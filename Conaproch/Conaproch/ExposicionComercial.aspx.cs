@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Net.Mail;
 using System.Net;
+using System.Xml;
 
 namespace Conaproch
 {
@@ -24,6 +25,57 @@ namespace Conaproch
         protected void btnApartado_Click(object sender, EventArgs e)
         {
             EnviarCorreo(hStand.Value, txtRazonSocial.Value, txtNombreComercial.Value);
+            string strTest, strEtiqueta = string.Empty;
+            bool bEntra = false;
+
+            XmlDocument aDocument = new XmlDocument();
+            XmlElement anElement;
+            XmlText aText;
+            XmlNode node;
+
+            aDocument.Load(Server.MapPath(" ") + "\\Control.xml");
+            //node = aDocument.DocumentElement;
+
+            //anElement = aDocument.CreateElement("TestNode");
+            //aText = aDocument.CreateTextNode("Esto es una prueba");
+            //node = aDocument.AppendChild(anElement);
+            //node.AppendChild(aText);
+
+            //foreach (XmlNode node1 in node.ChildNodes)
+            //{
+            //    foreach (XmlNode node2 in node1.ChildNodes)
+            //    {
+            //        if (node2.Name == "numero" && node2.InnerText == hStand.Value)
+            //        {
+            //            bEntra = true;
+            //        }
+            //        if (node2.Name == "estatus" && bEntra)
+            //        {
+            //            //XmlNode nodeOld = node2.CloneNode(true);
+            //            //XmlNode nodeText = node2.CloneNode(true);
+            //            //nodeText.InnerText = "apartado";
+            //            //node2.InnerXml = "<estatus>apartado</estatus>";
+            //            //node2.ReplaceChild(nodeText, nodeOld);
+            //            bEntra = false;
+            //        }
+            //    }
+            //}
+
+            //aDocument.Save(Server.MapPath(" ") + "\\standsControl.xml");
+
+            //XmlReader aReader;
+            //aReader = XmlReader.Create(Server.MapPath(" ") + "\\standsControl.xml");
+
+            //XmlWriter aWriter;
+            //aWriter = XmlWriter.Create(Server.MapPath(" ") + "\\standsControl.xml");
+
+            //while (aReader.Read())
+            //{
+            //    if (aReader.NodeType == XmlNodeType.Element)
+            //        strEtiqueta = aReader.Name;
+            //    else if (aReader.NodeType == XmlNodeType.Text && strEtiqueta == "numero" && aReader.Value == hStand.Value)
+            //        aWriter.WriteElementString("estatus", "nuevovalor");
+            //}
         }
 
         /// <summary>

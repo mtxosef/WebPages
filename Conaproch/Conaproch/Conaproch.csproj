@@ -145,6 +145,7 @@
     <Content Include="assets\js\main.js" />
     <Content Include="assets\css\component.css" />
     <Content Include="assets\css\default.css" />
+    <Content Include="Control.xml" />
     <Content Include="css\principal.css" />
     <Content Include="data1\images\banner_principal.jpg" />
     <Content Include="data1\images\img_3357.jpg" />
@@ -188,12 +189,23 @@
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
     <Content Include="img\menu\BT-INICIO-HOVER.png" />
+    <Content Include="img\planoStand\Aserca.png" />
+    <Content Include="img\planoStand\CuadroStand.png" />
+    <Content Include="img\planoStand\CuadroStandApartado.png" />
+    <Content Include="img\planoStand\CuadroStandOcupado.png" />
+    <Content Include="img\planoStand\Entrada.png" />
+    <Content Include="img\planoStand\Maquinaria.png" />
+    <Content Include="img\planoStand\Planostand.png" />
+    <Content Include="img\planoStand\RomboStand.png" />
+    <Content Include="img\planoStand\Salida.png" />
+    <Content Include="img\planoStand\SecretariaDesarrolloRural.png" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
     <Content Include="js\stands.js" />
     <Content Include="ProgramaCientifico.aspx" />
     <Content Include="reportes\img_registro\1_p.jpg" />
     <Content Include="reportes\img_registro\2_p.jpg" />
+    <Content Include="standsControl.xml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
