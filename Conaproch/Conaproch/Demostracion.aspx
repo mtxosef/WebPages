@@ -688,7 +688,7 @@
                     <h1>Forma de registro</h1>
                     Descargar formato de registro de variedades*
                     <p>
-                        <a class="btn btn-large" href="assets/descargas/demostraciones/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"
+                        <a class="btn btn-large" href="assets/descargas/demostraciones/INSCRIPCION SEMILLERAS.pdf"
                             target="_blank">DESCARGAR</a>
                     </p>
                 </div>

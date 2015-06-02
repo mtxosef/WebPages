@@ -1123,7 +1123,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: scale(0.99);
 }
 .navbar .nav>li {
-    margin-right: 0;
+    margin-right: 10px;
 }
 .navbar .brand {
     padding: 18px 40px 0 20px;

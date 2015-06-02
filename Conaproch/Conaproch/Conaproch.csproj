@@ -267,7 +267,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
-    <None Include="assets\descargas\demostraciones\FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf" />
+    <None Include="assets\descargas\demostraciones\INSCRIPCION SEMILLERAS.pdf" />
     <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />
