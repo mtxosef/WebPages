@@ -82,12 +82,15 @@
     <Content Include="assets\img\demostraciones\banner_demostracion\banner7.jpg" />
     <Content Include="assets\img\demostraciones\disenoorganigramacucba.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\BENEFICIOS EXPOSITOR PATROCINADOR.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 04.jpg" />
     <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\instalaciones CUCBA.jpg" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\Planostand.png" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />

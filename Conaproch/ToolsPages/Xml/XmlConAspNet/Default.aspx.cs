@@ -32,6 +32,7 @@ namespace ToolsPages.Xml.XmlConAspNet
                 //This Will Create a Element and Close that Element
                 xtw.WriteStartElement("Students");
                 xtw.WriteStartElement("Student");
+
                 xtw.WriteElementString("ID", txtID.Text);
                 xtw.WriteElementString("FirstName", txtFirstName.Text);
                 xtw.WriteElementString("LastName", txtLastName.Text);
@@ -41,8 +42,8 @@ namespace ToolsPages.Xml.XmlConAspNet
                 xtw.WriteElementString("MobileNo", txtMobileNo.Text);
 
                 //Now Close Student and Students
-                xtw.WriteEndDocument();
-                xtw.WriteEndDocument();
+                xtw.WriteEndElement();
+                xtw.WriteEndElement();
                 xtw.WriteEndDocument();
 
                 //Close this stream after Completion

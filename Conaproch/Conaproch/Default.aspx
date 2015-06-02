@@ -52,23 +52,8 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
-<<<<<<< HEAD
         <div class="contenedor">
             <img alt="logotipo" style="margin-top:30px;" src="img/logotipo.png" />
-=======
-        <div class="contenedor" >
-            <img alt="logotipo" style="margin-top:10px;" src="img/logotipo.png"/>
-            <img alt="contador" style="margin-left:70px; margin-top:10px;" src="img/bt-contadordias.png"  />
-            <div class="dias">
-                <span id="sDias"></span>
-            </div>
-            <div class="horas">
-                <span id="sHoras"></span>
-            </div>
-            <div class="minutos">
-                <span id="sMinutos"></span>
-            </div>
->>>>>>> aa53d6c5abe5c765cd980211be7f0fd3a741e671
         </div>
   	
         <nav>

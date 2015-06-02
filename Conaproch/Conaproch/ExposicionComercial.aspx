@@ -144,14 +144,15 @@
     <div id="services" class="section">
         <div class="container">
             <h1>BENEFICIOS</h1>
-            <p>* Acceso a un mercado meta de más de 1000 productores asistentes al evento de toda la Republica Mexicana.</p>
-            <p>* Espacio ideal para promocionar su negocio en relación a las necesidad de productos y servicios para los involucrados en la cadena productiva del chile.</p>
-            <p>* Aumento de la credibilidad, de la imagen y prestigio de su marca al ser parte de un evento exitoso y loable que nos identifica a través del tiempo.</p>
-            <p>* Impulso de las ventas mediante la publicidad de su imagen ante un mercado objetivo y al alcance.</p>
-            <p>* Creación de publicidad positiva y realce de la imagen de su empresa durante 3 días de actividades programadas y permanentemente a través del contacto en directorio de expositor así como en página Web ahora vinculada directamente a tu empresa.</p>
-            <p>* Posicionamiento de su marca y diferenciación de los competidores a través de la amplia campaña de difusión enfatizando las ventajas competitivas de la empresa.</p>
-            <p>* Actualización del Currículo de la empresa tanto en lo individual (convencionista) como en lo colectivo (expositor) a través de la experiencia y conocimientos compartidos a lo largo de las actividades innovadoras y aplicables a tu público objetivo.</p>
-            <p>* Desarrollo personal y mejoramiento de técnicas de negociación.</p>
+            <img alt="beneficios" src="assets/img/expo_comercial/BENEFICIOS EXPOSITOR PATROCINADOR.jpg" />
+<%--            <p>Acceso a un mercado meta de más de 1000 productores asistentes al evento de toda la Republica Mexicana.</p>
+            <p>Espacio ideal para promocionar su negocio en relación a las necesidad de productos y servicios para los involucrados en la cadena productiva del chile.</p>
+            <p>Aumento de la credibilidad, de la imagen y prestigio de su marca al ser parte de un evento exitoso y loable que nos identifica a través del tiempo.</p>
+            <p>Impulso de las ventas mediante la publicidad de su imagen ante un mercado objetivo y al alcance.</p>
+            <p>Creación de publicidad positiva y realce de la imagen de su empresa durante 3 días de actividades programadas y permanentemente a través del contacto en directorio de expositor así como en página Web ahora vinculada directamente a tu empresa.</p>
+            <p>Posicionamiento de su marca y diferenciación de los competidores a través de la amplia campaña de difusión enfatizando las ventajas competitivas de la empresa.</p>
+            <p>Actualización del Currículo de la empresa tanto en lo individual (convencionista) como en lo colectivo (expositor) a través de la experiencia y conocimientos compartidos a lo largo de las actividades innovadoras y aplicables a tu público objetivo.</p>
+            <p>Desarrollo personal y mejoramiento de técnicas de negociación.</p>--%>
         </div>
     </div>
 
@@ -249,7 +250,7 @@
     <div id="plano_gral" class="section">
         <div class="container">
             <center><h1>PLANO GENERAL CUCBA</h1><hr />
-                <img alt="plano_cucba" src="assets/img/expo_comercial/instalacionesCUCBA.png" />
+                <img alt="plano_cucba" src="assets/img/expo_comercial/instalaciones CUCBA.jpg" />
             </center>
         </div>
     </div>
