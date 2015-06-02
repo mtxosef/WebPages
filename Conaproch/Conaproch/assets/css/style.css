@@ -2967,7 +2967,9 @@ button.close {
     background-color: transparent;
     cursor: default;
 }
-.navbar {
+.navbar 
+{
+    
     overflow: visible;
     margin-bottom: 20px;
     *position: relative;
@@ -3134,9 +3136,11 @@ button.close {
     -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
 }
-.navbar .nav {
+.navbar .nav 
+{
+    
     position: relative;
-    left: 0;
+    left: 20%;
     display: block;
     float: left;
     margin: 0 10px 0 0;
@@ -3605,7 +3609,9 @@ button.close {
     transition: opacity .3s linear, top .3s ease-out;
     top: -25%}
 .modal.fade.in {
-    top: 10%}
+    top: 20%;
+    
+    }
 .modal-header {
     padding: 9px 15px;
     border-bottom: 1px solid #eee;
@@ -4928,7 +4934,10 @@ a:active {
     min-height: 1px;
     margin-left: 0;
 }
-.navbar .container {
+.navbar .container 
+{
+    /*margin-right: 0;*/
+    
     width: 1170px;
 }
 .brick6 {
@@ -5320,7 +5329,9 @@ a:active {
     border: 0;
     font-size: 52px;
 }
-.navbar {
+.navbar 
+{
+    
     margin-bottom: 0;
 }
 .navbar .brand {
@@ -5363,7 +5374,7 @@ a:active {
 }
 .navbar .nav>li>a {
     text-shadow: none;
-    padding: 15px 50px;
+    padding: 15px 0px;
     -webkit-transition: color .5s ease-in-out;
     -moz-transition: color .5s ease-in-out;
     -o-transition: color .5s ease-in-out;

@@ -230,7 +230,9 @@
                                     </center>
                                 </div>
                                 <div class="item">
+                                    <center>
                                     <img src="assets/img/expo_comercial/esquema%2004.jpg" alt=""/>
+                                    </center>
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#myCarouselPatrocinador" data-slide="prev">&lsaquo;</a>
