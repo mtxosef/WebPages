@@ -183,7 +183,8 @@
                 </div>
             </div>
            <div id="magistrales" class="section">
-            <h3>Conferencias Magistrales</h3>
+            <center><h1>Conferencias Magistrales</h1></center>
+            <br />
             <div class="our-team row">
                 <div class="span6">
                     <div class="team">
@@ -201,11 +202,11 @@
                                    <br /><br />
 
                         </div>
-                        <div class="social">
+<%--                        <div class="social">
                             <a href="" class="facebook"><i class="icon-facebook"></i></a>
                             <a href="" class="twitter"><i class="icon-twitter"></i></a>
                             <a href="" class="gplus"><i class="icon-google-plus"></i></a>
-                        </div>
+                        </div>--%>
                     </div>
                 </div>
                 <div class="span6">
@@ -227,11 +228,11 @@
                                   
                                     
                         </div>
-                          <div class="social">
+<%--                          <div class="social">
                             <a href="" class="facebook"><i class="icon-facebook"></i></a>
                             <a href="" class="twitter"><i class="icon-twitter"></i></a>
                             <a href="" class="gplus"><i class="icon-google-plus"></i></a>
-                        </div>
+                        </div>--%>
                     </div>
                 </div>
             </div>
@@ -249,7 +250,6 @@
                     <p>
                         <div class="nav-hover">
                         </div>
-                        <a class="btn btn-large" href="#modalboxConv" data-toggle="modal">VER</a>
                         <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank">DESCARGAR</a>
                     </p>
                 </div>
@@ -320,9 +320,10 @@
                     <h1>
                         REGISTRO</h1>
                     <p>
-                   
-                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">AQUÍ</a>
+                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"target="_blank">DESCARGAR</a>
+                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">EN LÍNEA</a>
                     </p>
+                    <p>Para su edición, descargue el Adobe Reader DC de la siguiente liga <a style="font-weight:bold; text-decoration:underline;" href="https://get2.adobe.com/es/reader/">Adobe Reader.</a> En sección editar y firmar, les dará las herramientas para hacerlo de manera sencilla.</p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
                 <div id="modalRegistro" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"

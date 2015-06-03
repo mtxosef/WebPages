@@ -152,7 +152,7 @@
                 <h1>Comité Seguimiento Técnico</h1>
             </div>
             <center>
-                <img alt="organigrama" src="assets/img/demostraciones/disenoorganigramacucba.jpg" />
+                <img alt="organigrama" src="assets/img/demostraciones/disenoorganigramacucba.png" />
             </center>
         </div>
     </div>
@@ -688,12 +688,12 @@
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>Forma de registro</h1>
-                    Descargar formato de registro de variedades*
+                    <h1>Formato de registro</h1>
                     <p>
                         <a class="btn btn-large" href="assets/descargas/demostraciones/INSCRIPCION SEMILLERAS.pdf"
                             target="_blank">DESCARGAR</a>
                     </p>
+                    <p>Para su edición, descargue el Adobe Reader DC de la siguiente liga <a style="font-weight:bold; text-decoration:underline;" href="https://get2.adobe.com/es/reader/">Adobe Reader.</a> En sección editar y firmar, les dará las herramientas para hacerlo de manera sencilla.</p>
                 </div>
             </div>
         </div>

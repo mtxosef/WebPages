@@ -143,7 +143,8 @@
     <div id="services" class="section">
         <div class="container">
             <div class="hero">
-                <h1>GENERALIDADES DEL EVENTO</h1>                
+                <h1>GENERALIDADES DEL EVENTO</h1>
+                <br />
                 <p>Año con año a partir del   2004 “La Convención Mundial del Chile®”. ha sido celebrada en diferentes Estados de la República,  la cual ha sido el punto de reunión para la comunidad científica, comercial, agrícola e industrial del Chile de México y otros países quienes comparten el interés en temas como: Genética, Horticultura, Fisiología, Patología, Nuevos genotipos, Producción, Economía, Calidad, Comercialización y Exportación; entre otros.</p>
                 <p>La 12ª Convención Mundial del Chile® a celebrarse del 22 al 24 de Octubre de 2015 en el Centro Universitario de Ciencias Biológicas y Agropecuarias de la Universidad de Guadalajara, se conformará de diversas actividades: Exhibición Comercial, Exhibición de Campo, Programa Científico, Muestra Gastronómica, Actividades Socioculturales, etc. </p>
             </div>

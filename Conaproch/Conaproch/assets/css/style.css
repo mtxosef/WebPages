@@ -3609,7 +3609,7 @@ button.close {
     transition: opacity .3s linear, top .3s ease-out;
     top: -25%}
 .modal.fade.in {
-    top: 20%;
+    top: 3%;
     
     }
 .modal-header {
@@ -3626,7 +3626,7 @@ button.close {
 .modal-body {
     position: relative;
     overflow-y: auto;
-    max-height: 400px;
+    max-height: 600px;
     padding: 15px;
 }
 /*Para forma de registro */
