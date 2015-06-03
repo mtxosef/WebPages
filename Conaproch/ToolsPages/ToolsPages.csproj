@@ -80,6 +80,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Xml\XmlConAspNet\Default.aspx" />
+    <Content Include="Xml\XmlConAspNet\StudentData.xml" />
     <Content Include="Xml\XmlConJavaScript\index.html" />
     <Content Include="Xml\XmlConJavaScript\note.xml" />
     <Content Include="Xml\XmlConJavaScript\standsControl.xml" />
