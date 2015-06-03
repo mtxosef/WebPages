@@ -74,13 +74,15 @@
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\comite\cartel.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner1.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner2.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner4.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner5.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner6.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner7.jpg" />
-    <Content Include="assets\img\demostraciones\disenoorganigramacucba.jpg" />
+    <Content Include="assets\img\demostraciones\disenoorganigramacucba.png" />
+    <Content Include="assets\img\demostraciones\disenoorganigramacucba0.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\BENEFICIOS EXPOSITOR PATROCINADOR.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
@@ -88,9 +90,13 @@
     <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 04.jpg" />
     <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\expositor-beneficios1.PNG" />
     <Content Include="assets\img\expo_comercial\instalaciones CUCBA.jpg" />
+    <Content Include="assets\img\expo_comercial\instalacionesCUCBA1.png" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
+    <Content Include="assets\img\expo_comercial\patrocinador-beneficios1.PNG" />
     <Content Include="assets\img\expo_comercial\Planostand.png" />
+    <Content Include="assets\img\general\bt-contadordiasW.png" />
     <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA.png" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
@@ -132,6 +138,7 @@
     <Content Include="assets\img\p_cientifico\cv\Gil Virgen Calleros.jpg" />
     <Content Include="assets\img\p_cientifico\cv\Jose L. Martinez R. Ponencia.png" />
     <Content Include="assets\img\p_cientifico\logo-conaproch.png" />
+    <Content Include="assets\img\p_cientifico\ORG-COMITECIENTIFICO.png" />
     <Content Include="assets\img\p_cientifico\organigrama-actual.png" />
     <Content Include="assets\js\bootstrap-carousel.js" />
     <Content Include="assets\js\bootstrap-collapse.js" />
@@ -191,6 +198,7 @@
     <Content Include="ExposicionComercial.aspx" />
     <Content Include="HoteleriaTurismo.aspx" />
     <Content Include="img\bt-contadordias.png" />
+    <Content Include="img\bt-contadordias1.png" />
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
     <Content Include="img\menu\BT-INICIO-HOVER.png" />
@@ -279,6 +287,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\descargas\convocatoria_cientifica\CONVOCATORIA_CIENTIFICA 2015.pdf" />
+    <None Include="assets\descargas\convocatoria_cientifica\FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf" />
+    <None Include="assets\descargas\demostraciones\INSCRIPCION SEMILLERAS-diseño.pdf" />
     <None Include="assets\descargas\demostraciones\INSCRIPCION SEMILLERAS.pdf" />
     <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
