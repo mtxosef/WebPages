@@ -553,12 +553,14 @@ h4 small {
 }
 ul, ol {
     padding: 0;
-    margin: 0 0 10px 25px;
+    margin: 0 0 10px 0px;
 }
 ul ul, ul ol, ol ol, ol ul {
     margin-bottom: 0;
 }
-li {
+li 
+{
+      display: inline-block;
     line-height: 20px;
 }
 ul.unstyled, ol.unstyled {
@@ -3136,22 +3138,24 @@ button.close {
     -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
     box-shadow: 0 -1px 10px rgba(0, 0, 0, .1);
 }
-.navbar .nav 
-{
-    
-    position: relative;
-    left: 20%;
-    display: block;
-    float: left;
-    margin: 0 10px 0 0;
+.navbar .nav {
+  text-align: center;
+  display: block;
+  margin: 0 10px 0 0;
 }
 .navbar .nav.pull-right {
     float: right;
     margin-right: 0;
 }
 .navbar .nav>li {
-    float: left;
+  display: inline-block;
+  text-align: center;
 }
+
+
+
+  
+
 .navbar .nav>li>a {
     float: none;
     padding: 15px 15px 15px;
@@ -6519,10 +6523,11 @@ display:none;
 	        
         }
 
-        nav ul {
+        nav ul 
+        {
+            text-align:center;
 	        list-style: none;
 	        overflow: hidden;
-	        margin-left:6% !important;
         }
 
         nav li a {
