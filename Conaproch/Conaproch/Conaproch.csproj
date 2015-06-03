@@ -91,6 +91,7 @@
     <Content Include="assets\img\expo_comercial\instalaciones CUCBA.jpg" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\Planostand.png" />
+    <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA.png" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />
@@ -188,6 +189,7 @@
     <Content Include="engine1\wowslider.js" />
     <Content Include="engine1\wowslider.mod.js" />
     <Content Include="ExposicionComercial.aspx" />
+    <Content Include="HoteleriaTurismo.aspx" />
     <Content Include="img\bt-contadordias.png" />
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
@@ -245,6 +247,13 @@
     </Compile>
     <Compile Include="ExposicionComercial.aspx.designer.cs">
       <DependentUpon>ExposicionComercial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoteleriaTurismo.aspx.cs">
+      <DependentUpon>HoteleriaTurismo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoteleriaTurismo.aspx.designer.cs">
+      <DependentUpon>HoteleriaTurismo.aspx</DependentUpon>
     </Compile>
     <Compile Include="InsCostos.aspx.cs">
       <DependentUpon>InsCostos.aspx</DependentUpon>
