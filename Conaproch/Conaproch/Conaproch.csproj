@@ -92,6 +92,7 @@
     <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\expositor-beneficios1.PNG" />
     <Content Include="assets\img\expo_comercial\instalaciones CUCBA.jpg" />
+    <Content Include="assets\img\expo_comercial\instalacionesCUCBA.png" />
     <Content Include="assets\img\expo_comercial\instalacionesCUCBA1.png" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios1.PNG" />
@@ -212,6 +213,10 @@
     <Content Include="img\planoStand\RomboStand.png" />
     <Content Include="img\planoStand\Salida.png" />
     <Content Include="img\planoStand\SecretariaDesarrolloRural.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\GilVirgen.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\JoseMartinez.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\PaulBosland.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\Simonne.png" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
     <Content Include="js\stands.js" />

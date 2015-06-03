@@ -119,18 +119,18 @@
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar"
-                    type="button">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </span>
+                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class=""><a href=""><i></i>INICIO</a> </li>
-                        <li class=""><a href="#p_cientifco"><i></i>Comité</a> </li>
+                        <li class=""><a href="#"><i></i>Inicio</a></li>
+                        <li class=""><a href="#p_cientifco"><i></i>Comité</a></li>
+                        <li class=""><a href="#magistrales"><i></i>Conferencias</a></li>
                         <li class=""><a href="#purchase"><i></i>Convocatoria</a> </li>
                         <li class=""><a href="#registro"><i></i>Registro</a> </li>
-                        <li class=""><a href="#magistrales"><i></i>Conferencias</a> </li>
                     </ul>
                 </div>
             </div>
@@ -177,65 +177,72 @@
                 </div>--%>
                     <div class="brick2 odd">
                         <a href="" class="article">
-                            <img src="assets/img/p_cientifico/logo-conaproch.png" alt="blog">
+                            <img src="assets/img/p_cientifico/logo-conaproch.png" alt="blog" />
                         </a>
                     </div>
                 </div>
             </div>
-           <div id="magistrales" class="section">
-            <center><h1>Conferencias Magistrales</h1></center>
-            <br />
-            <div class="our-team row">
-                <div class="span6">
-                    <div class="team">
-                        <div class="ava">
-                            <img src="assets/img/p_cientifico/cv/Gil Virgen Calleros.jpg" alt="team 1">
+            <div id="magistrales" class="section">
+                <center><h1>Conferencias Magistrales</h1></center>
+                <br />
+                <div class="our-team row">
+                    <div class="span6">
+                        <div class="team">
+                            <div class="ava">
+                                <img src="img/programaCientifico/confereniasMagistrales/GilVirgen.png" alt="team 1" />
+                            </div>
+                            <div class="info">
+                                <h4 class="name">Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
+                                <b>"Tendencias Actuales de Mercados y Materiales Genéticos de Chile en el Mundo"</b>
+                                <br /><br />
+                                <a class="btn btn-large" href="assets/descargas/cv/Gil Virgen Calleros.pdf" target="_blank">VER MAS</a>
+                                <br /><br />
+                            </div>
                         </div>
-                        <div class="info">
-                            <h4 class="name">
-                                Gil Virgen Calleros<small> - Ingeniero</small></h4>
-                               <p>Ing Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</p>
-                            <p>- Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro...</p>
-                                  
-                                    <a class="btn btn-large" href="assets/descargas/cv/Gil Virgen Calleros.pdf"target="_blank">
-                                    VER MAS</a>
-                                   <br /><br />
-
+                    </div>
+                    <div class="span6">
+                        <div class="team">
+                            <div class="ava">
+                                <img src="img/programaCientifico/confereniasMagistrales/JoseMartinez.png" alt="team 1" />
+                            </div>
+                            <div class="info">
+                                <h4 class="name">Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
+                                <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
+                                <br /><br />
+                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <br /><br />
+                            </div>
                         </div>
-<%--                        <div class="social">
-                            <a href="" class="facebook"><i class="icon-facebook"></i></a>
-                            <a href="" class="twitter"><i class="icon-twitter"></i></a>
-                            <a href="" class="gplus"><i class="icon-google-plus"></i></a>
-                        </div>--%>
+                    </div>
+                    <div class="span6">
+                        <div class="team">
+                            <div class="ava">
+                                <img src="img/programaCientifico/confereniasMagistrales/Simonne.png" alt="team 1" />
+                            </div>
+                            <div class="info">
+                                <h4 class="name">Dr. Eric Simonne<small> - Profesor e Investigador</small></h4>
+                                <b>"Uso Eficiente del Agua y la Nutrición enn el Cultivo del Chile"</b>
+                                <br /><br />
+                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <br /><br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team">
+                            <div class="ava">
+                                <img src="img/programaCientifico/confereniasMagistrales/PaulBosland.png" alt="team 1" />
+                            </div>
+                            <div class="info">
+                                <h4 class="name">Dr. Paul Bosland<small> - Profesor Regents</small></h4>
+                                <b>"Genoma del Chile y su uso para mejorarlos"</b>
+                                <br /><br />
+                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <br /><br />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="span6">
-                    <div class="team">
-                        <div class="ava">
-                            <img src="assets/img/p_cientifico/cv/Jose L. Martinez R. Ponencia.png" alt="team 1">
-                        </div>
-                        <div class="info">
-                            <h4 class="name">
-                                José Luis Martínez Ramírez<small> - Doctor</small></h4>
-                                 <p>El titulo de la ponencia para la convención mundial de chile:</p>
-                                    <b>“Problemática virológica del cultivo de chile en el occidente de México”...
-                                    
-                                    </b>
-                                    <br /><br />
-                                    <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">
-                                   VER MAS</a>
-                                   <br /><br />
-                                  
-                                    
-                        </div>
-<%--                          <div class="social">
-                            <a href="" class="facebook"><i class="icon-facebook"></i></a>
-                            <a href="" class="twitter"><i class="icon-twitter"></i></a>
-                            <a href="" class="gplus"><i class="icon-google-plus"></i></a>
-                        </div>--%>
-                    </div>
-                </div>
-            </div>
           </div>
             
         </div>
@@ -245,11 +252,9 @@
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>
-                        CONVOCATORIA</h1>
+                    <h1>CONVOCATORIA</h1>
                     <p>
-                        <div class="nav-hover">
-                        </div>
+                        <div class="nav-hover"></div>
                         <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank">DESCARGAR</a>
                     </p>
                 </div>

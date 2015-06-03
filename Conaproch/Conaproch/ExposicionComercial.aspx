@@ -250,7 +250,7 @@
     <div id="plano_gral" class="section">
         <div class="container">
             <center><h1>PLANO GENERAL CUCBA</h1><hr />
-                <img alt="plano_cucba" src="assets/img/expo_comercial/instalaciones CUCBA.jpg" />
+                <img alt="plano_cucba" src="assets/img/expo_comercial/instalacionesCUCBA.png" />
             </center>
         </div>
     </div>
