@@ -1243,6 +1243,8 @@ h2 {
 }
 .navbar .nav>li {
     margin: 10px 0 0 10px;
+    text-align: left;
+    display: block;
 }
 .navbar .nav>li>a {
     padding: 15px 50px;
@@ -1381,8 +1383,12 @@ label, input, button, select, textarea {
 }
 .navbar .nav>li {
     margin: 10px 0 0 10px;
+  text-align: left;
+  display: block;
 }
-.navbar .nav>li>a {
+.navbar .nav>li>a 
+{
+    
     padding: 15px 50px;
 }
 .nav-collapse .nav>li>a:hover, .nav-collapse .nav>li>a:focus, .nav-collapse .dropdown-menu a:hover, .nav-collapse .dropdown-menu a:focus {

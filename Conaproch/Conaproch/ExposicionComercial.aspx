@@ -9,7 +9,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
+    <%--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />--%>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
@@ -317,7 +317,68 @@
                     <a id="a31" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img31" alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
                     <a id="a30" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img30" alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
+
+
+                 <table class="rwd_auto fontsize">
+                                                <thead>
+                                              <h2>Empresas que ya cuentan con STAND</h2> 
+                                                </thead>
+                                                <tbody>
+                                                 <tr>
+                                                    <td>40</td>
+                                                    <td>United Genetics Seeds, Co.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>19</td>
+                                                    <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>48</td>
+                                                    <td>Marseed Company, S.A. de C.V.</td>
+                                                </tr>
+                                                <tr>
+                                                     <td>45</td>
+                                                    <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
+                                                </tr>
+                                                 <tr>
+                                                     <td></td>
+                                                    <td>Gowan Semillas, S.A. de C.V. </td>
+                                                </tr>
+                                                 <tr>
+                                                     <td>6</td>
+                                                    <td>Nunhems México, S.A. de C.V. </td>
+                                                </tr>
+                                                <tr>
+                                                     <td></td>
+                                                    <td>US Agriseeds Inc. de México, S.A. de C.V. </td>
+                                                </tr>
+                                                <tr>
+                                                     <td>21</td>
+                                                    <td>Syngenta Corporativo, S.A. de C.V. </td>
+                                                </tr>
+                                                <tr>
+                                                     <td>47</td>
+                                                    <td>MIM Plastic, S.A. de C.V.</td>
+                                                </tr>
+                                                <tr>
+                                                     <td>46</td>
+                                                    <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
+                                                </tr>
+                                                <tr>
+                                                     <td>22-23</td>
+                                                    <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+
             </center>
+
+
+                                       
+
+
+
         </div>
     </div>
 

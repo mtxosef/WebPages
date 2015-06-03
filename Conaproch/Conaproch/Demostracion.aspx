@@ -95,7 +95,8 @@
             </div>
 	    </div>
     </div>
-
+    
+             
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
@@ -105,6 +106,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="nav-collapse collapse">
+                
                     <ul class="nav">
                         <li class=""><a href=""><i></i>Inicio</a> </li>
                         <li class=""><a href="#services"><i></i>Introducción</a> </li>
@@ -116,6 +118,7 @@
             </div>
         </div>
     </div>
+    
     <!-- end navbar -->
 
     <div id="services" class="section">
