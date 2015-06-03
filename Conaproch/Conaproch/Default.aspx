@@ -64,7 +64,7 @@
                 <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
                 <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
                 <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
-                <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
+                <li><a href="HoteleriaTurismo.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
                 <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
 	        </ul>
         </nav>
@@ -154,14 +154,19 @@
     <div id="testimonial" class="divider section">
         <div class="bg-holder2">
             <div class="container">
-                <!-- Bootstrap carousel -->
-                <div id="msgs" class="carousel slide">
-                    <h3>Mensaje del presidente (2015)</h3>
-                    <!-- Carousel items -->
-                    <img class="thumbnail" src="assets/img/ava1.jpg" alt="" />
-                    <div class="msg">
-                        <p>
-                            "De nueva cuenta tengo el placer de saludar a todos  los involucrados en la 
+              
+
+          <div class="our-team row" style="font-style:italic !important;">
+                <div class="span6">
+                    <div class="team">
+                    <br /><br />
+                        <div class="ava">
+                            <img src="assets/img/ava1.jpg" height="150" width="150" alt="team 1">
+                        </div>
+                        <div class="info">
+                            <h4 class="name">
+                             <p>   Mensaje del presidente (2015)</h4>
+                             "De nueva cuenta tengo el placer de saludar a todos  los involucrados en la 
                             cadena agroalimentaria del chile, producto que  nos distingue  y representa 
                             como país, pues  es parte inherente de nuestra cultura, mismo que ha llegado a 
                             ser casi un símbolo patrio al  identificarnos  vital y ontológicamente.
@@ -173,12 +178,9 @@
                             Hoy en día es  uno de los cultivos más importantes en México y el mundo, 
                             porque sus frutos se consumen tanto en fresco como en seco, siendo nuestro 
                             país quien cuenta con la mayor variedad; proporcionando color, sabor y aroma a 
-                            infinidad de platillos, dándole un lugar preponderante  entre las especias."
-                        </p>
-                    </div>
-                    <div class="item">
-                        <div class="msg">
-                            <p>
+                            infinidad de platillos, dándole un lugar preponderante  entre las especias."</p>
+                                  
+                                <p>
                                 "Actualmente México se mantiene avante como  uno de los principales 
                                     proveedores de chile del mundo; datos recientes indican  que ocupó en el 
                                     2013 el 1er. lugar  en la producción de chiles frescos con 2´ 294, 400 
@@ -191,11 +193,16 @@
                                     instalaciones del Centro Universitario de Ciencias Biológicas y  
                                     Agropecuarias (CUCBA) de la Universidad de Guadalajara."
                             </p>
+
                         </div>
+
                     </div>
-                    <div class="item">
-                        <div class="msg">
-                            <p>
+                </div>
+                <div class="span6">
+                    <div class="team">
+                        <div class="info">
+                            <br /><br /><br />
+                                   <p>
                                 "La Convención Mundial del Chile es el foro anual más importante que 
                                 conjunta a este  sector; tras meses de preparativos, el estado de 
                                 Jalisco se engalanará  y dará la bienvenida a cientos de productores, 
@@ -205,11 +212,7 @@
                                 y conocer de expertos conferencistas de talla internacional en la materia 
                                 las más recientes innovaciones relacionadas con esta  loable actividad."
                             </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="msg">
-                            <p>
+                               <p>
                                 "Es esta la ocasión de agradecer a todos  aquellos que de alguna u otra 
                                 manera contribuyen a que se realice el evento, especialmente al Gobierno 
                                 del estado de Jalisco  así como a las distinguidas autoridades del CUCBA 
@@ -218,11 +221,29 @@
                                 Seguro estoy  de que la participación de nuestros convencionistas 
                                 convertirá a la “12ª Convención Mundial del Chile” en un evento del 
                                 más alto nivel."
+                                <br /><br />
+                                <div align="center">
+                                <img src="assets/img/firmita.png" width="160"/>
+                                </div>
+                                 
                             </p>
-                            <br />
+                                  
+                                    
+                              
+                                   
+                                    
+                           
+                          
+                                   
+                                  
+                                    
                         </div>
                     </div>
                 </div>
+            </div>
+
+
+
             </div>
         </div>
     </div>
