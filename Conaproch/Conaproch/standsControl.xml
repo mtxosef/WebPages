@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <stands>
   <stand>
     <numero>01</numero>
-    <estatus>apartado</estatus>
+    <estatus>libre</estatus>
     <tipo>cuadrado</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>02</numero>
-    <estatus>apartado</estatus>
+    <estatus>libre</estatus>
     <tipo>cuadrado</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -20,7 +20,7 @@
   </stand>
   <stand>
     <numero>04</numero>
-    <estatus>apartado</estatus>
+    <estatus>libre</estatus>
     <tipo>cuadrado</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -32,7 +32,7 @@
   </stand>
   <stand>
     <numero>06</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadrado</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -62,7 +62,7 @@
   </stand>
   <stand>
     <numero>11</numero>
-    <estatus>ocupado</estatus>
+    <estatus>libre</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -98,7 +98,7 @@
   </stand>
   <stand>
     <numero>17</numero>
-    <estatus>ocupado</estatus>
+    <estatus>libre</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -110,7 +110,7 @@
   </stand>
   <stand>
     <numero>19</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -122,19 +122,19 @@
   </stand>
   <stand>
     <numero>21</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>22</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>23</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -236,7 +236,7 @@
   </stand>
   <stand>
     <numero>40</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -266,25 +266,25 @@
   </stand>
   <stand>
     <numero>45</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>46</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>47</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
   <stand>
     <numero>48</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>

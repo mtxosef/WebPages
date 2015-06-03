@@ -391,10 +391,11 @@
             <form action="#" id="registro" class="comment_form" runat="server">
                 <div class="row-fluid">
                     <div class="span5">
-                        <span id="nstand" runat="server" hidden></span>
                         <input id="hStand" runat="server" type="hidden" />
                         <input id="txtRazonSocial" runat="server" type="text" name="razonsocial" placeholder="RAZÓN SOCIAL:" required autofocus />
                         <input id="txtNombreComercial" runat="server" type="text" name="nombrecomercial" placeholder="NOMBRE COMERCIAL:" required />
+                        <input id="txtContacto" runat="server" type="text" name="contacto" placeholder="NOMBRE:" required />
+                        <input id="txtTelefono" runat="server" type="text" name="telefono" placeholder="TELÉFONO:" required />
                         <button id="btnApartado" runat="server" class="btn" type="button" onserverclick="btnApartado_Click">Enviar</button>
                     </div>
                 </div>

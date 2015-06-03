@@ -24,58 +24,27 @@ namespace Conaproch
         /// <param name="e"></param>
         protected void btnApartado_Click(object sender, EventArgs e)
         {
-            EnviarCorreo(hStand.Value, txtRazonSocial.Value, txtNombreComercial.Value);
-            string strTest, strEtiqueta = string.Empty;
-            bool bEntra = false;
+            //1. Mandar el correo del apartado
+            EnviarCorreo(hStand.Value, txtRazonSocial.Value, txtNombreComercial.Value, txtContacto.Value, txtTelefono.Value);
 
-            XmlDocument aDocument = new XmlDocument();
-            XmlElement anElement;
-            XmlText aText;
-            XmlNode node;
+            //2. Now Code for Update Records in XML Just Watch
+            XmlDocument xdoc = new XmlDocument();
+            xdoc.Load(Server.MapPath("standsControl.xml"));
 
-            aDocument.Load(Server.MapPath(" ") + "\\Control.xml");
-            //node = aDocument.DocumentElement;
+            //3. Get All the Element Wich "Student"
+            XmlNodeList NodeList = xdoc.SelectNodes("/stands/stand");
 
-            //anElement = aDocument.CreateElement("TestNode");
-            //aText = aDocument.CreateTextNode("Esto es una prueba");
-            //node = aDocument.AppendChild(anElement);
-            //node.AppendChild(aText);
+            //4. Iterar por todo los elementos
+            foreach (XmlNode item in NodeList)
+            {
+                if (item.ChildNodes[0].InnerText == hStand.Value)
+                {
+                    item.ChildNodes[1].InnerText = "apartado";
+                }
+            }
 
-            //foreach (XmlNode node1 in node.ChildNodes)
-            //{
-            //    foreach (XmlNode node2 in node1.ChildNodes)
-            //    {
-            //        if (node2.Name == "numero" && node2.InnerText == hStand.Value)
-            //        {
-            //            bEntra = true;
-            //        }
-            //        if (node2.Name == "estatus" && bEntra)
-            //        {
-            //            //XmlNode nodeOld = node2.CloneNode(true);
-            //            //XmlNode nodeText = node2.CloneNode(true);
-            //            //nodeText.InnerText = "apartado";
-            //            //node2.InnerXml = "<estatus>apartado</estatus>";
-            //            //node2.ReplaceChild(nodeText, nodeOld);
-            //            bEntra = false;
-            //        }
-            //    }
-            //}
-
-            //aDocument.Save(Server.MapPath(" ") + "\\standsControl.xml");
-
-            //XmlReader aReader;
-            //aReader = XmlReader.Create(Server.MapPath(" ") + "\\standsControl.xml");
-
-            //XmlWriter aWriter;
-            //aWriter = XmlWriter.Create(Server.MapPath(" ") + "\\standsControl.xml");
-
-            //while (aReader.Read())
-            //{
-            //    if (aReader.NodeType == XmlNodeType.Element)
-            //        strEtiqueta = aReader.Name;
-            //    else if (aReader.NodeType == XmlNodeType.Text && strEtiqueta == "numero" && aReader.Value == hStand.Value)
-            //        aWriter.WriteElementString("estatus", "nuevovalor");
-            //}
+            //5. Save the File
+            xdoc.Save(Server.MapPath("standsControl.xml"));
         }
 
         /// <summary>
@@ -84,7 +53,7 @@ namespace Conaproch
         /// <param name="strStand"></param>
         /// <param name="strRazonSocial"></param>
         /// <param name="strNombreComercial"></param>
-        protected void EnviarCorreo(string strStand, string strRazonSocial, string strNombreComercial)
+        protected void EnviarCorreo(string strStand, string strRazonSocial, string strNombreComercial, string strContato, string strTelefono)
         {
             SmtpClient servidorDeCorreo = new SmtpClient("mail.conaproch.com", 26);
             servidorDeCorreo.EnableSsl = false;
@@ -94,13 +63,15 @@ namespace Conaproch
             MailMessage mmMensaje = new MailMessage();
 
             //7. Agregar lista de correos destinos al objeto Mensaje
-            mmMensaje.To.Add("osef@hotmail.com");
+            mmMensaje.To.Add("convencion@conaproch.com");
 
             //9. Configurar asunto, cuerpo
             mmMensaje.Subject = "Apartado de Stand";
             mmMensaje.Body = "Stand: " + strStand + "\n" +
                 "Razón Social: " + strRazonSocial + "\n" +
-                "Nombre Comercial: " + strNombreComercial;
+                "Nombre Comercial: " + strNombreComercial + "\n" +
+                "Contacto:" + strContato + "\n" +
+                "Teléfono" + strTelefono;
 
             //10. Remitente
             MailAddress maFrom = new MailAddress("convencion@conaproch.com");

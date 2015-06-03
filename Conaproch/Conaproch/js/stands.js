@@ -10,7 +10,7 @@ function apartadoStand(link) {
 
 //Método que carga la configuración de los stands
 function cargaStands() {
-    if (window.location.href == 'http://localhost/Conaproch/ExposicionComercial.aspx') {
+    if (window.location.href == 'http://localhost/Conaproch/ExposicionComercial.aspx' || window.location.href == 'http://localhost/Conaproch/ExposicionComercial.aspx#') {
 
         if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -26,7 +26,7 @@ function cargaStands() {
         var link;
 
         for (i = 1; i <= x.length; i++) {
-            if (i < 9) {
+            if (i <= 9) {
                 imagen = 'img0' + i;
                 link = 'a0' + i;
             }

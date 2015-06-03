@@ -48,7 +48,7 @@ namespace Conaproch
             MailMessage mmMensaje = new MailMessage();
 
             //7. Agregar lista de correos destinos al objeto Mensaje
-            mmMensaje.To.Add("osef@hotmail.com");
+            mmMensaje.To.Add("convencion@conaproch.com");
 
             //9. Configurar asunto, cuerpo
             mmMensaje.Subject = "Contacto desde la página web (12convencion.conaproch.com)";
