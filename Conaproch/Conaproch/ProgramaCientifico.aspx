@@ -75,17 +75,19 @@
 	        <div id="sequence_Slider">
                 <br />
                 <div id="wowslider-container1">
-	                <div class="ws_images"><ul>
-		                <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
-		                <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
-		                <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
-		                <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
-		                <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
-		                <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
-		                <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
-		                <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
-		                <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
-	                </ul></div>
+	                <div class="ws_images">
+                        <ul>
+		                    <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
+		                    <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
+		                    <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
+		                    <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
+		                    <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
+		                    <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
+		                    <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
+		                    <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
+		                    <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
+	                    </ul>
+                    </div>
 	                <div class="ws_bullets"><div>
 		                <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
 		                <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
@@ -144,17 +146,15 @@
             <div class="hero">
                 <h1>Comité Científico</h1>
             </div>
-            <center><img src="assets/img/p_cientifico/organigrama-actual.png" /></center>
+            <center><img alt="organigrama" src="assets/img/p_cientifico/organigrama-actual.png" /></center>
 
-            <br><br><br>
+            <br /><br /><br />
 
-            <div class="blog_container">
-               
+            <div class="blog_container">               
                 <div class="row-full clearfix">
                     <div class="brick1">
                         <a href="http://errors.stablehost.com/406.php" class="article">
-                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog">
-                          
+                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog">                          
                         </a>
                     </div>
                     <div class="brick2 odd">
@@ -182,6 +182,7 @@
                     </div>
                 </div>
             </div>
+            
             <div id="magistrales" class="section">
                 <center><h1>Conferencias Magistrales</h1></center>
                 <br />
@@ -195,7 +196,7 @@
                                 <h4 class="name">Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
                                 <b>"Tendencias Actuales de Mercados y Materiales Genéticos de Chile en el Mundo"</b>
                                 <br /><br />
-                                <a class="btn btn-large" href="assets/descargas/cv/Gil Virgen Calleros.pdf" target="_blank">VER MAS</a>
+                                <a class="btn btn-large" href="#modalGil" data-toggle="modal">VER MAS</a>
                                 <br /><br />
                             </div>
                         </div>
@@ -209,7 +210,7 @@
                                 <h4 class="name">Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
                                 <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
                                 <br /><br />
-                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <a class="btn btn-large" href="#modalJose" data-toggle="modal">VER MAS</a>
                                 <br /><br />
                             </div>
                         </div>
@@ -221,9 +222,9 @@
                             </div>
                             <div class="info">
                                 <h4 class="name">Dr. Eric Simonne<small> - Profesor e Investigador</small></h4>
-                                <b>"Uso Eficiente del Agua y la Nutrición enn el Cultivo del Chile"</b>
+                                <b>"Uso Eficiente del Agua y la Nutrición en el Cultivo del Chile"</b>
                                 <br /><br />
-                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <a class="btn btn-large" href="#modalEric" data-toggle="modal">VER MAS</a>
                                 <br /><br />
                             </div>
                         </div>
@@ -237,16 +238,52 @@
                                 <h4 class="name">Dr. Paul Bosland<small> - Profesor Regents</small></h4>
                                 <b>"Genoma del Chile y su uso para mejorarlos"</b>
                                 <br /><br />
-                                <a class="btn btn-large" href="assets/descargas/cv/Jose L. Martinez R. Ponencia.pdf"target="_blank">VER MAS</a>
+                                <a class="btn btn-large" href="#modalPaul" data-toggle="modal">VER MAS</a>
                                 <br /><br />
                             </div>
                         </div>
                     </div>
                 </div>
           </div>
-            
         </div>
     </div>
+
+    <!-- Modal Convocatoria modalbox -->
+    <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+
+    <!-- Modal Convocatoria modalbox -->
+    <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+
+    <!-- Modal Convocatoria modalbox -->
+    <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+
+    <!-- Modal Convocatoria modalbox -->
+    <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+
     <!-- end Blog -->
     <div id="purchase" class="divider section">
         <div class="bg-holder">
@@ -259,10 +296,8 @@
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
-                <div id="modalboxConv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-                    aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-                        ×</button>
+                <div id="modalboxConv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselConv" class="carousel slide">
                             <div class="carousel-inner">

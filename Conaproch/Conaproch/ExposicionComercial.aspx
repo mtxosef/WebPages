@@ -77,17 +77,19 @@
 		    <div id="sequence_Slider">	            
                 <br />
                 <div id="wowslider-container1">
-	                <div class="ws_images"><ul>
-		                <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
-		                <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
-		                <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
-		                <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
-		                <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
-		                <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
-		                <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
-		                <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
-		                <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
-	                </ul></div>
+	                <div class="ws_images">
+                        <ul>
+		                    <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
+		                    <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
+		                    <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
+		                    <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
+		                    <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
+		                    <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
+		                    <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
+		                    <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
+		                    <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
+	                    </ul>
+                    </div>
 	                <div class="ws_bullets"><div>
 		                <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
 		                <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
@@ -131,7 +133,7 @@
                         <li class=""><a href="#comoPuedo"><i ></i>¿Cómo puedo participar?</a> </li>
                         <li class=""><a href="#plano_gral"><i ></i>Plano general CUCBA</a> </li>
                         <li class=""><a href="#plano_stands"><i ></i>Plano STANDS</a> </li>
-                        <li class=""><a href="#comoPuedo"><i ></i>Expositores</a> </li>
+                        <li class=""><a href="#empresas_stand"><i ></i>Expositores</a> </li>
                         <li class=""><a href="#guia"><i ></i>Guía Expositor</a> </li>
                         <li class=""><a href="#costo_stands"><i ></i>Costos STANDS</a> </li>
                     </ul>
@@ -145,14 +147,6 @@
         <div class="container">
             <h1>BENEFICIOS</h1>
             <img alt="beneficios" src="assets/img/expo_comercial/BENEFICIOS EXPOSITOR PATROCINADOR.jpg" />
-<%--            <p>Acceso a un mercado meta de más de 1000 productores asistentes al evento de toda la Republica Mexicana.</p>
-            <p>Espacio ideal para promocionar su negocio en relación a las necesidad de productos y servicios para los involucrados en la cadena productiva del chile.</p>
-            <p>Aumento de la credibilidad, de la imagen y prestigio de su marca al ser parte de un evento exitoso y loable que nos identifica a través del tiempo.</p>
-            <p>Impulso de las ventas mediante la publicidad de su imagen ante un mercado objetivo y al alcance.</p>
-            <p>Creación de publicidad positiva y realce de la imagen de su empresa durante 3 días de actividades programadas y permanentemente a través del contacto en directorio de expositor así como en página Web ahora vinculada directamente a tu empresa.</p>
-            <p>Posicionamiento de su marca y diferenciación de los competidores a través de la amplia campaña de difusión enfatizando las ventajas competitivas de la empresa.</p>
-            <p>Actualización del Currículo de la empresa tanto en lo individual (convencionista) como en lo colectivo (expositor) a través de la experiencia y conocimientos compartidos a lo largo de las actividades innovadoras y aplicables a tu público objetivo.</p>
-            <p>Desarrollo personal y mejoramiento de técnicas de negociación.</p>--%>
         </div>
     </div>
 
@@ -163,13 +157,14 @@
                     <h1>¿CÓMO PUEDO PARTICIPAR?</h1>
                     <p>
                         <a href="#modalAsistente" data-toggle="modal">
-                        <img src="assets/img/expo_comercial/BT-ASISTENTE.png" width="190" class="img_menus"/>
+                            <img alt="asistente" src="assets/img/expo_comercial/BT-ASISTENTE.png" width="190" class="img_menus"/>
                         </a>
-                        <img src="assets/img/expo_comercial/BT-EXPOSITOR.png" width="190" class="img_menus"/>
-                        <img src="assets/img/expo_comercial/BT-BENEFICIOS.png" width="190" class="img_menus"/>
-                       <%-- <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">ASISTENTE</a>
-                        <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">EXPOSITOR</a>
-                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">PATROCINADOR</a>--%>
+                        <a href="#modalExpositor" data-toggle="modal">
+                            <img alt="expositor" src="assets/img/expo_comercial/BT-EXPOSITOR.png" width="190" class="img_menus"/>
+                        </a>
+                        <a href="#modalPatrocinador" data-toggle="modal">
+                            <img alt="patrocinador" src="assets/img/expo_comercial/BT-BENEFICIOS.png" width="190" class="img_menus"/>
+                        </a>
                     </p>
                 </div>
 
@@ -322,68 +317,7 @@
                     <a id="a31" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img31" alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
                     <a id="a30" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img30" alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
-
-
-                 <table class="rwd_auto fontsize">
-                                                <thead>
-                                              <h2>Empresas que ya cuentan con STAND</h2> 
-                                                </thead>
-                                                <tbody>
-                                                 <tr>
-                                                    <td>40</td>
-                                                    <td>United Genetics Seeds, Co.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>19</td>
-                                                    <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>48</td>
-                                                    <td>Marseed Company, S.A. de C.V.</td>
-                                                </tr>
-                                                <tr>
-                                                     <td>45</td>
-                                                    <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
-                                                </tr>
-                                                 <tr>
-                                                     <td></td>
-                                                    <td>Gowan Semillas, S.A. de C.V. </td>
-                                                </tr>
-                                                 <tr>
-                                                     <td>6</td>
-                                                    <td>Nunhems México, S.A. de C.V. </td>
-                                                </tr>
-                                                <tr>
-                                                     <td></td>
-                                                    <td>US Agriseeds Inc. de México, S.A. de C.V. </td>
-                                                </tr>
-                                                <tr>
-                                                     <td>21</td>
-                                                    <td>Syngenta Corporativo, S.A. de C.V. </td>
-                                                </tr>
-                                                <tr>
-                                                     <td>47</td>
-                                                    <td>MIM Plastic, S.A. de C.V.</td>
-                                                </tr>
-                                                <tr>
-                                                     <td>46</td>
-                                                    <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
-                                                </tr>
-                                                <tr>
-                                                     <td>22-23</td>
-                                                    <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-
-
             </center>
-
-
-                                       
-
-
-
         </div>
     </div>
 
@@ -410,6 +344,71 @@
             <center>
                 <p>La información será enviada y validada.</p>
             </center>
+        </div>
+    </div>
+
+    <div id="empresas_stand" class="section">
+        <div class="container">
+            <table class="rwd_auto fontsize">
+                <thead>
+                    <h2>Empresas que ya cuentan con STAND</h2>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>40</td>
+                        <td><img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
+                        <td>United Genetics Seeds, Co.</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
+                    </tr>
+                    <tr>
+                        <td>48</td>
+                        <td><img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
+                        <td>Marseed Company, S.A. de C.V.</td>
+                    </tr>
+                    <tr>
+                        <td>45</td>
+                        <td><img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
+                        <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>Gowan Semillas, S.A. de C.V. </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
+                        <td>Nunhems México, S.A. de C.V. </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>
+                        <td>US Agriseeds Inc. de México, S.A. de C.V. </td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td><img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
+                        <td>Syngenta Corporativo, S.A. de C.V. </td>
+                    </tr>
+                    <tr>
+                        <td>47</td>
+                        <td><img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
+                        <td>MIM Plastic, S.A. de C.V.</td>
+                    </tr>
+                    <tr>
+                        <td>46</td>
+                        <td><img alt="FMC" src="img/logotipos/FMC.png" /></td>
+                        <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
+                    </tr>
+                    <tr>
+                        <td>22-23</td>
+                        <td><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
+                        <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 

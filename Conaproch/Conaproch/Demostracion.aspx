@@ -173,16 +173,15 @@
                         <a  href="#modalExpositor" data-toggle="modal"> 
                             <img src="assets/img/demostraciones/btc-invernadero.png"  width="160" /></a>--%>
 
- <div class="centrado_imgs">
+                    <div class="centrado_imgs">
+                         <a  href="#modalAsistente" data-toggle="modal">
+                            <span class="img_CampoAbierto"></span></a>
                     
-                      <a  href="#modalPatrocinador" data-toggle="modal">
+                      <a  href="#modalExpositor" data-toggle="modal">
                             <span class="img_macrotunel"></span></a>
 
-                         <a  href="#modalAsistente" data-toggle="modal">
-                            <span class="img_CampoAbierto"></span></a>    
-
                              <a  href="#modalPatrocinador" data-toggle="modal">
-                            <span class="img_CampoAbierto"></span></a>    
+                            <span class="img_Inernadero"></span></a>    
                     </div> 
                        <%-- <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">CAMPO ABIERTO</a>
                         <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">MACRO TUNEL</a>

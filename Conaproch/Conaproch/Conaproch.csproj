@@ -210,6 +210,15 @@
     <Content Include="HoteleriaTurismo.aspx" />
     <Content Include="img\bt-contadordias.png" />
     <Content Include="img\bt-contadordias1.png" />
+    <Content Include="img\logotipos\FMC.png" />
+    <Content Include="img\logotipos\HarrisMoran.png" />
+    <Content Include="img\logotipos\Marseed.png" />
+    <Content Include="img\logotipos\MIMPlastic.png" />
+    <Content Include="img\logotipos\Nunhems.png" />
+    <Content Include="img\logotipos\Rivulis.png" />
+    <Content Include="img\logotipos\syngenta.png" />
+    <Content Include="img\logotipos\UnitedGeneticsSeeds.png" />
+    <Content Include="img\logotipos\USAgriseeds.png" />
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
     <Content Include="img\menu\BT-INICIO-HOVER.png" />
