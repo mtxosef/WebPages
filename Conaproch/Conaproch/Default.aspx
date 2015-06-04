@@ -269,8 +269,10 @@
                 <h1>Contacto</h1>
                 <p>Ponte en contacto para cualquier duda o aclaración</p>
             </div>
+
+
             <div class="row">
-                <div class="span6">
+                <div class="spanContacto">
                     <h3>Información de contacto</h3>
                     <ul>
                         <li>Av. Prolongación General Ignacio Zaragoza #721.</li>
@@ -285,7 +287,10 @@
                         <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
                     </div>
                 </div>
-                <div class="span6">
+
+               
+
+                <div class="spanContacto2">
                     <h3>Escríbenos</h3>
                     <form action="#contact" id="comment_form" class="comment_form" runat="server">
                         <div class="row-fluid">
@@ -308,6 +313,8 @@
                     </form>
                 </div>
             </div>
+
+
             <div class="map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d925.2846920903543!2d-102.30519776686633!3d21.92921608117968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef08bc752fff%3A0xa2c3b9add6bb0b52!2sProl+Ignacio+Zaragoza+721%2C+20115+Aguascalientes%2C+Ags.!5e0!3m2!1ses!2smx!4v1431966199079"
                 width="425" height="350" frameborder="0" style="border:0" scrolling="no" marginheight="0"></iframe>
