@@ -162,10 +162,14 @@
                 <div class="hero">
                     <h1>¿CÓMO PUEDO PARTICIPAR?</h1>
                     <p>
-                   
-                        <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">ASISTENTE</a>
+                        <a href="#modalAsistente" data-toggle="modal">
+                        <img src="assets/img/expo_comercial/BT-ASISTENTE.png" width="190" class="img_menus"/>
+                        </a>
+                        <img src="assets/img/expo_comercial/BT-EXPOSITOR.png" width="190" class="img_menus"/>
+                        <img src="assets/img/expo_comercial/BT-BENEFICIOS.png" width="190" class="img_menus"/>
+                       <%-- <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">ASISTENTE</a>
                         <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">EXPOSITOR</a>
-                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">PATROCINADOR</a>
+                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">PATROCINADOR</a>--%>
                     </p>
                 </div>
 

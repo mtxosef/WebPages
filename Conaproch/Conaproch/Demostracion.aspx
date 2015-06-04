@@ -165,11 +165,28 @@
             <div class="container">
                 <div class="hero">
                     <h1>Empresas participantes</h1>
-                    <p>Modalidad</p>
+                    <%--<p>Modalidad</p>--%>
                     <p>
-                        <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">CAMPO ABIERTO</a>
+
+               <%--     <a  href="#modalAsistente" data-toggle="modal">
+                        <img src="assets/img/demostraciones/btc-campoabierto.png"  width="160" class="img_menus"/></a>
+                        <a  href="#modalExpositor" data-toggle="modal"> 
+                            <img src="assets/img/demostraciones/btc-invernadero.png"  width="160" /></a>--%>
+
+ <div class="centrado_imgs">
+                    
+                      <a  href="#modalPatrocinador" data-toggle="modal">
+                            <span class="img_macrotunel"></span></a>
+
+                         <a  href="#modalAsistente" data-toggle="modal">
+                            <span class="img_CampoAbierto"></span></a>    
+
+                             <a  href="#modalPatrocinador" data-toggle="modal">
+                            <span class="img_CampoAbierto"></span></a>    
+                    </div> 
+                       <%-- <a class="btn btn-large" href="#modalAsistente" data-toggle="modal">CAMPO ABIERTO</a>
                         <a class="btn btn-large" href="#modalExpositor" data-toggle="modal">MACRO TUNEL</a>
-                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">INVERNADERO</a>
+                        <a class="btn btn-large" href="#modalPatrocinador" data-toggle="modal">INVERNADERO</a>--%>
                     </p>
                 </div>
 

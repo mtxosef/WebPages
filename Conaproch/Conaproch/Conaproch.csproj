@@ -74,6 +74,15 @@
     <Content Include="assets\css\jquery.bxslider.css" />
     <Content Include="assets\css\responsive.css" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\img\demostraciones\bt-campoabierto.png" />
+    <Content Include="assets\img\demostraciones\bt-invernadero.png" />
+    <Content Include="assets\img\demostraciones\bt-macrotunel.png" />
+    <Content Include="assets\img\demostraciones\btc-campoabierto.png" />
+    <Content Include="assets\img\demostraciones\btc-invernadero.png" />
+    <Content Include="assets\img\demostraciones\btc-macrotunel.png" />
+    <Content Include="assets\img\expo_comercial\BT-ASISTENTE.png" />
+    <Content Include="assets\img\expo_comercial\BT-BENEFICIOS.png" />
+    <Content Include="assets\img\expo_comercial\BT-EXPOSITOR.png" />
     <Content Include="assets\img\comite\cartel.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner1.jpg" />
     <Content Include="assets\img\demostraciones\banner_demostracion\banner2.jpg" />

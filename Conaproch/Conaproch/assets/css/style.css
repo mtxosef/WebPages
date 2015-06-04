@@ -157,7 +157,7 @@ a {
 }
 a:hover, a:focus {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .img-rounded {
     -webkit-border-radius: 6px;
@@ -5413,7 +5413,7 @@ a:active {
     padding-bottom: 40px;
 }
 .section .hero h1 {
-    font-size: 48px;
+    font-size: 38px;
 }
 .section .hero p {
       font-size: 20.6px;
@@ -5585,11 +5585,11 @@ a:active {
 
 .divider .hero {
     color: #fff;
-    padding-top: 95px;
+    padding-top: 10px;
     border-bottom: 0;
 }
 .divider .hero h1 {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .divider .hero .btn {
     width: 200px;
@@ -6634,3 +6634,61 @@ display:none;
     {
         .fontsize {font-size:11px}
     }
+    
+    
+    /*Menu */
+    
+    .img_menus:hover
+    {
+        background-color:#CD4A04;
+        
+        }
+        
+        
+     .img_macrotunel {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-image: url(../img/demostraciones/btc-macrotunel.png);
+  background-repeat: no-repeat;
+}
+        .img_macrotunel:hover
+    {
+         background-image: url(../img/demostraciones/bt-macrotunel.png);
+        
+        }
+        
+        
+        .img_CampoAbierto {
+  width: 150px;
+  height: 150px;
+   display: inline-block;
+  background-image: url(../img/demostraciones/btc-campoabierto.png);
+  background-repeat: no-repeat;
+}
+        .img_CampoAbierto:hover
+    {
+         background-image: url(../img/demostraciones/bt-campoabierto.png);
+        
+        }
+        
+        
+         .img_Inernadero {
+  width: 150px;
+  height: 150px;
+   display: inline-block;
+  background-image: url(../img/demostraciones/btc-invernadero.png);
+  background-repeat: no-repeat;
+}
+        .img_Inernadero:hover
+    {
+         background-image: url(../img/demostraciones/bt-invernadero.png);
+        
+        }
+        
+        .centrado_imgs
+        {
+            display:inline-block;
+            text-align:center;
+            
+            }

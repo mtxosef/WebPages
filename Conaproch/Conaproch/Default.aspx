@@ -159,49 +159,60 @@
           <div class="our-team row" style="font-style:italic !important;">
                 <div class="span6">
                     <div class="team">
-                    <br /><br />
+                    <br /><br /><br />
                         <div class="ava">
-                            <img src="assets/img/ava1.jpg" height="150" width="150" alt="team 1">
+                            <img src="assets/img/ava1.jpg"  width="300" alt="team 1">
                         </div>
+                 
+
+
+                    </div>
+                </div>
+                  <div class="span6">
+                     <br />
+                    <div class="team">
+                  
                         <div class="info">
-                            <h4 class="name">
+                    <h4 class="name">
                              <p>   Mensaje del presidente (2015)</h4>
                              "De nueva cuenta tengo el placer de saludar a todos  los involucrados en la 
                             cadena agroalimentaria del chile, producto que  nos distingue  y representa 
                             como país, pues  es parte inherente de nuestra cultura, mismo que ha llegado a 
                             ser casi un símbolo patrio al  identificarnos  vital y ontológicamente.
-                            Qué decir de nuestra gastronomía en donde el chile es el distintivo particular y  
+                            
+                             Qué decir de nuestra gastronomía en donde el chile es el distintivo particular y  
                             fundamental de la cocina mexicana  la cual  ha trascendido al paso de los siglos, 
                             sin duda esta hortaliza es una preciada  herencia de nuestras  culturas 
-                            ancestrales.
-                            <br />
-                            Hoy en día es  uno de los cultivos más importantes en México y el mundo, 
-                            porque sus frutos se consumen tanto en fresco como en seco, siendo nuestro 
-                            país quien cuenta con la mayor variedad; proporcionando color, sabor y aroma a 
-                            infinidad de platillos, dándole un lugar preponderante  entre las especias."</p>
-                                  
+                            ancestrales."
+                           </p>
                                 <p>
                                 "Actualmente México se mantiene avante como  uno de los principales 
                                     proveedores de chile del mundo; datos recientes indican  que ocupó en el 
                                     2013 el 1er. lugar  en la producción de chiles frescos con 2´ 294, 400 
                                     toneladas representando un 32% de la producción mundial.
-                                    <br />
+                                    
                                     Este 2015 se celebrará la 12ª Convención Mundial del Chile bajo la 
                                     coordinación del Comité Nacional Sistema Producto Chile,  
                                     el Consejo Nacional de Productores de Chiles y  el Comité Sistema Producto 
                                     Chile Jalisco,  a celebrarse del 22 al 24 de Octubre  en las 
                                     instalaciones del Centro Universitario de Ciencias Biológicas y  
                                     Agropecuarias (CUCBA) de la Universidad de Guadalajara."
+                                    <br />
+                                     Hoy en día es  uno de los cultivos más importantes en México y el mundo, 
+                            porque sus frutos se consumen tanto en fresco como en seco, siendo nuestro 
+                            país quien cuenta con la mayor variedad; proporcionando color, sabor y aroma a 
+                            infinidad de platillos, dándole un lugar preponderante  entre las especias."
                             </p>
-
+                           
                         </div>
+
 
                     </div>
                 </div>
                 <div class="span6">
                     <div class="team">
                         <div class="info">
-                            <br /><br /><br />
+                            <br /><br />
                                    <p>
                                 "La Convención Mundial del Chile es el foro anual más importante que 
                                 conjunta a este  sector; tras meses de preparativos, el estado de 
@@ -221,10 +232,7 @@
                                 Seguro estoy  de que la participación de nuestros convencionistas 
                                 convertirá a la “12ª Convención Mundial del Chile” en un evento del 
                                 más alto nivel."
-                                <br /><br />
-                                <div align="center">
-                                <img src="assets/img/firmita.png" width="160"/>
-                                </div>
+                               
                                  
                             </p>
                                   
@@ -240,6 +248,13 @@
                         </div>
                     </div>
                 </div>
+
+                 
+                                <div align="center" >
+                                <img src="assets/img/firmita.png" width="160"/>
+                                </div>
+                         <br />
+
             </div>
 
 
