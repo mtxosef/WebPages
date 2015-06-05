@@ -163,7 +163,7 @@
                             <img alt="expositor" src="assets/img/expo_comercial/BT-EXPOSITOR.png" width="190" class="img_menus"/>
                         </a>
                         <a href="#modalPatrocinador" data-toggle="modal">
-                            <img alt="patrocinador" src="assets/img/expo_comercial/BT-BENEFICIOS.png" width="190" class="img_menus"/>
+                            <img alt="patrocinador" src="assets/img/expo_comercial/bt-patrocinador.png" width="190" class="img_menus"/>
                         </a>
                     </p>
                 </div>
@@ -351,7 +351,7 @@
         <div class="container">
             <table class="rwd_auto fontsize">
                 <thead>
-                    <h2>Empresas que ya cuentan con STAND</h2>
+                    <h2>Empresas participantes</h2>
                 </thead>
                 <tbody>
                     <tr>

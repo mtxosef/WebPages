@@ -252,6 +252,33 @@
     <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
+            <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+            <p>Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <br />
+            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
@@ -261,6 +288,33 @@
     <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
+            <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+            <p>Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <br />
+            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
@@ -270,6 +324,33 @@
     <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
+            <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+            <p>Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <br />
+            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
@@ -279,6 +360,33 @@
     <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
+            <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+            <p>Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <br />
+            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>

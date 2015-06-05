@@ -94,6 +94,7 @@
     <Content Include="assets\img\demostraciones\disenoorganigramacucba0.jpg" />
     <Content Include="assets\img\expo_comercial\asistente-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\BENEFICIOS EXPOSITOR PATROCINADOR.jpg" />
+    <Content Include="assets\img\expo_comercial\bt-patrocinador.png" />
     <Content Include="assets\img\expo_comercial\esquema 01.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
@@ -232,6 +233,9 @@
     <Content Include="img\planoStand\RomboStand.png" />
     <Content Include="img\planoStand\Salida.png" />
     <Content Include="img\planoStand\SecretariaDesarrolloRural.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\cv-inferior.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\cv-superior.png" />
+    <Content Include="img\programaCientifico\confereniasMagistrales\cv-vineta.png" />
     <Content Include="img\programaCientifico\confereniasMagistrales\GilVirgen.png" />
     <Content Include="img\programaCientifico\confereniasMagistrales\JoseMartinez.png" />
     <Content Include="img\programaCientifico\confereniasMagistrales\PaulBosland.png" />
