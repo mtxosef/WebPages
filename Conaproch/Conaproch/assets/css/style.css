@@ -4219,7 +4219,7 @@ to {
     transition: .6s ease-in-out left;
 }
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    display: block;
+
     line-height: 1;
 }
 .carousel-inner>.active, .carousel-inner>.next, .carousel-inner>.prev {
@@ -6605,6 +6605,11 @@ display:none;
     
     
     table.width200,table.rwd_auto {border:1px solid #ccc;width:100%;margin:0 0 0 0}
+    
+    table.width200,table.pruebatabla {border:0px ;width:100%;margin:0 0 0 0}
+    .width200 td,.pruebatabla td {border-bottom:0px ;padding:5px;text-align:left}
+    
+    
         .width200 th,.rwd_auto th {background:#ecc95f;padding:5px;text-align:left;}
         .width200 td,.rwd_auto td {border-bottom:1px solid #ccc;padding:5px;text-align:left}
         .width200 tr:last-child td, .rwd_auto tr:last-child td{border:0}

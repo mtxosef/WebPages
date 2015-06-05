@@ -208,6 +208,7 @@
 
                 <!-- Modal Patrocinador modalbox -->
                 <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselPatrocinador" class="carousel slide">
@@ -349,7 +350,7 @@
 
     <div id="empresas_stand" class="section">
         <div class="container">
-            <table class="rwd_auto fontsize">
+           <%-- <table class="rwd_auto fontsize">
                 <thead>
                     <h2>Empresas participantes</h2>
                 </thead>
@@ -408,6 +409,58 @@
                         <td>22-23</td>
                         <td><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
                         <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                    </tr>
+                </tbody>
+            </table>--%>
+            <table class="pruebatabla fontsize" >
+                <thead>
+                    <h2>Empresas participantes</h2>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>40 <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
+                        <td>19 </td>
+                        <td>48 <img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
+                    </tr>
+                  
+                    <tr>
+                        <td>United Genetics Seeds, Co.</td>
+                        <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
+                        <td>Marseed Company, S.A. de C.V.</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>45 <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
+                        <td>18</td>
+                        <td>6 <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
+                        <td>Gowan Semillas, S.A. de C.V. </td>
+                        <td>Nunhems México, S.A. de C.V. </td>
+                    </tr>
+                  
+                    <tr>
+                        <td> <img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>
+                        <td>21 <img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
+                        <td>47 <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
+                    </tr>
+                    <tr>
+                        <td>US Agriseeds Inc. de México, S.A. de C.V.</td>
+                        <td>MIM Plastic, S.A. de C.V.</td>
+                        <td>Syngenta Corporativo, S.A. de C.V. </td>
+                    </tr>
+                   
+                    <tr>
+                        <td>46 <img alt="FMC" src="img/logotipos/FMC.png" /></td>
+                        <td>22-23 <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
+                      
+                    </tr>
+                    <tr>
+                        <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
+                        <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+
                     </tr>
                 </tbody>
             </table>

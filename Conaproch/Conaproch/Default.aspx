@@ -276,10 +276,14 @@
                     <h3>Información de contacto</h3>
                     <ul>
                         <li>Av. Prolongación General Ignacio Zaragoza #721.</li>
+                        <br />
                         <li>Trojes de Oriente 1a sección.</li>
+                        <br />
                         <li>Aguascalientes, Ags. C.P. 20115</li>
+                        <br />
                         <li>Tels:+52 (449) 996 7593</li>
                         <li>+52 (449) 251 42 00</li>
+                        <br />
                         <li>Email: convencion@conaproch.com</li>
                     </ul>
                     <div class="social">

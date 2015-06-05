@@ -1,25 +1,25 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProgramaCientifico.aspx.cs" Inherits="Conaproch.ProgramaCientifico" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProgramaCientifico.aspx.cs"
+    Inherits="Conaproch.ProgramaCientifico" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html style="margin-top: 0 !important"  lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
-
+<html style="margin-top: 0 !important" lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>12° CONVENCION MUNDIAL DE CHILE</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic'
+        rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/jquery.bxslider.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
-	<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
-	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/date.js"></script>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link rel="Stylesheet" type="text/css" href="css/principal.css" />
@@ -69,42 +69,62 @@
 	        </ul>
         </nav>
     </header>
-  
-    <div id="slider" >
+    <div id="slider">
         <div class="container">
-	        <div id="sequence_Slider">
+            <div id="sequence_Slider">
                 <br />
                 <div id="wowslider-container1">
-	                <div class="ws_images">
+                    <div class="ws_images">
                         <ul>
-		                    <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0"/></li>
-		                    <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1"/></li>
-		                    <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2"/></li>
-		                    <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3"/></li>
-		                    <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4"/></li>
-		                    <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5"/></li>
-		                    <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6"/></li>
-		                    <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7"/></li>
-		                    <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8"/></li>
-	                    </ul>
+                            <li>
+                                <img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0" /></li>
+                            <li>
+                                <img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1" /></li>
+                            <li>
+                                <img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2" /></li>
+                            <li>
+                                <img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3" /></li>
+                            <li>
+                                <img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4" /></li>
+                            <li>
+                                <img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5" /></li>
+                            <li>
+                                <img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6" /></li>
+                            <li>
+                                <img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7" /></li>
+                            <li>
+                                <img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8" /></li>
+                        </ul>
                     </div>
-	                <div class="ws_bullets"><div>
-		                <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL"/>1</span></a>
-		                <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357"/>2</span></a>
-		                <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406"/>3</span></a>
-		                <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532"/>4</span></a>
-		                <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608"/>5</span></a>
-		                <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171"/>6</span></a>
-		                <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225"/>7</span></a>
-		                <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272"/>8</span></a>
-		                <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592"/>9</span></a>
-	                </div></div>
-	                <div class="ws_shadow"></div>
-	            </div>	
-                <br />        
-	        </div>
+                    <div class="ws_bullets">
+                        <div>
+                            <a href="#" title="BANNER PRINCIPAL"><span>
+                                <img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL" />1</span></a>
+                            <a href="#" title="IMG_3357"><span>
+                                <img src="data1/tooltips/img_3357.jpg" alt="IMG_3357" />2</span></a> <a href="#"
+                                    title="IMG_3406"><span>
+                                        <img src="data1/tooltips/img_3406.jpg" alt="IMG_3406" />3</span></a>
+                            <a href="#" title="IMG_3532"><span>
+                                <img src="data1/tooltips/img_3532.jpg" alt="IMG_3532" />4</span></a> <a href="#"
+                                    title="IMG_3608"><span>
+                                        <img src="data1/tooltips/img_3608.jpg" alt="IMG_3608" />5</span></a>
+                            <a href="#" title="IMG_4171"><span>
+                                <img src="data1/tooltips/img_4171.jpg" alt="IMG_4171" />6</span></a> <a href="#"
+                                    title="IMG_4225"><span>
+                                        <img src="data1/tooltips/img_4225.jpg" alt="IMG_4225" />7</span></a>
+                            <a href="#" title="IMG_4272"><span>
+                                <img src="data1/tooltips/img_4272.jpg" alt="IMG_4272" />8</span></a> <a href="#"
+                                    title="IMG_4592"><span>
+                                        <img src="data1/tooltips/img_4592.jpg" alt="IMG_4592" />9</span></a>
+                        </div>
+                    </div>
+                    <div class="ws_shadow">
+                    </div>
+                </div>
+                <br />
+            </div>
             <div class="contador">
-                <img alt="contador" src="img/bt-contadordias.png"  />
+                <img alt="contador" src="img/bt-contadordias.png" />
                 <div class="dias">
                     <span id="sDias"></span>
                 </div>
@@ -117,14 +137,13 @@
             </div>
         </div>
     </div>
-
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar"
+                    type="button">
+                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
+                    </span>
                 </button>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
@@ -139,22 +158,23 @@
         </div>
     </div>
     <!-- end navbar -->
-
     <!-- end About us  -->
     <div id="p_cientifco" class="section">
         <div class="container">
             <div class="hero">
-                <h1>Comité Científico</h1>
+                <h1>
+                    Comité Científico</h1>
             </div>
-            <center><img alt="organigrama" src="assets/img/p_cientifico/organigrama-actual.png" /></center>
-
-            <br /><br /><br />
-
-            <div class="blog_container">               
+            <center>
+                <img alt="organigrama" src="assets/img/p_cientifico/organigrama-actual.png" /></center>
+            <br />
+            <br />
+            <br />
+            <div class="blog_container">
                 <div class="row-full clearfix">
                     <div class="brick1">
                         <a href="http://errors.stablehost.com/406.php" class="article">
-                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog">                          
+                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog">
                         </a>
                     </div>
                     <div class="brick2 odd">
@@ -172,9 +192,6 @@
                             <img src="assets/img/p_cientifico/banner-extra.png" alt="blog">
                         </a>
                     </div>
-                    <%--<div class="brick2">
-                <iframe src="http://player.vimeo.com/video/40689438?autoplay=0&amp;api=1" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                </div>--%>
                     <div class="brick2 odd">
                         <a href="" class="article">
                             <img src="assets/img/p_cientifico/logo-conaproch.png" alt="blog" />
@@ -182,9 +199,11 @@
                     </div>
                 </div>
             </div>
-            
             <div id="magistrales" class="section">
-                <center><h1>Conferencias Magistrales</h1></center>
+                <center>
+                    <h1>
+                        Conferencias Magistrales</h1>
+                </center>
                 <br />
                 <div class="our-team row">
                     <div class="span6">
@@ -193,11 +212,14 @@
                                 <img src="img/programaCientifico/confereniasMagistrales/GilVirgen.png" alt="team 1" />
                             </div>
                             <div class="info">
-                                <h4 class="name">Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
+                                <h4 class="name">
+                                    Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
                                 <b>"Tendencias Actuales de Mercados y Materiales Genéticos de Chile en el Mundo"</b>
-                                <br /><br />
+                                <br />
+                                <br />
                                 <a class="btn btn-large" href="#modalGil" data-toggle="modal">VER MAS</a>
-                                <br /><br />
+                                <br />
+                                <br />
                             </div>
                         </div>
                     </div>
@@ -207,11 +229,14 @@
                                 <img src="img/programaCientifico/confereniasMagistrales/JoseMartinez.png" alt="team 1" />
                             </div>
                             <div class="info">
-                                <h4 class="name">Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
+                                <h4 class="name">
+                                    Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
                                 <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
-                                <br /><br />
+                                <br />
+                                <br />
                                 <a class="btn btn-large" href="#modalJose" data-toggle="modal">VER MAS</a>
-                                <br /><br />
+                                <br />
+                                <br />
                             </div>
                         </div>
                     </div>
@@ -221,11 +246,14 @@
                                 <img src="img/programaCientifico/confereniasMagistrales/Simonne.png" alt="team 1" />
                             </div>
                             <div class="info">
-                                <h4 class="name">Dr. Eric Simonne<small> - Profesor e Investigador</small></h4>
+                                <h4 class="name">
+                                    Dr. Eric Simonne<small> - Profesor e Investigador</small></h4>
                                 <b>"Uso Eficiente del Agua y la Nutrición en el Cultivo del Chile"</b>
-                                <br /><br />
+                                <br />
+                                <br />
                                 <a class="btn btn-large" href="#modalEric" data-toggle="modal">VER MAS</a>
-                                <br /><br />
+                                <br />
+                                <br />
                             </div>
                         </div>
                     </div>
@@ -235,177 +263,332 @@
                                 <img src="img/programaCientifico/confereniasMagistrales/PaulBosland.png" alt="team 1" />
                             </div>
                             <div class="info">
-                                <h4 class="name">Dr. Paul Bosland<small> - Profesor Regents</small></h4>
+                                <h4 class="name">
+                                    Dr. Paul Bosland<small> - Profesor Regents</small></h4>
                                 <b>"Genoma del Chile y su uso para mejorarlos"</b>
-                                <br /><br />
+                                <br />
+                                <br />
                                 <a class="btn btn-large" href="#modalPaul" data-toggle="modal">VER MAS</a>
-                                <br /><br />
+                                <br />
+                                <br />
                             </div>
                         </div>
                     </div>
                 </div>
-          </div>
+            </div>
         </div>
     </div>
-
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            ×</button>
         <div class="modal-body">
             <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-            <p>Dr. Gil Virgen Calleros</p>
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <p>
+                Dr. Gil Virgen Calleros</p>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing.
+                Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria
+                en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado
+                en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Universidad de Alaska Fairbanks</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                del Departamento de parasitología de la UAAAN 1988 a 1990</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad
+                de Guadalajara, 1990 a la fecha</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable
+                del laboratorio de Fitopatología, en la misma Institución</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área
+                de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile,
+                sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación
+                diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades
+                en hortalizas, así como el uso de microorganismos para el control biológico y promoción
+                de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de
+                productos biológicos tanto para el control de enfermedades como para la bioestimulación
+                del crecimiento de las plantas.</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista
+                invitado en diferentes eventos científicos internacionales como el Smartfruit Congress
+                en Barcelona, España</span>
+            <br />
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador
+                de importantes eventos científicos como el Simposio nacional e Internacional de
+                Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <br />
             <br />
             <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
     </div>
-
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            ×</button>
+        <div class="modal-body">
+            <div id="divCurriculum2" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <p>
+                            Dr. José Luis Martínez Ramírez</p>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>LICENCIATURA:
+                            Escuela de Agricultura de la Universidad de Guadalajara, obteniendo el titulo de
+                            Ingeniero Agrónomo con orientación en Filotecnia. 1972-1977.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>MAESTRIA:
+                            Colegio de Postgraduados, obteniendo el grado de Maestro en Ciencias especialista
+                            en Fitopatología. 1979-1980.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>DOCTORADO:
+                            Universidad de Colima, obteniendo el grado de Doctor en Ciencias. 1995-2000.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>EXPERIENCIA
+                            PROFESIONAL Encargado del programa de Parasitología del Departamento de Investigación
+                            de TABAMEX, S.A. de C.V. durante l977. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Subjefe
+                            de informática y estudios del Distrito de Temporal IV de Jalisco con sede en Ameca,
+                            Jalisco. S.A.R.H. l978.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Investigador
+                            del programa de Fitopatología del Campo Agrícola Experimental Altos de Jalisco,
+                            INIA, SARH, de 1981-1984. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                            Investigador titular UNAM-UAG, Escuela de Ingeniería Agrícola 1984-1985.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Jefe
+                            de Unidad de Parasitología de TABAMEX, S.A. DE C.V. de 1985-1987. Asesor de Horticultores
+                            particulares desde 1987 a la fecha. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Actualmente
+                            Profesor investigador Titular C. En licenciatura y postgrado. Del Departamento de
+                            Producción Agrícola del CUCBA, U de G. Desde 1993 Actualmente imparte los cursos
+                            de Fitopatología y Agroquímicos II Fungicidas.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ha
+                            participado constantemente como ponente en simposios, diplomados, talleres y congresos
+                            científicos. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ha
+                            dirigido tesis tanto de licenciatura como de postgrado. </span>
+                        <br />
+                        <br />
+                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                    </div>
+                    <div class="item">
+                        <span>PUBLICACIONES</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Cuenta
+                            con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</span>
+                        <br />
+                        <br />
+                        <span>DESARROLLOS TECNOLOGICOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Sistemas de manejo integrado de virus en Tabaco y en hortalizas. Variedad de Tabaco
+                            Burley 21-M resistente a virus. Variedades de Jitomate Urhepani con resistencia
+                            a virus, Tizón tardío y bacteriosis. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            En proceso de caracterización variedad resistente a tizón tardío y variedades de
+                            tomate de cascara con resistencia a virus. </span>
+                        <br />
+                        <br />
+                        <span>RECONOCMIENTOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Diploma y medalla otorgada por el Consejo Mexicano de Cultura, Institución los mejores
+                            estudiantes de México, al mejor estudiante de Ingeniero Agrónomo Fitotecnista generación
+                            1977 de la Escuela de Agricultura de la Universidad de Guadalajara.</span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Doble felicitación por la trayectoria académica y por el trabajo de tesis de Maestría.
+                            Lugar de honor por la obtención del mejor promedio de calificaciones de las generaciones
+                            de año 2000 en la Universidad de Colima. Premio Nacional de investigación otorgado
+                            por la Unión Nacional de Productores de Hortalizas, por los trabajos de investigación
+                            al combate de enfermedades que permitieron bajar los índices de incidencia de virosis
+                            en cultivos hortícolas en la región de Autlán, Jalisco 1987. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Reconocimientos de la Sociedad Mexicana de Fitopatología, por las mejores ponencias
+                            de cada área en los congresos XIII y XVI. </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Reconocimiento como profesor distinguido por varias generaciones de Ingenieros Agrónomos.
+                        </span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                            Padrino de las generaciones 2009 A, 2011B y 2012B de Ingenieros Agrónomos de la
+                            Universidad de Guadalajara. Galardón al merito académico Enrique Díaz de León 2011,
+                            otorgado por la Universidad de Guadalajara. </span>
+                        <br />
+                        <br />
+                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#divCurriculum2" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#divCurriculum2" data-slide="next">&rsaquo;</a>
+            </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+    </div>
+    <!-- Modal Convocatoria modalbox -->
+    <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            ×</button>
         <div class="modal-body">
             <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-            <p>Dr. Gil Virgen Calleros</p>
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <p>
+                Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing.
+                Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria
+                en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado
+                en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Universidad de Alaska Fairbanks</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                del Departamento de parasitología de la UAAAN 1988 a 1990</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad
+                de Guadalajara, 1990 a la fecha</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable
+                del laboratorio de Fitopatología, en la misma Institución</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área
+                de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile,
+                sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación
+                diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades
+                en hortalizas, así como el uso de microorganismos para el control biológico y promoción
+                de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de
+                productos biológicos tanto para el control de enfermedades como para la bioestimulación
+                del crecimiento de las plantas.</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista
+                invitado en diferentes eventos científicos internacionales como el Smartfruit Congress
+                en Barcelona, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador
+                de importantes eventos científicos como el Simposio nacional e Internacional de
+                Bacterias Fitopatógenas, en 5 ocasiones.</span>
             <br />
             <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
     </div>
-
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+            ×</button>
         <div class="modal-body">
             <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-            <p>Dr. Gil Virgen Calleros</p>
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
+            <p>
+                Dr. Gil Virgen Calleros</p>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing.
+                Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria
+                en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado
+                en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Universidad de Alaska Fairbanks</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+                de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                del Departamento de parasitología de la UAAAN 1988 a 1990</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+                Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad
+                de Guadalajara, 1990 a la fecha</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable
+                del laboratorio de Fitopatología, en la misma Institución</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área
+                de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile,
+                sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación
+                diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades
+                en hortalizas, así como el uso de microorganismos para el control biológico y promoción
+                de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de
+                productos biológicos tanto para el control de enfermedades como para la bioestimulación
+                del crecimiento de las plantas.</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista
+                invitado en diferentes eventos científicos internacionales como el Smartfruit Congress
+                en Barcelona, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador
+                de importantes eventos científicos como el Simposio nacional e Internacional de
+                Bacterias Fitopatógenas, en 5 ocasiones.</span>
             <br />
             <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
     </div>
-
-    <!-- Modal Convocatoria modalbox -->
-    <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <div class="modal-body">
-            <span>CURRICULUM VITAE</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-            <p>Dr. Gil Virgen Calleros</p>
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Universidad de Alaska Fairbanks</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor del Departamento de parasitología de la UAAAN 1988 a 1990</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable del laboratorio de Fitopatología, en la misma Institución</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</span>
-            <br />
-            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
-        </div>
-        <div class="modal-footer">
-        </div>
-    </div>
-
     <!-- end Blog -->
     <div id="purchase" class="divider section">
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>CONVOCATORIA</h1>
+                    <h1>
+                        CONVOCATORIA</h1>
                     <p>
-                        <div class="nav-hover"></div>
-                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"target="_blank">DESCARGAR</a>
+                        <div class="nav-hover">
+                        </div>
+                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/CONVOCATORIA_CIENTIFICA 2015.pdf"
+                            target="_blank">DESCARGAR</a>
                     </p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
-                <div id="modalboxConv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <div id="modalboxConv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                    aria-hidden="true">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        ×</button>
                     <div class="modal-body">
                         <div id="myCarouselConv" class="carousel slide">
                             <div class="carousel-inner">
@@ -468,10 +651,14 @@
                     <h1>
                         REGISTRO</h1>
                     <p>
-                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"target="_blank">DESCARGAR</a>
-                        <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">EN LÍNEA</a>
+                        <a class="btn btn-large" href="assets/descargas/convocatoria_cientifica/FORMATO DE REGISTRO PARA TRABAJO CIENTIFICO.pdf"
+                            target="_blank">DESCARGAR</a> <a class="btn btn-large" href="#modalRegistro" data-toggle="modal">
+                                EN LÍNEA</a>
                     </p>
-                    <p>Para su edición, descargue el Adobe Reader DC de la siguiente liga <a style="font-weight:bold; text-decoration:underline;" href="https://get2.adobe.com/es/reader/">Adobe Reader.</a> En sección editar y firmar, les dará las herramientas para hacerlo de manera sencilla.</p>
+                    <p>
+                        Para su edición, descargue el Adobe Reader DC de la siguiente liga <a style="font-weight: bold;
+                            text-decoration: underline;" href="https://get2.adobe.com/es/reader/">Adobe Reader.</a>
+                        En sección editar y firmar, les dará las herramientas para hacerlo de manera sencilla.</p>
                 </div>
                 <!-- Modal Convocatoria modalbox -->
                 <div id="modalRegistro" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -526,34 +713,30 @@
             </div>
         </div>
     </div>
-
-
-     <div id="pie" class="divider section">
-        
-            <div class="container">
-            
-                 <ul id="flexiselDemo3">
-                    <li>
-                        <img src="assets/img/comite/clogo-convencionmundial.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-aserca.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-bienestar.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-conaproch.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-cucba2.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-gobjalisco.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-sagarpa.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo-seder.png" /></li>
-                    <li>
-                        <img src="assets/img/comite/logo_cucba.png" /></li>
-                </ul>
-            </div>
-            </div>
+    <div id="pie" class="divider section">
+        <div class="container">
+            <ul id="flexiselDemo3">
+                <li>
+                    <img src="assets/img/comite/clogo-convencionmundial.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-aserca.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-bienestar.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-conaproch.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-cucba2.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-gobjalisco.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-sagarpa.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo-seder.png" /></li>
+                <li>
+                    <img src="assets/img/comite/logo_cucba.png" /></li>
+            </ul>
+        </div>
+    </div>
     <footer id="footer">
 	    <div class="container">
             <center>
@@ -575,6 +758,6 @@
     <script type="text/javascript" src="assets/js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="engine1/wowslider.js"></script>
-	<script type="text/javascript" src="engine1/script.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
 </body>
 </html>
