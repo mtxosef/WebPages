@@ -39,7 +39,7 @@
                 <li><a class="nav-li-active" href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
                 <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
                 <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y REGISTRO</small></div></a></li>
                 <li><a href="HoteleriaTurismo.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
                 <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
 	        </ul>
@@ -397,6 +397,10 @@
                                                     <td>JALAPEÑO BLS GS-309</td>
                                                 </tr>
                                                 <tr>
+                                                     <td>Jalapeño </td>
+                                                    <td>JALAPEÑO BLS GS-206</td>
+                                                </tr>
+                                                <tr>
                                                      <td>Jalapeño</td>
                                                     <td>JALAPEÑO BLS GS-435</td>
                                                 </tr>
@@ -491,12 +495,12 @@
                                                     <td>USAPR 10600</td>
                                                 </tr>
                                                 <tr>
-                                                     <td>Banana</td>
+                                                     <td>Banana Dulce</td>
                                                     <td>Goddess</td>
                                                 </tr>
                                                 <tr>
-                                                     <td>Banana Dulce</td>
-                                                    <td>Lightning Banana</td>
+                                                     <td>Banana</td>
+                                                    <td>Blazing Banana</td>
                                                 </tr>
                                                 <tr>
                                                      <td>Caribe</td>
@@ -558,7 +562,7 @@
                                     <dl id="js-smart-tabs--accordion2" class="smart-tabs">
                                         <hr />
                                         <h4>EMPRESAS MODALIDAD: MACRO TUNEL</h4>                                     
-                                        <dt><a href="#">MARSEED</a></dt>
+                                        <dt><a href="#">CALORO SEEDS</a></dt>
                                         <dd>
                                            <table class="rwd_auto fontsize">
                                                 <thead>
@@ -578,7 +582,7 @@
                                                 </tr>
                                                 <tr>
                                                      <td>Güero</td>
-                                                    <td>MEGA CALOTO STA FE F1</td>
+                                                    <td>MEGA CALORO STA FE F1</td>
                                                 </tr>
                                                  <tr>
                                                      <td>Jalapeño</td>
@@ -683,8 +687,8 @@
                                                 </thead>
                                                 <tbody>
                                                 <tr>
-                                                    <td>Pimiento Bell Peper</td>
-                                                    <td>BELLPEPER TYSON</td>
+                                                    <td>Pimiento Bell Pepper</td>
+                                                    <td>BELL PEPPER TYSON</td>
                                                 </tr>
                                                 </tbody>
                                             </table>

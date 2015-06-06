@@ -65,7 +65,7 @@
                 <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
                 <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
                 <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y REGISTRO</small></div></a></li>
                 <li><a href="HoteleriaTurismo.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
                 <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
 	        </ul>
@@ -350,117 +350,207 @@
 
     <div id="empresas_stand" class="section">
         <div class="container">
-           <%-- <table class="rwd_auto fontsize">
-                <thead>
-                    <h2>Empresas participantes</h2>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>40</td>
-                        <td><img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
-                        <td>United Genetics Seeds, Co.</td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td></td>
-                        <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
-                    </tr>
-                    <tr>
-                        <td>48</td>
-                        <td><img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
-                        <td>Marseed Company, S.A. de C.V.</td>
-                    </tr>
-                    <tr>
-                        <td>45</td>
-                        <td><img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
-                        <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td></td>
-                        <td>Gowan Semillas, S.A. de C.V. </td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td><img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
-                        <td>Nunhems México, S.A. de C.V. </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>
-                        <td>US Agriseeds Inc. de México, S.A. de C.V. </td>
-                    </tr>
-                    <tr>
-                        <td>21</td>
-                        <td><img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
-                        <td>Syngenta Corporativo, S.A. de C.V. </td>
-                    </tr>
-                    <tr>
-                        <td>47</td>
-                        <td><img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
-                        <td>MIM Plastic, S.A. de C.V.</td>
-                    </tr>
-                    <tr>
-                        <td>46</td>
-                        <td><img alt="FMC" src="img/logotipos/FMC.png" /></td>
-                        <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
-                    </tr>
-                    <tr>
-                        <td>22-23</td>
-                        <td><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
-                        <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
-                    </tr>
-                </tbody>
-            </table>--%>
+        
             <table class="pruebatabla fontsize" >
                 <thead>
                     <h2>Empresas participantes</h2>
                 </thead>
                 <tbody>
+              <%--  1-3--%>
                     <tr>
-                        <td>40 <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
-                        <td>19 </td>
-                        <td>48 <img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
+                        <td><b>1</b></td>
+                        <td><b>2</b></td>
+                        <td><b>3</b></td>
                     </tr>
-                  
                     <tr>
-                        <td>United Genetics Seeds, Co.</td>
-                        <td>Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
-                        <td>Marseed Company, S.A. de C.V.</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
                     </tr>
 
+                <%--  4-6--%>
+                    <tr>
+                        <td><b>4</b></td>
+                        <td><b>5</b></td>
+                        <td><b>6</b> <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Nunhems México, S.A. de C.V. </td>
+                    </tr>
+                  <%-- 7-9--%>
+                    <tr>
+                      <%--  <td>7 <img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>--%>
+                        <td><b> 7 </b></td>
+                        <td><b> 8 </b></td>
+                        <td><b> 9 </b></td>
+                    </tr>
+                    <tr>
+                       <%-- <td>US Agriseeds Inc. de México, S.A. de C.V.</td>--%>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                   <%--10-12--%>
+                    <tr>
+                        <td><b> 10 </b></td>
+                        <td><b> 11 </b></td>
+                        <td><b> 12 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
 
+                    <%--13-15--%>
                     <tr>
-                        <td>45 <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
-                        <td>18</td>
-                        <td>6 <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
+                        <td><b> 13 </b></td>
+                        <td><b> 14 </b></td>
+                        <td><b> 15 </b></td>
                     </tr>
                     <tr>
-                        <td>Semillas Harris Moran Mexicana, S.A. de C.V. </td>
-                        <td>Gowan Semillas, S.A. de C.V. </td>
-                        <td>Nunhems México, S.A. de C.V. </td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                         <td style="color:#6D9847;">Disponible</td>
                     </tr>
-                  
+
+                    <%--16-18--%>
                     <tr>
-                        <td> <img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>
-                        <td>21 <img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
-                        <td>47 <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
+                        <td><b> 16 </b></td>
+                        <td><b> 17 </b></td>
+                        <td><b> 18 <img src="img/logotipos/logo%20GOWAN%20SEED%20MEXICO.PNG" /></b></td>
                     </tr>
                     <tr>
-                        <td>US Agriseeds Inc. de México, S.A. de C.V.</td>
-                        <td>MIM Plastic, S.A. de C.V.</td>
-                        <td>Syngenta Corporativo, S.A. de C.V. </td>
-                    </tr>
-                   
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                         <td style="color:#6D9847;">Gowan Semillas, S.A. de C.V. </td>
+                    </tr>    
+
+                    <%--19-21--%>
                     <tr>
-                        <td>46 <img alt="FMC" src="img/logotipos/FMC.png" /></td>
-                        <td>22-23 <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
+                        <td><b>19 <img src="img/logotipos/Caloro%20Logocurvas.png" /></b></td>
+                        <td><b>20 </b></td>
+                        <td><b>21 </b><img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
+                        <td style="color:#6D9847;">Agroestimulantes Mexicanos, S.A. de C.V. </td>
+                        <td style="color:#6D9847;">Syngenta Corporativo, S.A. de C.V. </td>
+                    </tr>
+
+                     <%--22-24--%>
+                    <tr>
+                      <td><b>22 </b><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
+                        <td><b>23 </b><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
+                        <td><b>24 </b></td>
                       
                     </tr>
                     <tr>
-                        <td>FMC Agroquímica de México, S. de R.L. de C.V.</td>
-                        <td>Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                        <td style="color:#6D9847;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                        <td style="color:#6D9847;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    
+                    </tr>
+                    <%--25-27--%>
 
+                    <tr>
+                        <td><b> 25 </b></td>
+                        <td><b> 26 </b></td>
+                        <td><b> 27 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                         <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                    <%--28-30--%>
+                    <tr>
+                        <td><b> 28 </b></td>
+                        <td><b> 29 </b></td>
+                        <td><b> 30 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                    <%---31-33--%>
+                     <tr>
+                        <td><b>31 </b></td>
+                        <td><b>32 </b></td>
+                        <td><b>33 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                     <%---34-36--%>
+                     <tr>
+                        <td><b>34 </b></td>
+                        <td><b>35 </b></td>
+                        <td><b>36 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                    <%---37-39--%>
+                     <tr>
+                        <td><b>37 </b></td>
+                        <td><b>38 </b></td>
+                        <td><b>39 </b></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                    <%---40-42--%>
+                      <tr>
+                        <td><b>40 <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
+                        <td><b>41</td>
+                        <td><b>42</td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">United Genetics Seeds, Co.</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                    </tr>
+                     <%--43-45--%>
+                     <tr>
+                        <td><b>43</td>
+                        <td><b>44</td>
+                        <td><b>45 <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Semillas Harris Moran Mexicana, S.A. de C.V. </td>
+                    </tr>
+                        
+                     <%--46-48--%>
+                     <tr>
+                        <td><b>46 <img alt="FMC" src="img/logotipos/FMC.png" /></td>
+                        <td><b>47 <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
+                        <td><b>48 <img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
+                    </tr>
+                    <tr>
+                        <td style="color:#6D9847;">FMC Agroquímica de México, S. de R.L. de C.V.</td>
+                        <td style="color:#6D9847;">MIM Plastic, S.A. de C.V.</td>
+                        <td style="color:#6D9847;">Marseed Company, S.A. de C.V.</td>
+                    </tr>
+                    <%---49-50--%>
+                     <tr>
+                        <td><b>49</td>
+                        <td><b>50</td>
+                    </tr>
+                    <tr>
+                          <td style="color:#6D9847;">Disponible</td>
+                        <td style="color:#6D9847;">Disponible</td>
                     </tr>
                 </tbody>
             </table>

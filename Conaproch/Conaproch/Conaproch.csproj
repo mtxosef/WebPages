@@ -99,12 +99,8 @@
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 04.jpg" />
-    <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\expositor-beneficios1.PNG" />
-    <Content Include="assets\img\expo_comercial\instalaciones CUCBA.jpg" />
     <Content Include="assets\img\expo_comercial\instalacionesCUCBA.png" />
-    <Content Include="assets\img\expo_comercial\instalacionesCUCBA1.png" />
-    <Content Include="assets\img\expo_comercial\patrocinador-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios1.PNG" />
     <Content Include="assets\img\expo_comercial\Planostand.png" />
     <Content Include="assets\img\firmita.png" />
@@ -211,8 +207,10 @@
     <Content Include="HoteleriaTurismo.aspx" />
     <Content Include="img\bt-contadordias.png" />
     <Content Include="img\bt-contadordias1.png" />
+    <Content Include="img\logotipos\Caloro Logocurvas.png" />
     <Content Include="img\logotipos\FMC.png" />
     <Content Include="img\logotipos\HarrisMoran.png" />
+    <Content Include="img\logotipos\logo GOWAN SEED MEXICO.PNG" />
     <Content Include="img\logotipos\Marseed.png" />
     <Content Include="img\logotipos\MIMPlastic.png" />
     <Content Include="img\logotipos\Nunhems.png" />
@@ -321,8 +319,6 @@
     <None Include="assets\descargas\expo_comercial\GUIA DE EXPOSITOR.pdf" />
     <None Include="assets\font\BebasNeue-webfont.ttf" />
     <None Include="assets\font\fontawesome-webfont.ttf" />
-    <None Include="assets\descargas\cv\Gil Virgen Calleros.pdf" />
-    <None Include="assets\descargas\cv\Jose L. Martinez R. Ponencia.pdf" />
     <None Include="assets\font\codropsicons\.DS_Store" />
     <None Include="assets\font\codropsicons\codropsicons.eot" />
     <None Include="assets\font\codropsicons\codropsicons.ttf" />

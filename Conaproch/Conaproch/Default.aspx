@@ -63,7 +63,7 @@
                 <li><a href="Demostracion.aspx"><div style="padding-top:9px;"><small>DEMOSTRACIÓN DE CAMPO</small></div></a></li>
                 <li><a href="ProgramaCientifico.aspx"><div style="padding-top:9px;"><small>PROGRAMA CIENTÍFICO</small></div></a></li>
                 <li><a href="EnConstruccion.aspx"><div style="padding-top:9px;"><small>PROGRAMA DEL EVENTO</small></div></a></li>
-                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y COSTOS</small></div></a></li>
+                <li><a href="InsCostos.aspx"><div style="padding-top:9px;"><small>INSCRIPCIONES Y REGISTRO</small></div></a></li>
                 <li><a href="HoteleriaTurismo.aspx"><div style="padding-top:9px;"><small>HOSPEDAJE Y TURISMO</small></div></a></li>
                 <li><a href="Default.aspx#contact"><div style="padding-top:9px;"><small>CONTACTO</small></div></a></li>   
 	        </ul>
@@ -172,7 +172,7 @@
                      <br />
                     <div class="team">
                   
-                        <div class="info">
+                        <div class="info" style="text-align:justify !important;">
                     <h4 class="name">
                              <p>   Mensaje del presidente (2015)</h4>
                              "De nueva cuenta tengo el placer de saludar a todos  los involucrados en la 
@@ -211,7 +211,7 @@
                 </div>
                 <div class="span6">
                     <div class="team">
-                        <div class="info">
+                        <div class="info" style="text-align:justify !important;">
                             <br /><br />
                                    <p>
                                 "La Convención Mundial del Chile es el foro anual más importante que 
@@ -235,16 +235,7 @@
                                
                                  
                             </p>
-                                  
-                                    
-                              
-                                   
-                                    
-                           
-                          
-                                   
-                                  
-                                    
+              
                         </div>
                     </div>
                 </div>
@@ -281,8 +272,8 @@
                         <br />
                         <li>Aguascalientes, Ags. C.P. 20115</li>
                         <br />
-                        <li>Tels:+52 (449) 996 7593</li>
-                        <li>+52 (449) 251 42 00</li>
+                        <li>Tels:+52 (449) 996 7593 +52 (449) 251 42 00</li>
+                       
                         <br />
                         <li>Email: convencion@conaproch.com</li>
                     </ul>
@@ -290,6 +281,16 @@
                         <a href="https://www.facebook.com/nancy.rmz.16?fref=ts" target="_blank" class="facebook"><i class="icon-facebook"></i></a>
                         <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
                     </div>
+
+                     <h3>Información del Centro Universitario de Ciencias Biológicas y Agropecuarias (CUCBA)</h3>
+                    <ul>
+                        <li>Camino Ramón Padilla Sánchez No. 2100. Nextipac.</li>
+                        <br />
+                        <li>Zapopan, Jalisco. C.P. 44600</li>
+                        <br />
+                        <li>Tel. +52 (33)3777 1150</li>
+                    </ul>
+
                 </div>
 
                
@@ -320,10 +321,14 @@
 
 
             <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d925.2846920903543!2d-102.30519776686633!3d21.92921608117968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef08bc752fff%3A0xa2c3b9add6bb0b52!2sProl+Ignacio+Zaragoza+721%2C+20115+Aguascalientes%2C+Ags.!5e0!3m2!1ses!2smx!4v1431966199079"
+       
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.098385687746!2d-103.51241700000004!3d20.746806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428a7d88f9d10af%3A0xcaba424f1b40d0b1!2sCentro+Universitario+de+Ciencias+Biol%C3%B3gicas+y+Agropecuarias!5e0!3m2!1ses!2smx!4v1433542319552" 
                 width="425" height="350" frameborder="0" style="border:0" scrolling="no" marginheight="0"></iframe>
+
+
                 <br />
-                <small><a href="https://www.google.com.mx/maps/place/Prol+Ignacio+Zaragoza+721,+20115+Aguascalientes,+Ags./@21.9292161,-102.3051978,19z/data=!4m7!1m4!3m3!1s0x8429ef08bc752fff:0xa2c3b9add6bb0b52!2sProl+Ignacio+Zaragoza+721,+20115+Aguascalientes,+Ags.!3b1!3m1!1s0x8429ef08bc752fff:0xa2c3b9add6bb0b52"
+                <small><a href="https://www.google.com.mx/maps/place/Centro+Universitario+de+Ciencias+Biol%C3%B3gicas+y+Agropecuarias/@20.746806,-103.512417,17z/data=!3m1!4b1!4m2!3m1!1s0x8428a7d88f9d10af:0xcaba424f1b40d0b1"
                  target="_blank" style="color: #0000FF; text-align: left">Ver mapa</a></small>
             </div>
             <ul id="flexiselDemo3">
