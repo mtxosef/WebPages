@@ -106,6 +106,8 @@
     <Content Include="assets\img\firmita.png" />
     <Content Include="assets\img\general\bt-contadordiasW.png" />
     <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA.png" />
+    <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA1.png" />
+    <Content Include="assets\img\hotelTurismo\oferta_hotelera.jpg" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />

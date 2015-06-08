@@ -117,14 +117,12 @@
     </div>
     
     <!-- end navbar -->
-    <!-- end navbar -->
+ 
 
     <div id="services" class="section">
-        <div class="container">
-        <h1>OFERTA HOTELERA</h1>
-            <img src="assets/img/hotelTurismo/OFERTAHOTELERA.PNG" />
-           
-        </div>
+     <img src="assets/img/hotelTurismo/oferta_hotelera.jpg" />
+
+   
     </div>
 
      <div class="container">
