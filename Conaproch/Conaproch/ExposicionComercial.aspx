@@ -542,7 +542,7 @@
 
 
 
-<<<<<<< HEAD
+
                   <div class="span6">
                         <div class="team  borderimg1" >
                             
@@ -573,31 +573,8 @@
                                  <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
                             <br />
                             
-=======
-                <div class="span6">
-                    <div class="team  borderimg1">
-                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">19 -
-                        <img alt="caloro" src="img/logotipos/Caloro%20Logocurvas.png" />
-                        </h4>
-                        <b style="font-size:12px;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</b>
-                    </div>
-                </div>
-                <div class="span6">
-                    <div class="team  borderimg1">
-                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">20 -
-                        </h4>
-                        <b style="font-size:12px;">Agroestimulantes Mexicanos, S.A. de C.V.</b>
-                    </div>
-                </div>
-                <div class="span6">
-                    <div class="team  borderimg1">
-                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">21 -
-                        <img alt="syngenta" src="img/logotipos/syngenta.png" />
-                        </h4>
-                        <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
->>>>>>> origin/master
                         </div>
-                  </div>
+                </div>
 
 
 

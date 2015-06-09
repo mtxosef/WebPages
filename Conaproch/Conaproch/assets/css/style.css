@@ -150,6 +150,7 @@ h2, h3 {
     color: #000000;
     font-weight: 400 !important;
     background-color: #fff;
+    text-align:justify ;
 }
 a {
     color: #fff;
@@ -192,6 +193,7 @@ a:hover, a:focus {
 }
 [class*="span"] {
     float: left;
+    
     min-height: 1px;
     margin-left: 20px;
 }
