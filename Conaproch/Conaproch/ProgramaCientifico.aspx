@@ -212,8 +212,11 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
-                                <b>"Biología y Manejo de Mancha Bacteriana en Chile"</b>
+                                    Dr. Gil Virgen Calleros<small> -  Profesor e Investigador de la Universidad de Florida, E.U.A.</small></h4>
+                                <b>
+                                "Biología y Manejo de Mancha Bacteriana en Chile"
+                                
+                                </b>
                                 <br />
                                 <br />
                                 <a class="btn btn-large" href="#modalGil" data-toggle="modal">VER MAS</a>
@@ -229,7 +232,7 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
+                                    Dr. José Luis Martínez Ramírez<small> - Profesor e Investigador de la Universidad de Guadalajara</small></h4>
                                 <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
                                 <br />
                                 <br />
@@ -246,7 +249,7 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Eric H. Simonne<small> - Profesor e Investigador</small></h4>
+                                    Dr. Eric H. Simonne<small> -Profesor e Investigador de la Universidad de Guadalajara</small></h4>
                                 <b>"Uso Eficiente del Agua y la Nutrición en el Cultivo del Chile"</b>
                                 <br />
                                 <br />
@@ -256,6 +259,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="span6">
                         <div class="team">
                             <div class="ava" style="text-align:center">
@@ -263,7 +267,9 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Paul William Bosland<small> - Director del Instituto de Chile Las Cruces, Nuevo México</small></h4>
+                                    Dr. Paul William Bosland<small> - Director del Instituto de Chile Las Cruces, Nuevo México.
+Profesor de Horticultura de la Universidad del Estado de Nuevo México, E.U.A.
+</small></h4>
                                 <b>"Genoma del Chile y su uso para mejorarlos"</b>
                                 <br />
                                 <br />
@@ -344,7 +350,7 @@
                         <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
                         <p style="text-align: right; margin-right: 110px; color: #7D4421;">Dr. José Luis Martínez Ramírez</p>
                         <br />
-                        <span>LICENCIATURA:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>LICENCIATURA:</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
@@ -354,7 +360,7 @@
                         </span>
                         <br />
                         <br />
-                        <span>MAESTRIA:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>MAESTRIA:</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
@@ -364,7 +370,7 @@
                         </span>
                         <br />
                         <br />
-                        <span>DOCTORADO:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>DOCTORADO:
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
@@ -373,7 +379,7 @@
                         </span>
                         <br />
                         <br />
-                        <span>EXPERIENCIA PROFESIONAL</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EXPERIENCIA PROFESIONAL</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
@@ -413,14 +419,14 @@
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>PUBLICACIONES</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>PUBLICACIONES</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Cuenta
                             con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</span>
                         <br />
                         <br />
-                        <span>DESARROLLOS TECNOLOGICOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>DESARROLLOS TECNOLOGICOS</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -433,7 +439,7 @@
                             tomate de cascara con resistencia a virus. </span>
                         <br />
                         <br />
-                        <span>RECONOCMIENTOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>RECONOCMIENTOS</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -482,8 +488,7 @@
                     <div class="item active">
                         <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
                         <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric Simonne </p>
-                        <br />
-                        <span>EMPLOYMENT HISTORY</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                    
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -512,7 +517,7 @@
                           Graduate Research/Teaching Assistant, Univ. of Georgia</span>
                         <br />
                         <br />
-                        <span>EDUCATION:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EDUCATION:</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -526,7 +531,7 @@
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009)</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009)
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -549,7 +554,7 @@
                             Member of the extension Road Map Committee (2010-2012)</span>
                         <br />
                         <br />
-                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -567,7 +572,7 @@
                             Committee chair or co-chair of 5 PhD students, member of 7 doctoral committees; chair of 2 Doctor of Plant Medicine students; chair of 1 Master Student; member of 6 Master students committees (2002-2011)</span>
                         <br />
                         <br />
-                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013) </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -584,7 +589,7 @@
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>SERVICE TO PROFESSIONAL ORGANIZATIONS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>SERVICE TO PROFESSIONAL ORGANIZATIONS</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -608,9 +613,9 @@
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Section Chair of the vegetable group of the Southern Region of the American Society for Horticultural Sciences (2000)</span>
+                
                         <br />
-                        <br />
-                        <span>HONORS AND AWARDS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>HONORS AND AWARDS </span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -656,7 +661,7 @@
                         </div>
                         <p style="text-align: right; margin-right: 145px; color: #7D4421;">Dr. Paul William Bosland</p>
                         <br />
-                        <span>EDUCATION:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EDUCATION:</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
@@ -674,8 +679,8 @@
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             B.S.  Genetics, University of California, Davis </span>
                         <br />
-                        <br />
-                        <span>EXPERIENCE:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                       <br />
+                        <span>EXPERIENCE
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -700,7 +705,7 @@
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>AWARDS AND HONORS SINCE FULL-PROFESSOR</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>AWARDS AND HONORS SINCE FULL-PROFESSOR</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -841,7 +846,7 @@
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                      <div class="item">
-                        <span>PROFESSIONAL MEMBERSHIP</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>PROFESSIONAL MEMBERSHIP</span>
                         <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>

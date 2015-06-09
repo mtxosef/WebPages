@@ -312,6 +312,8 @@
                     <a id="a31" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img31" alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
                     <a id="a30" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img30" alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
+
+                <p>*Para apartar su stand, es necesario dar clic en el número de stand disponible que desee y proporcionar los datos que se solicita y a la brevedad el personal del CONAPROCH se pondrá en contacto. </p>
             </center>
         </div>
     </div>

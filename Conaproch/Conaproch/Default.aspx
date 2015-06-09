@@ -282,7 +282,8 @@
                         <a href="#" class="linkedin"><i class="icon-linkedin"></i></a>
                     </div>
 
-                     <h3>Información del Centro Universitario de Ciencias Biológicas y Agropecuarias (CUCBA)</h3>
+                     <h3>Información del Centro Universitario de Ciencias 
+                     <br />Biológicas y Agropecuarias (CUCBA)</h3>
 
                     <ul>
                         <li>Camino Ramón Padilla Sánchez No. 2100. Nextipac.</li>
