@@ -561,7 +561,7 @@
                             
                                 <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
                                     19 - <img src="img/logotipos/Caloro%20Logocurvas.png" /></h4>
-                                <b style="font-size:12px;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</b>
+                                <b style="font-size:12px;">Mexicana Industrial de Insumos , S.A. de C.V.</b>
                                
                             
                         </div>
@@ -571,8 +571,9 @@
                             
                                 <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
                                     20 - </h4>
+
                                 <b style="font-size:12px;">Agroestimulantes Mexicanos, S.A. de C.V.</b>
-                              
+                              <br /> 
                             
                         </div>
                     </div>
@@ -581,8 +582,9 @@
                             
                                 <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
                                     21 - <img alt="syngenta" src="img/logotipos/syngenta.png" /></h4>
+                                  
                                  <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
-                          
+                            <br />
                             
                         </div>
                   </div>
