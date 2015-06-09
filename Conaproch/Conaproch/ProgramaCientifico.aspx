@@ -8,8 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic'
-        rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
@@ -202,20 +201,19 @@
             </div>
             <div id="magistrales" class="section">
                 <center>
-                    <h1>
-                        Conferencias Magistrales</h1>
+                    <h1>Conferencias Magistrales</h1>
                 </center>
                 <br />
                 <div class="our-team row">
                     <div class="span6">
                         <div class="team">
-                            <div class="ava">
+                            <div class="ava" style="text-align:center">
                                 <img src="img/programaCientifico/confereniasMagistrales/GilVirgen.png" alt="team 1" />
                             </div>
-                            <div class="info">
+                            <div class="info" style="text-align:center">
                                 <h4 class="name">
                                     Dr. Gil Virgen Calleros<small> - Profesor Investigador</small></h4>
-                                <b>"Tendencias Actuales de Mercados y Materiales Genéticos de Chile en el Mundo"</b>
+                                <b>"Biología y Manejo de Mancha Bacteriana en Chile"</b>
                                 <br />
                                 <br />
                                 <a class="btn btn-large" href="#modalGil" data-toggle="modal">VER MAS</a>
@@ -226,10 +224,10 @@
                     </div>
                     <div class="span6">
                         <div class="team">
-                            <div class="ava">
+                            <div class="ava" style="text-align:center">
                                 <img src="img/programaCientifico/confereniasMagistrales/JoseMartinez.png" alt="team 1" />
                             </div>
-                            <div class="info">
+                            <div class="info" style="text-align:center">
                                 <h4 class="name">
                                     Dr. José Luis Martínez Ramírez<small> - Profesor Investigador</small></h4>
                                 <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
@@ -243,12 +241,12 @@
                     </div>
                     <div class="span6">
                         <div class="team">
-                            <div class="ava">
+                            <div class="ava" style="text-align:center">
                                 <img src="img/programaCientifico/confereniasMagistrales/Simonne.png" alt="team 1" />
                             </div>
-                            <div class="info">
+                            <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Eric Simonne<small> - Profesor e Investigador</small></h4>
+                                    Dr. Eric H. Simonne<small> - Profesor e Investigador</small></h4>
                                 <b>"Uso Eficiente del Agua y la Nutrición en el Cultivo del Chile"</b>
                                 <br />
                                 <br />
@@ -260,12 +258,12 @@
                     </div>
                     <div class="span6">
                         <div class="team">
-                            <div class="ava">
+                            <div class="ava" style="text-align:center">
                                 <img src="img/programaCientifico/confereniasMagistrales/PaulBosland.png" alt="team 1" />
                             </div>
-                            <div class="info">
+                            <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Paul Bosland<small> - Profesor Regents</small></h4>
+                                    Dr. Paul William Bosland<small> - Director del Instituto de Chile Las Cruces, Nuevo México</small></h4>
                                 <b>"Genoma del Chile y su uso para mejorarlos"</b>
                                 <br />
                                 <br />
