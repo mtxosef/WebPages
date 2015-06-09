@@ -9,7 +9,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/general/ico.ico" />
-    <%--<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic' rel='stylesheet' type='text/css' />--%>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/jquery.bxslider.css" type="text/css" media="all" />
@@ -172,14 +171,12 @@
                 <div id="modalAsistente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
-                        <div id="myCarouselConv" class="carousel slide">
+                        <div id="myCarouselConv">
                             <div class="carousel-inner">
                                 <div class="item active">
                                     <img src="assets/img/expo_comercial/asistente-beneficios.PNG" alt=""/>
                                 </div>
                             </div>
-                            <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
-                            <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
                         </div>
                         <h3>Beneficios Asistente</h3>
                     </div>
@@ -191,14 +188,12 @@
                 <div id="modalExpositor" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
-                        <div id="myCarouselExpositor" class="carousel slide">
+                        <div id="myCarouselExpositor">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="assets/img/expo_comercial/expositor-beneficios.PNG" />
+                                    <img alt="expositor" src="assets/img/expo_comercial/expositor-beneficios.PNG" />
                                 </div>
                             </div>
-                            <a class="left carousel-control" href="#myCarouselConv" data-slide="prev">&lsaquo;</a>
-                            <a class="right carousel-control" href="#myCarouselConv" data-slide="next">&rsaquo;</a>
                         </div>
                         <h3>Beneficios Expositor</h3>
                     </div>
@@ -208,32 +203,31 @@
 
                 <!-- Modal Patrocinador modalbox -->
                 <div id="modalPatrocinador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     <div class="modal-body">
                         <div id="myCarouselPatrocinador" class="carousel slide">
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="assets/img/expo_comercial/patrocinador-beneficios.PNG" alt="" />
+                                    <img src="assets/img/expo_comercial/patrocinador-beneficios.jpg" alt="" />
                                 </div>
                                 <div class="item">
                                     <center>
-                                        <img src="assets/img/expo_comercial/esquema%2001.jpg" alt=""/>
+                                        <img src="assets/img/expo_comercial/TB-01.jpg" alt=""/>
                                     </center>
                                 </div>
                                 <div class="item">
                                     <center>
-                                        <img src="assets/img/expo_comercial/esquema%2002.jpg" alt=""/>
+                                        <img src="assets/img/expo_comercial/TB-02.jpg" alt=""/>
                                     </center>
                                 </div>
                                 <div class="item">
                                     <center>
-                                        <img src="assets/img/expo_comercial/esquema%2003.jpg" alt=""/>
+                                        <img src="assets/img/expo_comercial/TB-03.jpg" alt=""/>
                                     </center>
                                 </div>
                                 <div class="item">
                                     <center>
-                                    <img src="assets/img/expo_comercial/esquema%2004.jpg" alt=""/>
+                                    <img src="assets/img/expo_comercial/TB-04.jpg" alt=""/>
                                     </center>
                                 </div>
                             </div>
@@ -350,33 +344,25 @@
 
     <div id="empresas_stand" class="section">
         <div class="container">
-
-                 <center>
-                    <h2>Empresas participantes</h2>
-                </center>
-
+            <center>
+                <h2>Empresas participantes</h2>
+            </center>
             <div class="our-team row" style="text-transform:uppercase !important;">
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    1 - DISPONIBLE</h4>
-                                    <br /><br />
-                                <%--<b>Razón Social</b>--%>
-                             
-                           
-                        </div>
+                <div class="span6">
+                    <div class="team  borderimg1">
+                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">1 - DISPONIBLE</h4>
+                        <br />
+                        <br />
+                        <%--<b>Razón Social</b>--%>
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                          
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    2 - DISPONIBLE</h4>
-                                    <br /><br />
-
-                               <%-- <b>Razón Social</b>--%>
-                       
-                        </div>
+                </div>
+                <div class="span6">
+                    <div class="team  borderimg1">                          
+                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">2 - DISPONIBLE</h4>
+                        <br />
+                        <br />
+                        <%-- <b>Razón Social</b>--%>                       
+                    </div>
                     </div>
                   <div class="span6">
                         <div class="team  borderimg1" >
@@ -556,6 +542,7 @@
 
 
 
+<<<<<<< HEAD
                   <div class="span6">
                         <div class="team  borderimg1" >
                             
@@ -586,6 +573,29 @@
                                  <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
                             <br />
                             
+=======
+                <div class="span6">
+                    <div class="team  borderimg1">
+                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">19 -
+                        <img alt="caloro" src="img/logotipos/Caloro%20Logocurvas.png" />
+                        </h4>
+                        <b style="font-size:12px;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</b>
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="team  borderimg1">
+                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">20 -
+                        </h4>
+                        <b style="font-size:12px;">Agroestimulantes Mexicanos, S.A. de C.V.</b>
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="team  borderimg1">
+                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">21 -
+                        <img alt="syngenta" src="img/logotipos/syngenta.png" />
+                        </h4>
+                        <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
+>>>>>>> origin/master
                         </div>
                   </div>
 

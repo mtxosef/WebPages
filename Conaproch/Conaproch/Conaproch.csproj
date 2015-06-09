@@ -99,10 +99,14 @@
     <Content Include="assets\img\expo_comercial\esquema 02.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 03.jpg" />
     <Content Include="assets\img\expo_comercial\esquema 04.jpg" />
-    <Content Include="assets\img\expo_comercial\expositor-beneficios1.PNG" />
+    <Content Include="assets\img\expo_comercial\expositor-beneficios.PNG" />
     <Content Include="assets\img\expo_comercial\instalacionesCUCBA.png" />
     <Content Include="assets\img\expo_comercial\patrocinador-beneficios1.PNG" />
     <Content Include="assets\img\expo_comercial\Planostand.png" />
+    <Content Include="assets\img\expo_comercial\TB-01.jpg" />
+    <Content Include="assets\img\expo_comercial\TB-02.jpg" />
+    <Content Include="assets\img\expo_comercial\TB-03.jpg" />
+    <Content Include="assets\img\expo_comercial\TB-04.jpg" />
     <Content Include="assets\img\firmita.png" />
     <Content Include="assets\img\general\bt-contadordiasW.png" />
     <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA.png" />
@@ -217,7 +221,6 @@
     <Content Include="img\logotipos\MIMPlastic.png" />
     <Content Include="img\logotipos\Nunhems.png" />
     <Content Include="img\logotipos\Rivulis.png" />
-    <Content Include="img\logotipos\st-plantilla.jpg" />
     <Content Include="img\logotipos\syngenta.png" />
     <Content Include="img\logotipos\UnitedGeneticsSeeds.png" />
     <Content Include="img\logotipos\USAgriseeds.png" />
