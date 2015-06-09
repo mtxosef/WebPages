@@ -53,8 +53,7 @@
     <header id="header">
         <div class="contenedor">
             <img alt="logotipo" style="margin-top:30px;" src="img/logotipo.png" />
-        </div>
-  	
+        </div>  	
 
         <nav>
 	        <ul>
@@ -162,11 +161,11 @@
     <div id="p_cientifco" class="section">
         <div class="container">
             <div class="hero">
-                <h1>
-                    Comité Científico</h1>
+                <h1>Comité Científico</h1>
             </div>
             <center>
-                <img alt="organigrama" src="assets/img/p_cientifico/organigrama-actual.png" /></center>
+                <img alt="organigrama" src="assets/img/p_cientifico/organigrama-actual.png" />
+            </center>
             <br />
             <br />
             <br />
@@ -212,10 +211,10 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Gil Virgen Calleros<small> -  Profesor e Investigador de la Universidad de Florida, E.U.A.</small></h4>
+                                    Dr. Gil Virgen Calleros<small> -  Profesor e Investigador de la Universidad de Florida, E.U.A.</small>
+                                </h4>
                                 <b>
-                                "Biología y Manejo de Mancha Bacteriana en Chile"
-                                
+                                "Biología y Manejo de Mancha Bacteriana en Chile"                                
                                 </b>
                                 <br />
                                 <br />
@@ -259,21 +258,38 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="span6">
+                    <div class="span6" style="margin-left:225px;">
                         <div class="team">
                             <div class="ava" style="text-align:center">
                                 <img src="img/programaCientifico/confereniasMagistrales/PaulBosland.png" alt="team 1" />
                             </div>
                             <div class="info" style="text-align:center">
-                                <h4 class="name">
-                                    Dr. Paul William Bosland<small> - Director del Instituto de Chile Las Cruces, Nuevo México.
-Profesor de Horticultura de la Universidad del Estado de Nuevo México, E.U.A.
-</small></h4>
+                                <h4 class="name">Dr. Paul William Bosland
+                                    <small> - Director del Instituto de Chile Las Cruces, Nuevo México. Profesor de Horticultura de la Universidad del Estado de Nuevo México, E.U.A.</small>
+                                </h4>
                                 <b>"Genoma del Chile y su uso para mejorarlos"</b>
                                 <br />
                                 <br />
                                 <a class="btn btn-large" href="#modalPaul" data-toggle="modal">VER MAS</a>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team">
+                            <div class="ava" style="text-align:center;">
+                                <div style="height:230px; width:200px; background-color:#92c962; margin:0 auto;"></div>
+                                <%--<img src="img/programaCientifico/confereniasMagistrales/GilVirgen.png" alt="team 1" />--%>
+                            </div>
+                            <div class="info" style="text-align:center">
+                                <h4 class="name"><small></small>
+                                </h4>
+                                <b>
+                                </b>
+                                <br />
+                                <br />
+                                <a class="btn btn-large" href="#modalOtro" data-toggle="modal">VER MAS</a>
                                 <br />
                                 <br />
                             </div>
@@ -290,51 +306,20 @@ Profesor de Horticultura de la Universidad del Estado de Nuevo México, E.U.A.
             <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
             <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Gil Virgen Calleros</p>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Ing.
-                Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Maestria
-                en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Doctorado
-                en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Estancia
-                de Investigación Universidad de Alaska Fairbanks</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Estancia
-                de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Profesor
-                del Departamento de parasitología de la UAAAN 1988 a 1990</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align:justify;">Profesor
-                Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad
-                de Guadalajara, 1990 a la fecha</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Responsable
-                del laboratorio de Fitopatología, en la misma Institución</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Área
-                de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile,
-                sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Publicación
-                diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades
-                en hortalizas, así como el uso de microorganismos para el control biológico y promoción
-                de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de
-                productos biológicos tanto para el control de enfermedades como para la bioestimulación
-                del crecimiento de las plantas.</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Conferencista
-                invitado en diferentes eventos científicos internacionales como el Smartfruit Congress
-                en Barcelona, España</span>
-            <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Organizador
-                de importantes eventos científicos como el Simposio nacional e Internacional de
-                Bacterias Fitopatógenas, en 5 ocasiones.</span>
-            <br />
-            <br />
+            <ul>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Estancia de Investigación Universidad de Alaska Fairbanks.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Profesor del Departamento de parasitología de la UAAAN 1988 a 1990.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Profesor Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad de Guadalajara, 1990 a la fecha.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Responsable del laboratorio de Fitopatología, en la misma Institución.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Área de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile, sandía, melón) y Frutales (Berries, cítricos y aguacate).</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Publicación diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades en hortalizas, así como el uso de microorganismos para el control biológico y promoción de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de productos biológicos tanto para el control de enfermedades como para la bioestimulación del crecimiento de las plantas.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Conferencista invitado en diferentes eventos científicos internacionales como el Smartfruit Congress en Barcelona, España.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Organizador de importantes eventos científicos como el Simposio nacional e Internacional de Bacterias Fitopatógenas, en 5 ocasiones.</li>
+            </ul>
             <img style="height: 64px; width: 100%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">

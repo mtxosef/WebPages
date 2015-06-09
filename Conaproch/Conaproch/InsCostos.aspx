@@ -124,13 +124,14 @@
                 <div class="span6">
                     <h3>TIPOS DE PARTICIPANTES</h3>
                     <p>ASISTENTE</p>
-                    <p>PUBLICO EN GENERAL (BENEFICIOS DE ASISTENTE)</p>
+                    <p>PUBLICO EN GENERAL</p>
+                    <p>(BENEFICIOS DE ASISTENTE)</p>
                     <p>INVESTIGADOR </p>
                 </div>
                 <div class="span6">
                     <h3>COSTOS</h3>
                     <p>$2,000.00 + I.V.A.</p>
-                    <p>$2,000.00 + I.V.A.</p>
+                    <p style="margin-bottom:37px;">$2,000.00 + I.V.A.</p>
                     <p>$1,200.00 + I.V.A. (Acreditando su participación en las memorias y/o Credencial de la Universidad)</p>
                 </div>
                 <div class="span6">

@@ -104,7 +104,7 @@
   </stand>
   <stand>
     <numero>18</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
@@ -116,7 +116,7 @@
   </stand>
   <stand>
     <numero>20</numero>
-    <estatus>libre</estatus>
+    <estatus>ocupado</estatus>
     <tipo>cuadro</tipo>
     <logotipo>Reminder</logotipo>
   </stand>
