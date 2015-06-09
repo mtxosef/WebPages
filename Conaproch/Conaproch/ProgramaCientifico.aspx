@@ -280,92 +280,109 @@
         </div>
     </div>
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            ×</button>
+    <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
-            <span><b>CURRICULUM VITAE </b></span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-            <p>
-                Dr. Gil Virgen Calleros</p>
+            <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+            <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Gil Virgen Calleros</p>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ing.
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Ing.
                 Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Maestria
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Maestria
                 en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Doctorado
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Doctorado
                 en Biotecnología de Plantas CINVESTAV Unidad Irapuato</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Estancia
                 de Investigación Universidad de Alaska Fairbanks</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Estancia
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Estancia
                 de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Profesor
                 del Departamento de parasitología de la UAAAN 1988 a 1990</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align:justify;">Profesor
                 Investigador Titular del Departamento de Producción Agrícola del CUCBA de la Universidad
                 de Guadalajara, 1990 a la fecha</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Responsable
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Responsable
                 del laboratorio de Fitopatología, en la misma Institución</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Área
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Área
                 de Investigación Manejo Integrado de Enfermedades en Hortalizas (Tomate, Chile,
                 sandía, melón) y Frutales (Berries, cítricos y aguacate).</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Publicación
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Publicación
                 diferentes artículos científicos y de difusión relacionados con el manejo de enfermedades
                 en hortalizas, así como el uso de microorganismos para el control biológico y promoción
                 de crecimiento. Ha desarrollado trabajos de registro para diferentes compañías de
                 productos biológicos tanto para el control de enfermedades como para la bioestimulación
                 del crecimiento de las plantas.</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Conferencista
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Conferencista
                 invitado en diferentes eventos científicos internacionales como el Smartfruit Congress
                 en Barcelona, España</span>
             <br />
-            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Organizador
+            <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span style="text-align: justify;">Organizador
                 de importantes eventos científicos como el Simposio nacional e Internacional de
                 Bacterias Fitopatógenas, en 5 ocasiones.</span>
             <br />
             <br />
-            <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+            <img style="height: 64px; width: 100%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
         </div>
         <div class="modal-footer">
         </div>
     </div>
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            ×</button>
+    <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
             <div id="divCurriculum2" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <span><b>CURRICULUM VITAE </b></span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <p>
-                            Dr. José Luis Martínez Ramírez</p>
+                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+                        <p style="text-align: right; margin-right: 110px; color: #7D4421;">Dr. José Luis Martínez Ramírez</p>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>LICENCIATURA:
+                        <span>LICENCIATURA:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
                             Escuela de Agricultura de la Universidad de Guadalajara, obteniendo el titulo de
-                            Ingeniero Agrónomo con orientación en Filotecnia. 1972-1977.</span>
+                            Ingeniero Agrónomo con orientación en Filotecnia. 1972-1977.
+                        </span>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>MAESTRIA:
+                        <br />
+                        <span>MAESTRIA:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
                             Colegio de Postgraduados, obteniendo el grado de Maestro en Ciencias especialista
-                            en Fitopatología. 1979-1980.</span>
+                            en Fitopatología. 1979-1980.
+                        </span>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>DOCTORADO:
-                            Universidad de Colima, obteniendo el grado de Doctor en Ciencias. 1995-2000.</span>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>EXPERIENCIA
-                            PROFESIONAL Encargado del programa de Parasitología del Departamento de Investigación
-                            de TABAMEX, S.A. de C.V. durante l977. </span>
+                        <span>DOCTORADO:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
+                            Universidad de Colima, obteniendo el grado de Doctor en Ciencias. 1995-2000.
+                        </span>
+                        <br />
+                        <br />
+                        <span>EXPERIENCIA PROFESIONAL</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
+                            Encargado del programa de Parasitología del Departamento de Investigación
+                            de TABAMEX, S.A. de C.V. durante l977.
+                        </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Subjefe
                             de informática y estudios del Distrito de Temporal IV de Jalisco con sede en Ameca,
@@ -395,16 +412,18 @@
                             dirigido tesis tanto de licenciatura como de postgrado. </span>
                         <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>PUBLICACIONES </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>PUBLICACIONES</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Cuenta
                             con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</span>
                         <br />
                         <br />
-                        <span>DESARROLLOS TECNOLOGICOS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>DESARROLLOS TECNOLOGICOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Sistemas de manejo integrado de virus en Tabaco y en hortalizas. Variedad de Tabaco
@@ -416,7 +435,8 @@
                             tomate de cascara con resistencia a virus. </span>
                         <br />
                         <br />
-                        <span>RECONOCMIENTOS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>RECONOCMIENTOS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Diploma y medalla otorgada por el Consejo Mexicano de Cultura, Institución los mejores
@@ -445,7 +465,7 @@
                             otorgado por la Universidad de Guadalajara. </span>
                         <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                 </div>
                 <a class="left carousel-control" href="#divCurriculum2" data-slide="prev">&lsaquo;</a>
@@ -456,20 +476,17 @@
         </div>
     </div>
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            ×</button>
+    <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
             <div id="divCurriculum4" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <span><b>CURRICULUM VITAE </b> </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <p>
-                            Paul William Bosland</p>
+                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+                        <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric Simonne </p>
                         <br />
-
-                         <span>EMPLOYMENT HISTORY </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EMPLOYMENT HISTORY</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Professor and District Extension Director, University of Florida, Florida Cooperative Extension Service (UF/FCES, since 2010)
@@ -496,27 +513,24 @@
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                           Graduate Research/Teaching Assistant, Univ. of Georgia</span>
                         <br />
-
                         <br />
-                          <span>EDUCATION:  </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EDUCATION:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                           Ph.D., Univ. of Georgia, Horticulture, 1993, “Irrigation scheduling of turnip greens”
                             </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Diploma of Applied Agronomy (Equivalent to MS), Ecole Nationale Superieure Agronomique de Toulouse, France, Agronomic Engineering, 1989</span>
-                       
+                            Diploma of Applied Agronomy (Equivalent to MS), Ecole Nationale Superieure Agronomique de Toulouse, France, Agronomic Engineering, 1989</span>                       
                         <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
-
-
                     <div class="item">
-                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009) </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
-
+                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009)</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                         Supervises 72 county faculty located in 17 North Florida Counties in agriculture, horticulture, 4-H, family and consumer science, and marine programmatic areas
                         </span>
@@ -535,11 +549,11 @@
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Member of the extension Road Map Committee (2010-2012)</span>
-                        <br /><br />
-
-                                   <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013) </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
-
+                        <br />
+                        <br />
+                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                         Nutrient management, fertilization practices, soil and fertilizer chemistry, and vegetable mineral nutrition: update fertilization recommendations for vegetables, and teach advanced plant nutrition course.
                         </span>
@@ -548,20 +562,16 @@
                             Water management, irrigation scheduling techniques, and water conservation practices; improve irrigation recommendations for vegetables by developing real-time irrigation methods</span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Environmental impact of vegetable production, nutrient leaching, Total Maximum Daily
-Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verification and implementation of nutrient and irrigation BMPs for vegetable crops grown in Florida.</span>
+                            Environmental impact of vegetable production, nutrient leaching, Total Maximum Daily
+                            Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verification and implementation of nutrient and irrigation BMPs for vegetable crops grown in Florida.</span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Committee chair or co-chair of 5 PhD students, member of 7 doctoral committees; chair of 2 Doctor of Plant Medicine students; chair of 1 Master Student; member of 6 Master students committees (2002-2011)</span>
-                       
-
                         <br />
                         <br />
-
-
-                         <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013) </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
-
+                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013) </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                         Performed US-AID assignments in Haiti (2001), Honduras (2006, 2007) and Tanzania (2014)
                         </span>
@@ -571,17 +581,16 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Fluent in English, French and Spanish</span>
-
-                        
-                       <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <br />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
-                      <div class="item">
-                        <span>SERVICE TO PROFESSIONAL ORGANIZATIONS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
+                    <div class="item">
+                        <span>SERVICE TO PROFESSIONAL ORGANIZATIONS</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Program coordinator, Florida State Horticultural Society (2006-2010)
+                            Program coordinator, Florida State Horticultural Society (2006-2010)
                         </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -601,12 +610,11 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Section Chair of the vegetable group of the Southern Region of the American Society for Horticultural Sciences (2000)</span>
-                       
                         <br />
                         <br />
-
-                           <span>HONORS AND AWARDS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
+                        <span>HONORS AND AWARDS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                         Recipient of the 2012 Best Paper Award, Vegetable Section, Florida State Horticulture Society
                         </span>
@@ -625,12 +633,10 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                           Recipient of the 1998 “Ag Research Award” from the Alabama Fruit and Vegetable Growers Association for “Special service and dedication to Auburn University's research program on fruit and vegetable crops and for providing up-to-date, practical information to the industry'”</span>
-
-                          <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
-                    </div>
-              
+                        <br />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                    </div>              
                 </div>
                 <a class="left carousel-control" href="#divCurriculum4" data-slide="prev">&lsaquo;</a>
                 <a class="right carousel-control" href="#divCurriculum4" data-slide="next">&rsaquo;</a>
@@ -640,39 +646,43 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
         </div>
     </div>
     <!-- Modal Convocatoria modalbox -->
-    <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-        aria-hidden="true">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            ×</button>
+    <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
             <div id="divCurriculum3" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <span>CURRICULUM VITAE </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <p>
-                            Paul William Bosland</p>
+                        <div style="text-align: right; margin-right: 70px;">
+                            <h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2>
+                            <img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        </div>
+                        <p style="text-align: right; margin-right: 145px; color: #7D4421;">Dr. Paul William Bosland</p>
                         <br />
-
-                         <span>EDUCATION:  </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <span>EDUCATION:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
+                        <br />
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
                            Ph.D.  Plant Breeding and Plant Genetics, Minor - Plant Pathology, University of Wisc., Madison
                             California Community College Teacher's Credential, University of California, Davis
                             Vocational Agriculture Teacher's Credential, University of California, Davis
-                            </span>
+                        </span>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            M.S. Vegetable Crops, University of California, Davis</span>
+                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                        <span>
+                            M.S. Vegetable Crops, University of California, Davis
+                        </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             B.S.  Genetics, University of California, Davis </span>
                         <br />
-
-                          <span>EXPERIENCE:  </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <span>EXPERIENCE:</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                           2012- present	Distinguished Achievement Professor, New Mexico State University
-                            </span>
+                        </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             2002- present	Regents Professor, New Mexico State University</span>
@@ -683,17 +693,18 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                          <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             1994-2002	Professor, New Mexico State University</span>
                         <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            1992-present	Director, Chile Pepper Institute</span>
-                    
-
+                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
+                         <span>
+                            1992-present	Director, Chile Pepper Institute
+                        </span>
                         <br />
                         <br />
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>AWARDS AND HONORS SINCE FULL-PROFESSOR </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
+                        <span>AWARDS AND HONORS SINCE FULL-PROFESSOR</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                         All-American Selections Award for NuMex Easter Ornamental pepper (2014)
                         </span>
@@ -712,7 +723,6 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Fellow of the American Society for Horticultural Science (2007)</span>
-
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Michael P. Malone International Leadership Award, Finalist (2006)</span>
@@ -767,13 +777,11 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                           <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Capsicum Crop Advisory Committee – Chair (1995-2005)</span>
-                       
                         <br />
                         <br />
-                        
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
-                      <div class="item">
+                    <div class="item">
                         <span>PROGRAM ACCOMPLISHMENTS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
                         <br /><br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -794,7 +802,6 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Research has graced the cover of the Journal of the American Society of Horticultural Science, Journal of Heredity, and HortScience.</span>
-
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                            Authored or co-authored more than 100 scientific papers and co-author of seven books.</span>
@@ -833,14 +840,14 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                            Consultant to USAID, FAO, VOCA, USDA Capsicum Germplasm Resources, NSF, National Cancer Institute, NIH, CATI, Costa Rica, AVRDC, Taiwan, ICTA, Guatemala</span>
                         <br />
                         <br />
-                        
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                      <div class="item">
-                        <span>PROFESSIONAL MEMBERSHIP </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
+                        <span>PROFESSIONAL MEMBERSHIP</span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
+                        <br />
+                        <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        International Scientific Board of EUCARPIA for Capsicum & Eggplant Research
+                            International Scientific Board of EUCARPIA for Capsicum & Eggplant Research
                         </span>
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
@@ -857,16 +864,12 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             New Mexico Academy of Science - Life member</span>
-
                         <br />
                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
                             Sigma Xi</span>
-                      
-           
                         <br />
                         <br />
-                        
-                        <img alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
+                        <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                 </div>
                 <a class="left carousel-control" href="#divCurriculum3" data-slide="prev">&lsaquo;</a>
@@ -877,6 +880,7 @@ Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verific
         </div>
     </div>
     <!-- end Blog -->
+
     <div id="purchase" class="divider section">
         <div class="bg-holder">
             <div class="container">
