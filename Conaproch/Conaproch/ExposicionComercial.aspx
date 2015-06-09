@@ -350,210 +350,582 @@
 
     <div id="empresas_stand" class="section">
         <div class="container">
-        
-            <table class="pruebatabla fontsize" >
-                <thead>
+
+                 <center>
                     <h2>Empresas participantes</h2>
-                </thead>
-                <tbody>
-              <%--  1-3--%>
-                    <tr>
-                        <td><b>1</b></td>
-                        <td><b>2</b></td>
-                        <td><b>3</b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
+                </center>
 
-                <%--  4-6--%>
-                    <tr>
-                        <td><b>4</b></td>
-                        <td><b>5</b></td>
-                        <td><b>6</b> <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Nunhems México, S.A. de C.V. </td>
-                    </tr>
-                  <%-- 7-9--%>
-                    <tr>
-                      <%--  <td>7 <img alt="USAgriseeds" src="img/logotipos/USAgriseeds.png" /></td>--%>
-                        <td><b> 7 </b></td>
-                        <td><b> 8 </b></td>
-                        <td><b> 9 </b></td>
-                    </tr>
-                    <tr>
-                       <%-- <td>US Agriseeds Inc. de México, S.A. de C.V.</td>--%>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                   <%--10-12--%>
-                    <tr>
-                        <td><b> 10 </b></td>
-                        <td><b> 11 </b></td>
-                        <td><b> 12 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
+            <div class="our-team row" style="text-transform:uppercase !important;">
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    1 - DISPONIBLE</h4>
+                                    <br /><br />
+                                <%--<b>Razón Social</b>--%>
+                             
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                          
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    2 - DISPONIBLE</h4>
+                                    <br /><br />
 
-                    <%--13-15--%>
-                    <tr>
-                        <td><b> 13 </b></td>
-                        <td><b> 14 </b></td>
-                        <td><b> 15 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                         <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-
-                    <%--16-18--%>
-                    <tr>
-                        <td><b> 16 </b></td>
-                        <td><b> 17 </b></td>
-                        <td><b> 18 <img src="img/logotipos/logo%20GOWAN%20SEED%20MEXICO.PNG" /></b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                         <td style="color:#6D9847;">Gowan Semillas, S.A. de C.V. </td>
-                    </tr>    
-
-                    <%--19-21--%>
-                    <tr>
-                        <td><b>19 <img src="img/logotipos/Caloro%20Logocurvas.png" /></b></td>
-                        <td><b>20 </b></td>
-                        <td><b>21 </b><img alt="syngenta" src="img/logotipos/syngenta.png" /></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</td>
-                        <td style="color:#6D9847;">Agroestimulantes Mexicanos, S.A. de C.V. </td>
-                        <td style="color:#6D9847;">Syngenta Corporativo, S.A. de C.V. </td>
-                    </tr>
-
-                     <%--22-24--%>
-                    <tr>
-                      <td><b>22 </b><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
-                        <td><b>23 </b><img alt="Rivulis" src="img/logotipos/Rivulis.png" /></td>
-                        <td><b>24 </b></td>
+                               <%-- <b>Razón Social</b>--%>
+                       
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    3 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
                       
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
-                        <td style="color:#6D9847;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    
-                    </tr>
-                    <%--25-27--%>
+                        </div>
+                  </div>
 
-                    <tr>
-                        <td><b> 25 </b></td>
-                        <td><b> 26 </b></td>
-                        <td><b> 27 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                         <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                    <%--28-30--%>
-                    <tr>
-                        <td><b> 28 </b></td>
-                        <td><b> 29 </b></td>
-                        <td><b> 30 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                    <%---31-33--%>
-                     <tr>
-                        <td><b>31 </b></td>
-                        <td><b>32 </b></td>
-                        <td><b>33 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                     <%---34-36--%>
-                     <tr>
-                        <td><b>34 </b></td>
-                        <td><b>35 </b></td>
-                        <td><b>36 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                    <%---37-39--%>
-                     <tr>
-                        <td><b>37 </b></td>
-                        <td><b>38 </b></td>
-                        <td><b>39 </b></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                    <%---40-42--%>
-                      <tr>
-                        <td><b>40 <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></td>
-                        <td><b>41</td>
-                        <td><b>42</td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">United Genetics Seeds, Co.</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                     <%--43-45--%>
-                     <tr>
-                        <td><b>43</td>
-                        <td><b>44</td>
-                        <td><b>45 <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Semillas Harris Moran Mexicana, S.A. de C.V. </td>
-                    </tr>
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    4 - <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></h4>
+                                <b style="font-size:12px;">Nunhems México, S.A. de C.V. </b>
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    5 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    6 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                  </div>
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    7 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    8 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    9 - DISPONIBLE</h4>
+                             <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    10 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    11 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    12 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    13 - DISPONIBLE</h4>
+                              <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    14 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    15 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    16 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    17 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    18 - <img src="img/logotipos/logo%20GOWAN%20SEED%20MEXICO.PNG" /></h4>
+                               <b style="font-size:12px;">Gowan Semillas, S.A. de C.V.</b>
+                               
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    19 - <img src="img/logotipos/Caloro%20Logocurvas.png" /></h4>
+                                <b style="font-size:12px;">Mexicana Industrial de Insumos Agropecuarios, S.A. de C.V.</b>
+                               
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    20 - </h4>
+                                <b style="font-size:12px;">Agroestimulantes Mexicanos, S.A. de C.V.</b>
+                              
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    21 - <img alt="syngenta" src="img/logotipos/syngenta.png" /></h4>
+                                 <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
+                          
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    22 - <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></h4>
+                                <b style="font-size:12px;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</b>
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    23 - <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></h4>
+                                 <b style="font-size:12px;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</b>
+                             
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    24 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                         
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    25 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    26 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    27 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    28 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    29 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    30 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    31 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    32 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    33 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    34 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    35 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    36 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    37 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    38 - DISPONIBLE</h4>
+                               <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    39 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                  </div>
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    40 - <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></h4>
+                               <b style="font-size:12px;">United Genetics Seeds, Co.</b>
+                             
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    41 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    42 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                  </div>
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    43 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                            
+                        </div>
+                    </div>
+                    <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    44 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    45 - <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></h4>
+                                 <b style="font-size:12px;">Semillas Harris Moran Mexicana, S.A. de C.V.</b>
+                           
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    46 - <img alt="FMC" src="img/logotipos/FMC.png" /></h4>
+                                <b style="font-size:12px;">FMC Agroquímica de México, S. de R.L. de C.V.</b>
+                                
+                         
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    47 - <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></h4>
+                                <b style="font-size:12px;">MIM Plastic, S.A. de C.V.</b>
+                             
+                           
+                        </div>
+                    </div>
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    48 - <img alt="Marseed" src="img/logotipos/Marseed.png" /></h4>
+                                 <b style="font-size:12px;">Marseed Company, S.A. de C.V.</b>
+                          
+                        </div>
+                  </div>
+
+
+
+
+
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                         
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    49 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
                         
-                     <%--46-48--%>
-                     <tr>
-                        <td><b>46 <img alt="FMC" src="img/logotipos/FMC.png" /></td>
-                        <td><b>47 <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></td>
-                        <td><b>48 <img alt="Marseed" src="img/logotipos/Marseed.png" /></td>
-                    </tr>
-                    <tr>
-                        <td style="color:#6D9847;">FMC Agroquímica de México, S. de R.L. de C.V.</td>
-                        <td style="color:#6D9847;">MIM Plastic, S.A. de C.V.</td>
-                        <td style="color:#6D9847;">Marseed Company, S.A. de C.V.</td>
-                    </tr>
-                    <%---49-50--%>
-                     <tr>
-                        <td><b>49</td>
-                        <td><b>50</td>
-                    </tr>
-                    <tr>
-                          <td style="color:#6D9847;">Disponible</td>
-                        <td style="color:#6D9847;">Disponible</td>
-                    </tr>
-                </tbody>
-            </table>
+                        </div>
+                  </div>
+
+                  <div class="span6">
+                        <div class="team  borderimg1" >
+                            
+                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
+                                    50 - DISPONIBLE</h4>
+                                <%-- <b>Razón Social</b>--%>
+                                <br /><br />
+                          
+                        </div>
+                  </div>
+
+             </div>
+            
         </div>
     </div>
 

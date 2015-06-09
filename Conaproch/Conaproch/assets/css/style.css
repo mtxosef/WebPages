@@ -6709,3 +6709,19 @@ display:none;
 {
     background-image: url(../img/fur.jpg);
     }
+    
+.borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/fur.jpg) 50 round; /* Safari 3.1-5 */
+    -o-border-image: url(../img/fur.jpg) 50 round; /* Opera 11-12.1 */
+    border-image: url(../img/fur.jpg) 50 round;
+    margin-bottom:10px !important;
+    font-size:16px !important;
+    text-align:center;
+      
+}
+.fuente_casitas{
+  font-size: 18px !important;
+  color: #757575 !important;
+}
