@@ -312,7 +312,7 @@
                     <a id="a31" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img31" alt="s31" style="margin-top:27px;" src="img/planoStand/CuadroStand.png" /><span style="right:84px; top:535px;">31</span></a>
                     <a id="a30" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img30" alt="s30" src="img/planoStand/RomboStand.png" /><span style="right:36px; top:515px;">30</span></a>
                 </div>
-                <p>*Para apartar su stand, es necesario dar clic en el número de stand disponible que desee y proporcionar los datos que se solicitan, y, a la brevedad el personal del CONAPROCH se pondrá en contacto.</p>
+                <p>*Para apartar su stand favor de dar click en el número de stand disponible, proporcione los datos que se solicitan y a la brevedad el personal del CONAPROCH se pondrá en contacto.</p>
             </center>
         </div>
     </div>
@@ -349,571 +349,256 @@
                 <h2>Empresas participantes</h2>
             </center>
             <div class="our-team row" style="text-transform:uppercase !important;">
-                <div class="span6">
-                    <div class="team  borderimg1">
-                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">1 - DISPONIBLE</h4>
-                        <br />
-                        <br />
-                        <%--<b>Razón Social</b>--%>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />
                     </div>
                 </div>
-                <div class="span6">
-                    <div class="team  borderimg1">                          
-                        <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">2 - DISPONIBLE</h4>
-                        <br />
-                        <br />
-                        <%-- <b>Razón Social</b>--%>                       
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-02" src="img/exposicion_comercial/empresas_participantes/st-02.jpg" />                      
                     </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    3 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                      
-                        </div>
-                  </div>
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    4 - <img alt="Nunhems" src="img/logotipos/Nunhems.png" /></h4>
-                                <b style="font-size:12px;">Nunhems México, S.A. de C.V. </b>
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    5 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    6 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                  </div>
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    7 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    8 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    9 - DISPONIBLE</h4>
-                             <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    10 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    11 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    12 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    13 - DISPONIBLE</h4>
-                              <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    14 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    15 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    16 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    17 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    18 - <img src="img/logotipos/logo%20GOWAN%20SEED%20MEXICO.PNG" /></h4>
-                               <b style="font-size:12px;">Gowan Semillas, S.A. de C.V.</b>
-                               
-                            
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    19 - <img src="img/logotipos/Caloro%20Logocurvas.png" /></h4>
-                                <b style="font-size:12px;">Mexicana Industrial de Insumos , S.A. de C.V.</b>
-                               
-                            
-                        </div>
-                    </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    20 - </h4>
-
-                                <b style="font-size:12px;">Agroestimulantes Mexicanos, S.A. de C.V.</b>
-                              <br /> 
-                            
-                        </div>
-                    </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    21 - <img alt="syngenta" src="img/logotipos/syngenta.png" /></h4>
-                                  
-                                 <b style="font-size:12px;">Syngenta Corporativo, S.A. de C.V.</b>
-                            <br />
-                            
-                        </div>
                 </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    22 - <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></h4>
-                                <b style="font-size:12px;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</b>
-                           
-                        </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-03" src="img/exposicion_comercial/empresas_participantes/st-03.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    23 - <img alt="Rivulis" src="img/logotipos/Rivulis.png" /></h4>
-                                 <b style="font-size:12px;">Sistemas de Irrigación del Valle de Michoacán de Ocampo, S. de R.L. de C.V.</b>
-                             
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-04" src="img/exposicion_comercial/empresas_participantes/st-04.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    24 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                         
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    25 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-05.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    26 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-06" src="img/exposicion_comercial/empresas_participantes/st-06.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    27 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    28 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-07" src="img/exposicion_comercial/empresas_participantes/st-07.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    29 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-08" src="img/exposicion_comercial/empresas_participantes/st-08.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    30 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    31 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-09" src="img/exposicion_comercial/empresas_participantes/st-09.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    32 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-10" src="img/exposicion_comercial/empresas_participantes/st-10.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    33 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    34 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-11" src="img/exposicion_comercial/empresas_participantes/st-11.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    35 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-12" src="img/exposicion_comercial/empresas_participantes/st-12.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    36 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    37 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-13" src="img/exposicion_comercial/empresas_participantes/st-13.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    38 - DISPONIBLE</h4>
-                               <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-14" src="img/exposicion_comercial/empresas_participantes/st-14.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    39 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    40 - <img alt="UnitedGeneticsSeed" src="img/logotipos/UnitedGeneticsSeeds.png" /></h4>
-                               <b style="font-size:12px;">United Genetics Seeds, Co.</b>
-                             
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-15" src="img/exposicion_comercial/empresas_participantes/st-15.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    41 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-16" src="img/exposicion_comercial/empresas_participantes/st-16.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    42 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
-                  </div>
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    43 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                            
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-17" src="img/exposicion_comercial/empresas_participantes/st-17.jpg" />
                     </div>
-                    <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    44 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-18" src="img/exposicion_comercial/empresas_participantes/st-18.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    45 - <img alt="HarrisMoran" src="img/logotipos/HarrisMoran.png" /></h4>
-                                 <b style="font-size:12px;">Semillas Harris Moran Mexicana, S.A. de C.V.</b>
-                           
-                        </div>
-                  </div>
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    46 - <img alt="FMC" src="img/logotipos/FMC.png" /></h4>
-                                <b style="font-size:12px;">FMC Agroquímica de México, S. de R.L. de C.V.</b>
-                                
-                         
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-19" src="img/exposicion_comercial/empresas_participantes/st-19.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    47 - <img alt="MIMPlastic" src="img/logotipos/MIMPlastic.png" /></h4>
-                                <b style="font-size:12px;">MIM Plastic, S.A. de C.V.</b>
-                             
-                           
-                        </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-20" src="img/exposicion_comercial/empresas_participantes/st-20.jpg" />
                     </div>
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    48 - <img alt="Marseed" src="img/logotipos/Marseed.png" /></h4>
-                                 <b style="font-size:12px;">Marseed Company, S.A. de C.V.</b>
-                          
-                        </div>
-                  </div>
-
-
-
-
-
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                         
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    49 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                        
-                        </div>
-                  </div>
-
-                  <div class="span6">
-                        <div class="team  borderimg1" >
-                            
-                                <h4 class="name" style=" font-size: 26px !important; color: #B1B1B1 !important; letter-spacing:1px;">
-                                    50 - DISPONIBLE</h4>
-                                <%-- <b>Razón Social</b>--%>
-                                <br /><br />
-                          
-                        </div>
-                  </div>
-
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-21" src="img/exposicion_comercial/empresas_participantes/st-21.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-22" src="img/exposicion_comercial/empresas_participantes/st-22.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-23" src="img/exposicion_comercial/empresas_participantes/st-23.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-24" src="img/exposicion_comercial/empresas_participantes/st-24.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-25" src="img/exposicion_comercial/empresas_participantes/st-25.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-26" src="img/exposicion_comercial/empresas_participantes/st-26.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-27" src="img/exposicion_comercial/empresas_participantes/st-27.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-28" src="img/exposicion_comercial/empresas_participantes/st-28.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-29" src="img/exposicion_comercial/empresas_participantes/st-29.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-30" src="img/exposicion_comercial/empresas_participantes/st-30.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-31" src="img/exposicion_comercial/empresas_participantes/st-31.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-32" src="img/exposicion_comercial/empresas_participantes/st-32.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-33" src="img/exposicion_comercial/empresas_participantes/st-33.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-34" src="img/exposicion_comercial/empresas_participantes/st-34.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-35" src="img/exposicion_comercial/empresas_participantes/st-35.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-36" src="img/exposicion_comercial/empresas_participantes/st-36.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-37" src="img/exposicion_comercial/empresas_participantes/st-37.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-38" src="img/exposicion_comercial/empresas_participantes/st-38.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-39" src="img/exposicion_comercial/empresas_participantes/st-39.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-40" src="img/exposicion_comercial/empresas_participantes/st-40.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-41" src="img/exposicion_comercial/empresas_participantes/st-41.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-42" src="img/exposicion_comercial/empresas_participantes/st-42.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-43" src="img/exposicion_comercial/empresas_participantes/st-43.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-44" src="img/exposicion_comercial/empresas_participantes/st-44.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-45" src="img/exposicion_comercial/empresas_participantes/st-45.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-46" src="img/exposicion_comercial/empresas_participantes/st-46.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-47" src="img/exposicion_comercial/empresas_participantes/st-47.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-48" src="img/exposicion_comercial/empresas_participantes/st-48.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-49" src="img/exposicion_comercial/empresas_participantes/st-49.jpg" />
+                    </div>
+                </div>
+                <div class="span6" style="margin-bottom:10px;">
+                    <div class="team">
+                        <img alt="st-50" src="img/exposicion_comercial/empresas_participantes/st-50.jpg" />
+                    </div>
+                </div>
              </div>
             
         </div>

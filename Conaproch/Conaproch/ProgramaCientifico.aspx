@@ -173,22 +173,22 @@
                 <div class="row-full clearfix">
                     <div class="brick1">
                         <a href="http://errors.stablehost.com/406.php" class="article">
-                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog">
+                            <img src="assets/img/p_cientifico/chiles_p_cientifico.png" alt="blog" />
                         </a>
                     </div>
                     <div class="brick2 odd">
                         <a href="" class="article">
-                            <img src="assets/img/p_cientifico/comite.jpg" alt="blog">
+                            <img src="assets/img/p_cientifico/comite.jpg" alt="blog" />
                         </a>
                     </div>
                     <div class="brick1">
                         <a href="" class="article">
-                            <img src="assets/img/p_cientifico/chiles_pcientifico2.png" alt="blog">
+                            <img src="assets/img/p_cientifico/chiles_pcientifico2.png" alt="blog" />
                         </a>
                     </div>
                     <div class="brick2 odd">
                         <a href="" class="article">
-                            <img src="assets/img/p_cientifico/banner-extra.png" alt="blog">
+                            <img src="assets/img/p_cientifico/banner-extra.png" alt="blog" />
                         </a>
                     </div>
                     <div class="brick2 odd">
@@ -211,7 +211,7 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Gil Virgen Calleros<small> -  Profesor e Investigador de la Universidad de Florida, E.U.A.</small>
+                                    Dr. Gil Virgen Calleros<small> - Profesor e Investigador de la Universidad de Guadalajara.</small>
                                 </h4>
                                 <b>
                                 "Biología y Manejo de Mancha Bacteriana en Chile"                                
@@ -231,7 +231,7 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. José Luis Martínez Ramírez<small> - Profesor e Investigador de la Universidad de Guadalajara</small></h4>
+                                    Dr. José Luis Martínez Ramírez<small> - Profesor e Investigador de la Universidad de Guadalajara.</small></h4>
                                 <b>"Problemática Virológica del Cultivo de Chile en el occidente de México"</b>
                                 <br />
                                 <br />
@@ -248,7 +248,7 @@
                             </div>
                             <div class="info" style="text-align:center">
                                 <h4 class="name">
-                                    Dr. Eric H. Simonne<small> -Profesor e Investigador de la Universidad de Guadalajara</small></h4>
+                                    Dr. Eric H. Simonne<small> - Profesor e Investigador de la Universidad de Florida, E.U.A.</small></h4>
                                 <b>"Uso Eficiente del Agua y la Nutrición en el Cultivo del Chile"</b>
                                 <br />
                                 <br />
@@ -325,6 +325,7 @@
         <div class="modal-footer">
         </div>
     </div>
+
     <!-- Modal Convocatoria modalbox -->
     <div id="modalJose" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -337,123 +338,54 @@
                         <br />
                         <span>LICENCIATURA:</span>
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                            Escuela de Agricultura de la Universidad de Guadalajara, obteniendo el titulo de
-                            Ingeniero Agrónomo con orientación en Filotecnia. 1972-1977.
-                        </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Escuela de Agricultura de la Universidad de Guadalajara, obteniendo el titulo de Ingeniero Agrónomo con orientación en Filotecnia. 1972-1977.</li>
+                        </ul>
                         <span>MAESTRIA:</span>
                         <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Colegio de Postgraduados, obteniendo el grado de Maestro en Ciencias especialista en Fitopatología. 1979-1980.</li>
+                        </ul>
+                        <span>DOCTORADO:</span>
                         <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                            Colegio de Postgraduados, obteniendo el grado de Maestro en Ciencias especialista
-                            en Fitopatología. 1979-1980.
-                        </span>
-                        <br />
-                        <br />
-                        <span>DOCTORADO:
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                            Universidad de Colima, obteniendo el grado de Doctor en Ciencias. 1995-2000.
-                        </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Universidad de Colima, obteniendo el grado de Doctor en Ciencias. 1995-2000.</li>
+                        </ul>
                         <span>EXPERIENCIA PROFESIONAL</span>
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                            Encargado del programa de Parasitología del Departamento de Investigación
-                            de TABAMEX, S.A. de C.V. durante l977.
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Subjefe
-                            de informática y estudios del Distrito de Temporal IV de Jalisco con sede en Ameca,
-                            Jalisco. S.A.R.H. l978.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Investigador
-                            del programa de Fitopatología del Campo Agrícola Experimental Altos de Jalisco,
-                            INIA, SARH, de 1981-1984. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Profesor
-                            Investigador titular UNAM-UAG, Escuela de Ingeniería Agrícola 1984-1985.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Jefe
-                            de Unidad de Parasitología de TABAMEX, S.A. DE C.V. de 1985-1987. Asesor de Horticultores
-                            particulares desde 1987 a la fecha. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Actualmente
-                            Profesor investigador Titular C. En licenciatura y postgrado. Del Departamento de
-                            Producción Agrícola del CUCBA, U de G. Desde 1993 Actualmente imparte los cursos
-                            de Fitopatología y Agroquímicos II Fungicidas.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ha
-                            participado constantemente como ponente en simposios, diplomados, talleres y congresos
-                            científicos. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Ha
-                            dirigido tesis tanto de licenciatura como de postgrado. </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Encargado del programa de Parasitología del Departamento de Investigación de TABAMEX, S.A. de C.V. durante l977.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Subjefe de informática y estudios del Distrito de Temporal IV de Jalisco con sede en Ameca, Jalisco. S.A.R.H. l978.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Investigador del programa de Fitopatología del Campo Agrícola Experimental Altos de Jalisco, INIA, SARH, de 1981-1984.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Profesor Investigador titular UNAM-UAG, Escuela de Ingeniería Agrícola 1984-1985.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Jefe de Unidad de Parasitología de TABAMEX, S.A. DE C.V. de 1985-1987. Asesor de Horticultores particulares desde 1987 a la fecha.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Actualmente Profesor investigador Titular C. En licenciatura y postgrado. Del Departamento de Producción Agrícola del CUCBA, U de G. Desde 1993 Actualmente imparte los cursos de Fitopatología y Agroquímicos II Fungicidas.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ha participado constantemente como ponente en simposios, diplomados, talleres y congresos científicos.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ha dirigido tesis tanto de licenciatura como de postgrado.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
                         <span>PUBLICACIONES</span>
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>Cuenta
-                            con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Cuenta con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</li>
+                        </ul>
                         <span>DESARROLLOS TECNOLOGICOS</span>
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Sistemas de manejo integrado de virus en Tabaco y en hortalizas. Variedad de Tabaco
-                            Burley 21-M resistente a virus. Variedades de Jitomate Urhepani con resistencia
-                            a virus, Tizón tardío y bacteriosis. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            En proceso de caracterización variedad resistente a tizón tardío y variedades de
-                            tomate de cascara con resistencia a virus. </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Sistemas de manejo integrado de virus en Tabaco y en hortalizas. Variedad de Tabaco Burley 21-M resistente a virus. Variedades de Jitomate Urhepani con resistencia a virus, Tizón tardío y bacteriosis.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">En proceso de caracterización variedad resistente a tizón tardío y variedades de tomate de cascara con resistencia a virus.</li>
+                        </ul>
                         <span>RECONOCMIENTOS</span>
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Diploma y medalla otorgada por el Consejo Mexicano de Cultura, Institución los mejores
-                            estudiantes de México, al mejor estudiante de Ingeniero Agrónomo Fitotecnista generación
-                            1977 de la Escuela de Agricultura de la Universidad de Guadalajara.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Doble felicitación por la trayectoria académica y por el trabajo de tesis de Maestría.
-                            Lugar de honor por la obtención del mejor promedio de calificaciones de las generaciones
-                            de año 2000 en la Universidad de Colima. Premio Nacional de investigación otorgado
-                            por la Unión Nacional de Productores de Hortalizas, por los trabajos de investigación
-                            al combate de enfermedades que permitieron bajar los índices de incidencia de virosis
-                            en cultivos hortícolas en la región de Autlán, Jalisco 1987. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Reconocimientos de la Sociedad Mexicana de Fitopatología, por las mejores ponencias
-                            de cada área en los congresos XIII y XVI. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Reconocimiento como profesor distinguido por varias generaciones de Ingenieros Agrónomos.
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Padrino de las generaciones 2009 A, 2011B y 2012B de Ingenieros Agrónomos de la
-                            Universidad de Guadalajara. Galardón al merito académico Enrique Díaz de León 2011,
-                            otorgado por la Universidad de Guadalajara. </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Diploma y medalla otorgada por el Consejo Mexicano de Cultura, Institución los mejores estudiantes de México, al mejor estudiante de Ingeniero Agrónomo Fitotecnista generación 1977 de la Escuela de Agricultura de la Universidad de Guadalajara.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Doble felicitación por la trayectoria académica y por el trabajo de tesis de Maestría. Lugar de honor por la obtención del mejor promedio de calificaciones de las generaciones de año 2000 en la Universidad de Colima. Premio Nacional de investigación otorgado por la Unión Nacional de Productores de Hortalizas, por los trabajos de investigación al combate de enfermedades que permitieron bajar los índices de incidencia de virosis en cultivos hortícolas en la región de Autlán, Jalisco 1987.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Reconocimientos de la Sociedad Mexicana de Fitopatología, por las mejores ponencias de cada área en los congresos XIII y XVI.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Reconocimiento como profesor distinguido por varias generaciones de Ingenieros Agrónomos.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Padrino de las generaciones 2009 A, 2011B y 2012B de Ingenieros Agrónomos de la Universidad de Guadalajara. Galardón al merito académico Enrique Díaz de León 2011, otorgado por la Universidad de Guadalajara.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                 </div>
@@ -464,6 +396,7 @@
         <div class="modal-footer">
         </div>
     </div>
+
     <!-- Modal Convocatoria modalbox -->
     <div id="modalEric" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -473,156 +406,69 @@
                     <div class="item active">
                         <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
                         <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric Simonne </p>
-                    
                         <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Professor and District Extension Director, University of Florida, Florida Cooperative Extension Service (UF/FCES, since 2010)
-                            </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Associate Professor and District Extension Director, UF/FCES (2009-2010)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Associate Professor and Extension Specialist, UF Horticultural Sciences Dept. (2005 to 2009)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Assistant Professor and Extension Specialist, UF Horticultural Sciences Dept. (2000 to 2005)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                         Assistant Professor and Extension Specialist, Dept. of Horticulture, Auburn Univ. (1996 to 2000)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Post-Doctoral Fellow, Department of Horticulture, Auburn Univ. (1994 to 1996)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Analytical Laboratory Manager, Micro-Macro International, Inc. (1993-1994)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Graduate Research/Teaching Assistant, Univ. of Georgia</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Professor and District Extension Director, University of Florida, Florida Cooperative Extension Service (UF/FCES, since 2010).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Associate Professor and District Extension Director, UF/FCES (2009-2010).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Associate Professor and Extension Specialist, UF Horticultural Sciences Dept. (2005 to 2009).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Assistant Professor and Extension Specialist, UF Horticultural Sciences Dept. (2000 to 2005).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Assistant Professor and Extension Specialist, Dept. of Horticulture, Auburn Univ. (1996 to 2000).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Post-Doctoral Fellow, Department of Horticulture, Auburn Univ. (1994 to 1996).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Analytical Laboratory Manager, Micro-Macro International, Inc. (1993-1994)</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Graduate Research/Teaching Assistant, Univ. of Georgia.</li>
+                        </ul>
                         <span>EDUCATION:</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Ph.D., Univ. of Georgia, Horticulture, 1993, “Irrigation scheduling of turnip greens”
-                            </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Diploma of Applied Agronomy (Equivalent to MS), Ecole Nationale Superieure Agronomique de Toulouse, France, Agronomic Engineering, 1989</span>                       
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ph.D., Univ. of Georgia, Horticulture, 1993, "Irrigation scheduling of turnip greens".</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Diploma of Applied Agronomy (Equivalent to MS), Ecole Nationale Superieure Agronomique de Toulouse, France, Agronomic Engineering, 1989.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009)
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Supervises 72 county faculty located in 17 North Florida Counties in agriculture, horticulture, 4-H, family and consumer science, and marine programmatic areas
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Interacts with 17 Boards of County Commissioners and County managers</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Conducts searches and fills vacant positions</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Coaches agents involved in promotion, permanent status and/or mid-carrier review</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Member of the Extension Staffing Task Force (2014)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Member of the extension Road Map Committee (2010-2012)</span>
-                        <br />
-                        <br />
+                        <span>ADMINISTRATIVE AND LEADERSHIP RESPONSIBILITIES IN THE FLORIDA COOPERATIVE EXTENSION SERVICE AT THE UNIVERSITY OF FLORIDA (since 2009)</span>
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Supervises 72 county faculty located in 17 North Florida Counties in agriculture, horticulture, 4-H, family and consumer science, and marine programmatic areas.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Interacts with 17 Boards of County Commissioners and County managers.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Conducts searches and fills vacant positions.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Coaches agents involved in promotion, permanent status and/or mid-carrier review.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Member of the Extension Staffing Task Force (2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Member of the extension Road Map Committee (2010-2012).</li>
+                        </ul>
                         <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Nutrient management, fertilization practices, soil and fertilizer chemistry, and vegetable mineral nutrition: update fertilization recommendations for vegetables, and teach advanced plant nutrition course.
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Water management, irrigation scheduling techniques, and water conservation practices; improve irrigation recommendations for vegetables by developing real-time irrigation methods</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Environmental impact of vegetable production, nutrient leaching, Total Maximum Daily
-                            Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verification and implementation of nutrient and irrigation BMPs for vegetable crops grown in Florida.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Committee chair or co-chair of 5 PhD students, member of 7 doctoral committees; chair of 2 Doctor of Plant Medicine students; chair of 1 Master Student; member of 6 Master students committees (2002-2011)</span>
-                        <br />
-                        <br />
-                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Performed US-AID assignments in Haiti (2001), Honduras (2006, 2007) and Tanzania (2014)
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Gave presentations in France (2004), Canada (2006), Thailand (2002, 2003, 2006, 2008, 2009, 2011, 2012, 2013), Italy (2008), Mexico (2010, 2011, 2012, 2013), Singapore (2013), Tanzania (2014) and Vietnam (2014)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Fluent in English, French and Spanish</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Nutrient management, fertilization practices, soil and fertilizer chemistry, and vegetable mineral nutrition: update fertilization recommendations for vegetables, and teach advanced plant nutrition course.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Water management, irrigation scheduling techniques, and water conservation practices; improve irrigation recommendations for vegetables by developing real-time irrigation methods.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Environmental impact of vegetable production, nutrient leaching, Total Maximum Daily Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verification and implementation of nutrient and irrigation BMPs for vegetable crops grown in Florida.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Committee chair or co-chair of 5 PhD students, member of 7 doctoral committees; chair of 2 Doctor of Plant Medicine students; chair of 1 Master Student; member of 6 Master students committees (2002-2011).</li>
+                        </ul>
+                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span>
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Performed US-AID assignments in Haiti (2001), Honduras (2006, 2007) and Tanzania (2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Gave presentations in France (2004), Canada (2006), Thailand (2002, 2003, 2006, 2008, 2009, 2011, 2012, 2013), Italy (2008), Mexico (2010, 2011, 2012, 2013), Singapore (2013), Tanzania (2014) and Vietnam (2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Fluent in English, French and Spanish.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
                         <span>SERVICE TO PROFESSIONAL ORGANIZATIONS</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Program coordinator, Florida State Horticultural Society (2006-2010)
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            State-wide co-leader for UF/IFAS Best Management Practices implementation and coordination (2007-2009).</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Focus team co-leader for the UF/IFAS Extension Vegetable Commodity team (2005-2007)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Associate Editor for the “Variety testing and evaluation” section of HortTechnology (2001-2006)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Member of the Editorial Board (1995-2012) and Associate Executive Editor (2001-2012) for the Journal of Plant Nutrition</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Chair of the Mineral Nutrition Working Group of the American Society for Horticultural Sciences (2003)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Section Chair of the vegetable group of the Southern Region of the American Society for Horticultural Sciences (2000)</span>
-                
-                        <br />
-                        <span>HONORS AND AWARDS </span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Recipient of the 2012 Best Paper Award, Vegetable Section, Florida State Horticulture Society
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Recipient of the 2007 Florida State Horticultural Society President Gold Medal</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Co-recipient of the 2006 best paper award, vegetable section Florida State Horticultural Society</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Recipient of the 2005 Wagner Award (Young scientist category) to “recognize leadership and accomplishments toward efficient, competitive agriculture based on sound science and in harmony with environmental and human values” from the Potash & Phosphate Institute, 2005.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Co-recipient of the 2002 UF/IFAS Jim App Award for Outstanding Design Team presented to the Design Team members of State Major Program 107 “Vegetable production, harvesting, handling efficiencies and IPM in Florida”</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          Recipient of the 1998 “Ag Research Award” from the Alabama Fruit and Vegetable Growers Association for “Special service and dedication to Auburn University's research program on fruit and vegetable crops and for providing up-to-date, practical information to the industry'”</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Program coordinator, Florida State Horticultural Society (2006-2010).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">State-wide co-leader for UF/IFAS Best Management Practices implementation and coordination (2007-2009).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Focus team co-leader for the UF/IFAS Extension Vegetable Commodity team (2005-2007).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Associate Editor for the “Variety testing and evaluation” section of HortTechnology (2001-2006).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Member of the Editorial Board (1995-2012) and Associate Executive Editor (2001-2012) for the Journal of Plant Nutrition.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Chair of the Mineral Nutrition Working Group of the American Society for Horticultural Sciences (2003).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Section Chair of the vegetable group of the Southern Region of the American Society for Horticultural Sciences (2000).</li>
+                        </ul>
+                        <span>HONORS AND AWARDS</span>
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2012 Best Paper Award, Vegetable Section, Florida State Horticulture Society.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2007 Florida State Horticultural Society President Gold Medal.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Co-recipient of the 2006 best paper award, vegetable section Florida State Horticultural Society.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2005 Wagner Award (Young scientist category) to “recognize leadership and accomplishments toward efficient, competitive agriculture based on sound science and in harmony with environmental and human values” from the Potash & Phosphate Institute, 2005.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Co-recipient of the 2002 UF/IFAS Jim App Award for Outstanding Design Team presented to the Design Team members of State Major Program 107 "Vegetable production, harvesting, handling efficiencies and IPM in Florida".</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 1998 “Ag Research Award” from the Alabama Fruit and Vegetable Growers Association for “Special service and dedication to Auburn University's research program on fruit and vegetable crops and for providing up-to-date, practical information to the industry'"</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>              
                 </div>
@@ -633,6 +479,7 @@
         <div class="modal-footer">
         </div>
     </div>
+
     <!-- Modal Convocatoria modalbox -->
     <div id="modalPaul" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>

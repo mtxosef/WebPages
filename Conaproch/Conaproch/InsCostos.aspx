@@ -124,7 +124,7 @@
                 <div class="span6">
                     <h3>TIPOS DE PARTICIPANTES</h3>
                     <p>ASISTENTE</p>
-                    <p>PUBLICO EN GENERAL</p>
+                    <p>PÚBLICO EN GENERAL</p>
                     <p>(BENEFICIOS DE ASISTENTE)</p>
                     <p>INVESTIGADOR </p>
                 </div>
