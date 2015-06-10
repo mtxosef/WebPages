@@ -68,6 +68,7 @@
 	        </ul>
         </nav>
     </header>
+
     <div id="slider">
         <div class="container">
             <div id="sequence_Slider">
@@ -75,46 +76,28 @@
                 <div id="wowslider-container1">
                     <div class="ws_images">
                         <ul>
-                            <li>
-                                <img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0" /></li>
-                            <li>
-                                <img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1" /></li>
-                            <li>
-                                <img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2" /></li>
-                            <li>
-                                <img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3" /></li>
-                            <li>
-                                <img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4" /></li>
-                            <li>
-                                <img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5" /></li>
-                            <li>
-                                <img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6" /></li>
-                            <li>
-                                <img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7" /></li>
-                            <li>
-                                <img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8" /></li>
+                            <li><img src="data1/images/banner_principal.jpg" alt="BANNER PRINCIPAL" title="" id="wows1_0" /></li>
+                            <li><img src="data1/images/img_3357.jpg" alt="IMG_3357" title="" id="wows1_1" /></li>
+                            <li><img src="data1/images/img_3406.jpg" alt="IMG_3406" title="" id="wows1_2" /></li>
+                            <li><img src="data1/images/img_3532.jpg" alt="IMG_3532" title="" id="wows1_3" /></li>
+                            <li><img src="data1/images/img_3608.jpg" alt="IMG_3608" title="" id="wows1_4" /></li>
+                            <li><img src="data1/images/img_4171.jpg" alt="IMG_4171" title="" id="wows1_5" /></li>
+                            <li><img src="data1/images/img_4225.jpg" alt="IMG_4225" title="" id="wows1_6" /></li>
+                            <li><img src="data1/images/img_4272.jpg" alt="IMG_4272" title="" id="wows1_7" /></li>
+                            <li><img src="data1/images/img_4592.jpg" alt="IMG_4592" title="" id="wows1_8" /></li>
                         </ul>
                     </div>
                     <div class="ws_bullets">
                         <div>
-                            <a href="#" title="BANNER PRINCIPAL"><span>
-                                <img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL" />1</span></a>
-                            <a href="#" title="IMG_3357"><span>
-                                <img src="data1/tooltips/img_3357.jpg" alt="IMG_3357" />2</span></a> <a href="#"
-                                    title="IMG_3406"><span>
-                                        <img src="data1/tooltips/img_3406.jpg" alt="IMG_3406" />3</span></a>
-                            <a href="#" title="IMG_3532"><span>
-                                <img src="data1/tooltips/img_3532.jpg" alt="IMG_3532" />4</span></a> <a href="#"
-                                    title="IMG_3608"><span>
-                                        <img src="data1/tooltips/img_3608.jpg" alt="IMG_3608" />5</span></a>
-                            <a href="#" title="IMG_4171"><span>
-                                <img src="data1/tooltips/img_4171.jpg" alt="IMG_4171" />6</span></a> <a href="#"
-                                    title="IMG_4225"><span>
-                                        <img src="data1/tooltips/img_4225.jpg" alt="IMG_4225" />7</span></a>
-                            <a href="#" title="IMG_4272"><span>
-                                <img src="data1/tooltips/img_4272.jpg" alt="IMG_4272" />8</span></a> <a href="#"
-                                    title="IMG_4592"><span>
-                                        <img src="data1/tooltips/img_4592.jpg" alt="IMG_4592" />9</span></a>
+                            <a href="#" title="BANNER PRINCIPAL"><span><img src="data1/tooltips/banner_principal.jpg" alt="BANNER PRINCIPAL" />1</span></a>
+                            <a href="#" title="IMG_3357"><span><img src="data1/tooltips/img_3357.jpg" alt="IMG_3357" />2</span></a>
+                            <a href="#" title="IMG_3406"><span><img src="data1/tooltips/img_3406.jpg" alt="IMG_3406" />3</span></a>
+                            <a href="#" title="IMG_3532"><span><img src="data1/tooltips/img_3532.jpg" alt="IMG_3532" />4</span></a>
+                            <a href="#" title="IMG_3608"><span><img src="data1/tooltips/img_3608.jpg" alt="IMG_3608" />5</span></a>
+                            <a href="#" title="IMG_4171"><span><img src="data1/tooltips/img_4171.jpg" alt="IMG_4171" />6</span></a>
+                            <a href="#" title="IMG_4225"><span><img src="data1/tooltips/img_4225.jpg" alt="IMG_4225" />7</span></a>
+                            <a href="#" title="IMG_4272"><span><img src="data1/tooltips/img_4272.jpg" alt="IMG_4272" />8</span></a>
+                            <a href="#" title="IMG_4592"><span><img src="data1/tooltips/img_4592.jpg" alt="IMG_4592" />9</span></a>
                         </div>
                     </div>
                     <div class="ws_shadow">
@@ -136,13 +119,14 @@
             </div>
         </div>
     </div>
+
     <div id="navbar" class="navbar">
         <div class="navbar-inner">
             <div class="container">
-                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar"
-                    type="button">
-                    <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar">
-                    </span>
+                <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
                 <div class="nav-collapse collapse">
                     <ul class="nav">
@@ -158,6 +142,7 @@
     </div>
     <!-- end navbar -->
     <!-- end About us  -->
+
     <div id="p_cientifco" class="section">
         <div class="container">
             <div class="hero">
@@ -198,6 +183,7 @@
                     </div>
                 </div>
             </div>
+
             <div id="magistrales" class="section">
                 <center>
                     <h1>Conferencias Magistrales</h1>
@@ -299,6 +285,7 @@
             </div>
         </div>
     </div>
+
     <!-- Modal Convocatoria modalbox -->
     <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -307,8 +294,8 @@
             <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Gil Virgen Calleros</p>
             <br />
             <ul>
-                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ing. Agronomo Parasitologo Universidad Autónoma Agraria Antonio Narro.</li>
-                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Maestria en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ing. Agrónomo Parasitólogo Universidad Autónoma Agraria Antonio Narro.</li>
+                <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Maestría en Parasitología Agrícola Universidad Autónoma Agraria Antonio Narro.</li>
                 <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Doctorado en Biotecnología de Plantas CINVESTAV Unidad Irapuato.</li>
                 <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Estancia de Investigación Universidad de Alaska Fairbanks.</li>
                 <li style="line-height:22px; margin-left:10px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Estancia de Investigación Instituto Nacional de Investigaciones Agrarias, Madrid, España.</li>
@@ -405,8 +392,9 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
-                        <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric Simonne </p>
+                        <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric H. Simonne</p>
                         <br />
+                        <span>EMPLOYMENT HISTORY</span>
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Professor and District Extension Director, University of Florida, Florida Cooperative Extension Service (UF/FCES, since 2010).</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Associate Professor and District Extension Director, UF/FCES (2009-2010).</li>
@@ -414,10 +402,10 @@
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Assistant Professor and Extension Specialist, UF Horticultural Sciences Dept. (2000 to 2005).</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Assistant Professor and Extension Specialist, Dept. of Horticulture, Auburn Univ. (1996 to 2000).</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Post-Doctoral Fellow, Department of Horticulture, Auburn Univ. (1994 to 1996).</li>
-                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Analytical Laboratory Manager, Micro-Macro International, Inc. (1993-1994)</li>
-                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Graduate Research/Teaching Assistant, Univ. of Georgia.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Analytical Laboratory Manager, Micro-Macro International, Inc. (1993-1994).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Graduate Research/Teaching Assistant, Univ. of Georgia (1990-1993).</li>
                         </ul>
-                        <span>EDUCATION:</span>
+                        <span>EDUCATION</span>
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ph.D., Univ. of Georgia, Horticulture, 1993, "Irrigation scheduling of turnip greens".</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Diploma of Applied Agronomy (Equivalent to MS), Ecole Nationale Superieure Agronomique de Toulouse, France, Agronomic Engineering, 1989.</li>
@@ -441,7 +429,7 @@
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Environmental impact of vegetable production, nutrient leaching, Total Maximum Daily Load (TMDL), and Best Management Practices (BMPs); involved in drafting, verification and implementation of nutrient and irrigation BMPs for vegetable crops grown in Florida.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Committee chair or co-chair of 5 PhD students, member of 7 doctoral committees; chair of 2 Doctor of Plant Medicine students; chair of 1 Master Student; member of 6 Master students committees (2002-2011).</li>
                         </ul>
-                        <span>PROGRAMMATIC AREAS OF RESPONSIBILITY IN THE HORTICULRAL SCIENCES DEPARTMENT AT THE UNIVERSITY OF FLORIDA (2000-2013)</span>
+                        <span>INTERNATIONAL ACTIVITIES</span>
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Performed US-AID assignments in Haiti (2001), Honduras (2006, 2007) and Tanzania (2014).</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Gave presentations in France (2004), Canada (2006), Thailand (2002, 2003, 2006, 2008, 2009, 2011, 2012, 2013), Italy (2008), Mexico (2010, 2011, 2012, 2013), Singapore (2013), Tanzania (2014) and Vietnam (2014).</li>
@@ -465,9 +453,9 @@
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2012 Best Paper Award, Vegetable Section, Florida State Horticulture Society.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2007 Florida State Horticultural Society President Gold Medal.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Co-recipient of the 2006 best paper award, vegetable section Florida State Horticultural Society.</li>
-                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2005 Wagner Award (Young scientist category) to “recognize leadership and accomplishments toward efficient, competitive agriculture based on sound science and in harmony with environmental and human values” from the Potash & Phosphate Institute, 2005.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 2005 Wagner Award (Young scientist category) to "recognize leadership and accomplishments toward efficient, competitive agriculture based on sound science and in harmony with environmental and human values" from the Potash & Phosphate Institute, 2005.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Co-recipient of the 2002 UF/IFAS Jim App Award for Outstanding Design Team presented to the Design Team members of State Major Program 107 "Vegetable production, harvesting, handling efficiencies and IPM in Florida".</li>
-                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 1998 “Ag Research Award” from the Alabama Fruit and Vegetable Growers Association for “Special service and dedication to Auburn University's research program on fruit and vegetable crops and for providing up-to-date, practical information to the industry'"</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recipient of the 1998 "Ag Research Award" from the Alabama Fruit and Vegetable Growers Association for "Special service and dedication to Auburn University's research program on fruit and vegetable crops and for providing up-to-date, practical information to the industry".</li>
                         </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>              
@@ -494,216 +482,86 @@
                         <p style="text-align: right; margin-right: 145px; color: #7D4421;">Dr. Paul William Bosland</p>
                         <br />
                         <span>EDUCATION:</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                           Ph.D.  Plant Breeding and Plant Genetics, Minor - Plant Pathology, University of Wisc., Madison
-                            California Community College Teacher's Credential, University of California, Davis
-                            Vocational Agriculture Teacher's Credential, University of California, Davis
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                        <span>
-                            M.S. Vegetable Crops, University of California, Davis
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            B.S.  Genetics, University of California, Davis </span>
-                        <br />
-                       <br />
-                        <span>EXPERIENCE
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                          2012- present	Distinguished Achievement Professor, New Mexico State University
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            2002- present	Regents Professor, New Mexico State University</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            2004-2005	Interim Department Head </span>
-                        <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            1994-2002	Professor, New Mexico State University</span>
-                        <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" />
-                         <span>
-                            1992-present	Director, Chile Pepper Institute
-                        </span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ph.D.  Plant Breeding and Plant Genetics, Minor - Plant Pathology, University of Wisc., Madison California Community College Teacher's Credential, University of California, Davis Vocational Agriculture Teacher's Credential, University of California, Davis.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">M.S. Vegetable Crops, University of California, Davis.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">B.S.  Genetics, University of California, Davis.</li>
+                        </ul>
+                        <span>EXPERIENCE</span>
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">2012- present	Distinguished Achievement Professor, New Mexico State University.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">2002- present	Regents Professor, New Mexico State University.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">2004-2005	Interim Department Head.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">1994-2002	Professor, New Mexico State University.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">1992-present	Director, Chile Pepper Institute.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
                         <span>AWARDS AND HONORS SINCE FULL-PROFESSOR</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        All-American Selections Award for NuMex Easter Ornamental pepper (2014)
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Board of Directors Chair – American Society of Horticultural Science (2013-2014)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            President – American Society of Horticultural Science (2012-2013)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Named a Las Cruces Sun-New’s Mover and Shaker for 2012</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            New Mexico Distinguished Service Award (2009)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Fellow of the American Society for Horticultural Science (2007)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Michael P. Malone International Leadership Award, Finalist (2006)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Faculty Appreciation Award, Dept. Plt. & Env. Sci., NMSU (2006)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            American Society of Horticulture Science Outstanding Graduate Educator Award (2004)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Regent’s Professorship (2002)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            NMSU Research Council Award for Exceptional Achievements in Creative Scholarly Activity (2002)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Who’s Who in America (2000-2014)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Who's Who in American Education (2000-2014)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            European Scientific Committee for Capsicum & Eggplant (1st American given this honor)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Dennis Darnell Faculty Achievement Award (2000)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Gamma Sigma Delta Distinguished Graduate Teacher/Advisor (1999)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            IgNobel Award Harvard University (1999)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Wilson Guide to Experts in Science & Technology (1999-present)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            NMSU– Globe of the Month Award, International Programs (1998)</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            The Geraldine K. Lindsay Award for Excellence in the Natural Sciences (1997)</span>
-                        <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Gamma Sigma Delta – Elected President (1996)</span>
-                        <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            NMSU Distinguished Research Award (1995)</span>
-                        <br />
-                         <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            NMSU Graduate Council – Chair (1995)</span>
-                        <br />
-                          <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Capsicum Crop Advisory Committee – Chair (1995-2005)</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">All-American Selections Award for NuMex Easter Ornamental pepper (2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Board of Directors Chair – American Society of Horticultural Science (2013-2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">President – American Society of Horticultural Science (2012-2013).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Named a Las Cruces Sun-New’s Mover and Shaker for 2012.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">New Mexico Distinguished Service Award (2009).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Fellow of the American Society for Horticultural Science (2007).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Michael P. Malone International Leadership Award, Finalist (2006).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Faculty Appreciation Award, Dept. Plt. & Env. Sci., NMSU (2006).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">American Society of Horticulture Science Outstanding Graduate Educator Award (2004).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Regent’s Professorship (2002).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">NMSU Research Council Award for Exceptional Achievements in Creative Scholarly Activity (2002).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Who’s Who in America (2000-2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Who's Who in American Education (2000-2014).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">European Scientific Committee for Capsicum & Eggplant (1st American given this honor).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Dennis Darnell Faculty Achievement Award (2000).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Gamma Sigma Delta Distinguished Graduate Teacher/Advisor (1999).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">IgNobel Award Harvard University (1999).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Wilson Guide to Experts in Science & Technology (1999-present).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">NMSU– Globe of the Month Award, International Programs (1998).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">The Geraldine K. Lindsay Award for Excellence in the Natural Sciences (1997).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Gamma Sigma Delta – Elected President (1996).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">NMSU Distinguished Research Award (1995).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">NMSU Graduate Council – Chair (1995).</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Capsicum Crop Advisory Committee – Chair (1995-2005).</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                     <div class="item">
-                        <span>PROGRAM ACCOMPLISHMENTS </span><img alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
-                        <br /><br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                        Recognized internationally as the leading Capsicum (chile pepper) research program.
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Co-founder and director of the Chile Pepper Institute that is now the world’s foremost research-based resource center for chile pepper information.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Chair of the New Mexico Chile Conference, world’s largest conference dedicated to the chile pepper.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Acquired more than $8.7 million in research funding.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Released more than 40 chile pepper cultivars.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Research has graced the cover of the Journal of the American Society of Horticultural Science, Journal of Heredity, and HortScience.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Authored or co-authored more than 100 scientific papers and co-author of seven books.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Major advisor to 19 M.S. graduate students, 17 Ph.D. students, and 4 postdoctoral students</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Guest lecture to more than 20 classes.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            ASSURED program, an NSF funded project that introduced children of migrant farm-workers to pursue agricultural science careers.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Generously devoted time as a classroom teacher in undergraduate and graduate courses.  Highly regarded for teaching skills, receiving very high compliments from students in all of my courses.  Made international graduate education a cornerstone of my program.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Done more than 25 television appearances educating about chile peppers.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Highlighted in the award winning video "Green Gold - From the Maya to the Moon."</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           A bi-monthly chile pepper gardening column for Chile Pepper magazine.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Delivered invited presentations or been a visiting professor at more than 30 of the nation’s leading universities including Harvard, MIT, and UC Davis.</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Discoveries in my program have been featured in many media outlets including Smithsonian Magazine, Chronicle of Higher Education, Maxim, Martha Stewart’s Living, National Public Radio, Playboy, Scientific American Frontiers, Travel Channel, Food Network, and Discovery Channel, to name a few.  An expert consultant to the television show “Who Wants to be a Millionaire?”</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Hosted visiting scientists from Argentina, Brazil, Chile, China, France, Germany, Guatemala, Hungary, India, Italy, Japan, Korea, Netherlands, South Africa, Spain, and Thailand. </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                           Consultant to USAID, FAO, VOCA, USDA Capsicum Germplasm Resources, NSF, National Cancer Institute, NIH, CATI, Costa Rica, AVRDC, Taiwan, ICTA, Guatemala</span>
-                        <br />
-                        <br />
+                        <span>PROGRAM ACCOMPLISHMENTS</span>
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Recognized internationally as the leading Capsicum (chile pepper) research program.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Co-founder and director of the Chile Pepper Institute that is now the world’s foremost research-based resource center for chile pepper information.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Chair of the New Mexico Chile Conference, world’s largest conference dedicated to the chile pepper.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Acquired more than $8.7 million in research funding.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Released more than 40 chile pepper cultivars.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Research has graced the cover of the Journal of the American Society of Horticultural Science, Journal of Heredity, and HortScience.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Authored or co-authored more than 100 scientific papers and co-author of seven books.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Major advisor to 19 M.S. graduate students, 17 Ph.D. students, and 4 postdoctoral students.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Guest lecture to more than 20 classes.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">ASSURED program, an NSF funded project that introduced children of migrant farm-workers to pursue agricultural science careers.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Generously devoted time as a classroom teacher in undergraduate and graduate courses.  Highly regarded for teaching skills, receiving very high compliments from students in all of my courses.  Made international graduate education a cornerstone of my program.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Done more than 25 television appearances educating about chile peppers.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Highlighted in the award winning video "Green Gold - From the Maya to the Moon."</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">A bi-monthly chile pepper gardening column for Chile Pepper magazine.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Delivered invited presentations or been a visiting professor at more than 30 of the nation’s leading universities including Harvard, MIT, and UC Davis.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Discoveries in my program have been featured in many media outlets including Smithsonian Magazine, Chronicle of Higher Education, Maxim, Martha Stewart’s Living, National Public Radio, Playboy, Scientific American Frontiers, Travel Channel, Food Network, and Discovery Channel, to name a few.  An expert consultant to the television show "Who Wants to be a Millionaire?".</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Hosted visiting scientists from Argentina, Brazil, Chile, China, France, Germany, Guatemala, Hungary, India, Italy, Japan, Korea, Netherlands, South Africa, Spain, and Thailand.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Consultant to USAID, FAO, VOCA, USDA Capsicum Germplasm Resources, NSF, National Cancer Institute, NIH, CATI, Costa Rica, AVRDC, Taiwan, ICTA, Guatemala.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                      <div class="item">
                         <span>PROFESSIONAL MEMBERSHIP</span>
-                        <br />
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            International Scientific Board of EUCARPIA for Capsicum & Eggplant Research
-                        </span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            American Association for the Advancement of Science</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            American Society for Horticultural Science</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Capsicum Crop Advisory Committee- past Chair</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Gamma Sigma Delta</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            New Mexico Academy of Science - Life member</span>
-                        <br />
-                        <img alt="vineta01" src="img/programaCientifico/confereniasMagistrales/cv-vineta.png" /><span>
-                            Sigma Xi</span>
-                        <br />
-                        <br />
+                        <ul>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">International Scientific Board of EUCARPIA for Capsicum & Eggplant Research.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">American Association for the Advancement of Science.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">American Society for Horticultural Science.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Capsicum Crop Advisory Committee- past Chair.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Gamma Sigma Delta.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">New Mexico Academy of Science - Life member.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Sigma XI.</li>
+                        </ul>
                         <img style="height: 64px; width: 90%;" alt="pie" src="img/programaCientifico/confereniasMagistrales/cv-inferior.png" />
                     </div>
                 </div>
@@ -720,8 +578,7 @@
         <div class="bg-holder">
             <div class="container">
                 <div class="hero">
-                    <h1>
-                        CONVOCATORIA</h1>
+                    <h1>CONVOCATORIA</h1>
                     <p>
                         <div class="nav-hover">
                         </div>
