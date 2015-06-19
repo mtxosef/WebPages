@@ -24,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <script type="text/javascript" src="js/stands.js"></script>
     <link rel="Stylesheet" type="text/css" href="css/principal.css" />
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
     <script type="text/javascript">
         $(window).load(function () {
             $("#flexiselDemo3").flexisel({
@@ -57,7 +60,10 @@
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
         <div class="contenedor">
+        
             <img alt="logotipo" style="margin-top:30px;" src="img/logotipo.png" />
+
+            
         </div>
   	
         <nav>
@@ -120,6 +126,11 @@
                 </div>
             </div>
 	    </div>
+
+
+
+
+
     </div>
 
     <div id="navbar" class="navbar">
@@ -361,9 +372,11 @@
                     <div class="contenedor-img ejemplo-1">  
                          <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />  
                          <div class="mascara">  
-                             <h2>12° Convención del Chile</h2>  
-                             <p>Lugar Disponible</p>
-                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                             <h2>PATROCINADOR</h2> 
+                             <br />
+                             <a href="http://www.google.com" target="_blank"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></a>
+                               <%-- <br />
+                             <a href="#" class="link">Ir al sitio de la empresa</a> --%> 
                          </div>  
                     </div>
 
