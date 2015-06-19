@@ -69,12 +69,62 @@
 .contenedor_stands img
 {
     float:left;
+      opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
 }
+
+.contenedor_stands img
+{
+    float:left;
+      opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.contenedor_stands img:hover
+{
+      filter: alpha(opacity=30);
+  moz-opacity: .30;
+  opacity: .30;
+}
+
+.contenedor_stands img:hover
+{
+ -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+
+ -webkit-transform: rotate(-17deg);
+-moz-transform: rotate(-17deg);
+-ms-transform: rotate(-17deg);
+transform: rotate(-17deg);
+
+border-width:4px;
+border-color:White;
+
+  filter: alpha(opacity=50);
+  moz-opacity: .50;
+  opacity: .50;
+}
+
+.contenedor_stands img:active
+{
+    opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
 
 .contenedor_stands a
 {
     position: relative;
+ 
 }
+
 
 .contenedor_stands a span
 {

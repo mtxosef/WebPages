@@ -256,7 +256,10 @@
                 <h1>PLANO STANDS</h1>
                 <hr />
                 <div class="contenedor_stands">
-                    <a id="a12" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img12" alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" /><span style="right:410px; top:31px;">12</span></a>
+                    <a id="a12" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)">
+                    <img id="img12" alt="s12" style="margin-top:15px; margin-left:15px;" src="img/planoStand/RomboStand.png" />
+                    <span style="right:410px; top:31px;">12</span>
+                    </a>
                     <a id="a11" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img11" alt="s11" src="img/planoStand/CuadroStand.png" /><span style="right:381px; top:10px;">11</span></a>
                     <a id="a10" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img10" alt="s10" src="img/planoStand/CuadroStand.png" /><span style="right:360px; top:10px;">10</span></a>
                     <a id="a09" href="#apartarStand" data-toggle="modal" onclick="apartadoStand(this)"><img id="img09" alt="s09" src="img/planoStand/CuadroStand.png" /><span style="right:345px; top:10px;">9</span></a>
