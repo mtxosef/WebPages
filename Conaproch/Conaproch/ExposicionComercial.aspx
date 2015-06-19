@@ -50,6 +50,9 @@
             });
         });
     </script>
+
+
+
 </head>
 <body data-spy="scroll" data-target=".navbar" onload="contadorDias()">
     <header id="header">
@@ -352,39 +355,98 @@
                 <h2>Empresas participantes</h2>
             </center>
             <div class="our-team row" style="text-transform:uppercase !important;">
-                <div class="span6" style="margin-bottom:10px;">
+                <div class="span6" style="margin-bottom:0px;">
                     <div class="team">
-                        <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />
+
+                    <div class="contenedor-img ejemplo-1">  
+                         <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />  
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+
+                       <%-- <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />--%>
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-02" src="img/exposicion_comercial/empresas_participantes/st-02.jpg" />                      
+                     <div class="contenedor-img ejemplo-1">  
+                          <img alt="st-02" src="img/exposicion_comercial/empresas_participantes/st-02.jpg" />       
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+
+                                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-03" src="img/exposicion_comercial/empresas_participantes/st-03.jpg" />
+                    <div class="contenedor-img ejemplo-1">  
+                          <img alt="st-03" src="img/exposicion_comercial/empresas_participantes/st-03.jpg" />      
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-04" src="img/exposicion_comercial/empresas_participantes/st-04.jpg" />
+                    <div class="contenedor-img ejemplo-1">  
+                          <img alt="st-04" src="img/exposicion_comercial/empresas_participantes/st-04.jpg" />  
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-05.jpg" />
+                    <div class="contenedor-img ejemplo-1">  
+                          <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-05.jpg" />  
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-06" src="img/exposicion_comercial/empresas_participantes/st-06.jpg" />
+                    <div class="contenedor-img ejemplo-1">  
+                          <img alt="st-06" src="img/exposicion_comercial/empresas_participantes/st-06.jpg" />
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-07" src="img/exposicion_comercial/empresas_participantes/st-07.jpg" />
+                     <div class="contenedor-img ejemplo-1">  
+                         <img alt="st-07" src="img/exposicion_comercial/empresas_participantes/st-07.jpg" />
+                         <div class="mascara">  
+                             <h2>12° Convención del Chile</h2>  
+                             <p>Lugar Disponible</p>
+                             <a href="#" class="link">Ir al sitio de la empresa</a>  
+                         </div>  
+                    </div>
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
