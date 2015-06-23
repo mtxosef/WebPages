@@ -459,11 +459,17 @@
                     <div class="team">
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-21" src="img/exposicion_comercial/empresas_participantes/st-21.jpg" />
-                            <div class="mascara">  
-                                <h2>PATROCINADOR</h2> 
-                                <br />
-                                <a href="http://www.syngenta.com.mx/" target="_blank"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></a> 
-                            </div>  
+
+                             <div class="mascara">  
+                                <a href="http://www.syngenta.com.mx/" target="_blank">
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
                         </div>    
                     </div>
                 </div>
@@ -591,11 +597,20 @@
                     <div class="team">
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-46" src="img/exposicion_comercial/empresas_participantes/st-46.jpg" />
+                            
+                            
                             <div class="mascara">  
-                                <h2>PATROCINADOR</h2> 
-                                <br />
-                                <a href="http://www.fmc.com/" target="_blank"><i class="fa fa-cog fa-spin fa-3x fa-fw"></i></a> 
+                            <a href="http://www.fmc.com/" target="_blank">
+                               <h2> 
+                             <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                              PATROCINADOR  
+                              <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                              </h2>
+                               </a>  
                             </div>  
+                            
+
                         </div>
                     </div>
                 </div>

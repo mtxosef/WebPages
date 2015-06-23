@@ -135,8 +135,8 @@
         position: relative;
         font-size: 23px;
         padding: 10px;
-        background: rgba(195, 86, 39, 0.8);
-        margin: 20px 0 0 0
+        background: rgba(195, 86, 39, 1);
+        margin: 4.7em 0 0 0
     }
     .contenedor-img p {    
         font-size: 15px;
@@ -167,7 +167,7 @@
 }
 .ejemplo-1 .mascara {
     opacity: 0;
-    background-color: rgba(107,155,65, 0.8); 
+      background-color: rgba(107,155,65, 0.0);
     transition: all 0.3s ease-in-out;
 }
     .ejemplo-1 h2 {
