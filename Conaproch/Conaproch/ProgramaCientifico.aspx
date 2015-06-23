@@ -22,6 +22,14 @@
     <script type="text/javascript" src="js/date.js"></script>
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
     <link rel="Stylesheet" type="text/css" href="css/principal.css" />
+
+
+    	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="pc_Slider_engine1/style.css" />
+
+	<!-- End WOWSlider.com HEAD section -->
+
+
     <script type="text/javascript">
         $(window).load(function () {
             $("#flexiselDemo3").flexisel({
@@ -612,9 +620,15 @@
                             target="_blank">DESCARGAR</a>
                     </p>
                 </div>
-                <ul id="flexiselDemo4">
-                    <li><img alt="nueva_fecha" src="img/programaCientifico/FECHA_DE_ENTREGA_15JULIO.png" /></li>
-                </ul>
+                <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container2">
+	<div class="ws_images"><ul>
+		<li><img src="pc_Slider_data1/images/fecha_de_entrega_15julio.png" alt="jquery slideshow" title="" id="Img1"/></li>
+		<li><img src="pc_Slider_data1/images/fecha_de_entrega_15julio2.png" alt="" title="" id="Img2"/></li>
+	</ul></div>
+
+	<div class="ws_shadow"></div>
+	</div>	
                 <!-- Modal Convocatoria modalbox -->
                 <div id="modalboxConv" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                     aria-hidden="true">
@@ -777,6 +791,10 @@
 	    </div>
 	    <a href="#" id="btn_up">↑</a>
     </footer>
+
+
+   
+
     <!-- Bootstrap js -->
     <script type="text/javascript" src="assets/js/bootstrap-transition.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap-modal.js"></script>
@@ -790,5 +808,9 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script type="text/javascript" src="engine1/wowslider.js"></script>
     <script type="text/javascript" src="engine1/script.js"></script>
+
+
+     <script type="text/javascript" src="pc_Slider_engine1/wowslider.js"></script>
+	<script type="text/javascript" src="pc_Slider_engine1/script.js"></script>
 </body>
 </html>
