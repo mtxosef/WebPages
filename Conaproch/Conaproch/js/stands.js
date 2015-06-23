@@ -11,7 +11,7 @@ function apartadoStand(link) {
 //Método que carga la configuración de los stands
 function cargaStands() {
     //if (window.location.href == 'http://localhost/Conaproch/ExposicionComercial.aspx' || window.location.href == 'http://localhost/Conaproch/ExposicionComercial.aspx#') {
-    if (window.location.href == 'http://12convencion.conaproch.com/ExposicionComercial.aspx' || window.location.href == 'http://12convencion.conaproch.com/ExposicionComercial.aspx#') {
+    if (window.location.href == 'http://12convencion.conaproch.com/ExposicionComercial.aspx' || window.location.href == 'http://12convencion.conaproch.com/ExposicionComercial.aspx#' || window.location.href == 'http://www.12convencion.conaproch.com/ExposicionComercial.aspx' || window.location.href == 'http://www.12convencion.conaproch.com/ExposicionComercial.aspx#') {
 
         if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
