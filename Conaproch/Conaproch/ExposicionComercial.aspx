@@ -587,7 +587,7 @@
                         <img alt="st-45" src="img/exposicion_comercial/empresas_participantes/st-45.jpg" />
                     </div>
                 </div>
-                <div class="span6" style="margin-bottom:10px;">
+                <div class="span6" >
                     <div class="team">
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-46" src="img/exposicion_comercial/empresas_participantes/st-46.jpg" />
@@ -619,6 +619,7 @@
                         <img alt="st-50" src="img/exposicion_comercial/empresas_participantes/st-50.jpg" />
                     </div>
                 </div>
+
              </div>
         </div>
     </div>
