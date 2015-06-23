@@ -294,6 +294,7 @@
     <Content Include="img\programaCientifico\confereniasMagistrales\JoseMartinez.png" />
     <Content Include="img\programaCientifico\confereniasMagistrales\PaulBosland.png" />
     <Content Include="img\programaCientifico\confereniasMagistrales\Simonne.png" />
+    <Content Include="img\programaCientifico\FECHA_DE_ENTREGA_15JULIO.jpg" />
     <Content Include="InsCostos.aspx" />
     <Content Include="js\date.js" />
     <Content Include="js\stands.js" />

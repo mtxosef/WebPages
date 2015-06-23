@@ -448,7 +448,7 @@
                                                 <tbody>
                                                 <tr>
                                                     <td>Jalapeño</td>
-                                                    <td>Leopar</td>
+                                                    <td>Leopard</td>
                                                 </tr>
                                                 <tr>
                                                     <td>Jalapeño</td>
@@ -501,6 +501,10 @@
                                                 <tr>
                                                      <td>Banana</td>
                                                     <td>Blazing Banana</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Banana Dulce</td>
+                                                    <td>Lightning Banana</td>
                                                 </tr>
                                                 <tr>
                                                      <td>Caribe</td>
