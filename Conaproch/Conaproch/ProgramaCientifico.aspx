@@ -321,7 +321,7 @@
     <div id="modalGil" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <div class="modal-body">
-            <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+            <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRÍCULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
             <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Gil Virgen Calleros</p>
             <br />
             <ul>
@@ -351,7 +351,7 @@
             <div id="divCurriculum2" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRÍCULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
                         <p style="text-align: right; margin-right: 110px; color: #7D4421;">Dr. José Luis Martínez Ramírez</p>
                         <br />
                         <span>LICENCIATURA:</span>
@@ -359,7 +359,7 @@
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Escuela de Agricultura de la Universidad de Guadalajara, obteniendo el título de Ingeniero Agrónomo con orientación en Fitotecnia. 1972-1977.</li>
                         </ul>
-                        <span>MAESTRIA:</span>
+                        <span>MAESTRÍA:</span>
                         <br />
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Colegio de Postgraduados, obteniendo el grado de Maestro en Ciencias especialista en Fitopatología. 1979-1980.</li>
@@ -377,7 +377,7 @@
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Investigador del programa de Fitopatología del Campo Agrícola Experimental Altos de Jalisco, INIA, SARH, de 1981-1984.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Profesor Investigador titular UNAM-UAG, Escuela de Ingeniería Agrícola 1984-1985.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Jefe de Unidad de Parasitología de TABAMEX, S.A. DE C.V. de 1985-1987. Asesor de Horticultores particulares desde 1987 a la fecha.</li>
-                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Actualmente Profesor investigador Titular C. En Licenciatura y Postgrado del Departamento de Producción Agrícola del CUCBA, U de G. Desde 1993. Actualmente imparte los cursos de Fitopatología y Agroquímicos II Fungicidas.</li>
+                            <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Actualmente Profesor investigador Titular C. En Licenciatura y Postgrado del Departamento de Producción Agrícola del CUCBA, U. de G. Desde 1993. Actualmente imparte los cursos de Fitopatología y Agroquímicos II Fungicidas.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ha participado constantemente como ponente en Simposios, Diplomados, Talleres y Congresos científicos.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Ha dirigido tesis tanto de Licenciatura como de Postgrado.</li>
                         </ul>
@@ -389,13 +389,13 @@
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Cuenta con publicaciones de libros y artículos de investigación tanto nacionales como internacionales.</li>
                         </ul>
-                        <span>DESARROLLOS TECNOLOGICOS:</span>
+                        <span>DESARROLLOS TECNOLÓGICOS:</span>
                         <br />
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Sistemas de Manejo Integrado de Virus en Tabaco y en Hortalizas. Variedad de Tabaco Burley 21-M resistente a virus. Variedades de Jitomate Urhepani con resistencia a virus, Tizón tardío y bacteriosis.</li>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">En proceso de caracterización variedad resistente a tizón tardío y variedades de tomate de cáscara con resistencia a virus.</li>
                         </ul>
-                        <span>RECONOCMIENTOS:</span>
+                        <span>RECONOCIMIENTOS:</span>
                         <br />
                         <ul>
                             <li style="line-height:22px; margin-left:20px; display:list-item !important; list-style-type: square; list-style-image:url(img/programaCientifico/confereniasMagistrales/cv-vineta.png);">Diploma y medalla otorgada por el Consejo Mexicano de Cultura, Institución los mejores estudiantes de México, al mejor estudiante de Ingeniero Agrónomo Fitotecnista generación 1977 de la Escuela de Agricultura de la Universidad de Guadalajara.</li>
@@ -422,7 +422,7 @@
             <div id="divCurriculum4" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="item active">
-                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
+                        <div style="text-align: right; margin-right: 70px;"><h2 style="color: #C35627; display:inline;">CURRÍCULUM VITAE</h2><img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" /></div>
                         <p style="text-align: right; margin-right: 130px; color: #7D4421;">Dr. Eric H. Simonne</p>
                         <br />
                         <span>HISTORIAL DE EMPLEO:</span>
@@ -508,7 +508,7 @@
                 <div class="carousel-inner">
                     <div class="item active">
                         <div style="text-align: right; margin-right: 70px;">
-                            <h2 style="color: #C35627; display:inline;">CURRICULUM VITAE</h2>
+                            <h2 style="color: #C35627; display:inline;">CURRÍCULUM VITAE</h2>
                             <img style="margin-top: -15px; margin-left:10px;" alt="titulo" src="img/programaCientifico/confereniasMagistrales/cv-superior.png" />
                         </div>
                         <p style="text-align: right; margin-right: 145px; color: #7D4421;">Dr. Paul William Bosland</p>
