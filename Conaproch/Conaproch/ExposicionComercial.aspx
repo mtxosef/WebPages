@@ -357,102 +357,368 @@
             <div class="our-team row" style="text-transform:uppercase !important;">
                 <div class="span6" style="margin-bottom:0px;">
                     <div class="team">
-                        <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />
+
+                     <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
+
+                        
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-02" src="img/exposicion_comercial/empresas_participantes/st-02.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-02" src="img/exposicion_comercial/empresas_participantes/st-02.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
+
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-03" src="img/exposicion_comercial/empresas_participantes/st-03.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-03" src="img/exposicion_comercial/empresas_participantes/st-03.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
+
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-04" src="img/exposicion_comercial/empresas_participantes/st-04.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-04" src="img/exposicion_comercial/empresas_participantes/st-04.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
+
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                          <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-05.jpg" />
+                           <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-05.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-06" src="img/exposicion_comercial/empresas_participantes/st-06.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-06" src="img/exposicion_comercial/empresas_participantes/st-06.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-07" src="img/exposicion_comercial/empresas_participantes/st-07.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-07" src="img/exposicion_comercial/empresas_participantes/st-07.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-08" src="img/exposicion_comercial/empresas_participantes/st-08.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-08" src="img/exposicion_comercial/empresas_participantes/st-08.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-09" src="img/exposicion_comercial/empresas_participantes/st-09.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-09" src="img/exposicion_comercial/empresas_participantes/st-09.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-10" src="img/exposicion_comercial/empresas_participantes/st-10.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-10.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-11" src="img/exposicion_comercial/empresas_participantes/st-11.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-11.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-12" src="img/exposicion_comercial/empresas_participantes/st-12.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-12.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-13" src="img/exposicion_comercial/empresas_participantes/st-13.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-13.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-14" src="img/exposicion_comercial/empresas_participantes/st-14.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-14.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-15" src="img/exposicion_comercial/empresas_participantes/st-15.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-15.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-16" src="img/exposicion_comercial/empresas_participantes/st-16.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-16.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-17" src="img/exposicion_comercial/empresas_participantes/st-17.jpg" />
+                          <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-17.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-18" src="img/exposicion_comercial/empresas_participantes/st-18.jpg" />
+                          <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-18.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-19" src="img/exposicion_comercial/empresas_participantes/st-19.jpg" />
+                       <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-19.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-20" src="img/exposicion_comercial/empresas_participantes/st-20.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-20.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
@@ -475,122 +741,434 @@
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-22" src="img/exposicion_comercial/empresas_participantes/st-22.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-22.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-23" src="img/exposicion_comercial/empresas_participantes/st-23.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-23.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-24" src="img/exposicion_comercial/empresas_participantes/st-24.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-24.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-25" src="img/exposicion_comercial/empresas_participantes/st-25.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-25.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-26" src="img/exposicion_comercial/empresas_participantes/st-26.jpg" />
+                       <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-26.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-27" src="img/exposicion_comercial/empresas_participantes/st-27.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-27.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                        <img alt="st-28" src="img/exposicion_comercial/empresas_participantes/st-28.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-28.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-29" src="img/exposicion_comercial/empresas_participantes/st-29.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-29.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                        <img alt="st-30" src="img/exposicion_comercial/empresas_participantes/st-30.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-30.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-31" src="img/exposicion_comercial/empresas_participantes/st-31.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-31.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-32" src="img/exposicion_comercial/empresas_participantes/st-32.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-32.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-33" src="img/exposicion_comercial/empresas_participantes/st-33.jpg" />
+                       <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-33.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-34" src="img/exposicion_comercial/empresas_participantes/st-34.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-34.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-35" src="img/exposicion_comercial/empresas_participantes/st-35.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-35.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                         <img alt="st-36" src="img/exposicion_comercial/empresas_participantes/st-36.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-36.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-37" src="img/exposicion_comercial/empresas_participantes/st-37.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-37.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-38" src="img/exposicion_comercial/empresas_participantes/st-38.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-38.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-39" src="img/exposicion_comercial/empresas_participantes/st-39.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-39.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-40" src="img/exposicion_comercial/empresas_participantes/st-40.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-40.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-41" src="img/exposicion_comercial/empresas_participantes/st-41.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-41.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                        <img alt="st-42" src="img/exposicion_comercial/empresas_participantes/st-42.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-42.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-43" src="img/exposicion_comercial/empresas_participantes/st-43.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-43.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-44" src="img/exposicion_comercial/empresas_participantes/st-44.jpg" />
+                         <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-44.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-45" src="img/exposicion_comercial/empresas_participantes/st-45.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-45.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" >
@@ -616,22 +1194,74 @@
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                      <div class="team">
-                         <img alt="st-47" src="img/exposicion_comercial/empresas_participantes/st-47.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-47.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-48" src="img/exposicion_comercial/empresas_participantes/st-48.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-48.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-49" src="img/exposicion_comercial/empresas_participantes/st-49.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-49.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  PATROCINADOR  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
                     <div class="team">
-                        <img alt="st-50" src="img/exposicion_comercial/empresas_participantes/st-50.jpg" />
+                        <div class="contenedor-img ejemplo-1">  
+                            <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-50.jpg" />
+
+                             <div class="mascara">  
+                            
+                                   <h2> 
+                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                  DISPONIBLE  
+                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+                              
+                                  </h2>
+                                 </a>  
+                            </div> 
+                        </div> 
                     </div>
                 </div>
 

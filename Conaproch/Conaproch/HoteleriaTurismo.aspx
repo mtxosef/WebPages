@@ -93,6 +93,7 @@
                     <span id="sMinutos"></span>
                 </div>
             </div>
+
 	    </div>
     </div>
     
@@ -118,12 +119,81 @@
     
     <!-- end navbar -->
  
+ <div id="services" class="divider section">
+        <div class="bg-holder2">
+            <div class="container">
+                <img src="assets/img/hotelTurismo/oferta_hoteleratittle.png" />
+                <div class="contenedor_hoteles">
+                <table >
+                    <tr>
+                        <td width="30"></td>
+                        <td width="69">
+                        <img src="img/oferta_Hotelera/Of-01.png" />
+                        </td >
 
-    <div id="services" class="section">
+                        <td width="50"></td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-02.png" /> 
+                        </td>
+
+                        <td width="55"></td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-03.png" />
+                        </td>
+
+                        <td width="30"></td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-04.png" />
+                        </td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-05.png" />
+                        </td>
+
+                        <td width="30"></td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-06.png" />
+                        </td>
+
+                        <td width="40"></td>
+                        <td width="">
+                            <img src="img/oferta_Hotelera/Of-07.png" />
+                        </td>
+
+                        <td width="5"></td>
+                        <td width="70">
+                            <img src="img/oferta_Hotelera/Of-08.png" />
+                        </td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-09.png" />
+                        </td>
+
+                        <td width="65"></td>
+                        <td width="69">
+                            <img src="img/oferta_Hotelera/Of-10.png" />
+                        </td>
+                        <td width="90"></td>
+                         <td width="69">
+                             <img src="img/oferta_Hotelera/Of-11.png" />
+
+                        </td>
+                    </tr>
+                  
+                </table>
+                </div>
+                <img src="assets/img/hotelTurismo/oferta_hotelerat.png" />
+
+            </div>
+        </div>
+    </div>
+
+   <%-- <div id="services" class="section">
+ 
+
+
      <img src="assets/img/hotelTurismo/oferta_hotelera.jpg" />
 
    
-    </div>
+    </div>--%>
 
      <div class="container">
         <ul id="flexiselDemo3">

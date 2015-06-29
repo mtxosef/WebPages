@@ -112,6 +112,8 @@
     <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA.png" />
     <Content Include="assets\img\hotelTurismo\OFERTAHOTELERA1.png" />
     <Content Include="assets\img\hotelTurismo\oferta_hotelera.jpg" />
+    <Content Include="assets\img\hotelTurismo\oferta_hotelerat.png" />
+    <Content Include="assets\img\hotelTurismo\oferta_hoteleratittle.png" />
     <Content Include="assets\img\images_carrusel\button-next.png" />
     <Content Include="assets\img\images_carrusel\button-previous.png" />
     <Content Include="assets\img\images_slider\bx_loader.gif" />
@@ -277,6 +279,17 @@
     <Content Include="img\menu\BT-INICIO.png" />
     <Content Include="img\logotipo.png" />
     <Content Include="img\menu\BT-INICIO-HOVER.png" />
+    <Content Include="img\oferta_Hotelera\Of-01.png" />
+    <Content Include="img\oferta_Hotelera\Of-02.png" />
+    <Content Include="img\oferta_Hotelera\Of-03.png" />
+    <Content Include="img\oferta_Hotelera\Of-04.png" />
+    <Content Include="img\oferta_Hotelera\Of-05.png" />
+    <Content Include="img\oferta_Hotelera\Of-06.png" />
+    <Content Include="img\oferta_Hotelera\Of-07.png" />
+    <Content Include="img\oferta_Hotelera\Of-08.png" />
+    <Content Include="img\oferta_Hotelera\Of-09.png" />
+    <Content Include="img\oferta_Hotelera\Of-10.png" />
+    <Content Include="img\oferta_Hotelera\Of-11.png" />
     <Content Include="img\planoStand\Aserca.png" />
     <Content Include="img\planoStand\CuadroStand.png" />
     <Content Include="img\planoStand\CuadroStandApartado.png" />

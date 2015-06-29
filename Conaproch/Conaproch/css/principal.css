@@ -205,3 +205,66 @@
         transform: translateY(0px);
     }
 
+
+
+/*Efecto oimagenes*/
+
+.contenedor_hoteles img
+{
+    float:left;
+      opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.contenedor_hoteles img
+{
+    float:left;
+      opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.contenedor_hoteles img:hover
+{
+      filter: alpha(opacity=30);
+  moz-opacity: .30;
+  opacity: .30;
+}
+
+.contenedor_hoteles img:hover
+{
+ -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+
+ -webkit-transform: rotate(-27deg);
+-moz-transform: rotate(-27deg);
+-ms-transform: rotate(-27deg);
+transform: rotate(-27deg);
+
+border-width:4px;
+border-color:White;
+
+  filter: alpha(opacity=50);
+  moz-opacity: .50;
+  opacity: .50;
+}
+
+.contenedor_hoteles img:active
+{
+    opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+
+.contenedor_hoteles a
+{
+    position: relative;
+ 
+}
+
