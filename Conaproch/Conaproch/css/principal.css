@@ -211,7 +211,7 @@
 
 .contenedor_hoteles img
 {
-    float:left;
+  
       opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
@@ -219,7 +219,7 @@
 
 .contenedor_hoteles img
 {
-    float:left;
+ 
       opacity: 1;
   -moz-opacity: 1;
   filter: alpha(opacity=100);
@@ -264,7 +264,127 @@ border-color:White;
 
 .contenedor_hoteles a
 {
-    position: relative;
+  position: relative;
+  color: #C35627;
+  text-decoration: none;
+
+}
+
+.contenedor_hoteles a:hover
+{
+  
+  color: #92c962;
+  
+
+}
+
+/*Tablas*/
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.contenedor_hoteles table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  font-size:11px;
+   font-weight: bold; 
+   text-align:center;
+   line-height:normal;
+}
+/* Zebra striping */
+.contenedor_hoteles tr:nth-of-type(odd) { 
+  background: #f4f0e4; 
+}
+
+.contenedor_hoteles tr { 
+  background: #d8d1b8; 
+  
+}
+
+
+
+
+.contenedor_hoteles tr:first-child th {
+   border:none;
+   border-width:0px;
+    background: #C35627;
+    }
+
+
+.contenedor_hoteles th { 
+  background: #92c962; 
+  color: white; 
+ text-transform:uppercase;
+}
+
+
+.contenedor_hoteles td, th { 
+  padding: 4px; 
+  border: 2px solid #542D04; 
  
+}
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+.contenedor_hoteles	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+.contenedor_hoteles	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+.contenedor_hoteles	tr { border: 1px solid #676767; }
+	
+.contenedor_hoteles	td { 
+		/* Behave  like a "row" */
+		
+		border-bottom: 1px solid #b5b4b4; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	
+.contenedor_hoteles	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	 
+	
+.contenedor_hoteles	td:nth-of-type(1):before { content: "Hoteles Participantes"; }
+.contenedor_hoteles	td:nth-of-type(2):before { content: "Dirección Electrónica"; }
+.contenedor_hoteles	td:nth-of-type(3):before { content: "Ubicación"; }
+.contenedor_hoteles	td:nth-of-type(4):before { content: "Teléfono (CON LADA)"; }
+.contenedor_hoteles	td:nth-of-type(5):before { content: "Contacto"; }
+.contenedor_hoteles	td:nth-of-type(6):before { content: "Clave de Reservación"; }
+.contenedor_hoteles	td:nth-of-type(7):before { content: "Fecha Límite"; }
+.contenedor_hoteles	td:nth-of-type(8):before { content: "Categoría"; }
+.contenedor_hoteles	td:nth-of-type(9):before { content: "Tiempo Traslado a SEDE"; }
+.contenedor_hoteles	td:nth-of-type(10):before { content: "Sencilla"; }
+.contenedor_hoteles	td:nth-of-type(11):before { content: "Estandar"; }
+.contenedor_hoteles	td:nth-of-type(12):before { content: "Ejecutiva"; }
+.contenedor_hoteles	td:nth-of-type(13):before { content: "Observaciones"; }
+
 }
 

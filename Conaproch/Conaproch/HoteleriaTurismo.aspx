@@ -124,11 +124,11 @@
             <div class="container">
                 <img src="assets/img/hotelTurismo/oferta_hoteleratittle.png" />
                 <div class="contenedor_hoteles">
-                <table >
+                <%--<table >
                     <tr>
                         <td width="30"></td>
                         <td width="69">
-                        <img src="img/oferta_Hotelera/Of-01.png" />
+                        <a href="Demostracion.aspx" target="_blank"><img src="img/oferta_Hotelera/Of-01.png" /></a>  
                         </td >
 
                         <td width="50"></td>
@@ -178,7 +178,108 @@
                         </td>
                     </tr>
                   
+                </table>--%>
+
+                <table>
+	                <thead>
+                    <tr>
+                        <th>
+                        <img src="img/oferta_Hotelera/Of-01.png" />
+                        </th >
+
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-02.png" /> 
+                        </th>
+
+                        <th >
+                            <img src="img/oferta_Hotelera/Of-03.png" />
+                        </th>
+
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-04.png" />
+                        </th>
+                        <th >
+                            <img src="img/oferta_Hotelera/Of-05.png" />
+                        </th>
+
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-06.png" />
+                        </th>
+
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-07.png" />
+                        </th>
+
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-08.png" />
+                        </th>
+                        <th>
+                            <img src="img/oferta_Hotelera/Of-09.png" />
+                        </th>
+                        <th >
+                            <img src="img/oferta_Hotelera/Of-10.png" />
+                        </th>
+                         <th colspan="2">
+                           COSTOS POR TIPO DE HABITACIÓN
+                        </th>
+                        
+                         <th >
+                             <img src="img/oferta_Hotelera/Of-11.png" />
+
+                        </th>
+                    </tr>
+
+	                <tr>
+		                <th>Hoteles Participantes</th>
+		                <th>Dirección Electrónica</th>
+		                <th>Ubicación</th>
+                        <th>Teléfono (CON LADA)</th>
+		                <th>Contacto</th>
+		                <th>Clave de Reservación</th>
+                        <th>Fecha Límite</th>
+		                <th>Categoría</th>
+                        <th>Tiempo Traslado a SEDE</th>
+                        <th>Sencilla</th>
+                        <th>Estandar</th>
+                        <th>Ejecutiva</th>
+                        <th>Observaciones</th>
+	                </tr>
+	                </thead>
+	                <tbody>
+	                <tr>
+		                 <td>Hotel Zar</td>
+		                <td><a href="http://hoteleszar.com">www.hoteleszar.com</a></td>
+		                <td>Carretera Gdl- Tepic Km 14, #9146, San Juán de Ocotan. C.P. 45221. Gdl. Jalisco</td>
+                        <td>01(33) 3165 2222</td>
+                        <td>Edgar Venegas</td>
+                        <td>Ref. Grupo "12 Convencion Mundial del Chile"</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>5 min.</td>
+                        <td>$524.00</td>
+                          <td>$583.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno $60.00 p/dia</td>
+	                </tr>
+	                <tr>
+		                <td>The</td>
+		                <td>Tick</td>
+		                <td>Crimefighter Sorta</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                          <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+                        <td>Chief Sandwich Eater</td>
+	                </tr>
+	                </tbody>
                 </table>
+
+
                 </div>
                 <img src="assets/img/hotelTurismo/oferta_hotelerat.png" />
 
