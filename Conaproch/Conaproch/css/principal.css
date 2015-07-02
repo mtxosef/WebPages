@@ -234,9 +234,7 @@
 
 .contenedor_hoteles img:hover
 {
- -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
--moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+
 -webkit-transition: all 0.5s ease-out;
 -moz-transition: all 0.5s ease;
 -ms-transition: all 0.5s ease;
@@ -265,7 +263,8 @@ border-color:White;
 .contenedor_hoteles a
 {
   position: relative;
-  color: #C35627;
+  color: #AC4B21;
+  font-size:13px;
   text-decoration: none;
 
 }
@@ -273,7 +272,7 @@ border-color:White;
 .contenedor_hoteles a:hover
 {
   
-  color: #92c962;
+  color: #7BAF4D;
   
 
 }
@@ -307,6 +306,7 @@ Generic Styling, for Desktops/Laptops
 .contenedor_hoteles tr:first-child th {
    border:none;
    border-width:0px;
+
     background: #C35627;
     }
 
