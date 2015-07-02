@@ -122,63 +122,8 @@
  <div id="services" class="divider section">
         <div class="bg-holder2">
             <div class="container">
-                <img src="assets/img/hotelTurismo/oferta_hoteleratittle.png" />
+                <img src="img/oferta_Hotelera/oferta_hoteleratittle.png" />
                 <div class="contenedor_hoteles">
-                <%--<table >
-                    <tr>
-                        <td width="30"></td>
-                        <td width="69">
-                        <a href="Demostracion.aspx" target="_blank"><img src="img/oferta_Hotelera/Of-01.png" /></a>  
-                        </td >
-
-                        <td width="50"></td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-02.png" /> 
-                        </td>
-
-                        <td width="55"></td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-03.png" />
-                        </td>
-
-                        <td width="30"></td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-04.png" />
-                        </td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-05.png" />
-                        </td>
-
-                        <td width="30"></td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-06.png" />
-                        </td>
-
-                        <td width="40"></td>
-                        <td width="">
-                            <img src="img/oferta_Hotelera/Of-07.png" />
-                        </td>
-
-                        <td width="5"></td>
-                        <td width="70">
-                            <img src="img/oferta_Hotelera/Of-08.png" />
-                        </td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-09.png" />
-                        </td>
-
-                        <td width="65"></td>
-                        <td width="69">
-                            <img src="img/oferta_Hotelera/Of-10.png" />
-                        </td>
-                        <td width="90"></td>
-                         <td width="69">
-                             <img src="img/oferta_Hotelera/Of-11.png" />
-
-                        </td>
-                    </tr>
-                  
-                </table>--%>
 
                 <table>
 	                <thead>
@@ -246,9 +191,9 @@
 	                </tr>
 	                </thead>
 	                <tbody>
-	                <tr>
+	                 <tr>
 		                 <td>Hotel Zar</td>
-		                <td><a href="http://hoteleszar.com">www.hoteleszar.com</a></td>
+		                <td><a href="http://www.hoteleszar.com" target="_blank">www.hoteleszar.com</a></td>
 		                <td>Carretera Gdl- Tepic Km 14, #9146, San Juán de Ocotan. C.P. 45221. Gdl. Jalisco</td>
                         <td>01(33) 3165 2222</td>
                         <td>Edgar Venegas</td>
@@ -261,27 +206,208 @@
                         <td>N/A</td>
                         <td>Tarifa incluye impuestos, Desayuno $60.00 p/dia</td>
 	                </tr>
-	                <tr>
-		                <td>The</td>
-		                <td>Tick</td>
-		                <td>Crimefighter Sorta</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                          <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
-                        <td>Chief Sandwich Eater</td>
+	                 <tr>
+		                 <td>Hotel Vista Hermosa</td>
+		                <td><a href="http://www.hotelhvh.com" target="_blank">www.hotelhvh.com</a></td>
+		                <td>Av. Juárez #596 Centro C.P. 44100. Gdl. Jalisco</td>
+                        <td>01(33) 3613 3134</td>
+                        <td>Gaby Carrillo - Ana Castañeda</td>
+                        <td>"Convencion Mundial del Chile"</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>20 min.</td>
+                        <td>$850.00 (Cama Matrimonial)</td>
+                          <td>$920.00 (Cama King Size)</td>
+                        <td>$1070.00 (dos camas matrimoniales)</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
 	                </tr>
+                     <tr>
+		                 <td>Hotel Camino Real</td>
+		                <td><a href="http://www.caminoreal.com/destinos/guadalajara" target="_blank">www.hoteleszar.com</a></td>
+		                <td>Av. Vallarta #5005, Chapalita C.P. 45040. Gdl. Jalisco</td>
+                        <td>01(33) 3134 2424</td>
+                        <td>Andrea Vizcano</td>
+                        <td>Ref. Grupo "12 Convencion Mundial del Chile" ID 4729791</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>19 min.</td>
+                        <td>$1459.00</td>
+                          <td>$1669.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Fiesta Americana Guadalajara</td>
+		                <td><a href="http://www.fiestamericana.com/es/web/guadalajara" target="_blank">www.fiestamericana.com</a></td>
+		                <td>Av. Aurelio Aceves #225, Vallarta Poniente, C.P. 44110. Gdl. Jalisco</td>
+                        <td>01(33) 3818 1400</td>
+                        <td>Maribel Rivera</td>
+                        <td>CONAPROCH</td>
+                        <td>Código Abierto</td>
+                        <td>*****</td>
+                        <td>29 min.</td>
+                        <td>$1567.00</td>
+                          <td>$1789.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Real Inn Guadalajara Expo</td>
+		                <td><a href="http://www.hotelrealinn.com" target="_blank">www.hotelrealinn.com</a></td>
+		                <td>Av. Mariano Otero #1326, Jardines de San Ignacio, C.P. 45040. Gdl. Jalisco</td>
+                        <td>01(33) 3880 7700</td>
+                        <td>Lucy Camacho</td>
+                        <td>CONVENCIÓN MUNDIAL DEL CHILE</td>
+                        <td>Código Abierto</td>
+                        <td>*****</td>
+                        <td>20 min.</td>
+                        <td>$1100.00</td>
+                          <td>$1200.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Riu</td>
+		                <td><a href="http://www.riu.com/en/Paises/mexico/guadalajara/hotel-riu-plaza-guadalajara/mapa.jsp" target="_blank">www.riu.com</a></td>
+		                <td>Av. Adolfo López Mateos #830 C.P. 44657. Gdl. Jalisco</td>
+                        <td>01(33) 3880 7500</td>
+                        <td>Yolanda Campos</td>
+                        <td>TCONA</td>
+                        <td>Código Abierto</td>
+                        <td>*****</td>
+                        <td>35 min.</td>
+                        <td>N/A</td>
+                         <td>$1654.10</td>
+                        <td>$2011.10</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Guadalajara Plaza Expo</td>
+		                <td><a href="http://www.gdlplazaexpo.com" target="_blank">www.gdlplazaexpo.com</a></td>
+		                <td>Av. Mariano Otero #3261, Verde Valle Gdl, C.P. 44550. Gdl. Jalisco</td>
+                        <td>01(33) 3669 0215</td>
+                        <td>Alejandra Rodríguez</td>
+                        <td>CONVENCIÓN MUNDIAL DEL CHILE</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>30 min.</td>
+                        <td>$1011.50</td>
+                          <td>$1011.50</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Guadalajara Plaza Ejecutivo</td>
+		                <td><a href="http://www.gdlplazaexplo.com" target="_blank">www.gdlplazaexplo.com</a></td>
+		                <td>Av. López Mateos Sur #2128, Chapalita C.P. 44510. Gdl. Jalisco</td>
+                        <td>01(33) 3208 4400</td>
+                        <td>Alejandra Rodríguez</td>
+                        <td>CONVENCIÓN MUNDIAL DEL CHILE</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>30 min.</td>
+                        <td>$952.00</td>
+                          <td>$952.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Posada Guadalajara</td>
+		                <td><a href="http://www.posadaguadalajara.com.mx" target="_blank">www.posadaguadalajara.com</a></td>
+		                <td>Av. Adolfo López Mateos Sur #1280. C.P. 45040. Gdl. Jalisco</td>
+                        <td>01(33) 3121 2022</td>
+                        <td>Norma Leal</td>
+                        <td>LA XII CONVENCIÓN MUNDIAL DEL CHILE</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>30 min.</td>
+                        <td>$1060.00</td>
+                          <td>$1060.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel One</td>
+		                <td><a href="http://www.onehotels.com/es/hotel-guadalajara-periferico-norte" target="_blank">www.onehotels.com</a></td>
+		                <td>Av. Valle de San Isidro #530-1 Col. Bosques de San Isidro, Zapopan Jalisco</td>
+                        <td>01(33) 3055 0000</td>
+                        <td>Sandra Ramírez</td>
+                        <td>CONVENCIÓN MUNDIAL DEL CHILE O Código: G112R6@OGD</td>
+                        <td>Código Abierto</td>
+                        <td>***</td>
+                        <td>30 min.</td>
+                        <td>$733.52 (un adulto)</td>
+                          <td>$870.37 (dos adultos)</td>
+                        <td>$1007.22 (cuatro adultos)</td>
+                        <td>Tarifa incluye impuestos y desayuno tipo buffet</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel City Express</td>
+		                <td><a href="http://www.cityexpress.com/es/hoteles-Mexico/MX/Jalisco-4/Guadalajara-4/City-Express-Guadalajara-Expo-17" target="_blank">www.cityexpress.com</a></td>
+		                <td>Av. Mariano Otero #1390, Fracc. Rinconada del Sol, C.P. 45055. Gdl. Jalisco</td>
+                        <td>01(33) 3880 3700</td>
+                        <td>Monserrat Chávez</td>
+                        <td>Doceava Convención Mundial Chile</td>
+                        <td>Código Abierto</td>
+                        <td>***</td>
+                        <td>35 min.</td>
+                        <td>$894.00 (sencilla)</td>
+                        <td>$894.00 (doble)</td>
+                        <td>$1134.59 (cuadruple)</td>
+                        <td>Tarifa incluye impuestos y desayuno continental tipo buffet</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Malibu</td>
+		                <td><a href="http://www.hotelmalibu.com.mx" target="_blank">www.hotelmalibu.com.mx</a></td>
+		                <td>Av. Vallarta #3993, Don Bosco Vallarta, C.P. 45049. Gdl. Jalisco</td>
+                        <td>01(33) 3880 5660</td>
+                        <td>Sandra Camacho</td>
+                        <td>Convención del Chile</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>25 min.</td>
+                        <td>N/A</td>
+                        <td>$910.00 c/desayuno <br />$850.00 s/desayuno</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos</td>
+	                </tr>
+                     <tr>
+		                <td>Hotel Intercity</td>
+		                <td><a href="http://www.intercity100.com" target="_blank">www.intercity100.com</a></td>
+		                <td>Periférico Poniente #5400, San Juan de Ocotán, C.P. 45019. Zapopan, Jalisco</td>
+                        <td>01(33) 3110 1468</td>
+                        <td>Patricia Ramírez</td>
+                        <td>Doceava Convención Mundial del Chile</td>
+                        <td>Código Abierto</td>
+                        <td>***</td>
+                        <td>14 min.</td>
+                        <td>$699.00</td>
+                        <td>$799.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos</td>
+	                </tr>
+                     <tr>
+		                 <td>Hotel Laffayete</td>
+		                <td><a href="https://www.laffayettehotel.com/site/index.php" target="_blank">www.laffayettehotel.com</a></td>
+		                <td>Av. La Paz #2055 Col. Americana C.P. 44140. Gdl. Jalisco</td>
+                        <td>01(33) 3165 2244</td>
+                        <td>Edgar Venegas</td>
+                        <td>Ref. Grupo "12 Convencion Mundial del Chile"</td>
+                        <td>Código Abierto</td>
+                        <td>****</td>
+                        <td>5 min.</td>
+                        <td>$755.00</td>
+                          <td>$827.00</td>
+                        <td>N/A</td>
+                        <td>Tarifa incluye impuestos, Desayuno $60.00 p/dia</td>
+	                </tr>
+                    
 	                </tbody>
                 </table>
 
 
                 </div>
-                <img src="assets/img/hotelTurismo/oferta_hotelerat.png" />
+               <%-- <img src="assets/img/hotelTurismo/oferta_hotelerat.png" />--%>
 
             </div>
         </div>
