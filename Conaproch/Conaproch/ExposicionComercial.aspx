@@ -357,23 +357,16 @@
             <div class="our-team row" style="text-transform:uppercase !important;">
                 <div class="span6" style="margin-bottom:0px;">
                     <div class="team">
-
-                     <div class="contenedor-img ejemplo-1">  
+                        <div class="contenedor-img ejemplo-1">
                             <img alt="st-01" src="img/exposicion_comercial/empresas_participantes/st-01.jpg" />
-
-                             <div class="mascara">  
-                            
-                                   <h2> 
-                                 <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-                                  DISPONIBLE  
-                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
-                              
-                                  </h2>
-                                 </a>  
+                            <div class="mascara">
+                            <h2>
+                                <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                                    DISPONIBLE
+                                <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
+                            </h2>
                             </div> 
-                        </div> 
-
-                        
+                        </div>
                     </div>
                 </div>
                 <div class="span6" style="margin-bottom:10px;">
@@ -672,16 +665,15 @@
                           <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-18.jpg" />
 
-                             <div class="mascara">  
+                             <%--<div class="mascara">--%>
                             
-                                   <h2> 
+<%--                                   <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
                                   PATROCINADOR  
                                   <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
                               
-                                  </h2>
-                                 </a>  
-                            </div> 
+                                  </h2>--%>
+                            <%--</div>--%>
                         </div> 
                     </div>
                 </div>
@@ -690,7 +682,7 @@
                        <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-19.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -699,7 +691,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>
@@ -1068,7 +1060,7 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-40.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -1077,7 +1069,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>
@@ -1086,7 +1078,7 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-41.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -1095,7 +1087,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>
@@ -1104,16 +1096,16 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-42.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-                                  DISPONIBLE  
+                                  PATROCINADOR  
                                   <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>
@@ -1122,16 +1114,16 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-43.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
-                                  DISPONIBLE  
+                                  PATROCINADOR  
                                   <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div>--%> 
                         </div> 
                     </div>
                 </div>
@@ -1158,7 +1150,7 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-45.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -1167,7 +1159,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>
@@ -1197,7 +1189,7 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-47.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -1206,7 +1198,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div>--%> 
                         </div> 
                     </div>
                 </div>
@@ -1215,7 +1207,7 @@
                         <div class="contenedor-img ejemplo-1">  
                             <img alt="st-05" src="img/exposicion_comercial/empresas_participantes/st-48.jpg" />
 
-                             <div class="mascara">  
+<%--                             <div class="mascara">  
                             
                                    <h2> 
                                  <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>
@@ -1224,7 +1216,7 @@
                               
                                   </h2>
                                  </a>  
-                            </div> 
+                            </div> --%>
                         </div> 
                     </div>
                 </div>

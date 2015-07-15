@@ -296,14 +296,13 @@
                     <div class="span6">
                         <div class="team">
                             <div class="ava" style="text-align:center;">
-                                <div style="height:230px; width:200px; background-color:#92c962; margin:0 auto;"></div>
-                                <%--<img src="img/programaCientifico/confereniasMagistrales/GilVirgen.png" alt="team 1" />--%>
+                                <img src="img/programaCientifico/confereniasMagistrales/JuneSimpson.png" alt="team 1" />
                             </div>
                             <div class="info" style="text-align:center">
-                                <h4 class="name"><small></small>
+                                <h4 class="name">Dra. June Simpson Williamson
+                                    <small> - Profesor Investigador</small>
                                 </h4>
-                                <b>
-                                </b>
+                                <b>"Herramientas Biotecnológicas para el Mejoramiento de Cultivos"</b>
                                 <br />
                                 <br />
                                 <a class="btn btn-large" href="#modalOtro" data-toggle="modal">VER MAS</a>
